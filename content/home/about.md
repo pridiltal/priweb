@@ -36,6 +36,6 @@ My research centers around computational statistics. My dissertation focuses on 
 
 I am passionate about R and  anything that is even slightly related to R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
-Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), there I post mostly about R related blog post, science and nature. 
+Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), I post mostly about R related blog post, science and nature. 
 
 
