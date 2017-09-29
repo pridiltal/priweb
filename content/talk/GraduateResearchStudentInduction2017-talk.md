@@ -27,3 +27,5 @@ url_video = ""
   
   
 +++
+
+Talk to first year PhD Research students of Monash Business School at the mid year Graduate Research Student Induction program. The talk is on "My first year at Monash Business School".
