@@ -1,0 +1,24 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!-- Selected Publications widget -->
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-xs-12 col-md-8">
+    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+
+    {{ range (where (where $.Data.Pages "Type" "publication") ".Params.selected" true) }}
+      {{ if eq $page.Params.list_format 1 }}
+        {{ partial "publication_li_classic" . }}
+      {{ else if eq $page.Params.list_format 2 }}
+        {{ partial "publication_li_detailed" . }}
+      {{ else }}
+          {{ partial "publication_li_simple" . }}
+      {{ end }}
+    {{ end }}
+
+  </div>
+</div>
