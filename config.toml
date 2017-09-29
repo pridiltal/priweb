@@ -134,6 +134,12 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "//twitter.com/prital19"
 
+
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/priyanga-talagala-47b269122"
+    
   #[[params.social]]
    # icon = "google-scholar"
   #  icon_pack = "ai"
