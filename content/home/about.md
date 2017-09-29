@@ -31,11 +31,11 @@ weight = 1
 +++
 Hi!
 
-I'm a PhD candidate at Monash University, Autralia, Department of Econometrics and Business Statistics. 
+I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. 
 My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am also interested in general data science problems.
 
 I am passionate about R and  anything that is even slightly related to R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
-Apart from  reserch, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), there I post mostly about R related blog post, science and nature. 
+Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), there I post mostly about R related blog post, science and nature. 
 
 
