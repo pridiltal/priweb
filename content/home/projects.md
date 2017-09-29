@@ -30,8 +30,8 @@ filter_default = 0
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Anomaly Detection"
+  tag = ".anomaly-detection"
 
 [[filter]]
   name = "Other"
