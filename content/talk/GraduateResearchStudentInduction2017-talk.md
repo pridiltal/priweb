@@ -3,16 +3,16 @@ date = "2017-08-24"
 title = "Reflecting Back and Forging Ahead -My first year at Monash Business School"
 abstract = ""
 abstract_short = ""
-event = "Graduate Research Student Induction - Mid Year"
+event = "Graduate Research Student Induction - Mid Year, 2017"
 #event_url = "http://ysc2017.com.au/"
 location = "Monash University, Caulfield Campus, Australia"
   
 selected = false
 math = true
   
-url_pdf = "talks/MonashGraduateResearchStudentInduction2017/2017MidyearGraduateResearchStudentInduction21-8-17"
+url_pdf = "talks/MonashGraduateResearchStudentInduction2017/2017MidyearGraduateResearchStudentInduction.pdf"
   
-url_slides = "talks/MonashGraduateResearchStudentInduction2017/graduate-research-student-induction.pdf"
+url_slides = "talks/MonashGraduateResearchStudentInduction2017/graduateResearchStudentInduction.pdf"
 url_video = ""
   
   
