@@ -7,36 +7,35 @@ draft = false
 widget = "about"
 
 # Order that this section will appear in.
-weight = 5
+weight = 1
 
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Computational Statistics",
+    "Data Stream Mining",
+    "Outlier Detection"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
+  course = "PhD (Reading, begun 2016"
+  institution = "Monash University, Australia"
+  #year = 2012
+
+[[education.courses]]
+  course = "BSc (Special) Degree in Statistics"
+  institution = "University of Sri Jayewardenepura, Sri Lanka"
   year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
  
 +++
+Hi!
 
-# Biography
+I'm a PhD candidate at Monash University, Autralia, Department of Econometrics and Business Statistics. 
+My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am also interested in general data science problems.
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am passionate about R and  anything that is even slightly related to R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Apart from  reserch, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), there I post mostly about R related blog post, science and nature. 
+
+
