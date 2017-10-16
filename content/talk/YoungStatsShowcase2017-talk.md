@@ -14,7 +14,7 @@ math = true
 url_pdf = "https://drive.google.com/file/d/0B4Z2Pm1rsXlwMm5xdjlGV3F4Rjg/view"
   
 url_slides = "talks/YoungStats2017/YoungStatsShowcase17.html"
-url_video = ""
+url_video = "https://vimeo.com/238346934"
   
   
   
