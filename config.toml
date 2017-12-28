@@ -187,8 +187,8 @@ defaultContentLanguageInSubdir = false
   weight = 7
   
 [[menu.main]]
-  name = "Post"
-  url = "#posts"
+  name = "Cheatsheet"
+  url = "#cheatsheet"
   weight = 8
 
 # Taxonomies.
