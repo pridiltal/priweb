@@ -3,6 +3,8 @@
   title = "knitr examples"
 
 +++
+
+# R notes to aid memory 
     
 Figure captions 
 - [all backslashes inside character strings need to 
