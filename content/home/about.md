@@ -14,7 +14,7 @@ weight = 1
   interests = [
     "Computational Statistics",
     "Data Stream Mining",
-    "Anomaly Detection"
+    "Outlier Detection"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -31,9 +31,8 @@ weight = 1
 +++
 Hi!
 
-I'm a PhD candidate from Department of Econometrics and Business Statistics,
-Monash University, Australia under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and
-[Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am also interested in general data science problems.
+I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. 
+My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am also interested in general data science problems.
 
 I am passionate about R and  anything that is even slightly related to R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
