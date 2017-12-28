@@ -1,7 +1,8 @@
 +++
   date = "2017-08-24"
   title = "knitr examples"
-
+selected = false
+math = true
 +++
 
 # R notes to aid memory 
