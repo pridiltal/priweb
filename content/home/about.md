@@ -14,7 +14,7 @@ weight = 1
   interests = [
     "Computational Statistics",
     "Data Stream Mining",
-    "Outlier Detection"
+    "Anomaly Detection"
   ]
 
 # List your qualifications (such as academic degrees).
