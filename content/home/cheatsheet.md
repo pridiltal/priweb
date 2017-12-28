@@ -16,5 +16,4 @@ count = 10
 
 # Show note details (such as abstract)? (true/false)
 detailed_list = false
-
 +++
