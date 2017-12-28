@@ -185,12 +185,6 @@ defaultContentLanguageInSubdir = false
   name = "Contact"
   url = "#contact"
   weight = 7
-  
-[[menu.main]]
-  name = "Posts"
-  url = "#post"
-  weight = 8
-
 
 # Taxonomies.
 [taxonomies]
