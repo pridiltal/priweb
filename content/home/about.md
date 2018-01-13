@@ -19,8 +19,8 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD (Reading, begun 2016"
-  institution = "Monash University, Australia"
+  course = "PhD (Reading, begun 2016)"
+  institution = "Monash University, Australia \n Supervisors "
   #year = 2012
 
 [[education.courses]]
@@ -32,10 +32,10 @@ weight = 1
 Hi!
 
 I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. 
-My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am also interested in general data science problems.
+My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am also interested in general data science problems. 
 
 I am passionate about R and  anything that is even slightly related to R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
-Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), I post mostly about R, Statistics and science in nature. 
+Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), I post mostly about R, Statistics, Data Science and science in nature. 
 
 
