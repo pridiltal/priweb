@@ -21,7 +21,7 @@ weight = 1
 [[education.courses]]
   course = "PhD (Reading, begun 2016"
   institution = "Monash University, Australia"
-  Supervisors = "Professor Rob J. Hyndman, Professor Kate Smith-Miles" 
+  #year = 2012
 
 [[education.courses]]
   course = "B.Sc(Hons) in Statistics"
