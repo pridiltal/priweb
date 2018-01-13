@@ -1,6 +1,6 @@
 +++
 date = "2017-08-24"
-title = "Talk given at Graduate Research Student Induction of Monash Business School - Reflecting Back and Forging Ahead "
+title = "Talk given at Graduate Research Student Induction programme of Monash Business School - Reflecting Back and Forging Ahead "
 abstract = ""
 abstract_short = ""
 event = "Graduate Research Student Induction - Mid Year, 2017"
@@ -28,4 +28,4 @@ url_video = ""
   
 +++
 
-I was invited to give a talk to first year PhD Research students of Monash Business School at the mid year Graduate Research Student Induction program. The talk is on "My first year at Monash Business School".
+I was invited to give a talk to first year PhD Research students of Monash Business School at the mid year Graduate Research Student Induction programme. The talk is on "My first year at Monash Business School".
