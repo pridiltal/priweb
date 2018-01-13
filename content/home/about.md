@@ -20,7 +20,7 @@ weight = 1
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "PhD (Reading, begun 2016)"
-  institution = "Monash University, Australia \n Supervisors "
+  institution = "Monash University, Australia <br/> Supervisors "
   #year = 2012
 
 [[education.courses]]
