@@ -9,7 +9,7 @@ title = "stray - R package"
 summary = "stray {STReam AnomalY} : Robust Anomaly Detection in Data Streams with Concept Drift"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = ""
+image_preview = "straylogo.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
