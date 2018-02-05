@@ -10,7 +10,7 @@ location = "Tweed Events, Twin Towns	2 Wharf St, Tweed Heads NSW "
 selected = false
 math = true
   
-url_pdf = "http://www.statsoc.org.au/wp-content/uploads/2017/09/ysc17_program_final2.pdf"
+url_pdf = "https://isf.forecasters.org/wp-content/uploads/ISF2017-Proceedings.pdf"
   
 url_slides = "talks/YSC2017/YSC2017v2.html"
 url_video = ""
