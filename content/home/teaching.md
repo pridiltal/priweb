@@ -15,4 +15,4 @@ weight = 60
 +++
 - Teaching Associate, Department of Econometrics and Business Statistics, Monash University, Australia.  
 
-- [Lecturer (Probationary), Department of Computational Mathematics, University of Moratuwa, Sri Lanka.](http://www.itfac.mrt.ac.lk/index.php/academic-staff/staff-cm/pd-talagala) (Currently on study leave)
+- [Lecturer (Probationary), Department of Computational Mathematics, University of Moratuwa, Sri Lanka.](https://www.mrt.ac.lk/web/staff/ms-pd-talagala) (Currently on study leave)
