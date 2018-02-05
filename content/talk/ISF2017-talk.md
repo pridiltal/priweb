@@ -11,7 +11,7 @@ location = "Cairns Convention Centre, Cairns, Australia"
 selected = false
 math = true
 
-url_pdf = "https://forecasters.org/wp-content/uploads/ISF2017-Abstract-Book.pdf"
+url_pdf = "https://isf.forecasters.org/wp-content/uploads/ISF2017-Proceedings.pdf"
 
 url_slides = "talks/ISF2017/ISF2017ninjav6.html"
 url_video = ""
