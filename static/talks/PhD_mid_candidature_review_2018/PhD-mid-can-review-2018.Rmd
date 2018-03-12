@@ -73,7 +73,8 @@ class: center, middle
 --
 .pull-left[
 ### Batch scenario 
-whole set of data is available, focus - complete events <br/> <br/> <br/>
+- whole set of data is available
+- complete events <br/><br/><br/>
 ```{r mvtsplot, out.width = "100%",  fig.align = 'bottom'}
 knitr::include_graphics("fig/2_batch.png")
 ```
@@ -81,7 +82,8 @@ knitr::include_graphics("fig/2_batch.png")
 --
 .pull-right[
 ### Data stream scenario
-continuous, unbounded, flow at high speed, high volume
+- continuous, unbounded, flow at high speed, high volume
+- incomplete events
 ```{r  echo=FALSE, out.width = "100%", fig.align = 'up'}
 knitr::include_graphics("fig/1_stream.gif")
 ```
@@ -112,7 +114,7 @@ knitr::include_graphics("fig/1_stream.gif")
 
 ## Overview
 
-- Project 1: Anomaly detection in R
+- **Project 1**: Anomaly detection in R
 
 
 - **Project 2**: Anomaly detection in streaming nonstationary temporal data 
@@ -162,7 +164,7 @@ class:  center, middle, inverse
 - Propose a framework that provides early detection of anomalies within a large collection of streaming time series data
 --
 
-- Propose an algorithm for early detection of nonstationarity (concept drift) <br/> <br/>
+- Propose an algorithm that adapts to nonstationarity (concept drift) <br/> <br/>
 --
 
 
@@ -186,10 +188,10 @@ class:  center, middle, inverse
 
 ### Proposed Algorithm
 
-- Off-line Phase: Building a model of a system's typical behaviour; (similar to (Clifton, Hugueny & Tarassenko, 2011))
+- Off-line Phase: Building a model of a system's typical behaviour; (similar to Clifton, Hugueny & Tarassenko, 2011)
 --
 
-- On-line Phases: Testing newly arrived data using the boundary
+- On-line Phase: Testing newly arrived data using the boundary
 
 ---
 
@@ -213,7 +215,7 @@ class:  center, middle, inverse
 - Maximum  
 - The ratio between interquartile mean and the arithmetic mean
 - Moment 
-- Ratio of means of data that is below and upper the global mean  
+- Ratio of means of data that is below and above the global mean  
 
 ]
 
@@ -258,7 +260,7 @@ knitr::include_graphics("fig/5_high_typical.gif")
 --
 
 
-Principle Component Decomposition $\Longrightarrow$ 2D Feature Space
+Principal Component Decomposition $\Longrightarrow$ 2D Feature Space
 ```{r  echo=FALSE, out.width = "30%",}
 knitr::include_graphics("fig/6_typicalfeature.png")
 ```
@@ -269,7 +271,7 @@ knitr::include_graphics("fig/6_typicalfeature.png")
 ---
 #### **Project 2**: Anomaly detection in streaming nonstationary temporal data 
 ### Classical Extreme Value Theory
-```{r  echo=FALSE, out.width = "60%", fig.cap="Figure: Extreme value distributions corresponding to m = 1; 10; 100; 1000, each describing where the maximum of m samples drawn from N(0; 1) will lie."}
+```{r  echo=FALSE, out.width = "60%", fig.cap="Extreme value distributions corresponding to m = 1; 10; 100; 1000, each describing where the maximum of m samples drawn from N(0; 1) will lie."}
 knitr::include_graphics("fig/7_EVD1.png")
 
 ```
@@ -310,7 +312,7 @@ knitr::include_graphics("fig/8_maxima2.png")
 
 - Draw a large number N of extremes from the estimated probability density function
 
-```{r   echo=FALSE, out.width = "50%", fig.cap="Figure: Distribution of 1000 extremes generated from bivariate kernel density function with m=500"}
+```{r   echo=FALSE, out.width = "50%", fig.cap="Distribution of 1000 extremes generated from bivariate kernel density function with m=500"}
 knitr::include_graphics("fig/9_threshold1.png")
 ```
 
@@ -325,7 +327,7 @@ knitr::include_graphics("fig/10_psitrans.png")
 ```
 
 - $\Psi$-transform maps the density values back into space into which a Gumbel distribution can be fitted.
-```{r   echo=FALSE, out.width = "50%",  fig.cap = "Figure: Distribution of transformed values"}
+```{r   echo=FALSE, out.width = "50%",  fig.cap = "Distribution of transformed values"}
 knitr::include_graphics("fig/11_psi_trans.png")
 ```
 ---
@@ -347,13 +349,13 @@ knitr::include_graphics("fig/13_logo2.png")
 ```
 
 ---
-### How oddstream works?
+### How oddstream works
 ```{r   echo=FALSE, out.width = "100%"}
 knitr::include_graphics("fig/3_batch.png")
 ```
 
 ---
-### How oddstream works?
+### How oddstream works
 ```{r   echo=FALSE, out.width = "100%"}
 knitr::include_graphics("fig/14_oddstream_typical.png")
 ```
@@ -489,7 +491,7 @@ knitr::include_graphics("fig/23_sudden_out.png")
 - Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
 --
 
-- Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
+- Use other dimension reduction techniques such as multidimensional scaling analysis & random projection to see the effect on the performance of the proposed framework.
 --
 
 - Do more experiments on density estimation methods to get a better tail estimation.
@@ -692,7 +694,7 @@ knitr::include_graphics("fig/P2_plot16.png")
 #### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
 
 
-- Sort the resulted k nearest neighbour distances
+- Sort the resulting k nearest neighbour distances
 
 --
 
@@ -702,7 +704,7 @@ knitr::include_graphics("fig/P2_plot16.png")
 --
 
 
-- Search for for any significant large gap in the upper tail (Bottom up algorithm proposed by Schwarz (2008)) and thereby identify the  anomalous points
+- Search for for any significant large gap in the upper tail (Bottom up algorithm proposed by Schwarz, 2008) and thereby identify the  anomalous points
 
 
 ---
@@ -726,7 +728,7 @@ knitr::include_graphics("fig/P2_plot17.png")
 #### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
 ### Limitations of HDoutliers algorithm  (Wilkinson, 2018)
 
-- It normalizes data using the minimum  and the range which are not robust to ourliers 
+- It normalizes data using the minimum  and the range which are not robust to outliers 
 
 
 - it uses only the nearest neighbour distances to discriminate outliers 
@@ -831,7 +833,7 @@ class:  center, middle, inverse
 
 ---
 #### Project 4: Anomaly detection and correction in water quality sensors
-### Multidimensional multivariate Data
+### Multidimensional multivariate data
 
 ```{r   echo=FALSE, out.width = "40%"}
 knitr::include_graphics("fig/P3_future1.png")

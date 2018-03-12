@@ -49,13 +49,15 @@ class: center, middle
 --
 .pull-left[
 ### Batch scenario 
-whole set of data is available, focus - complete events &lt;br/&gt; &lt;br/&gt; &lt;br/&gt;
+- whole set of data is available
+- complete events &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
 &lt;img src="fig/2_batch.png" width="100%" /&gt;
 ]
 --
 .pull-right[
 ### Data stream scenario
-continuous, unbounded, flow at high speed, high volume
+- continuous, unbounded, flow at high speed, high volume
+- incomplete events
 &lt;img src="fig/1_stream.gif" width="100%" /&gt;
 ]
 ---
@@ -84,7 +86,7 @@ continuous, unbounded, flow at high speed, high volume
 
 ## Overview
 
-- Project 1: Anomaly detection in R
+- **Project 1**: Anomaly detection in R
 
 
 - **Project 2**: Anomaly detection in streaming nonstationary temporal data 
@@ -134,7 +136,7 @@ class:  center, middle, inverse
 - Propose a framework that provides early detection of anomalies within a large collection of streaming time series data
 --
 
-- Propose an algorithm for early detection of nonstationarity (concept drift) &lt;br/&gt; &lt;br/&gt;
+- Propose an algorithm that adapts to nonstationarity (concept drift) &lt;br/&gt; &lt;br/&gt;
 --
 
 
@@ -158,10 +160,10 @@ class:  center, middle, inverse
 
 ### Proposed Algorithm
 
-- Off-line Phase: Building a model of a system's typical behaviour; (similar to (Clifton, Hugueny &amp; Tarassenko, 2011))
+- Off-line Phase: Building a model of a system's typical behaviour; (similar to Clifton, Hugueny &amp; Tarassenko, 2011)
 --
 
-- On-line Phases: Testing newly arrived data using the boundary
+- On-line Phase: Testing newly arrived data using the boundary
 
 ---
 
@@ -185,7 +187,7 @@ class:  center, middle, inverse
 - Maximum  
 - The ratio between interquartile mean and the arithmetic mean
 - Moment 
-- Ratio of means of data that is below and upper the global mean  
+- Ratio of means of data that is below and above the global mean  
 
 ]
 
@@ -222,7 +224,7 @@ Feature Extraction `\(\Longrightarrow\)` Instance Space
 --
 
 
-Principle Component Decomposition `\(\Longrightarrow\)` 2D Feature Space
+Principal Component Decomposition `\(\Longrightarrow\)` 2D Feature Space
 &lt;img src="fig/6_typicalfeature.png" width="30%" style="display: block; margin: auto;" /&gt;
 
 - First two PCs explain 85% of variation
@@ -232,8 +234,8 @@ Principle Component Decomposition `\(\Longrightarrow\)` 2D Feature Space
 #### **Project 2**: Anomaly detection in streaming nonstationary temporal data 
 ### Classical Extreme Value Theory
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="fig/7_EVD1.png" alt="Figure: Extreme value distributions corresponding to m = 1; 10; 100; 1000, each describing where the maximum of m samples drawn from N(0; 1) will lie." width="60%" /&gt;
-&lt;p class="caption"&gt;Figure: Extreme value distributions corresponding to m = 1; 10; 100; 1000, each describing where the maximum of m samples drawn from N(0; 1) will lie.&lt;/p&gt;
+&lt;img src="fig/7_EVD1.png" alt="Extreme value distributions corresponding to m = 1; 10; 100; 1000, each describing where the maximum of m samples drawn from N(0; 1) will lie." width="60%" /&gt;
+&lt;p class="caption"&gt;Extreme value distributions corresponding to m = 1; 10; 100; 1000, each describing where the maximum of m samples drawn from N(0; 1) will lie.&lt;/p&gt;
 &lt;/div&gt;
 
 
@@ -265,8 +267,8 @@ then `\(H^{+}\)` belongs to one of the following three distribution functions:
 - Draw a large number N of extremes from the estimated probability density function
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="fig/9_threshold1.png" alt="Figure: Distribution of 1000 extremes generated from bivariate kernel density function with m=500" width="50%" /&gt;
-&lt;p class="caption"&gt;Figure: Distribution of 1000 extremes generated from bivariate kernel density function with m=500&lt;/p&gt;
+&lt;img src="fig/9_threshold1.png" alt="Distribution of 1000 extremes generated from bivariate kernel density function with m=500" width="50%" /&gt;
+&lt;p class="caption"&gt;Distribution of 1000 extremes generated from bivariate kernel density function with m=500&lt;/p&gt;
 &lt;/div&gt;
 
 ---
@@ -279,8 +281,8 @@ then `\(H^{+}\)` belongs to one of the following three distribution functions:
 
 - `\(\Psi\)`-transform maps the density values back into space into which a Gumbel distribution can be fitted.
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="fig/11_psi_trans.png" alt="Figure: Distribution of transformed values" width="50%" /&gt;
-&lt;p class="caption"&gt;Figure: Distribution of transformed values&lt;/p&gt;
+&lt;img src="fig/11_psi_trans.png" alt="Distribution of transformed values" width="50%" /&gt;
+&lt;p class="caption"&gt;Distribution of transformed values&lt;/p&gt;
 &lt;/div&gt;
 ---
 
@@ -297,11 +299,11 @@ class: middle, center
 &lt;img src="fig/13_logo2.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
-### How oddstream works?
+### How oddstream works
 &lt;img src="fig/3_batch.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
-### How oddstream works?
+### How oddstream works
 &lt;img src="fig/14_oddstream_typical.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
@@ -403,7 +405,7 @@ class:  center, middle, inverse
 - Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
 --
 
-- Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
+- Use other dimension reduction techniques such as multidimensional scaling analysis &amp; random projection to see the effect on the performance of the proposed framework.
 --
 
 - Do more experiments on density estimation methods to get a better tail estimation.
@@ -568,7 +570,7 @@ class:  center, middle, inverse
 #### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
 
 
-- Sort the resulted k nearest neighbour distances
+- Sort the resulting k nearest neighbour distances
 
 --
 
@@ -578,7 +580,7 @@ class:  center, middle, inverse
 --
 
 
-- Search for for any significant large gap in the upper tail (Bottom up algorithm proposed by Schwarz (2008)) and thereby identify the  anomalous points
+- Search for for any significant large gap in the upper tail (Bottom up algorithm proposed by Schwarz, 2008) and thereby identify the  anomalous points
 
 
 ---
@@ -600,7 +602,7 @@ If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, th
 #### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
 ### Limitations of HDoutliers algorithm  (Wilkinson, 2018)
 
-- It normalizes data using the minimum  and the range which are not robust to ourliers 
+- It normalizes data using the minimum  and the range which are not robust to outliers 
 
 
 - it uses only the nearest neighbour distances to discriminate outliers 
@@ -693,7 +695,7 @@ class:  center, middle, inverse
 
 ---
 #### Project 4: Anomaly detection and correction in water quality sensors
-### Multidimensional multivariate Data
+### Multidimensional multivariate data
 
 &lt;img src="fig/P3_future1.png" width="40%" style="display: block; margin: auto;" /&gt;
 

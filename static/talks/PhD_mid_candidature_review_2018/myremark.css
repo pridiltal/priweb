@@ -45,9 +45,10 @@ ul li:before {
    color: #f45409;  /* to change the bullet point colour and icon*/
 }
 ul li li:before {
-  content: "\f1fe";
+  content: "\f054";
   font-family: "FontAwesome";
-  margin-right: 10px;
+  margin-right: 6px;
+  color: #000000;
 }
 ol li:before {
   margin-right: 10px;
