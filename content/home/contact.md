@@ -15,4 +15,4 @@ weight = 70
 autolink = true
 
 +++
-Twitter: [@prital19](https://twitter.com/prital19) 
+Twitter: [@pridiltal](https://twitter.com/pridiltal) 
