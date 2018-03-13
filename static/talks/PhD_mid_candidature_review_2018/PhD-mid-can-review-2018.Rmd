@@ -10,6 +10,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      slideNumberFormat: "%current%"                  # 12
  #   seal: false
 ---
 
@@ -213,7 +214,7 @@ class:  center, middle, inverse
 - Burstiness of time series (Fano Factor)  
 - Minimum  
 - Maximum  
-- The ratio between interquartile mean and the arithmetic mean
+- The ratio between 50% trimmed mean and the arithmetic mean
 - Moment 
 - Ratio of means of data that is below and above the global mean  
 
@@ -251,7 +252,7 @@ knitr::include_graphics("fig/4_typical.png")
 --
 .pull-right[
 
-Feature Extraction $\Longrightarrow$ Instance Space
+Feature Extraction $\Longrightarrow$ Feature Space
 ```{r  echo=FALSE, out.width = "60%",}
 knitr::include_graphics("fig/5_high_typical.gif")
 ```
@@ -483,31 +484,17 @@ knitr::include_graphics("fig/22_conceptdrift_pval.png")
 knitr::include_graphics("fig/23_sudden_out.png")
 ```
 
----
 
-#### **Project 2**: Anomaly detection in streaming nonstationary temporal data
-### What Next?
-
-- Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
---
-
-- Use other dimension reduction techniques such as multidimensional scaling analysis & random projection to see the effect on the performance of the proposed framework.
---
-
-- Do more experiments on density estimation methods to get a better tail estimation.
---
-
-- Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
 ---
 
 class:  center, middle, inverse
 
 
 # <span style="color:#ff08ac"> Project 3:  </span>  
-## Anomaly detection for high dimensional and streaming temperal data
+## Anomaly detection for high dimensional and streaming temporal data
 
 ---
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ### Main Contributions
 - Propose a framework to detect anomalies in high dimensional data. Our proposed algorithm addresses the limitations of HDoutliers algorithm (Wilkinson, 2018).
@@ -528,7 +515,7 @@ class:  center, middle, inverse
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot1.png")
@@ -537,7 +524,7 @@ knitr::include_graphics("fig/P2_plot1.png")
 -  This prevents variables with large variances having disproportional influence on Euclidean distances.
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot2.png")
@@ -547,7 +534,7 @@ knitr::include_graphics("fig/P2_plot2.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot3.png")
@@ -556,7 +543,7 @@ knitr::include_graphics("fig/P2_plot3.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot3b.png")
@@ -565,7 +552,7 @@ knitr::include_graphics("fig/P2_plot3b.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot4.png")
@@ -574,7 +561,7 @@ knitr::include_graphics("fig/P2_plot4.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot5.png")
@@ -583,7 +570,7 @@ knitr::include_graphics("fig/P2_plot5.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot6.png")
@@ -591,7 +578,7 @@ knitr::include_graphics("fig/P2_plot6.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot7.png")
@@ -599,7 +586,7 @@ knitr::include_graphics("fig/P2_plot7.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot7b.png")
@@ -607,7 +594,7 @@ knitr::include_graphics("fig/P2_plot7b.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot8.png")
@@ -616,7 +603,7 @@ knitr::include_graphics("fig/P2_plot8.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot7.png")
@@ -624,7 +611,7 @@ knitr::include_graphics("fig/P2_plot7.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot9.png")
@@ -634,7 +621,7 @@ knitr::include_graphics("fig/P2_plot9.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot10.png")
@@ -643,7 +630,7 @@ knitr::include_graphics("fig/P2_plot10.png")
 ---
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot11.png")
@@ -651,7 +638,7 @@ knitr::include_graphics("fig/P2_plot11.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot12.png")
@@ -659,7 +646,7 @@ knitr::include_graphics("fig/P2_plot12.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot13.png")
@@ -667,7 +654,7 @@ knitr::include_graphics("fig/P2_plot13.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot14.png")
@@ -675,7 +662,7 @@ knitr::include_graphics("fig/P2_plot14.png")
 - Limitation of HDoutliers algorithm
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot15.png")
@@ -683,7 +670,7 @@ knitr::include_graphics("fig/P2_plot15.png")
 - incorporate an upper bound for the size of a cluster
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/P2_plot16.png")
@@ -691,7 +678,7 @@ knitr::include_graphics("fig/P2_plot16.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 
 
 - Sort the resulting k nearest neighbour distances
@@ -709,7 +696,7 @@ knitr::include_graphics("fig/P2_plot16.png")
 
 ---
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 ### Spacing Theorem (Weissman, 1978)
 
 Let $X_{1}, X_{2}, ..., X_{n}$ be a sample from a distribution function $F$ .
@@ -725,7 +712,7 @@ If $F$ is in the maximum domain of attraction of the Gumbel distribution, then t
 knitr::include_graphics("fig/P2_plot17.png")
 ```
 ---
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 ### Limitations of HDoutliers algorithm  (Wilkinson, 2018)
 
 - It normalizes data using the minimum  and the range which are not robust to outliers 
@@ -790,7 +777,7 @@ knitr::include_graphics("fig/P2_plot20.png")
 
 
 
-#### **Project 3**: Anomaly detection for high dimensional and streaming temperal data
+#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
 ### Identify anomalous series within a large collection of streaming time series
 
 - use a moving window to deal with streaming data
@@ -818,10 +805,29 @@ knitr::include_graphics("fig/stray.gif")
 
 ---
 
-.Large[<span style="color:blue">`stray`</span>  vs  <span style="color:blue">`oddstream`  </span>]
-```{r   echo=FALSE, out.width = "100%"}
-knitr::include_graphics("fig/P2_plot21.png")
+class:: center
+.pull-left[
+ .Large[<span style="color:blue">`stray`</span>]
+ 
+```{r   echo=FALSE, out.width = "70%"}
+knitr::include_graphics("fig/P2_plot21a.png")
 ```
+
+- Definition: distance 
+- no training set 
+]
+.pull-right[
+.Large[<span style="color:blue">`oddstream`  </span>]
+
+```{r   echo=FALSE, out.width = "70%"}
+knitr::include_graphics("fig/P2_plot21b.png")
+```
+
+- Definition: density
+- need a trining set
+]
+
+
 
 ---
 

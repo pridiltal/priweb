@@ -167,17 +167,17 @@ code {
 
 /* TO HIDE SLIDE NUMBERS - PRI ADDED*/
 .remark-slide-number {
-  font-size: 0pt;
+  font-size: 10t;
   margin-bottom: -11.6px;
   margin-right: 10px;
-  color: #FFFFFF; /* white */
+  color: #000000; 
   opacity: 1; /* default: 0.5 */
 }
 
 /*remove slide numbers*/
-.title-slide .remark-slide-number {
+/*itle-slide .remark-slide-number {
   display: none;
-}
+}*/
 
 /*div.my-header {
     background-color: #F77A00;
