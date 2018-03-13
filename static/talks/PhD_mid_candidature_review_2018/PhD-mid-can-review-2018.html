@@ -566,8 +566,7 @@ class:  center, middle, inverse
 --
 
 
-- Search for for any significant large gap in the upper tail (Bottom up algorithm proposed by Schwarz, 2008) and thereby identify the  anomalous points
-
+- Search for any significant large gap in the upper tail (Bottom up searching algorithm proposed by Schwarz, 2008)
 
 ---
 
@@ -584,48 +583,6 @@ If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, th
 
 
 &lt;img src="fig/P2_plot17.png" width="60%" style="display: block; margin: auto;" /&gt;
----
-#### **Project 3**: Anomaly detection for high dimensional and streaming temporal data
-### Limitations of HDoutliers algorithm  (Wilkinson, 2018)
-
-- It normalizes data using the minimum  and the range which are not robust to outliers 
-
-
-- it uses only the nearest neighbour distances to discriminate outliers 
-
-
-- it ignores the density of the data points after forming clusters using Leader algorithm and 
-
-
-- it uses potential candidates for outliers for the calculation of the anomalous threshold
----
-
-.pull-left[
-
-### Advantages of the proposed algrithm 
-- detect clusters of outlying points 
-
-
-- applied to both uni and multi-dimensional data 
-
-
-- handle large data sets due to the use of a one-pass algorithm 
-
-
-- does not require a training set to build the decision model
-
-
-- deal with multimodal typical classes &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
-
-.tiny[LHS:HDoutliers  Vs RHS:stray]
-]
-.pull-right[
-
-
-
-&lt;img src="fig/P2_plot18.png" width="90%" style="display: block; margin: auto;" /&gt;
-]
-
 ---
 
 
@@ -730,6 +687,25 @@ This is a joint work with Prof. Kerrie Mengersen, QUT.
 class: center, middle
 
 # Thank You
+
+---
+---
+
+
+[oddstream_paper](https://robjhyndman.com/papers/oddstream.pdf)
+
+[tour](https://klevas.mif.vu.lt/~tomukas/Knygos/tourr.pdf)
+
+---
+
+- vchange : A function to calculate the maximum difference in variance using rolling window The 'variance change' is defined as the maximum difference in variance between consecutive blocks of 10 observations measure7 - variance change using rolling  window
+- lshift: A function to calculate Level shift using rolling window The 'level shift' is defined as the maximum difference in mean between consecutive blocks of 10 observations measure6 - Level shift using rolling window
+- Changing variance in the remainder (lumpiness) : A function to calculate Lumpiness: cannot be used for yearly data first divide a series into blocks. Then the variances  of each block are computed. The variance of the variances across these blocks measures the 'lumpiness' of the series. 
+- Burstiness (FF) : A function to calculate the burstiness of time series using Fano Factor Returns the 'burstiness' statistic: `\((\sigma^2) / \mu\)`. Another measures of burstiness is the Fano Factor: a ratio between the variance and the mean . In statistis Fano  Factor , like the coefficient of variation, is a measure of dispersion of proability distributions of a Fano noise. Fano  factor is defined as `\((\sigma^2) / \mu\)`. 
+- strength of linearity, curvature, spikiness: A function to find Strength of trend and seasonality and spike Some of our features rely on a robust STL decomposition . For example, the size and location of the peaks and troughs in the seasonal component are used, and the spikiness feature is the variance of the leave-one-out variances of the remainder component. Other features measure structural changes over time. measure11-17 - Strength of trend and seasonality and spike
+- the ratio beteen means : a function to calculate the ratio between trimmed mean to mean the ratio between interquartile mean and the arithmetic mean of the scaled data. Low values (values closer to zero) indicate the presence of outliers. measure28 - the ratio between interquartile mean and the arithmetic mean.
+
+-
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
