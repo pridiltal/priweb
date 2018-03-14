@@ -841,6 +841,8 @@ class: center, middle
 
 [tour](https://klevas.mif.vu.lt/~tomukas/Knygos/tourr.pdf)
 
+[nonstationarity](https://ac.els-cdn.com/S0047259X84710335/1-s2.0-S0047259X84710335-main.pdf?_tid=4d4e1492-0417-4055-b75b-f7f30b253e06&acdnat=1520995337_55a8fbf3b8a7921fddc51acbf619632d)
+
 ---
 
 - vchange : A function to calculate the maximum difference in variance using rolling window The 'variance change' is defined as the maximum difference in variance between consecutive blocks of 10 observations measure7 - variance change using rolling  window
