@@ -847,7 +847,20 @@ class: center, middle
 - lshift: A function to calculate Level shift using rolling window The 'level shift' is defined as the maximum difference in mean between consecutive blocks of 10 observations measure6 - Level shift using rolling window
 - Changing variance in the remainder (lumpiness) : A function to calculate Lumpiness: cannot be used for yearly data first divide a series into blocks. Then the variances  of each block are computed. The variance of the variances across these blocks measures the 'lumpiness' of the series. 
 - Burstiness (FF) : A function to calculate the burstiness of time series using Fano Factor Returns the 'burstiness' statistic: $(\sigma^2) / \mu$. Another measures of burstiness is the Fano Factor: a ratio between the variance and the mean . In statistis Fano  Factor , like the coefficient of variation, is a measure of dispersion of proability distributions of a Fano noise. Fano  factor is defined as $(\sigma^2) / \mu$. 
-- strength of linearity, curvature, spikiness: A function to find Strength of trend and seasonality and spike Some of our features rely on a robust STL decomposition . For example, the size and location of the peaks and troughs in the seasonal component are used, and the spikiness feature is the variance of the leave-one-out variances of the remainder component. Other features measure structural changes over time. measure11-17 - Strength of trend and seasonality and spike
-- the ratio beteen means : a function to calculate the ratio between trimmed mean to mean the ratio between interquartile mean and the arithmetic mean of the scaled data. Low values (values closer to zero) indicate the presence of outliers. measure28 - the ratio between interquartile mean and the arithmetic mean.
 
-- 
+---
+
+- strength of linearity, curvature, spikiness: A function to find Strength of trend and seasonality and spike Some of our features rely on a robust STL decomposition . For example, the size and location of the peaks and troughs in the seasonal component are used, and the spikiness feature is the variance of the leave-one-out variances of the remainder component. Other features measure structural changes over time.
+- the ratio beteen means: a function to calculate the ratio between trimmed mean to mean the ratio between interquartile mean and the arithmetic mean of the scaled data. Low values (values closer to zero) indicate the presence of outliers
+
+
+--- 
+
+---
+
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/extremedef.png")
+```
+
+---
