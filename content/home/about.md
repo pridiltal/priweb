@@ -35,7 +35,7 @@ I'm a PhD candidate at Monash University, Australia, Department of Econometrics 
 
 I am passionate about R and  anything that is even slightly related to R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
-Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/prital19), I post mostly about R, Statistics, Data Science and science in nature. 
+Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
 I love travelling, photography and painting.
 
