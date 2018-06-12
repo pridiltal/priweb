@@ -426,8 +426,14 @@ icon::fa("twitter")
 
 <br/><br/>
 
-Full paper: 
-Talagala, P., Hyndman, R., Smith-Miles, K., Kandanaarachchi, S., & Munoz, M. (2018). Anomaly detection in streaming nonstationary temporal data (No. 4/18). Monash University, Department of Econometrics and Business Statistics.
+```{r  out.width = "20%", echo=FALSE}
+knitr::include_graphics("fig/oddstream1.png")
+```
+
+`devtools::install_github("pridiltal/oddstream")`
+
+Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf)
+
 
 ---
 
