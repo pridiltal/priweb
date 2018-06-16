@@ -12,35 +12,24 @@
 class: center, middle, inverse, title-slide
 
 # Anomaly Detection in Nonstationary Streaming Temporal Data
-## <br/> Dilini Talagala <br/> with<br/> Rob J. Hyndman <br/> Kate Smith-Miles <br/> Monash University, Australia <br/> <br/>18.06.2018
-### Slides created via the R package xaringan
+## <br/> Dilini Talagala <br/> with<br/> Rob J. Hyndman <br/> Kate Smith-Miles
+### Monash University, Australia <br/> <br/>18.06.2018
 
 ---
 
 
 
 
-### Motivation: Gas or oil pipeline leak detection
 
-&lt;img src="fig/fig2.png" width="100%" style="display: block; margin: auto;" /&gt;
 
----
-### Motivation: Water quality sensors
-
-&lt;img src="fig/fig3.png" width="100%" style="display: block; margin: auto;" /&gt;
-
----
-### Motivation: Railway tracking systems
-
-&lt;img src="fig/fig1.png" width="100%" style="display: block; margin: auto;" /&gt;
----
-### Motivation: Network intrusion detection systems
-
-&lt;img src="fig/fig4.png" width="100%" style="display: block; margin: auto;" /&gt;
+background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ISF2018/ISF2018%20talk/fig/1_application.png?token=ATXvCtf70E8XruhUUuFjTjSQNjCPaCUyks5bLcqSwA%3D%3D)
+background-position: 50% 50%
+background-size: 100%
+class: center, top
 
 ---
 
-### Motivation: intrusion detection systems
+### Batch scenario 
 
 &lt;img src="fig/3_batch.png" width="100%" style="display: block; margin: auto;" /&gt;
 ---
@@ -55,19 +44,6 @@ class: center, middle, inverse, title-slide
 - incomplete events 
 ---
 
-
-class: middle, center
-
-&lt;img src="fig/12_logo1.png" width="100%" style="display: block; margin: auto;" /&gt;
-
-
----
-
-class: middle, center
-
-&lt;img src="fig/13_logo2.png" width="100%" style="display: block; margin: auto;" /&gt;
-
----
 
 ### Feature Based Representation of Time series
 .pull-left[
@@ -96,11 +72,19 @@ class: middle, center
 ---
 class:  top
 ### Feature Based Representation of Time series
-`tsfeatures &lt;- oddstream::extract_tsfeatures(train_data)`
+    `devtools::install_github("pridiltal/oddstream")`
+    `tsfeatures &lt;- oddstream::extract_tsfeatures(train_data)`
 .pull-left[
 
 
 &lt;img src="fig/3_batch.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+
+&lt;img src="fig/oddstream1.png" width="30%" style="display: block; margin: auto;" /&gt;
+
+
 ]
 .pull-right[
 &lt;img src="fig/tsfeatures.png" width="100%" style="display: block; margin: auto;" /&gt;
@@ -109,11 +93,15 @@ class:  top
 ---
 class:  top
 ### Feature Based Representation of Time series
-`tsfeatures &lt;- oddstream::extract_tsfeatures(train_data)`
+    `devtools::install_github("pridiltal/oddstream")` 
+    `tsfeatures &lt;- oddstream::extract_tsfeatures(train_data)`
 .pull-left[
 
 
 &lt;img src="fig/3_batch.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="fig/oddstream1.png" width="30%" style="display: block; margin: auto;" /&gt;
+
 ]
 .pull-right[
 &lt;img src="fig/5_high_typical.gif" width="100%" style="display: block; margin: auto;" /&gt;
@@ -182,26 +170,17 @@ First two PCs explain 85% of variation
 --
 
 - Draw a large number N of extremes `\((arg min_{x\in X}[f_{2}(x)])\)` from the estimated probability density function
-
 --
+
 - Define a `\(\Psi\)`-transform space, using the `\(\Psi\)`-transformation defined by (Clifton et al., 2011)
 
 &lt;img src="fig/10_psitrans.png" width="50%" style="display: block; margin: auto;" /&gt;
 
 - `\(\Psi\)`-transform maps the density values back into space into which a Gumbel distribution can be fitted.
-
----
-
-### Anomalous threshold calculation contd.
-
-.pull-left[
-&lt;img src="fig/9_threshold1.png" width="100%" style="display: block; margin: auto;" /&gt;
-]
-.pull-right[
-&lt;img src="fig/11_psi_trans.png" width="100%" style="display: block; margin: auto;" /&gt;
-]
+--
 
 - Anomalous threshold calculation `\(\longrightarrow\)` extreme value theory
+
 
 ---
 
@@ -291,8 +270,42 @@ class:  center, middle, inverse
 --
 
 - Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
+---
 
 
+class: center, middle
+
+# Thank You
+
+&lt;img src="fig/oddstream1.png" width="20%" style="display: block; margin: auto;" /&gt;
+
+`devtools::install_github("pridiltal/oddstream")`
+
+Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf)
+
+
+Slides created via the R package xaringan
+
+.pull-left[
+&lt;sub&gt;&lt;sup&gt;Acknowledgement &lt;/sup&gt;&lt;/sub&gt;
+
+&lt;sub&gt;&lt;sup&gt;-The International Institute of Forecasters &lt;/sup&gt;&lt;/sub&gt;
+
+&lt;sub&gt;&lt;sup&gt;for offering financial support to attend  the International Symposium on Forecasting 2018, Boulder, Colorado, USA. &lt;/sup&gt;&lt;/sub&gt;
+]
+.pull-right[
+<i class="fas  fa-envelope "></i>
+dilini.talagala@monash.edu
+
+<i class="fab  fa-github "></i>
+pridiltal
+
+
+<i class="fab  fa-twitter "></i>
+@pridiltal
+]
+
+---
 
 ---
 #### Images were taken:
@@ -304,41 +317,6 @@ class:  center, middle, inverse
 #### Key references
 - Clifton, D. A., Hugueny, S. &amp; Tarassenko, L. (2011), 'Novelty detection with multivariate extreme value statistics', Journal of signal processing systems 65(3), 371-389.
 - Hyndman, R. J., Wang, E. &amp; Laptev, N. (2015), Large-scale unusual time series detection, in 'Data Mining Workshop (ICDMW), 2015 IEEE International Conference on', IEEE, pp. 1616-1619.
-
----
-## Acknowledgement
-
-### The International Institute of Forecasters
-
- - for offering financial support to attend  the International Symposium on Forecasting 2018, Boulder, Colorado, USA. 
----
-
-
-class: center, middle
-
-# Thank You
-
-
-<i class="fas  fa-envelope "></i>
-dilini.talagala@monash.edu
-
-<i class="fab  fa-github "></i>
-pridiltal
-
-
-<i class="fab  fa-twitter "></i>
-@pridiltal
-
-&lt;br/&gt;&lt;br/&gt;
-
-&lt;img src="fig/oddstream1.png" width="20%" style="display: block; margin: auto;" /&gt;
-
-`devtools::install_github("pridiltal/oddstream")`
-
-Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf)
-
-
----
 
 
 ---
@@ -359,12 +337,12 @@ Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://
 - vchange : A function to calculate the maximum difference in variance using rolling window The 'variance change' is defined as the maximum difference in variance between consecutive blocks of 10 observations measure7 - variance change using rolling  window
 - lshift: A function to calculate Level shift using rolling window The 'level shift' is defined as the maximum difference in mean between consecutive blocks of 10 observations measure6 - Level shift using rolling window
 - Changing variance in the remainder (lumpiness) : A function to calculate Lumpiness: cannot be used for yearly data first divide a series into blocks. Then the variances  of each block are computed. The variance of the variances across these blocks measures the 'lumpiness' of the series. 
-- Burstiness (FF) : A function to calculate the burstiness of time series using Fano Factor Returns the 'burstiness' statistic: `\((\sigma^2) / \mu\)`. Another measures of burstiness is the Fano Factor: a ratio between the variance and the mean . In statistis Fano  Factor , like the coefficient of variation, is a measure of dispersion of proability distributions of a Fano noise. Fano  factor is defined as `\((\sigma^2) / \mu\)`. 
+- Burstiness (FF) : A function to calculate the burstiness of time series using Fano Factor Returns the 'burstiness' statistic: `\((\sigma^2) / \mu\)`. Another measures of burstiness is the Fano Factor: a ratio between the variance and the mean . In statistics Fano  Factor , like the coefficient of variation, is a measure of dispersion of probability distributions of a Fano noise. Fano  factor is defined as `\((\sigma^2) / \mu\)`. 
 
 ---
 
 - strength of linearity, curvature, spikiness: A function to find Strength of trend and seasonality and spike Some of our features rely on a robust STL decomposition . For example, the size and location of the peaks and troughs in the seasonal component are used, and the spikiness feature is the variance of the leave-one-out variances of the remainder component. Other features measure structural changes over time.
-- the ratio beteen means: a function to calculate the ratio between trimmed mean to mean the ratio between interquartile mean and the arithmetic mean of the scaled data. Low values (values closer to zero) indicate the presence of outliers
+- the ratio between means: a function to calculate the ratio between trimmed mean to mean the ratio between interquartile mean and the arithmetic mean of the scaled data. Low values (values closer to zero) indicate the presence of outliers
 
 
 --- 
