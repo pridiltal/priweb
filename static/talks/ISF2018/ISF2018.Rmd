@@ -354,21 +354,19 @@ class: center, middle
 
 # Thank You
 
-```{r  out.width = "20%", echo=FALSE}
+```{r  out.width = "15%", echo=FALSE}
 knitr::include_graphics("fig/oddstream1.png")
 ```
 
 `devtools::install_github("pridiltal/oddstream")`
 
-Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf)
+Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf) <br/><br/>
 
-
-Slides created via the R package xaringan
 
 .pull-left[
-<sub><sup>Acknowledgement </sup></sub>
+Acknowledgement
 
-<sub><sup>-The International Institute of Forecasters </sup></sub>
+The International Institute of Forecasters
 
 <sub><sup>for offering financial support to attend  the International Symposium on Forecasting 2018, Boulder, Colorado, USA. </sup></sub>
 ]
@@ -389,6 +387,9 @@ icon::fa("twitter")
 ``` 
 @pridiltal
 ]
+<br/>
+
+<sub><sup>Slides created via the R package xaringan</sup></sub>
 
 ---
 
