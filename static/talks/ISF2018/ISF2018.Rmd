@@ -327,7 +327,12 @@ knitr::include_graphics("fig/22_conceptdrift_pval.png")
 - squared discrepancy measure $T = \int[f_{t_{0}}(x) - f_{t_{t}}(x)]^{2}dx$ (Anderson et al., 1994)
 
 ---
+### Anomaly detection with non-stationarity
 
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/23_sudden_out.png")
+```
+---
 
 class: center, middle
 
@@ -400,12 +405,7 @@ icon::fa("twitter")
 
 - Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
 ---
-### Anomaly detection with non-stationarity
 
-```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
-knitr::include_graphics("fig/23_sudden_out.png")
-```
----
 
 ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
 knitr::include_graphics("fig/realanalysis.png")
