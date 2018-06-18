@@ -12,7 +12,7 @@
 class: center, middle, inverse, title-slide
 
 # Anomaly Detection in Nonstationary Streaming Temporal Data
-## <br/> Dilini Talagala <br/> with<br/> Rob J. Hyndman <br/> Kate Smith-Miles
+## <br/>Priyanga Dilini Talagala <br/> with<br/> Rob J. Hyndman <br/> Kate Smith-Miles
 ### Monash University, Australia <br/> <br/>18.06.2018
 
 ---
@@ -22,26 +22,29 @@ class: center, middle, inverse, title-slide
 
 
 
-background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ISF2018/ISF2018%20talk/fig/1_application.png?token=ATXvCtf70E8XruhUUuFjTjSQNjCPaCUyks5bLcqSwA%3D%3D)
+background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ISF2018/ISF2018%20talk/fig/2_application.png?token=ATXvCt8Jahd3wgC3GLuPF-RvLR5Mdt5tks5bMHp4wA%3D%3D)
 background-position: 50% 50%
 background-size: 100%
-class: center, top
+class: right, top
+
+## Motivation
 
 ---
-
+- Approaches to solving the problem of anomaly detection for temporal data :
+--
+.pull-left[
 ### Batch scenario 
-
-&lt;img src="fig/3_batch.png" width="100%" style="display: block; margin: auto;" /&gt;
----
-
-### Data streams
-
-&lt;img src="fig/18_oddstream_mvtsplot.gif" width="90%" style="display: block; margin: auto;" /&gt;
-
-- continuous, unbounded
-- flow at high speed
-- high volume
-- incomplete events 
+- whole set of data is available
+- complete events &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+&lt;img src="fig/2_batch.png" width="100%" /&gt;
+]
+--
+.pull-right[
+### Data stream scenario
+- continuous, unbounded, flow at high speed, high volume
+- incomplete events
+&lt;img src="fig/1_stream.gif" width="100%" /&gt;
+]
 ---
 
 
@@ -83,7 +86,7 @@ class:  top
 
 
 &lt;img src="fig/oddstream1.png" width="30%" style="display: block; margin: auto;" /&gt;
-
+&lt;span style="color:blue"&gt;O&lt;/span&gt;utlier &lt;span style="color:blue"&gt;D&lt;/span&gt;etection in &lt;span style="color:blue"&gt;D&lt;/span&gt;ata &lt;span style="color:blue"&gt;STREAM&lt;/span&gt;s
 
 ]
 .pull-right[
@@ -101,7 +104,7 @@ class:  top
 &lt;img src="fig/3_batch.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 &lt;img src="fig/oddstream1.png" width="30%" style="display: block; margin: auto;" /&gt;
-
+&lt;span style="color:blue"&gt;O&lt;/span&gt;utlier &lt;span style="color:blue"&gt;D&lt;/span&gt;etection in &lt;span style="color:blue"&gt;D&lt;/span&gt;ata &lt;span style="color:blue"&gt;STREAM&lt;/span&gt;s
 ]
 .pull-right[
 &lt;img src="fig/5_high_typical.gif" width="100%" style="display: block; margin: auto;" /&gt;

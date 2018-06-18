@@ -1,6 +1,6 @@
 ---
 title: "Anomaly Detection in Nonstationary Streaming Temporal Data"
-subtitle: "<br/> Dilini Talagala <br/> with<br/> Rob J. Hyndman  <br/> Kate Smith-Miles"
+subtitle: "<br/>Priyanga Dilini Talagala <br/> with<br/> Rob J. Hyndman  <br/> Kate Smith-Miles"
 date: "Monash University, Australia <br/> <br/>18.06.2018"
 output:
   xaringan::moon_reader:
@@ -45,30 +45,33 @@ library(icon)
 
 
 
-background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ISF2018/ISF2018%20talk/fig/1_application.png?token=ATXvCtf70E8XruhUUuFjTjSQNjCPaCUyks5bLcqSwA%3D%3D)
+background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ISF2018/ISF2018%20talk/fig/2_application.png?token=ATXvCt8Jahd3wgC3GLuPF-RvLR5Mdt5tks5bMHp4wA%3D%3D)
 background-position: 50% 50%
 background-size: 100%
-class: center, top
+class: right, top
+
+## Motivation
 
 ---
-
+- Approaches to solving the problem of anomaly detection for temporal data :
+--
+.pull-left[
 ### Batch scenario 
-
-```{r  out.width = "100%", echo=FALSE}
-knitr::include_graphics("fig/3_batch.png")
+- whole set of data is available
+- complete events <br/><br/><br/>
+```{r mvtsplot, out.width = "100%",  fig.align = 'bottom'}
+knitr::include_graphics("fig/2_batch.png")
 ```
----
-
-### Data streams
-
-```{r  out.width = "90%", echo=FALSE}
-knitr::include_graphics("fig/18_oddstream_mvtsplot.gif")
+]
+--
+.pull-right[
+### Data stream scenario
+- continuous, unbounded, flow at high speed, high volume
+- incomplete events
+```{r  echo=FALSE, out.width = "100%", fig.align = 'up'}
+knitr::include_graphics("fig/1_stream.gif")
 ```
-
-- continuous, unbounded
-- flow at high speed
-- high volume
-- incomplete events 
+]
 ---
 
 
@@ -114,7 +117,7 @@ knitr::include_graphics("fig/3_batch.png")
 ```{r  out.width = "30%", echo=FALSE}
 knitr::include_graphics("fig/oddstream1.png")
 ```
-
+<span style="color:blue">O</span>utlier <span style="color:blue">D</span>etection in <span style="color:blue">D</span>ata <span style="color:blue">STREAM</span>s
 
 ]
 .pull-right[
@@ -138,7 +141,7 @@ knitr::include_graphics("fig/3_batch.png")
 ```{r  out.width = "30%", echo=FALSE}
 knitr::include_graphics("fig/oddstream1.png")
 ```
-
+<span style="color:blue">O</span>utlier <span style="color:blue">D</span>etection in <span style="color:blue">D</span>ata <span style="color:blue">STREAM</span>s
 ]
 .pull-right[
 ```{r  echo=FALSE, out.width = "100%",}
