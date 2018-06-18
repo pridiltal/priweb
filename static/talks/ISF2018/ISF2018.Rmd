@@ -170,11 +170,19 @@ knitr::include_graphics("fig/P2_plot21b.png")
 
 ---
 
-### Main Assumptions
-
-- A representative data set of the system's typical behavior is available to define the model for the typical behavior of the system. <br/> <br/>
+### Main Contributions
+- Propose a framework that provides early detection of anomalies within a large collection of streaming time series data
 --
 
+- Propose an algorithm that adapts to nonstationarity (concept drift)
+
+--
+
+### Main Assumptions
+
+- A representative data set of the system's typical behavior is available to define the model for the typical behavior of the system. 
+
+--
 
 ### Proposed Algorithm
 
@@ -321,29 +329,6 @@ knitr::include_graphics("fig/22_conceptdrift_pval.png")
 ---
 
 
-### Main Contributions
-- Propose a framework that provides early detection of anomalies within a large collection of streaming time series data
---
-
-- Propose an algorithm that adapts to nonstationarity (concept drift)
-
---
-
-### What Next?
-
-- Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
---
-
-- Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
---
-
-- Do more experiments on density estimation methods to get a better tail estimation.
---
-
-- Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
----
-
-
 class: center, middle
 
 # Thank You
@@ -399,6 +384,21 @@ icon::fa("twitter")
 - Hyndman, R. J., Wang, E. & Laptev, N. (2015), Large-scale unusual time series detection, in 'Data Mining Workshop (ICDMW), 2015 IEEE International Conference on', IEEE, pp. 1616-1619.
 
 
+---
+
+
+### What Next?
+
+- Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
+--
+
+- Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
+--
+
+- Do more experiments on density estimation methods to get a better tail estimation.
+--
+
+- Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
 ---
 ### Anomaly detection with non-stationarity
 
