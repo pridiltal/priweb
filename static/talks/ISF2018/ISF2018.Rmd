@@ -323,13 +323,6 @@ knitr::include_graphics("fig/22_conceptdrift_pval.png")
 ---
 
 
-### Anomaly detection with non-stationarity
-
-```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
-knitr::include_graphics("fig/23_sudden_out.png")
-```
----
-
 ### Main Contributions
 - Propose a framework that provides early detection of anomalies within a large collection of streaming time series data
 --
@@ -408,6 +401,12 @@ icon::fa("twitter")
 - Hyndman, R. J., Wang, E. & Laptev, N. (2015), Large-scale unusual time series detection, in 'Data Mining Workshop (ICDMW), 2015 IEEE International Conference on', IEEE, pp. 1616-1619.
 
 
+---
+### Anomaly detection with non-stationarity
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/23_sudden_out.png")
+```
 ---
 
 ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
