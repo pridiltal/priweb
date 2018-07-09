@@ -45,7 +45,7 @@ library(icon)
 
 
 
-background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ISF2018/ISF2018%20talk/fig/2_application.png?token=ATXvCt8Jahd3wgC3GLuPF-RvLR5Mdt5tks5bMHp4wA%3D%3D)
+background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/USER2018/USER2018%20talk/fig/2_application.png?token=ATXvCrnMUdIGRrbTsO5fn2Y6zG4-0Uvtks5bTMsLwA%3D%3D)
 background-position: 50% 50%
 background-size: 100%
 class: right, top
@@ -53,51 +53,11 @@ class: right, top
 ## Motivation
 
 ---
-- Approaches to solving the problem of anomaly detection for temporal data :
---
-.pull-left[
-### Batch scenario 
-- whole set of data is available
-- complete events <br/><br/><br/>
-```{r mvtsplot, out.width = "100%",  fig.align = 'bottom'}
-knitr::include_graphics("fig/2_batch.png")
+class: middle, center
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/13_logo2.png")
 ```
-]
---
-.pull-right[
-### Data stream scenario
-- continuous, unbounded, flow at high speed, high volume
-- incomplete events
-```{r  echo=FALSE, out.width = "100%", fig.align = 'up'}
-knitr::include_graphics("fig/1_stream.gif")
-```
-]
----
-
-
-### Feature Based Representation of Time series
-.pull-left[
-- Mean   
-- Variance  
-- Changing variance in remainder 
-- Level shift using rolling window   
-- Variance change  
-- Strength of linearity 
-- Strength of curvature  
- ]
-
-.pull-right[
-- Strength of spikiness  
-- Burstiness of time series (Fano Factor)  
-- Minimum  
-- Maximum  
-- The ratio between 50% trimmed mean and the arithmetic mean
-- Moment 
-- Ratio of means of data that is below and above the global mean  
-
-]
-
-
 
 ---
 class:  top
@@ -150,25 +110,7 @@ knitr::include_graphics("fig/5_high_typical.gif")
 ]
 
 ---
-.pull-left[
 
-
-```{r   echo=FALSE, out.width = "95%", fig_align = 'bottom'}
-knitr::include_graphics("fig/P2_plot21a.png")
-```
-]
---
-.pull-right[
-```{r  echo=FALSE, out.width = "95%",}
-knitr::include_graphics("fig/P2_plot21b.png")
-```
-]
-
---
-
-- We define an anomaly as an observation that is very unlikely given the recent distribution of a given system
-
----
 
 ### Main Contributions
 - Propose a framework that provides early detection of anomalies within a large collection of streaming time series data
@@ -179,8 +121,11 @@ knitr::include_graphics("fig/P2_plot21b.png")
 --
 
 ### Main Assumptions
+- We define an anomaly as an observation that is very unlikely given the recent distribution of a given system
 
+--
 - A representative data set of the system's typical behavior is available to define the model for the typical behavior of the system. 
+
 
 --
 
@@ -328,17 +273,144 @@ knitr::include_graphics("fig/22_conceptdrift_pval.png")
 
 ---
 ### Anomaly detection with non-stationarity
+`oddstream::find_odd_streams(train_data, test_stream, concept_drift = TRUE)`
 
-```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+```{r  echo=FALSE, out.width = "90%", fig_align = 'top'}
 knitr::include_graphics("fig/23_sudden_out.png")
 ```
 ---
+class: middle, center
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/P2_plot20.png")
+```
+
+---
+
+### Main Contributions
+- Propose a framework to detect anomalies in high dimensional data. Our proposed algorithm addresses the limitations of HDoutliers algorithm (Wilkinson, 2018).
+--
+
+- Propose an algorithm to detect anomalies in streaming temporal data
+
+--
+
+### Main Assumptions
+
+- We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
+--
+
+- There is a large distance between typical data and the anomalies in comparison to the distance among typical data.
+
+
+---
+
+
+```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
+knitr::include_graphics("fig/P2_plot5.png")
+```
+-  Normalize the columns of the data. (median and IQR)
+-  This prevents variables with large variances having disproportional influence on Euclidean distances.
+---
+
+
+```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
+knitr::include_graphics("fig/P2_plot6.png")
+```
+- Leader Algorithm (Hartingan, 1975)
+- $r= 1/2(1/n)^{1/d}$: expected distance between data points in a d-dimensional space. n is the sample size (Kantardzic, 2011)
+
+---
+
+
+```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
+knitr::include_graphics("fig/P2_plot7.png")
+```
+
+---
+
+
+```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
+knitr::include_graphics("fig/P2_plot9.png")
+```
+
+- Select the k nearest neighbour distance with the maximum gap
+
+--
+- Sort the resulting k nearest neighbour distances
+
+--
+- Define an anomalous threshold using Extreme Value Theory  (Bottom up searching algorithm proposed by Schwarz, 2008)
+
+---
+`devtools::install_github("pridiltal/stray")` <br/>
+`outliers <- stray::find_HDoutliers(data)` <br/>
+`stray::display_HDoutliers(data, outliers)`
+
+```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
+knitr::include_graphics("fig/P2_plot10.png")
+```
+
+---
+### Identify anomalous series within a large collection of time series
+
+- use a moving window to deal with streaming data
+
+
+- Extract time series features from window
+
+
+- Apply stray algorithm to identify anomalous series
+
+.pull-left[
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/P2_plot22.png")
+```
+
+]
+.pull-right[
+```{r   echo=FALSE, out.width = "70%"}
+knitr::include_graphics("fig/stray.gif")
+```
+]
+
+`tsfeatures <- oddstream::extract_tsfeatures(ts_data)` <br/>
+`outliers <- stray::find_HDoutliers(tsfeatures)` <br/>
+`stray::display_HDoutliers(tsfeatures, outliers)`
+
+---
+
+class:: center
+.pull-left[
+ .Large[<span style="color:blue">`stray`</span>]
+ 
+```{r   echo=FALSE, out.width = "80%"}
+knitr::include_graphics("fig/P2_plot21a.png")
+```
+
+- Definition: distance 
+- no training set 
+]
+.pull-right[
+.Large[<span style="color:blue">`oddstream`  </span>]
+
+```{r   echo=FALSE, out.width = "80%"}
+knitr::include_graphics("fig/P2_plot21b.png")
+```
+
+- Definition: density
+- need a training set
+]
+
+---
+
 
 class: center, middle
 
 # Thank You
-
-```{r  out.width = "15%", echo=FALSE}
+.pull-left[
+```{r  out.width = "45%", echo=FALSE}
 knitr::include_graphics("fig/oddstream1.png")
 ```
 
@@ -346,15 +418,16 @@ knitr::include_graphics("fig/oddstream1.png")
 
 Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf) <br/><br/>
 
-
-.pull-left[
-Acknowledgement
-
-The International Institute of Forecasters
-
-<sub><sup>for offering financial support to attend  the International Symposium on Forecasting 2018, Boulder, Colorado, USA. </sup></sub>
 ]
 .pull-right[
+```{r  out.width = "45%", echo=FALSE}
+knitr::include_graphics("fig/stray-logo.png")
+```
+
+`devtools::install_github("pridiltal/stray")`
+]
+
+
 ```{r}
 icon::fa("envelope")
 ``` 
@@ -370,10 +443,7 @@ pridiltal
 icon::fa("twitter")
 ``` 
 @pridiltal
-]
-<br/>
 
-<sub><sup>Slides created via the R package xaringan</sup></sub>
 
 ---
 
@@ -419,6 +489,32 @@ knitr::include_graphics("fig/realanalysis.png")
 [tour](https://klevas.mif.vu.lt/~tomukas/Knygos/tourr.pdf)
 
 [nonstationarity](https://ac.els-cdn.com/S0047259X84710335/1-s2.0-S0047259X84710335-main.pdf?_tid=4d4e1492-0417-4055-b75b-f7f30b253e06&acdnat=1520995337_55a8fbf3b8a7921fddc51acbf619632d)
+
+---
+
+
+
+### Feature Based Representation of Time series
+.pull-left[
+- Mean   
+- Variance  
+- Changing variance in remainder 
+- Level shift using rolling window   
+- Variance change  
+- Strength of linearity 
+- Strength of curvature  
+ ]
+
+.pull-right[
+- Strength of spikiness  
+- Burstiness of time series (Fano Factor)  
+- Minimum  
+- Maximum  
+- The ratio between 50% trimmed mean and the arithmetic mean
+- Moment 
+- Ratio of means of data that is below and above the global mean  
+
+]
 
 ---
 
