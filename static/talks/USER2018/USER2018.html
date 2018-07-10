@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>oddstream and stray: Anomaly Detection in Streaming Temporal Data with R</title>
+    <title>oddstream and stray:  Anomaly Detection in Streaming Temporal Data with R</title>
     <meta charset="utf-8">
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# <code>oddstream</code> and <code>stray</code>: Anomaly Detection in Streaming Temporal Data with R
+# <code>oddstream</code> and <code>stray</code>:<br/> Anomaly Detection in Streaming Temporal Data with R
 ## <br/>Priyanga Dilini Talagala <br/> with<br/> Rob J. Hyndman <br/> Kate Smith-Miles
 ### Monash University, Australia <br/> <br/>11.07.2018
 
@@ -34,6 +34,30 @@ class: middle, center
 
 &lt;img src="fig/13_logo2.png" width="100%" style="display: block; margin: auto;" /&gt;
 
+---
+
+
+### Feature Based Representation of Time series
+.pull-left[
+- Mean   
+- Variance  
+- Changing variance in remainder 
+- Level shift using rolling window   
+- Variance change  
+- Strength of linearity 
+- Strength of curvature  
+ ]
+
+.pull-right[
+- Strength of spikiness  
+- Burstiness of time series (Fano Factor)  
+- Minimum  
+- Maximum  
+- The ratio between 50% trimmed mean and the arithmetic mean
+- Moment 
+- Ratio of means of data that is below and above the global mean  
+
+]
 ---
 class:  top
 ### Feature Based Representation of Time series
@@ -225,9 +249,6 @@ class: middle, center
 ### Main Assumptions
 
 - We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
---
-
-- There is a large distance between typical data and the anomalies in comparison to the distance among typical data.
 
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "`oddstream` and `stray`:  Anomaly Detection in Streaming Temporal Data with R"
+title: "`oddstream` and `stray`:<br/>  Anomaly Detection in Streaming Temporal Data with R"
 subtitle: "<br/>Priyanga Dilini Talagala <br/> with<br/> Rob J. Hyndman  <br/> Kate Smith-Miles"
 date: "Monash University, Australia <br/> <br/>11.07.2018"
 output:
@@ -59,6 +59,30 @@ class: middle, center
 knitr::include_graphics("fig/13_logo2.png")
 ```
 
+---
+
+
+### Feature Based Representation of Time series
+.pull-left[
+- Mean   
+- Variance  
+- Changing variance in remainder 
+- Level shift using rolling window   
+- Variance change  
+- Strength of linearity 
+- Strength of curvature  
+ ]
+
+.pull-right[
+- Strength of spikiness  
+- Burstiness of time series (Fano Factor)  
+- Minimum  
+- Maximum  
+- The ratio between 50% trimmed mean and the arithmetic mean
+- Moment 
+- Ratio of means of data that is below and above the global mean  
+
+]
 ---
 class:  top
 ### Feature Based Representation of Time series
@@ -298,9 +322,6 @@ knitr::include_graphics("fig/P2_plot20.png")
 ### Main Assumptions
 
 - We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
---
-
-- There is a large distance between typical data and the anomalies in comparison to the distance among typical data.
 
 
 ---
