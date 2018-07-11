@@ -435,7 +435,7 @@ class: center, middle
 knitr::include_graphics("fig/oddstream1.png")
 ```
 
-`devtools::install_github("pridiltal/oddstream")`
+`devtools::install_github` <br/> `("pridiltal/oddstream")`
 
 Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf) <br/><br/>
 
@@ -445,7 +445,7 @@ Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://
 knitr::include_graphics("fig/stray-logo.png")
 ```
 
-`devtools::install_github("pridiltal/stray")`
+`devtools::install_github` <br/>`("pridiltal/stray")`
 ]
 
 
