@@ -14,7 +14,7 @@ math = true
 url_pdf = "https://robjhyndman.com/papers/oddstream.pdf"
 
 url_slides = "talks/USER2018/USER2018.html"
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=JVO7NT1zLd4&feature=youtu.be"
 
 
 
