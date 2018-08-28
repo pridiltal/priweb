@@ -51,26 +51,6 @@ class: right, top
 
 ## Motivation
 ---
-- Approaches to solving the problem of anomaly detection for temporal data :
---
-.pull-left[
-### Batch scenario 
-- whole set of data is available
-- complete events <br/><br/><br/>
-```{r mvtsplot, out.width = "100%",  fig.align = 'bottom'}
-knitr::include_graphics("fig/2_batch.png")
-```
-]
---
-.pull-right[
-### Data stream scenario
-- continuous, unbounded, flow at high speed, high volume
-- incomplete events
-```{r  echo=FALSE, out.width = "100%", fig.align = 'up'}
-knitr::include_graphics("fig/1_stream.gif")
-```
-]
----
 ### Feature Based Representation of Time series
 .pull-left[
 - Mean   
