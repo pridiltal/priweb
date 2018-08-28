@@ -11,7 +11,7 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       slideNumberFormat: "%current%"                  # 12
- #   seal: false
+
 ---
 
 ```{r setup, include=FALSE}
