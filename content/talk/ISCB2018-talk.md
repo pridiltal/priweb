@@ -13,7 +13,7 @@ math = true
   
 url_pdf = "https://robjhyndman.com/papers/oddstream.pdf"
   
-url_slides = ""
+url_slides = "talks/ISCB2018/ISCB2018.html"
 url_video = ""
   
 +++
