@@ -1,11 +1,12 @@
 +++
-date = "2018-08-29"
+date = "2018-07-31"
 title = "Outlier Detection in Non-Stationary Data Streams"
 abstract = ""
 abstract_short = ""
-event = "Joint International Society for Clinical Biostatistics and Australian Statistical Conference 2018" 
-event_url = "https://iscbasc2018.com/"
-location = "Melbourne Convention and Exhibition Centre, Australia"
+event = "2018 Joint Statistical Meetings - American Statistical Association"
+event_url = "http://ww2.amstat.org/meetings/jsm/2018/"
+location = "Vancouver Convention Centre, Vancouver, British Columbia, Canada"
+  
   
 selected = false
 math = true
