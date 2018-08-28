@@ -7,13 +7,12 @@ event = "Joint International Society for Clinical Biostatistics and Australian S
 event_url = "https://iscbasc2018.com/"
 location = "Melbourne Convention and Exhibition Centre, Australia"
   
-  
 selected = false
 math = true
   
 url_pdf = "https://robjhyndman.com/papers/oddstream.pdf"
   
-url_slides = "talks/ISCB2018/ISCB2018.html"
+url_slides = "talks/JSM2018/JSM2018.html"
 url_video = ""
   
 +++
