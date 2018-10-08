@@ -4,7 +4,7 @@ title = "A feature-based unsupervised approach for outlier detection in water qu
 abstract = ""
 abstract_short = ""
 event = "DES-QUT workshop"
-location = "Ecosciences Precinct (Department of Environment and Science), Queensland, Australia"
+location = "Ecosciences Precinct (Department of Environment and Science)"
   
   
 selected = false
