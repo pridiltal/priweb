@@ -104,7 +104,6 @@ class: center, middle, inverse, title-slide
 
 
 
-
 &lt;img src="fig/outlier_Score_demo.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
@@ -141,13 +140,41 @@ class: center, middle, inverse, title-slide
 
 ---
 
-Main Contributions
+## Main Contributions
+
+- Propose an **unsupervised** framework that provides early detection of technical outliers in water-quality data from *in-situ* sensors.
+- Introduce an R package, `oddwater`, that implements the proposed framework and related functions.
+
+
+```r
+# install.packages("devtools")
+devtools::install_github("pridiltal/oddwater")
+```
+- `oddwater` package also provides a shiny app to explore data. 
 
 ---
 
-#References
+## Advantages of the proposed framework
 
-Reference: *Talagala, P. D., Hyndman, R., Leigh, C., Mengersen, K., Smith-Miles, K. (For review). A feature-based unsupervised approach for outlier detection in water quality data from in situ sensors. Water Resources Research.*
+1. (1) Takes the correlation structure of the water-quality variables into account when detecting anomalies. 
+
+2. (2) Can be applied to both univariate and multivariate problems.
+
+3. (3) Unsupervised, data-driven approaches and therefore do not require training data sets for the model building process, and can be extended easily to other time series from other sites. 
+
+4. (4) The anomalous thresholds have a probabilistic interpretation. 
+5. (5) The framework can easily be extended to streaming data such that it can provide near-real-time support. 
+
+6. (6) The proposed framework also has the ability to deal with irregular time series.
+
+## Further Work
+
+- To explore the ability of other transformations to capture other anomaly types such as **high and low variability** and **drift**.
+
+---
+## Key References
+
+- *Talagala, P. D., Hyndman, R., Leigh, C., Mengersen, K., Smith-Miles, K. (For review). A feature-based unsupervised approach for outlier detection in water quality data from in situ sensors. Water Resources Research.*
     </textarea>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({

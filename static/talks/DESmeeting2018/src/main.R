@@ -241,7 +241,7 @@ for (i in 1:p$nrow) {
 ggsave("./fig/Visualise_outlier_pairs_trans_data.png", plot = p)
 
 
-## ---- plot_score
+## ---- plot_score_function
 
 sandy_full$label_all <- ifelse((data_sandy_out$out_label_Tur == "typical" &
                                   data_sandy_out$out_label_Cond == "typical" &
