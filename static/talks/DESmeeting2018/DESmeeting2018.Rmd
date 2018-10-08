@@ -199,6 +199,12 @@ devtools::install_github("pridiltal/oddwater")
 ```
 - `oddwater` package also provides a shiny app to explore data. 
 
+
+```{r eval = FALSE, echo=TRUE}
+## Launch Shiny application
+oddwater::explore_data()
+```
+
 ---
 
 ## Advantages of the proposed framework
