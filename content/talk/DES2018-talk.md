@@ -10,7 +10,7 @@ location = "Ecosciences Precinct (Department of Environment and Science), Queens
 selected = false
 math = true
   
-url_pdf = ""
+url_pdf = "talks/DESmeeting2018/paper_1.pdf"
 url_slides = "talks/DESmeeting2018/DESmeeting2018.html"
 url_video = ""
   
