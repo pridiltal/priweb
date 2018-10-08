@@ -30,7 +30,7 @@ p1 <- ggplot(data_sandy_anom, aes(x = Timestamp, y = Tur)) +
                                  "E" = 15, "D" = 16,
                                  "K" =20 , "F" = 18))+
   ylab("a) Turbidity") +
-  theme(legend.position = "bottom")
+  theme(legend.position = "none")
 
 
 
@@ -38,7 +38,7 @@ p2 <- ggplot(data_sandy_anom, aes(x = Timestamp, y = Cond)) +
   geom_line() +
   geom_point(data = data_sandy_anom, aes(colour = type_Cond, shape= type_Cond)) +
   ylab("b) Conductivity") +
-  theme(legend.position = "bottom")+
+  theme(legend.position = "none")+
   scale_colour_manual(values = c("0" = "black", "A" = "red", 
                                  "E" = "green", "D" = "lightsalmon3",
                                  "K" = "blue", "F" = "brown"))+
@@ -52,7 +52,7 @@ p3 <- ggplot(data_sandy_anom, aes(x = Timestamp, y = Level)) +
   geom_line() +
   geom_point(data = data_sandy_anom, aes(colour = type_Level, shape= type_Level)) +
   ylab("c) Level") +
-  theme(legend.position = "bottom")+
+  theme(legend.position = "none")+
   scale_colour_manual(values = c("0" = "black", "A" = "red", 
                                  "E" = "green", "D" = "lightsalmon3",
                                  "K" = "blue", "F" = "brown"))+
@@ -212,7 +212,8 @@ p <- ggplot(sandy_full, aes(Timestamp, time)) +
   geom_point() +
   geom_line() +
   xlab("Time gap (in minutes)")
-print(p)
+
+ggsave("./fig/timegapSandy.png", height = 3, width = 12)
 
 
 ## ---- Visualise_outlier_pairs_trans_data
@@ -303,7 +304,7 @@ p9 <- plot_score(sandy_full, test_data,
 ) +
   # p10<- performance_plot(sandy_full, test_data, method = "RKOF" , flag = "flag_TCL",
   #                      variable = "out_score") +
-  theme(legend.position = "bottom", legend.title = element_blank())
+  theme(legend.position = "none", legend.title = element_blank())
 
 pA <- ggpubr::ggarrange(p1, p2, p11, p3, p4, p5, p6, p7, p8, p9, nrow = 10)
 ggsave("./fig/outlier_Score.png", height = 13, width = 12)

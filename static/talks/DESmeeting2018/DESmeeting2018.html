@@ -26,7 +26,7 @@ class: center, middle, inverse, title-slide
 
 &lt;img src="fig/Visualise_anomaly.png" width="90%" /&gt;
 
-&lt;span style="color:blue"&gt;**Anomaly Definition:**&lt;/span&gt; Any behaviour which is unusual or unexpected **with respect to water quality considerations**
+&lt;span style="color:blue"&gt;**Anomaly Definition:**&lt;/span&gt; Unusual behaviours due to technical issues with the sensor equipment.
 &lt;br/&gt;&lt;br/&gt;  Outlier Detection,  Variability Detection, Drift Detection, Rule based approaches
 
 ---
@@ -72,12 +72,12 @@ class: center, middle, inverse, title-slide
 ---
 
 
-&lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="figure/timegapSandy-1.pdf" alt="Time gap between recorded time points of the sensors positioned at Sandy Creek." width="70%" /&gt;
-&lt;p class="caption"&gt;Time gap between recorded time points of the sensors positioned at Sandy Creek.&lt;/p&gt;
-&lt;/div&gt;
+
+
+&lt;img src="fig/timegapSandy.png" width="80%" height="20%" style="display: block; margin: auto;" /&gt;
 
 --
+
 &lt;div class="figure" style="text-align: center"&gt;
 &lt;img src="fig/trans_demo_TCL.png" alt="Transformed series (one sided derivatives)" width="80%" /&gt;
 &lt;p class="caption"&gt;Transformed series (one sided derivatives)&lt;/p&gt;
@@ -127,9 +127,12 @@ class: center, middle, inverse, title-slide
 ## Outlier Threshold Calculation
 
 
-**Theorem**  (Weissman's Theorem). (Weissman (1978), Theorem 3) (Burridge and Taylor (2006),Proposition 1)
+**Theorem**  (Weissman's Spacing Theorem). (Weissman (1978), Theorem 3) (Burridge and Taylor (2006),Proposition 1)
 
 *Let* `\(D_{i,n} = X_{i:n}-X_{i+1:n}\)` *be the spacings between successive order statistics. Then, provided* `\(F\)` *is in the maximum domain of attraction of the Gumbel distribution, and for a suitable sequence of constants*, `\(a_n\)`, *the objects,* `\(\left\{a_{n}^{-1}D_{i,n}, i=1, \dots,K \right\}\)`, *converge in distribution under the null hypothesis of no outliers to a vector of* `\(K\)` *independent exponential variates with means proportional to* `\(i^{-1}\)`.
+
+
+&lt;img src="fig/spacing_theorem.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
 
