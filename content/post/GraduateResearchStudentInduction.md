@@ -34,6 +34,4 @@ url_video = ""
 ## Talk given at Graduate Research Student Induction programme of Monash Business School - Reflecting Back and Forging Ahead  
 I was invited to give a talk to first year PhD Research students of Monash Business School at the mid year Graduate Research Student Induction programme. The talk is on "My first year at Monash Business School".
 
-\begin{center} <br>
-\includegraphics[width = 8in]{talks/MonashGraduateResearchStudentInduction2017/graduateResearchStudentInduction.pdf} <br>
-\end{center}
+![Alt](talks/MonashGraduateResearchStudentInduction2017/graduateResearchStudentInduction.pdf)
