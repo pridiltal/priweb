@@ -44,7 +44,7 @@ library(animation)
 
 ### Fence-mounted perimeter intrusion detection systems
 
-```{r motivation2, out.width = "100%", out.height="100%"}
+```{r motivation, out.width = "100%", out.height="100%"}
 knitr::include_graphics("fig/1_climb.png")
 ```
 - Data obtained using fiber optics cables attached to a fence
