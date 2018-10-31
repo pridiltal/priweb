@@ -155,34 +155,11 @@ class: middle, center
 knitr::include_graphics("fig/12_logo1.png")
 ```
 
----
-class: middle, center
-```{r   echo=FALSE, out.width = "100%"}
-knitr::include_graphics("fig/13_logo2.png")
-```
 
 ---
-
-### How oddstream works
-
-```{r   echo=FALSE, out.width = "100%"}
-knitr::include_graphics("fig/3_batch.png")
-```
-
---
 **Main Assumption:** A representative data set of the system's typical behavior is available to define the model for the typical behavior of the system. 
 
----
-### How oddstream works
-```{r   echo=FALSE, out.width = "100%"}
-knitr::include_graphics("fig/14_oddstream_typical.png")
-```
-
-
-
----
-
-class: top
+--
 
 .pull-left[
 `load(train_data)`
