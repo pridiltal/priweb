@@ -378,7 +378,7 @@ knitr::include_graphics("fig/oddstream1.png")
 
 Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf) <br/>
 
-Slides available at: [https://prital.netlify.com/talk/acems2018-talk/](https://prital.netlify.com/talk/acems2018-talk/) <br/><br/>
+Slides available at: [https://prital.netlify.com/talk/acems2018-talk/](https://prital.netlify.com/talk/acems2018-talk/)  <br/><br/>
 
 ```{r}
 icon::fa("envelope")
