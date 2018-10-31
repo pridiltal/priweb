@@ -62,30 +62,10 @@ class: right, top
 ## Motivation
 ---
 
-
 Talagala, P., Hyndman, R., Smith-Miles, K., Kandanaarachchi, S., & Munoz, M. (2018). **Anomaly detection in streaming nonstationary temporal data** (No. 4/18). Monash University, Department of Econometrics and Business Statistics.
 
 --
-- Approaches to solving the problem of anomaly detection for temporal data :
---
-.pull-left[
-### Batch scenario 
-- whole set of data is available
-- complete events <br/><br/><br/>
-```{r mvtsplot, out.width = "100%",  fig.align = 'bottom'}
-knitr::include_graphics("fig/2_batch.png")
-```
-]
---
-.pull-right[
-### Data stream scenario
-- continuous, unbounded, flow at high speed, high volume
-- incomplete events
-```{r  echo=FALSE, out.width = "100%", fig.align = 'up'}
-knitr::include_graphics("fig/1_stream.gif")
-```
-]
----
+
 ### Feature Based Representation of Time series
 .pull-left[
 - Mean   
@@ -392,8 +372,9 @@ knitr::include_graphics("fig/oddstream1.png")
 
 `devtools::install_github("pridiltal/oddstream")`
 
-Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf) <br/><br/>
+Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf) <br/>
 
+Slides available at: [https://prital.netlify.com/talk/acems2018-talk/](https://prital.netlify.com/talk/acems2018-talk/) <br/><br/>
 
 ```{r}
 icon::fa("envelope")
