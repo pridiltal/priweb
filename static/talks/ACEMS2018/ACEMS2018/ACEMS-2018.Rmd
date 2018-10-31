@@ -312,6 +312,10 @@ knitr::include_graphics("fig/example3.png")
 ```{r  echo=FALSE, out.width = "100%"}
 knitr::include_graphics("fig/example4.png")
 ```
+--
+
+Open problem : How do you incorporate the correlation across space within the dimension reduction to get a better 2D space?
+
 ---
 ### Dimensionality reduction techniques for tensor data
 
@@ -324,7 +328,7 @@ knitr::include_graphics("fig/example5.png")
 
 Clifton, D. A., Clifton, L., Hugueny, S., Wong, D., & Tarassenko, L. (2013). **An extreme function theory for novelty detection**. IEEE Journal of Selected Topics in Signal Processing, 7(1), 28-37.
 
-```{r  echo=FALSE, out.width = "100%"}
+```{r  echo=FALSE, out.width = "85%"}
 knitr::include_graphics("fig/example6.png")
 ```
 
@@ -335,7 +339,7 @@ knitr::include_graphics("fig/example6.png")
 
 Clifton, D. A., Clifton, L., Hugueny, S., Wong, D., & Tarassenko, L. (2013). **An extreme function theory for novelty detection**. IEEE Journal of Selected Topics in Signal Processing, 7(1), 28-37.
 
-```{r  echo=FALSE, out.width = "100%"}
+```{r  echo=FALSE, out.width = "85%"}
 knitr::include_graphics("fig/example7.png")
 ```
 
@@ -346,7 +350,7 @@ knitr::include_graphics("fig/example7.png")
 ### Open Problems
 
 
-- How do you decide what sort of features is best for the problem?
+- How do you decide what set of features is best for the problem?
 
 
 --
