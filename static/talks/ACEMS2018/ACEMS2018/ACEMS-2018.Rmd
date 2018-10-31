@@ -52,14 +52,10 @@ knitr::include_graphics("fig/1_climb.png")
 - Aim: Find anomalous time series (the location of the intrusion event)
 
 ---
-
-
-background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ACEMS2018/ACEMS2018/fig/1_application.png?token=ATXvCgdIsdBA85pXUuR1CbQx91dysWatks5b2gcYwA%3D%3D)
-background-position: 50% 50%
-background-size: 100%
-class: right, top
-
-## Motivation
+### Motivation
+```{r motivation1, out.width = "100%", out.height="100%"}
+knitr::include_graphics("fig/1_application.png")
+```
 ---
 
 Talagala, P., Hyndman, R., Smith-Miles, K., Kandanaarachchi, S., & Munoz, M. (2018). **Anomaly detection in streaming nonstationary temporal data** (No. 4/18). Monash University, Department of Econometrics and Business Statistics.
