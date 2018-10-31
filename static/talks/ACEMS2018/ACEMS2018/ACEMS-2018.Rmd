@@ -367,7 +367,6 @@ icon::fa("github")
 ```
 pridiltal
 
-
 ```{r}
 icon::fa("twitter")
 ``` 
