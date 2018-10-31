@@ -48,7 +48,11 @@ library(animation)
 knitr::include_graphics("fig/1_climb.png")
 ```
 - Data obtained using fiber optics cables attached to a fence
+--
+
 - Intrusion events cause measurable changes in intensity, phase, wavelength or transit time of light in the fiber.
+--
+
 - Aim: Find anomalous time series (the location of the intrusion event)
 
 ---
