@@ -25,7 +25,7 @@ weight = 1
 
 [[education.courses]]
   course = "B.Sc(Hons) in Statistics"
-  institution = "University of Sri Jayewardenepura, Sri Lanka"
+  #institution = "University of Sri Jayewardenepura, Sri Lanka"
   year = 2012
  
 +++
