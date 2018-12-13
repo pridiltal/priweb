@@ -7,6 +7,8 @@ selected = false
 math = true
 +++
 
+
+
 Rob's [Squeezing space  with Latex](https://robjhyndman.com/hyndsight/squeezing-space-with-latex/)
 
 [twopage template](https://github.com/eddelbuettel/pinp)
