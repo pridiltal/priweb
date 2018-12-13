@@ -29,7 +29,6 @@ weight = 1
   year = 2012
  
 +++
-## About Me 
 
 I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data and I am working under the supervison of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). I am also interested in general data science problems. 
 
@@ -39,7 +38,5 @@ Apart from  research, I like to explore science in nature. Visit me on [twitter]
 
 I love travelling, photography and painting.
 
-```{r mytour, eval= TRUE, echo = FALSE }
-knitr::include_graphics("static/img/tsfeatures.png")
+![](https://github.com/pridiltal/priweb/blob/master/static/img/mytour.png?raw=true)
 
-```
