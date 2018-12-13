@@ -39,5 +39,5 @@ Apart from  research, I like to explore science in nature. Visit me on [twitter]
 I love travelling, photography and painting.
 
 
-![Major research collaborations, conferences and workshops](https://github.com/pridiltal/priweb/blob/master/static/img/mytour.png?raw=true =1000x)
+![Major research collaborations, conferences and workshops](https://github.com/pridiltal/priweb/blob/master/static/img/mytour.png?raw=true)
 
