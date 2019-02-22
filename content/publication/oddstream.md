@@ -3,7 +3,6 @@ abstract = "This article proposes a framework that provides early detection of a
 abstract_short = "This article proposes a framework that provides early detection of anomalous series within a large collection of non-stationary streaming time series data."
 authors = ["Priyanga Dilini Talagala", "Rob J. Hyndman", "Kate Smith-Miles", "Sevvandi Kandanaarachchi", "Mario A. Munoz"]
 
-date = "2019"
 
 image_preview = ""
 math = true
