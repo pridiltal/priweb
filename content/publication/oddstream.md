@@ -1,7 +1,7 @@
 +++
 abstract = "This article proposes a framework that provides early detection of anomalous series within a large collection of non-stationary streaming time series data. We define an anomaly as an observation that is very unlikely given the recent distribution of a given system. The proposed framework first calculates a boundary for the system???s typical behavior using ex- treme value theory. Then a sliding window is used to test for anomalous series within a newly arrived collection of series. The model uses time series features as inputs, and a density-based comparison to detect any significant changes in the distribution of the features. Using various synthetic and real world datasets, we demonstrate the wide applicability and usefulness of our proposed framework. We show that the proposed algorithm can work well in the pres- ence of noisy non-stationarity data within multiple classes of time series. This framework is implemented in the open source R package oddstream. R code and data are available in the supplementary materials."
 abstract_short = "This article proposes a framework that provides early detection of anomalous series within a large collection of non-stationary streaming time series data."
-authors = ["Priyanga Dilini Talagala", "Rob J. Hyndman", "Kate Smith-Milesi", "Sevvandi Kandanaarachchi", "Mario A. Muñoz"]
+authors = ["Priyanga Dilini Talagala", "Rob J. Hyndman", "Kate Smith-Miles", "Sevvandi Kandanaarachchi", "Mario A. Munoz"]
 date = "to appear"
 image_preview = ""
 math = true
@@ -13,7 +13,7 @@ title = "Anomaly Detection in Streaming Nonstationary Temporal Data"
 
 url_pdf = "https://robjhyndman.com/papers/oddstream.pdf"
 
-url_project = "project/oddstream/"
+url_project = "https://github.com/pridiltal/oddstream"
 #url_slides = "#"
 #url_video = "#"
 #[[url_custom]]
