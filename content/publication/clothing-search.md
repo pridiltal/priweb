@@ -5,21 +5,21 @@ authors = ["GA Cushen", "MS Nixon"]
 date = "2013-07-01"
 image_preview = ""
 math = true
-publication_types = ["1"]
-publication = "In *International Conference on Multimedia and Expo Workshops (ICMEW)*, IEEE."
-publication_short = "In *ICMEW*"
+publication_types = ["2"]
+publication = "In *Science of The Total Environment*" 
+#publication_short = "In *ICMEW*"
 selected = true
-title = "Mobile visual clothing search"
+title = "A framework for automated anomaly detection in high frequency water-quality data from in situ sensors"
 url_code = "#"
 url_dataset = "#"
-url_pdf = "http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf"
-url_project = "project/deep-learning/"
+url_pdf = "https://www.sciencedirect.com/science/article/pii/S0048969719305662"
+#url_project = "project/deep-learning/"
 url_slides = "#"
 url_video = "#"
 
 [[url_custom]]
 name = "Custom Link"
-url = "http://www.example.org"
+url = "https://www.sciencedirect.com/science/article/pii/S0048969719305662"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
