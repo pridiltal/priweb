@@ -24,8 +24,8 @@ weight = 1
   #year = 2012
 
 [[education.courses]]
-  course = "B.Sc(Hons) in Statistics. (Professor R A Dayanada Gold Medalist and Batch first, 2013)"
-  institution = "University of Sri Jayewardenepura, Sri Lanka"
+  course = "B.Sc(Hons) in Statistics"
+  institution = "University of Sri Jayewardenepura, Sri Lanka \newline (Professor R A Dayanada Gold Medalist and Batch first)"
   year = 2013
  
 +++
