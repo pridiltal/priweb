@@ -24,15 +24,15 @@ weight = 1
   #year = 2012
 
 [[education.courses]]
-  course = "B.Sc(Hons) in Statistics"
-  #institution = "University of Sri Jayewardenepura, Sri Lanka"
-  year = 2012
+  course = "B.Sc(Hons) in Statistics. (Professor R A Dayanada Gold Medalist and Batch first, 2013)"
+  institution = "University of Sri Jayewardenepura, Sri Lanka"
+  year = 2013
  
 +++
 
 I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data and I am working under the supervison of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). I am also interested in general data science problems. 
 
-I am passionate about R and  anything that is even slightly related to R. You can find some of my projects [here](https://prital.netlify.com/#projects).
+I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
 Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
