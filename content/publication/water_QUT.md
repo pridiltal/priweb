@@ -3,7 +3,7 @@ abstract = "Monitoring the water quality of rivers is increasingly conducted usi
 abstract_short = "High frequency water-quality data requires automated anomaly detection (AD). Rule-based methods detected all missing, out-of-range and impossible values. Regression and feature-based methods detected sudden spikes and level shifts well.
 High false negative rates were associated with other types of anomalies, e.g. drift.
 Our transferable framework selects and compares AD methods for end-user needs."
-authors = ["Catherine Leigh", "Omar Alsibai", Rob J. Hyndman", "Sevvandi Kandanaarachchi", "Olivia C. King", "James M. McGree", "Catherine Neelamraju", "Jennifer Strauss", "Priyanga Dilini Talagala", "Ryan D. R. Turner", "Kerrie Mengersen" , "Erin E. Peterson"]
+authors = ["Catherine Leigh", "Omar Alsibai", Rob J. Hyndman", "Sevvandi Kandanaarachchi", "Olivia C. King", "James M. McGree", "Catherine Neelamraju", "Jennifer Strauss", "Priyanga Dilini Talagala", "Ryan D. R. Turner", "Kerrie Mengersen", "Erin E. Peterson"]
 date = "2019-05-10"
 image_preview = ""
 math = true
