@@ -1,20 +1,24 @@
 +++
-# Publication widget.
+# Recent Publications widget.
+# This widget displays recent publications from `content/publication/`.
 
-date = "2016-04-20T00:00:00"
+date = 2016-04-20
 draft = false
 
-title = "Publications"
+title = "Recent Publications"
 subtitle = ""
 widget = "publications"
 
 # Order that this section will appear in.
-weight = 30
+weight = 20
 
-# Number of talks to list.
-count = 5
+# Number of publications to list.
+count = 10
 
-# Show talk details (such as abstract)? (true/false)
-detailed_list = false
+# List format.
+#   0 = Simple
+#   1 = Classic
+#   2 = Detailed
+list_format = 0
 
 +++
