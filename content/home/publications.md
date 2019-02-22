@@ -20,4 +20,5 @@ count = 10
 #   1 = Classic
 #   2 = Detailed
 list_format = 0
+
 +++
