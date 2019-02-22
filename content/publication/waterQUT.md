@@ -6,7 +6,7 @@ date = "2019-05-10"
 
 image_preview = ""
 math = true
-publication_types = ["3"]
+publication_types = ["2"]
 publication = "In *Science of The Total Environment*" 
 #publication_short = "In *ICMEW*"
 selected = true

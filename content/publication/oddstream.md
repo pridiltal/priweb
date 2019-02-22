@@ -6,7 +6,7 @@ date = "2019"
 
 image_preview = ""
 math = true
-publication_types = ["3"]
+publication_types = ["2"]
 publication = "In *Journal of Computational and Graphical Statistics* (to appear)" 
 publication_short = "In *JCGS*"
 selected = true
