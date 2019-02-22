@@ -30,11 +30,11 @@ weight = 1
  
 +++
 
-I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data and I am working under the supervison of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). I am also interested in general data science problems. I am also a member of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala).
+I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data and I am working under the supervison of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). I am also a member of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala).
 
 
 
-I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects).
+I am also interested in general data science problems. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
 Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
