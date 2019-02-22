@@ -9,7 +9,7 @@ math = true
 publication_types = ["3"]
 publication = "In *Science of The Total Environment*" 
 #publication_short = "In *ICMEW*"
-selected = false
+selected = true
 title = "A framework for automated anomaly detection in high frequency water-quality data from in situ sensors"
 
 url_pdf = "https://www.sciencedirect.com/science/article/pii/S0048969719305662"
