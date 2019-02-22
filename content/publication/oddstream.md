@@ -16,7 +16,7 @@ url_pdf = "https://robjhyndman.com/papers/oddstream.pdf"
 url_project = "https://github.com/pridiltal/oddstream"
 #url_slides = "#"
 #url_video = "#"
-#[[url_custom]]
+[[url_custom]]
 name = "Custom Link"
 url = "https://github.com/pridiltal/oddstream"
 
