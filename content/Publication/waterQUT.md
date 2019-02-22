@@ -26,7 +26,7 @@ url = "http://www.example.org"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-#image = "headers/bubbles-wide.jpg"
-#caption = "My caption :smile:"
+image = "headers/waterQUT.jpg"
+caption = "The ten-step Anomaly Detection (AD) framework for high frequency water-quality data, which includes ranking the importance of different anomaly types (e.g. sudden spikes A, sudden shifts D, anomalously high variation type E), based on end-user needs and data characteristics, to inform algorithm choice, implementation and performance evaluation. Framework numbers indicate the order of steps taken. Arrows indicate directions of influence between steps."
 
 +++
