@@ -1,15 +1,20 @@
----
-active: true
-count: 10
-exclude_featured: false
-publication_type: "-1"
-subtitle: ""
-title: Recent Publications
-view: 2
-weight: 20
-widget: publications
----
++++
+# Publication widget.
 
-{{% alert note %}}
-Quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
+date = "2016-04-20T00:00:00"
+draft = false
+
+title = "Publications"
+subtitle = ""
+widget = "publications"
+
+# Order that this section will appear in.
+weight = 30
+
+# Number of talks to list.
+count = 5
+
+# Show talk details (such as abstract)? (true/false)
+detailed_list = false
+
++++
