@@ -175,13 +175,13 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 5
+  weight = 3
   
   
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 3
+  weight = 5
   
 
 
