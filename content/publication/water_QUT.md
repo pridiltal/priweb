@@ -3,6 +3,7 @@ abstract = "Monitoring the water quality of rivers is increasingly conducted usi
 abstract_short = "A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone's GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on."
 authors = ["Catherine Leigh", "Omar Alsibai", Rob J. Hyndman", "Sevvandi Kandanaarachchi", "Olivia C. King", "James M. McGree", "Catherine Neelamraju", "Jennifer Strauss", "Priyanga Dilini Talagala", "Ryan D. R. Turner", "Kerrie Mengersen", "Erin E. Peterson"]
 date = "2019-05-10"
+
 image_preview = ""
 math = true
 publication_types = ["3"]
