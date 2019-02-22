@@ -18,7 +18,7 @@ url_project = "https://github.com/pridiltal/oddstream"
 #url_video = "#"
 #[[url_custom]]
 name = "Custom Link"
-url = "https://github.com/pridiltal/oddstream2"
+url = "https://github.com/pridiltal/oddstream"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
