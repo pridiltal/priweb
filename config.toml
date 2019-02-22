@@ -173,10 +173,11 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 3
   
-#[[menu.main]]
-#  name = "Publications"
-#  url = "#publications"
-#  weight = 4
+
+[[menu.main]]
+  name = "Publications"
+  url = "#publications_selected"
+ weight = 4
   
   
   
