@@ -25,7 +25,7 @@ weight = 1
 
 [[education.courses]]
   course = "B.Sc(Hons) in Statistics"
-  institution = "University of Sri Jayewardenepura, Sri Lanka  (Professor R A Dayanada Gold Medalist and Batch first)"
+  institution = "University of Sri Jayewardenepura, Sri Lanka  (Batch first and Professor R A Dayananda Gold Medalist)"
   year = 2013
  
 +++
