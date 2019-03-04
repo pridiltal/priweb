@@ -24,7 +24,7 @@ weight = 1
   #year = 2012
 
 [[education.courses]]
-  course = "B.Sc(Hons) in Statistics"
+  course = "BSc (Hons) Special Degree in Statistics"
   institution = "University of Sri Jayewardenepura, Sri Lanka  (Batch first and Professor R A Dayananda Gold Medalist)"
   year = 2013
  
@@ -38,7 +38,7 @@ I am also interested in general data science problems. I am passionate about R. 
 
 Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
-Outside of work, I love travelling, photography and painting.
+Outside of work, I love travelling, photography and painting. 
 My sister [Thiyanga Talagala](https://thiyanga.netlify.com/) is also a PhD candidate at Monash University, Australia.
 
 
