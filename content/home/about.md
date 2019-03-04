@@ -39,7 +39,7 @@ I am also interested in general data science problems. I am passionate about R. 
 Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
 Outside of work, I love travelling, photography and painting.
-My sister [Thiyanga Talagala](https://thiyanga.netlify.com/) is also a PhD candidate at Monash University, Australia 
+My sister [Thiyanga Talagala](https://thiyanga.netlify.com/) is also a PhD candidate at Monash University, Australia.
 
 
 
