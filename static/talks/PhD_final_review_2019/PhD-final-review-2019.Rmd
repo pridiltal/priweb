@@ -55,7 +55,7 @@ library(animation)
 - **Project 3**: Anomaly Detection for High Dimensional and Streaming Temporal Data
 
 
-- **Project 4**:  Anomaly detection and correction in water quality sensors
+- **Project 4**:  Anomaly Detection and Correction in Water Quality Sensors
 
 
 
@@ -66,14 +66,13 @@ library(animation)
 - <span style="color:lightgrey">**Project 1**: Anomaly Detection in R </span>
 
 
-- **Project 2**: Anomaly detection in streaming nonstationary temporal data 
+- **Project 2**: Anomaly Detection in Streaming Non-Stationary Temporal Data 
 
 
 - **Project 3**: Anomaly Detection for High Dimensional and Streaming Temporal Data
 
 
-- **Project 4**:  Anomaly detection and correction in water quality sensors
-
+- **Project 4**:  Anomaly Detection and Correction in Water Quality Sensors
 
 
 ---
@@ -82,7 +81,7 @@ library(animation)
 class:  center, middle, inverse
 
 
-# <span style="color:#cc5900"> **Project 2**:  </span>  
+# <span style="color:#cc5900"> **Project 2**  </span>  
 ## Anomaly detection in streaming non-stationary temporal data 
 
 *This article has been accepted to the* **Journal of Computational and Graphical Statistics** *and is currently in press.*
@@ -91,10 +90,19 @@ class:  center, middle, inverse
 
 ### Different types of anomalies in temporal data
 
-```{r echo=FALSE, out.width = "100%", fig.align = 'up'}
+```{r echo=FALSE, out.width = "80%"}
 knitr::include_graphics("fig/outype2.png")
 ```
 
+--
+
+-  Many R software packages supporting anomaly detection tasks 
+--
+
+-  160 R packages with anomaly detection capabilities
+--
+
+-  Only 2 packages to detect anomalous time series within a large collection of series (Case c)
 
 ---
 
@@ -106,7 +114,43 @@ class: right, top
 ## Motivation
 ---
 
-background-image:url('fig/2_sydney2.png')
+background-image:url('fig/2_sydney21.png')
+background-position: 50% 50%
+background-size: 100%
+class: right, top
+
+
+.footnote[
+Source: [https://www.computerworld.com.au/article/648145/how-2400-sensors-machine-learning-models-keep-sydney-harbour-bridge-spanning-decades/?pp=2](https://www.computerworld.com.au/article/648145/how-2400-sensors-machine-learning-models-keep-sydney-harbour-bridge-spanning-decades/?pp=2) 
+]
+
+---
+
+background-image:url('fig/2_sydney22.png')
+background-position: 50% 50%
+background-size: 100%
+class: right, top
+
+
+.footnote[
+Source: [https://www.computerworld.com.au/article/648145/how-2400-sensors-machine-learning-models-keep-sydney-harbour-bridge-spanning-decades/?pp=2](https://www.computerworld.com.au/article/648145/how-2400-sensors-machine-learning-models-keep-sydney-harbour-bridge-spanning-decades/?pp=2) 
+]
+
+---
+
+background-image:url('fig/2_sydney23.png')
+background-position: 50% 50%
+background-size: 100%
+class: right, top
+
+
+.footnote[
+Source: [https://www.computerworld.com.au/article/648145/how-2400-sensors-machine-learning-models-keep-sydney-harbour-bridge-spanning-decades/?pp=2](https://www.computerworld.com.au/article/648145/how-2400-sensors-machine-learning-models-keep-sydney-harbour-bridge-spanning-decades/?pp=2) 
+]
+
+---
+
+background-image:url('fig/2_sydney24.png')
 background-position: 50% 50%
 background-size: 100%
 class: right, top
@@ -427,7 +471,7 @@ Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarach
 class:  center, middle, inverse
 
 
-# <span style="color:#cc5900"> Project 3:  </span>  
+# <span style="color:#cc5900"> Project 3  </span>  
 ## Anomaly detection for high dimensional and streaming temporal data
 
 ---
@@ -545,7 +589,7 @@ knitr::include_graphics("fig/P2_plot21b.png")
 ```
 
 - Definition: density
-- need a trining set
+- need a training set
 ]
 
 
@@ -555,7 +599,7 @@ knitr::include_graphics("fig/P2_plot21b.png")
 class:  center, middle, inverse
 
 
-# <span style="color:#cc5900"> Project 4 :  </span>  
+# <span style="color:#cc5900"> Project 4   </span>  
 ## Anomaly detection and correction in water quality sensors
 
 The work is based on the collaborative research project carried out with the Queensland
