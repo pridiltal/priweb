@@ -544,6 +544,25 @@ knitr::include_graphics("fig/P2_plot10.png")
 ```
 
 ---
+
+
+class: middle, center
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/P2_plot19.png")
+```
+
+
+---
+
+class: middle, center
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/P2_plot20.png")
+```
+
+---
+
 ### Identify anomalous series within a large collection of time series
 
 - use a moving window to deal with streaming data
@@ -592,24 +611,6 @@ knitr::include_graphics("fig/stray.gif")
 
 - Outlier threshold has a probabilistic interpretation
 
-
----
-
-
-class: middle, center
-
-```{r   echo=FALSE, out.width = "100%"}
-knitr::include_graphics("fig/P2_plot19.png")
-```
-
-
----
-
-class: middle, center
-
-```{r   echo=FALSE, out.width = "100%"}
-knitr::include_graphics("fig/P2_plot20.png")
-```
 
 ---
 
