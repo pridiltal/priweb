@@ -840,6 +840,15 @@ knitr::include_graphics("fig/progress.png")
 ```
 
 ---
+
+### Plan for Completion
+
+
+```{r   echo=FALSE, out.width = "80%"}
+knitr::include_graphics("fig/timeline.png")
+```
+
+---
 background-image:url('fig/thank.png')
 background-position: 50% 50%
 background-size: 100%
