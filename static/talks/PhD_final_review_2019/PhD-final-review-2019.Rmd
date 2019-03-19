@@ -646,7 +646,7 @@ class:  center, middle, inverse
 
 
 # <span style="color:#cc5900"> Project 4   </span>  
-## Anomaly Detection and correction in Water Quality Sensors
+## Anomaly Detection and Correction in Water Quality Sensors
 
 The work is based on the collaborative research project carried out with the Queensland
 University of Technology and the Queensland Department of Environment and Science,
@@ -658,7 +658,7 @@ background-position: 50% 5.0%
 class: center, top
 
 
-## Anomaly detection and correction in water quality sensors 
+## Anomaly Detection and Correction in Water Quality Sensors 
 
 
 ---
@@ -838,6 +838,13 @@ knitr::include_graphics("fig/P3_future4.png")
 ```{r   echo=FALSE, out.width = "80%"}
 knitr::include_graphics("fig/progress.png")
 ```
+
+---
+background-image:url('fig/thank.png')
+background-position: 50% 50%
+background-size: 100%
+class: right, top
+
 
 ---
 class: center, middle
