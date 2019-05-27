@@ -8,11 +8,11 @@ image_preview = ""
 math = true
 publication_types = ["2"]
 publication = "In *Journal of Computational and Graphical Statistics* (to appear)" 
-publication_short = "In *JCGS (to appear)*"
+publication_short = "In *Journal of Computational and Graphical Statistics*"
 selected = true
 title = "Anomaly Detection in Streaming Nonstationary Temporal Data"
 
-url_pdf = "https://robjhyndman.com/papers/oddstream.pdf"
+url_pdf = "https://www.tandfonline.com/doi/abs/10.1080/10618600.2019.1617160"
 
 url_project = "https://github.com/pridiltal/oddstream"
 #url_slides = "#"
