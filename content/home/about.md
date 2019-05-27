@@ -34,7 +34,7 @@ I'm a PhD candidate at Monash University, Australia, Department of Econometrics 
 
 
 
-I am also interested in general data science problems. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects).
+I am interested in general data science problems. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects).
 
 Apart from  research, I like to explore science in nature. Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
