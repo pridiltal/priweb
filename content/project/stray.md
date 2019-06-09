@@ -12,7 +12,6 @@ summary = "stray {STReam AnomalY} : Robust Anomaly Detection in Data Streams wit
 image_preview = "straylogo.png"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["anomaly-detection"]
 
 # Optional external URL for project (replaces project detail page).
