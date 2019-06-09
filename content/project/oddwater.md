@@ -12,7 +12,6 @@ summary = "oddwater: Outlier Detection in Data from WATER-quality sensors"
 image_preview = "oddwaterlogo.png"
 
 # Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["anomaly-detection"]
 
 # Optional external URL for project (replaces project detail page).
