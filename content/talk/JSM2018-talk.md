@@ -3,9 +3,9 @@ date = "2018-07-31"
 title = "Outlier Detection in Non-Stationary Data Streams"
 abstract = ""
 abstract_short = ""
-event = "2018 Joint Statistical Meetings - American Statistical Association"
+event = "2018 Joint Statistical Meetings - American Statistical Association, Vancouver, Canada"
 event_url = "http://ww2.amstat.org/meetings/jsm/2018/"
-location = "Vancouver Convention Centre, Vancouver, British Columbia, Canada"
+location = "Vancouver Convention Centre, Vancouver, British Columbia, Canada."
   
   
 selected = false

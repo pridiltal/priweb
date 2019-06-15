@@ -5,7 +5,7 @@ abstract = ""
 abstract_short = ""
 event = "useR! 2018, Brisbane , Australia"
 event_url = "https://forecasters.org/events/symposium-on-forecasting/"
-location = "Brisbane Convention ad Exhibition Centre, Brisbane, Australia"
+location = "Brisbane Convention ad Exhibition Centre, Brisbane, Australia."
 
 
 selected = false
