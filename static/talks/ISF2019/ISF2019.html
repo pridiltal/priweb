@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>A feature-based framework for detecting technical outliers in water-quality data</title>
+    <meta charset="utf-8" />
+    <meta name="author" content=" Priyanga Dilini Talagala   with  Rob J. Hyndman   Leigh Catherine   Kerrie Mengersen   Kate Smith-Miles" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="MonashBS.css" type="text/css" />
+    <link rel="stylesheet" href="MonashBS-font.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# A feature-based framework for detecting technical outliers in water-quality data
+### <br/>Priyanga Dilini Talagala <br/> with<br/> Rob J. Hyndman <br/> Leigh Catherine <br/> Kerrie Mengersen <br/> Kate Smith-Miles
+### <br/> <br/>18.06.2019
+
+---
+
+
+
+
+class: clear
+
+The work is based on the collaborative research project carried out with the **Queensland University of Technology** and the Queensland Department of Environment and Science, **Great Barrier Reef Catchment Loads Monitoring Program**.
+
+&lt;img src="fig/sensor.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Motivation
+
+- Water quality sensors are exposed to changing environments and extreme weather conditions
+--
+
+- Two types of anomalies:
+--
+
+1. Water quality breaches associated  with real events 
+--
+
+2. Technical issues in the sensor equipment (low battery power, biofouling of the probes, errors in calibration, rust, sensor maintenance activities etc.)
+
+&lt;img src="fig/sensor_issues.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# Motivation
+
+- Water quality sensors are exposed to changing environments and extreme weather conditions
+
+
+- Two types of anomalies:
+
+
+1. Water quality breaches associated  with real events &lt;/br&gt;
+2. &lt;span style="color:red"&gt; Technical issues in the sensor equipment &lt;/span&gt;  (low battery power, biofouling of the probes, errors in calibration, rust, sensor maintenance activities etc.)
+
+&lt;img src="fig/sensor_issues.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# What is an anomaly
+
+&lt;img src="fig/outtype.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# What is an anomaly
+
+- Water-quality observations that were affected by &lt;span style="color:red"&gt;technical errors &lt;/span&gt;  in the sensor equipment
+
+&lt;img src="fig/water_original.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+# What is an anomaly
+
+- Water-quality observations that were affected by &lt;span style="color:red"&gt;technical errors &lt;/span&gt;  in the sensor equipment
+
+&lt;img src="fig/water_out.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+# Why is this important?
+
+- **Data managers**: for quality control and assurance and to increase confidence in the data by reporting the presence of such anomalies; automated correction
+--
+
+- **Sensor maintenance technicians**: to ensure timely and correct calibration and maintenance of equipment
+--
+
+- **Policy and decision makers**: to limit use of incorrect data and for reporting purposes
+--
+
+- **Public**: to avoid false warning of water quality breaches
+--
+
+- **Sensor manufacturers**: to improve performance, e.g. extend battery life, improve wiper quality to further minimize biofouling
+--
+
+- **Statisticians**: for AD methods to better detect other non-trivial anomaly types and/or for methods requiring regular and frequent observations.
+
+---
+# Materials and Methods
+
+- **Study region**: two study sites in tropical northeast Australia that flow into the Great Barrier Reef lagoon (Pioneer River and Sandy Creek)
+
+&lt;img src="fig/map.png" width="45%" style="display: block; margin: auto;" /&gt;
+--
+
+- **Data**: in turbidity, conductivity and river level
+--
+
+- We compare two approaches to this problem: 
+1. using forecasting models
+2. using features with extreme value theory
+   
+---
+class:  center, middle, inverse
+
+
+#  Using forecasting models
+
+
+---
+#  Using forecasting models
+
+- Forecasting models are used to generate a prediction with an associated measure of uncertainty at the next time point
+--
+
+- Constructed a `\(100(1-\alpha)\%\)` prediction interval  for the one-step-ahead prediction
+--
+
+- If the one-step-ahead observation does not fall within the prediction interval, it is classified as an anomaly.
+--
+
+- For this comparison study we considered two strategies: 
+1. anomaly detection (AD) 
+--
+
+2. anomaly detection and mitigation (ADAM): replaces anomalous measurements with forecasts for further forecasting
+
+---
+class: clear, middle
+
+&lt;img src="fig/STOTEN.png" width="20%" style="display: block; margin: auto;" /&gt;
+
+Catherine Leigh, Omar Alsibai, Rob J Hyndman, Sevvandi Kandanaarachchi, Olivia C King, James M McGree, Catherine Neelamraju, Jennifer Strauss, Priyanga Dilini Talagala, Ryan S Turner, Kerrie Mengersen, Erin E Peterson (2019)  &lt;a href="https://www.sciencedirect.com/science/article/pii/S0048969719305662"&gt;A framework for automated anomaly detection in high frequency water-quality data from in situ sensors.&lt;/a&gt; &lt;span style="color:blue"&gt;Science of the Total Environment, 664, 885-898.&lt;/span&gt; 
+---
+# Limitations 
+
+- Semisupervised approach: requires a representative sample from the typical behaviour
+--
+
+- Influenced strongly by the training data used to build the models (Nonstationarity, concept drift)
+--
+
+- Require additional time for training for prediction and to perform optimization to estimate
+the model parameters
+--
+
+- Complex relationship between water-quality variables
+--
+
+- Irregular time series with lots of missing values (increase the frequency of measurements during high-flow events to capture greater resolution in water-quality dynamics)
+
+---
+
+class:  center, middle, inverse
+
+
+#  Using features with extreme value theory 
+
+
+---
+# Main Contributions
+
+- Proposed an unsupervised framework that provides early detection of technical outliers in water-quality data from  *in situ* sensors.
+
+&lt;img src="fig/framework.png" width="100%" style="display: block; margin: auto;" /&gt;
+--
+
+- Provided a comparative analysis of the efficacy and reliability of both density- and nearest neighbor distance-based outlier scoring techniques.
+
+
+---
+# oddwater R package
+
+- Introduced an R package, `oddwater` ( &lt;span style="color:red"&gt;O&lt;/span&gt;utlier  &lt;span style="color:red"&gt;D&lt;/span&gt;etection in  &lt;span style="color:red"&gt;D&lt;/span&gt;ata from  &lt;span style="color:red"&gt;WATER&lt;/span&gt;-quality sensors) that implements the proposed framework
+and related functions.
+
+&lt;img src="fig/oddwater_logo.png" width="25%" style="display: block; margin: auto;" /&gt;
+
+`devtools::install_github("pridiltal/oddwater")`
+--
+
+- `oddwater` package also provides a shiny app to explore data. 
+
+`oddwater::explore_data()`
+
+---
+class: clear
+**Step 1: Identify the data features that differentiate outlying instances from typical behaviours**
+
+&lt;img src="fig/water_out.png" width="100%" /&gt;
+
+---
+class: clear
+**Step 1: Identify the data features that differentiate outlying instances from typical behaviours**
+
+&lt;img src="fig/water_hd1.png" width="100%" /&gt;
+
+---
+class: clear
+**Step 2: Apply statistical transformations to make the outlying instances stand out in transformed data space**
+
+&lt;img src="fig/trans.png" width="100%" /&gt;
+
+
+---
+class: clear
+
+**Step 2: Apply statistical transformations to make the outlying instances stand out in transformed data space**
+
+&lt;img src="fig/water_hd2.png" width="100%" /&gt;
+
+---
+class: clear
+
+**step 3:  Calculate unsupervised outlier scores for the observations in  the transformed data space**
+
+&lt;img src="fig/scores.png" width="80%" style="display: block; margin: auto;" /&gt;
+--
+
+- Anomaly is an observation that deviates markedly from the majority by a large distance or low density in transformed (high dimensional) data space
+--
+
+- We considered eight unsupervised outlier scoring techniques for high dimensional
+ data, involving nearest neighbor distances or densities 
+---
+class: clear
+**step 4:  Calculate anomalous threshold**
+
+- Use extreme value theory (EVT) to calculate a separate outlier threshold for each set
+of outlier scores calculated using a given unsupervised outlier scoring technique.
+--
+
+- Let **n** be the size of the dataset
+--
+
+- Sort the resulting **n** outlier scores 
+--
+
+- Consider the half of the outlier scores  with the smallest values as typical
+--
+
+- Search for any significant large gap in the upper tail (Bottom up searching algorithm proposed by Schwarz, 2008)
+
+
+---
+# Spacing Theorem (Weissman, 1978)
+
+Let `\(X_{1}, X_{2}, ..., X_{n}\)` be a sample from a distribution function `\(F\)` . &lt;/br&gt;
+Let `\(X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}\)` be the order statistics. &lt;/br&gt;
+The available data are `\(X_{1:n}, X_{2:n},  ..., X_{k:n}\)` for some fixed `\(k\)`. &lt;/br&gt;
+Let `\(D_{i,n} = X_{i:n} - X_{i+1:n},\)` `\((i = 1,2,..., k)\)` be the spacing between successive order statistics.&lt;/br&gt;
+If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, then the spacings `\(D_{i,n}\)` are asymptotically independent and exponentially distributed with mean proportional to `\(i^{-1}\)`.
+
+&lt;img src="fig/P2_plot17.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+---
+class: clear
+
+&lt;img src="fig/one_sided_derivative_TCL_sandy.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+# Advantages of the proposed framework
+
+- Can take the correlation structure of the water-quality variables into account when
+detecting outliers
+--
+
+- Applicable to both univariate and multivariate problems
+--
+
+- Outlier scoring techniques- unsupervised
+--
+
+- Outlier thresholds have a probabilistic interpretation
+--
+
+- The framework can easily be extended to streaming data such that it can provide near-real-time support
+--
+
+- Proposed framework has the ability to deal with irregular (unevenly spaced) time series
+
+
+---
+# Thank You
+&lt;p&gt;&lt;font size=5&gt;
+1. Catherine Leigh, Omar Alsibai, Rob J Hyndman, Sevvandi Kandanaarachchi, Olivia C King, James M McGree, Catherine Neelamraju, Jennifer Strauss, Priyanga Dilini Talagala, Ryan S Turner, Kerrie Mengersen, Erin E Peterson (2019)  &lt;a href="https://www.sciencedirect.com/science/article/pii/S0048969719305662"&gt;A framework for automated anomaly detection in high frequency water-quality data from in situ sensors.&lt;/a&gt; &lt;span style="color:blue"&gt;Science of the Total Environment, 664, 885-898.&lt;/span&gt; &lt;/br&gt;&lt;/br&gt;
+
+2. Priyanga Dilini Talagala, Rob J. Hyndman, Catherine Leigh, Kerrie Mengersen, and Kate Smith-Miles. (2019) &lt;a href="https://arxiv.org/abs/1902.06351"&gt;A feature-based framework for detecting technical outliers in water-quality data from in situ sensors&lt;/a&gt;. arXiv preprint arXiv:1902.06351. 
+
+
+.pull-left[
+
+<i class="fas  fa-envelope "></i>
+dilini.talagala@monash.edu
+
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+pridiltal
+
+<i class="fas  fa-globe "></i>
+https://prital.netlify.com/ &lt;/br&gt;
+(Slides available)
+]
+.pull-right[
+
+&lt;img src="fig/oddwater_logo.png" width="30%" style="display: block; margin: auto;" /&gt;
+&lt;p&gt;&lt;font size="4"&gt;
+devtools::install_github("pridiltal/oddwater")
+&lt;/p&gt;
+]
+&lt;/p&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
