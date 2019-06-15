@@ -3,7 +3,7 @@ date = "2018-07-11"
 title = "oddstream and stray:  Anomaly Detection in Streaming Temporal Data with R"
 abstract = ""
 abstract_short = ""
-event = "useR! 2018, Brisbane , Australia"
+event = "useR! 2018, Brisbane , Australia."
 event_url = "https://forecasters.org/events/symposium-on-forecasting/"
 location = "Brisbane Convention ad Exhibition Centre, Brisbane, Australia."
 
