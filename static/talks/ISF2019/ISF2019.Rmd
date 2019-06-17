@@ -90,14 +90,14 @@ knitr::include_graphics("fig/sensor_issues.png")
 
 
 ---
-# What is an anomaly
+# What is an anomaly?
 
 ```{r  out.width = "100%", echo=FALSE}
 knitr::include_graphics("fig/outtype.png")
 ```
 
 ---
-# What is an anomaly
+# What is an anomaly?
 
 - Water-quality observations that were affected by <span style="color:red">technical errors </span>  in the sensor equipment
 
@@ -107,7 +107,7 @@ knitr::include_graphics("fig/water_original.png")
 
 
 ---
-# What is an anomaly
+# What is an anomaly?
 
 - Water-quality observations that were affected by <span style="color:red">technical errors </span>  in the sensor equipment
 
