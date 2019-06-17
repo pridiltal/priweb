@@ -46,7 +46,7 @@ library(animation)
 
 class: clear
 
-The work is based on the collaborative research project carried out with the **Queensland University of Technology** and the Queensland Department of Environment and Science, **Great Barrier Reef Catchment Loads Monitoring Program**.
+The work is based on the collaborative research project carried out with the **Queensland University of Technology** and the **Queensland Department of Environment and Science**, Great Barrier Reef Catchment Loads Monitoring Program, Australia.
 
 ```{r echo=FALSE, out.width = "100%", fig.align = 'center'}
 knitr::include_graphics("fig/sensor.png")
@@ -90,14 +90,7 @@ knitr::include_graphics("fig/sensor_issues.png")
 
 
 ---
-# What is an anomaly?
-
-```{r  out.width = "100%", echo=FALSE}
-knitr::include_graphics("fig/outtype.png")
-```
-
----
-# What is an anomaly?
+# What is an anomaly
 
 - Water-quality observations that were affected by <span style="color:red">technical errors </span>  in the sensor equipment
 
@@ -107,7 +100,7 @@ knitr::include_graphics("fig/water_original.png")
 
 
 ---
-# What is an anomaly?
+# What is an anomaly
 
 - Water-quality observations that were affected by <span style="color:red">technical errors </span>  in the sensor equipment
 
@@ -116,29 +109,9 @@ knitr::include_graphics("fig/water_out.png")
 ```
 
 ---
-# Why is this important?
-
-- **Data managers**: for quality control and assurance and to increase confidence in the data by reporting the presence of such anomalies; automated correction
---
-
-- **Sensor maintenance technicians**: to ensure timely and correct calibration and maintenance of equipment
---
-
-- **Policy and decision makers**: to limit use of incorrect data and for reporting purposes
---
-
-- **Public**: to avoid false warning of water quality breaches
---
-
-- **Sensor manufacturers**: to improve performance, e.g. extend battery life, improve wiper quality to further minimize biofouling
---
-
-- **Statisticians**: for AD methods to better detect other non-trivial anomaly types and/or for methods requiring regular and frequent observations.
-
----
 # Materials and Methods
 
-- **Study region**: two study sites in tropical northeast Australia that flow into the Great Barrier Reef lagoon (Pioneer River and Sandy Creek)
+- **Study region**: two study sites in tropical northeast Australia that flow into the Great Barrier Reef lagoon (Mackay region: Pioneer River and Sandy Creek)
 
 ```{r  out.width = "45%", echo=FALSE}
 knitr::include_graphics("fig/map.png")
@@ -391,5 +364,30 @@ devtools::install_github("pridiltal/oddwater")
 </p>
 ]
 </p>
+---
+---
+# Why is this important?
 
+- **Data managers**: for quality control and assurance and to increase confidence in the data by reporting the presence of such anomalies; automated correction
+- **Sensor maintenance technicians**: to ensure timely and correct calibration and maintenance of equipment
+- **Policy and decision makers**: to limit use of incorrect data and for reporting purposes
+- **Public**: to avoid false warning of water quality breaches
+- **Sensor manufacturers**: to improve performance, e.g. extend battery life, improve wiper quality to further minimize biofouling
+- **Statisticians**: for AD methods to better detect other non-trivial anomaly types and/or for methods requiring regular and frequent observations.
 
+---
+# What is an anomaly
+
+```{r  out.width = "100%", echo=FALSE}
+knitr::include_graphics("fig/outtype.png")
+```
+
+---
+# What next?
+
+- the set of transformations that we used for this work was **relatively limited** and influenced by the data obtained from the two
+study sites. 
+- Therefore, the set of transformations we considered  should be viewed only as an illustration of our oddwater procedure for detecting outliers
+- For the current work we selected transformation methods that could **highlight abrupt changes** in the water-quality data. We hope to expand the ability of oddwater procedure so that it can detect other outlier types not previously targeted but commonly observed in water quality data (e.g.: low/high variability, drift). 
+- We hope to extend our multivariate outlier detection framework into space and time
+so that it can deal with the **spatio-temporal correlation structure along branching rivernetworks.**
