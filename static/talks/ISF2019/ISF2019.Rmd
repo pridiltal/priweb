@@ -364,30 +364,3 @@ devtools::install_github("pridiltal/oddwater")
 </p>
 ]
 </p>
----
----
-# Why is this important?
-
-- **Data managers**: for quality control and assurance and to increase confidence in the data by reporting the presence of such anomalies; automated correction
-- **Sensor maintenance technicians**: to ensure timely and correct calibration and maintenance of equipment
-- **Policy and decision makers**: to limit use of incorrect data and for reporting purposes
-- **Public**: to avoid false warning of water quality breaches
-- **Sensor manufacturers**: to improve performance, e.g. extend battery life, improve wiper quality to further minimize biofouling
-- **Statisticians**: for AD methods to better detect other non-trivial anomaly types and/or for methods requiring regular and frequent observations.
-
----
-# What is an anomaly
-
-```{r  out.width = "100%", echo=FALSE}
-knitr::include_graphics("fig/outtype.png")
-```
-
----
-# What next?
-
-- the set of transformations that we used for this work was **relatively limited** and influenced by the data obtained from the two
-study sites. 
-- Therefore, the set of transformations we considered  should be viewed only as an illustration of our oddwater procedure for detecting outliers
-- For the current work we selected transformation methods that could **highlight abrupt changes** in the water-quality data. We hope to expand the ability of oddwater procedure so that it can detect other outlier types not previously targeted but commonly observed in water quality data (e.g.: low/high variability, drift). 
-- We hope to extend our multivariate outlier detection framework into space and time
-so that it can deal with the **spatio-temporal correlation structure along branching rivernetworks.**
