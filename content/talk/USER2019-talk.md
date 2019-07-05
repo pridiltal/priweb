@@ -5,7 +5,7 @@ abstract = ""
 abstract_short = ""
 event = "useR! 2019, Toulouse , France."
 event_url = "http://www.user2019.fr/"
-location = The congress centre ???Pierre Baudis???, Toulouse, France"
+location = "The congress centre - Pierre Baudis, Toulouse, France"
 
 
 selected = false
