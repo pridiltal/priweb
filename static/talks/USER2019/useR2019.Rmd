@@ -505,8 +505,7 @@ class: center, middle
 knitr::include_graphics("fig/packages.png")
 ```
 
-Papers available from: [https://robjhyndman.com](https://robjhyndman.com/publications/) <br/><br/>
-
+Papers available from: [https://robjhyndman.com](https://robjhyndman.com/publications/) 
 
 ```{r}
 icon::fa("envelope")
@@ -527,3 +526,4 @@ icon::fa("globe")
 https://prital.netlify.com/ </br>
 (Slides available)
 
+Slides created via xaringan: (https://github.com/pridiltal/MonashBS_xaringan)
