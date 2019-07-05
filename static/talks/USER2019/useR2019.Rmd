@@ -2,7 +2,7 @@
 title: "Anomaly Detection in R"
 subtitle: " "
 author: "<br/>Priyanga Dilini Talagala <br/> with<br/> Rob J. Hyndman  <br/> Kate Smith-Miles "
-date: "<br/> <br/>18.06.2019"
+date: "<br/> <br/>10.07.2019"
 seal: false
 bibliography: bibliography.bib
 output:
@@ -505,7 +505,7 @@ class: center, middle
 knitr::include_graphics("fig/packages.png")
 ```
 
-Papers available from: [https://robjhyndman.com/publications/](https://robjhyndman.com/publications/) <br/><br/>
+Papers available from: [https://robjhyndman.com](https://robjhyndman.com/publications/) <br/><br/>
 
 
 ```{r}
