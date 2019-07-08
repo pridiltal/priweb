@@ -53,7 +53,7 @@ library(ggrepel)
 ### Temporal data
 ]
 .pull-right[
-### High Dimensional data
+### High dimensional data
 ]
 ```{r outtype}
 ```
@@ -505,7 +505,6 @@ class: center, middle
 knitr::include_graphics("fig/packages.png")
 ```
 
-Papers available from: [https://robjhyndman.com](https://robjhyndman.com/publications/) 
 
 ```{r}
 icon::fa("envelope")
@@ -523,7 +522,7 @@ pridiltal
 
 icon::fa("globe")
 ```
-https://prital.netlify.com/ </br>
-(Slides available)
+https://prital.netlify.com </br>
+(Slides and papers available)
 
-Slides created via xaringan: (https://github.com/pridiltal/MonashBS_xaringan)
+Slides created via xaringan: (https://github.com/pridiltal/MonashEBS_xaringan)
