@@ -53,7 +53,7 @@ class: center, clear
 --
 
 - Propose an algorithm to detect anomalies in streaming temporal data.
-
+--
 
 ### What is an anomaly ?
 - We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
@@ -86,10 +86,19 @@ class: center, clear
 - Select the &lt;span style="color:red"&gt; k nearest neighbour &lt;/span&gt; distance with the &lt;span style="color:red"&gt; maximum gap &lt;/span&gt;
 --
 
-- Sort the resulting k nearest neighbour distances
+- Use extreme value theory (EVT) to calculate an anomalous threshold
 
---
-- Define an anomalous threshold using Extreme Value Theory  (Bottom up searching algorithm proposed by Schwarz, 2008)
+---
+# Spacing theorem (Weissman, 1978)
+
+Let `\(X_{1}, X_{2}, ..., X_{n}\)` be a sample from a distribution function `\(F\)` . &lt;/br&gt;
+Let `\(X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}\)` be the order statistics. &lt;/br&gt;
+The available data are `\(X_{1:n}, X_{2:n},  ..., X_{k:n}\)` for some fixed `\(k\)`. &lt;/br&gt;
+Let `\(D_{i,n} = X_{i:n} - X_{i+1:n},\)` `\((i = 1,2,..., k)\)` be the spacing between successive order statistics.&lt;/br&gt;
+If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, then the spacings `\(D_{i,n}\)` are asymptotically independent and exponentially distributed with mean proportional to `\(i^{-1}\)`.
+
+&lt;img src="fig/P2_plot17.png" width="55%" style="display: block; margin: auto;" /&gt;
+
 ---
 # stray
 &lt;img src="fig/stray_plot6.png" width="50%" style="display: block; margin: auto;" /&gt;
@@ -116,8 +125,8 @@ class: center, clear
 
 - Outlier threshold has a probabilistic interpretation
 ---
-background-image:url('fig/2_application.png')
-background-position: 70% 70%
+background-image:url('fig/sydney.jpeg')
+background-position: 70% 110%
 background-size: 100%
 class: right, top, clear
 
@@ -146,9 +155,6 @@ class: right, top, clear
 ]
 ---
 # Approach 1: Using stray
-- use a moving window to deal with streaming data
-- Extract time series features from window
-- Apply stray algorithm to identify anomalous series
 
 .pull-left[
 
@@ -158,11 +164,16 @@ class: right, top, clear
 .pull-right[
 &lt;img src="fig/stray.gif" width="50%" style="display: block; margin: auto;" /&gt;
 ]
+--
 
+- Apply stray algorithm to identify anomalous series
 `tsfeatures &lt;- oddstream::extract_tsfeatures(ts_data)` &lt;br/&gt;
 `outliers &lt;- stray::find_HDoutliers(tsfeatures, method = "knn_maxdiff", knnsearchtype = "FNN_auto")` &lt;br/&gt;
 `stray::display_HDoutliers(tsfeatures, outliers)`
+--
 
+- use a moving window to deal with streaming data
+- Extract time series features from window
 
 ---
 class:: center, clear
@@ -177,6 +188,13 @@ class:: center, clear
 ]
 
 ---
+background-image:url('fig/2_application.png')
+background-position: 70% 70%
+background-size: 100%
+class: right, top, clear
+
+### Anomalous series within a space of a collection of series
+---
 class: center, clear
 
 &lt;p&gt;&lt;font size=12&gt; &lt;span style="color:blue"&gt;oddstream &lt;/br&gt; (O&lt;/span&gt;utlier &lt;span style="color:blue"&gt;D&lt;/span&gt;etection in &lt;span style="color:blue"&gt;D&lt;/span&gt;ata  &lt;span style="color:blue"&gt;STREAM&lt;/span&gt;s)
@@ -187,6 +205,7 @@ class: center, clear
 
 `devtools::install_github("pridiltal/oddstream")` 
 
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi and Mario A Mu&lt;f1&gt;oz (2019) [Anomaly detection in streaming nonstationary temporal data](https://www.researchgate.net/publication/323694683_Anomaly_Detection_in_Streaming_Nonstationary_Temporal_Data). &lt;span style="color:blue"&gt; **Journal of Computational and Graphical Statistics, to appear.**&lt;/span&gt;
 ---
 # Dimension reduction for time series 
 
@@ -213,14 +232,14 @@ class: center, clear
 --
 
 - Draw a large number N of extremes `\((arg min_{x\in X}[f_{2}(x)])\)` from the estimated probability density function
---
+
 
 - Define a `\(\Psi\)`-transform space, using the `\(\Psi\)`-transformation defined by (Clifton et al., 2011)
 
 &lt;img src="fig/10_psitrans.png" width="50%" style="display: block; margin: auto;" /&gt;
 
 - `\(\Psi\)`-transform maps the density values back into space into which a Gumbel distribution can be fitted.
---
+
 
 - Anomalous threshold calculation `\(\longrightarrow\)` extreme value theory
 
@@ -253,6 +272,12 @@ class: clear, middle, center
 - Definition: density
 - need a training set
 ]
+---
+class: clear, center, middle
+
+&lt;img src="fig/JCGS.png" width="20%" style="display: block; margin: auto;" /&gt;
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi and Mario A Mu&lt;f1&gt;oz (2019) [Anomaly detection in streaming nonstationary temporal data](https://www.researchgate.net/publication/323694683_Anomaly_Detection_in_Streaming_Nonstationary_Temporal_Data). &lt;span style="color:blue"&gt; **Journal of Computational and Graphical Statistics**&lt;/span&gt;
 ---
 # Anomaly detection in water quality data
 
@@ -355,26 +380,6 @@ class: clear
 
 
 &lt;img src="fig/oddwater_plot.png" width="60%" style="display: block; margin: auto;" /&gt;
-
----
-# Advantages of the proposed framework
-
-- Can take the correlation structure of the water-quality variables into account when detecting outliers
---
-
-- Applicable to both univariate and multivariate problems
---
-
-- Outlier scoring techniques- unsupervised
---
-
-- Outlier thresholds have a probabilistic interpretation
---
-
-- The framework can easily be extended to streaming data such that it can provide near-real-time support
---
-
-- Proposed framework has the ability to deal with irregular (unevenly spaced) time series
 
 ---
 # What next?

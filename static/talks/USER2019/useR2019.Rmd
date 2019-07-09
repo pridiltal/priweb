@@ -84,7 +84,7 @@ knitr::include_graphics("fig/stray_logo.png")
 --
 
 - Propose an algorithm to detect anomalies in streaming temporal data.
-
+--
 
 ### What is an anomaly ?
 - We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
@@ -125,10 +125,21 @@ knitr::include_graphics("fig/stray_plot5.png")
 - Select the <span style="color:red"> k nearest neighbour </span> distance with the <span style="color:red"> maximum gap </span>
 --
 
-- Sort the resulting k nearest neighbour distances
+- Use extreme value theory (EVT) to calculate an anomalous threshold
 
---
-- Define an anomalous threshold using Extreme Value Theory  (Bottom up searching algorithm proposed by Schwarz, 2008)
+---
+# Spacing theorem (Weissman, 1978)
+
+Let $X_{1}, X_{2}, ..., X_{n}$ be a sample from a distribution function $F$ . </br>
+Let $X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}$ be the order statistics. </br>
+The available data are $X_{1:n}, X_{2:n},  ..., X_{k:n}$ for some fixed $k$. </br>
+Let $D_{i,n} = X_{i:n} - X_{i+1:n},$ $(i = 1,2,..., k)$ be the spacing between successive order statistics.</br>
+If $F$ is in the maximum domain of attraction of the Gumbel distribution, then the spacings $D_{i,n}$ are asymptotically independent and exponentially distributed with mean proportional to $i^{-1}$.
+
+```{r  echo=FALSE, out.width = "55%", fig_align = 'top'}
+knitr::include_graphics("fig/P2_plot17.png")
+```
+
 ---
 # stray
 ```{r  echo=FALSE, out.width = "50%", fig_align = 'top'}
@@ -157,8 +168,8 @@ knitr::include_graphics("fig/stray_plot6.png")
 
 - Outlier threshold has a probabilistic interpretation
 ---
-background-image:url('fig/2_application.png')
-background-position: 70% 70%
+background-image:url('fig/sydney.jpeg')
+background-position: 70% 110%
 background-size: 100%
 class: right, top, clear
 
@@ -187,9 +198,6 @@ class: right, top, clear
 ]
 ---
 # Approach 1: Using stray
-- use a moving window to deal with streaming data
-- Extract time series features from window
-- Apply stray algorithm to identify anomalous series
 
 .pull-left[
 
@@ -203,11 +211,16 @@ knitr::include_graphics("fig/P2_plot22.png")
 knitr::include_graphics("fig/stray.gif")
 ```
 ]
+--
 
+- Apply stray algorithm to identify anomalous series
 `tsfeatures <- oddstream::extract_tsfeatures(ts_data)` <br/>
 `outliers <- stray::find_HDoutliers(tsfeatures, method = "knn_maxdiff", knnsearchtype = "FNN_auto")` <br/>
 `stray::display_HDoutliers(tsfeatures, outliers)`
+--
 
+- use a moving window to deal with streaming data
+- Extract time series features from window
 
 ---
 class:: center, clear
@@ -226,6 +239,13 @@ knitr::include_graphics("fig/P2_plot21b.png")
 ]
 
 ---
+background-image:url('fig/2_application.png')
+background-position: 70% 70%
+background-size: 100%
+class: right, top, clear
+
+### Anomalous series within a space of a collection of series
+---
 class: center, clear
 
 <p><font size=12> <span style="color:blue">oddstream </br> (O</span>utlier <span style="color:blue">D</span>etection in <span style="color:blue">D</span>ata  <span style="color:blue">STREAM</span>s)
@@ -238,6 +258,7 @@ knitr::include_graphics("fig/oddstream_logo.png")
 
 `devtools::install_github("pridiltal/oddstream")` 
 
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi and Mario A Muñoz (2019) [Anomaly detection in streaming nonstationary temporal data](https://www.researchgate.net/publication/323694683_Anomaly_Detection_in_Streaming_Nonstationary_Temporal_Data). <span style="color:blue"> **Journal of Computational and Graphical Statistics, to appear.**</span>
 ---
 # Dimension reduction for time series 
 
@@ -270,7 +291,7 @@ knitr::include_graphics("fig/6_typicalfeature.png")
 --
 
 - Draw a large number N of extremes $(arg min_{x\in X}[f_{2}(x)])$ from the estimated probability density function
---
+
 
 - Define a $\Psi$-transform space, using the $\Psi$-transformation defined by (Clifton et al., 2011)
 
@@ -279,7 +300,7 @@ knitr::include_graphics("fig/10_psitrans.png")
 ```
 
 - $\Psi$-transform maps the density values back into space into which a Gumbel distribution can be fitted.
---
+
 
 - Anomalous threshold calculation $\longrightarrow$ extreme value theory
 
@@ -322,6 +343,14 @@ knitr::include_graphics("fig/P2_plot21b.png")
 - Definition: density
 - need a training set
 ]
+---
+class: clear, center, middle
+
+```{r  echo=FALSE, out.width = "20%", fig_align = 'top'}
+knitr::include_graphics("fig/JCGS.png")
+```
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi and Mario A Muñoz (2019) [Anomaly detection in streaming nonstationary temporal data](https://www.researchgate.net/publication/323694683_Anomaly_Detection_in_Streaming_Nonstationary_Temporal_Data). <span style="color:blue"> **Journal of Computational and Graphical Statistics**</span>
 ---
 # Anomaly detection in water quality data
 
@@ -446,26 +475,6 @@ class: clear
 ```{r  echo=FALSE, out.width = "60%", fig_align = 'top'}
 knitr::include_graphics("fig/oddwater_plot.png")
 ```
-
----
-# Advantages of the proposed framework
-
-- Can take the correlation structure of the water-quality variables into account when detecting outliers
---
-
-- Applicable to both univariate and multivariate problems
---
-
-- Outlier scoring techniques- unsupervised
---
-
-- Outlier thresholds have a probabilistic interpretation
---
-
-- The framework can easily be extended to streaming data such that it can provide near-real-time support
---
-
-- Proposed framework has the ability to deal with irregular (unevenly spaced) time series
 
 ---
 # What next?
