@@ -100,7 +100,7 @@ knitr::include_graphics("fig/stray_logo.png")
 ```{r  echo=FALSE, out.width = "50%", fig_align = 'top'}
 knitr::include_graphics("fig/stray_plot1.png")
 ```
--  Normalize the columns of the data. (median and IQR)
+-  Normalize the columns of the data.
 -  This prevents variables with large variances having disproportional influence on Euclidean distances.
 ---
 # Why not "nearest neighbour" distances? 
