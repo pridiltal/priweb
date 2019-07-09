@@ -123,40 +123,13 @@ knitr::include_graphics("fig/stray_plot5.png")
 
 
 - Select the <span style="color:red"> k nearest neighbour </span> distance with the <span style="color:red"> maximum gap </span>
+--
+
+- Sort the resulting k nearest neighbour distances
+
+--
+- Define an anomalous threshold using Extreme Value Theory  (Bottom up searching algorithm proposed by Schwarz, 2008)
 ---
-# Calculate anomalous threshold
-
-- Use extreme value theory (EVT) to calculate a separate outlier threshold for each set
-of outlier scores calculated using a given unsupervised outlier scoring technique.
---
-
-- Let **n** be the size of the dataset
---
-
-- Sort the resulting **n** outlier scores 
---
-
-- Consider the half of the outlier scores  with the smallest values as typical
---
-
-- Search for any significant large gap in the upper tail (Bottom up searching algorithm proposed by Schwarz, 2008)
-
-
----
-# Spacing theorem (Weissman, 1978)
-
-Let $X_{1}, X_{2}, ..., X_{n}$ be a sample from a distribution function $F$ . </br>
-Let $X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}$ be the order statistics. </br>
-The available data are $X_{1:n}, X_{2:n},  ..., X_{k:n}$ for some fixed $k$. </br>
-Let $D_{i,n} = X_{i:n} - X_{i+1:n},$ $(i = 1,2,..., k)$ be the spacing between successive order statistics.</br>
-If $F$ is in the maximum domain of attraction of the Gumbel distribution, then the spacings $D_{i,n}$ are asymptotically independent and exponentially distributed with mean proportional to $i^{-1}$.
-
-```{r  echo=FALSE, out.width = "55%", fig_align = 'top'}
-knitr::include_graphics("fig/P2_plot17.png")
-```
-
----
-
 # stray
 ```{r  echo=FALSE, out.width = "50%", fig_align = 'top'}
 knitr::include_graphics("fig/stray_plot6.png")
@@ -173,7 +146,7 @@ knitr::include_graphics("fig/stray_plot6.png")
 - Applied to both uni- and multi- dimensional data
 --
 
-- Handle large datasets due to the use of a one-pass algorithm
+- Handle large datasets due to the use of fast approximate nearest neighbour search algorithms
 --
 
 - Does not require a training set to build the decision model
