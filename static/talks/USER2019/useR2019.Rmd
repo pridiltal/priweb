@@ -103,12 +103,18 @@ knitr::include_graphics("fig/stray_plot1.png")
 -  Normalize the columns of the data.
 -  This prevents variables with large variances having disproportional influence on Euclidean distances.
 ---
+# stray 
+```{r  echo=FALSE, out.width = "50%", fig_align = 'top'}
+knitr::include_graphics("fig/stray_plot2b.png")
+```
+
+- Calculate the nearest neighbour distance 
+---
 # Why not "nearest neighbour" distances? 
 ```{r  echo=FALSE, out.width = "50%", fig_align = 'top'}
 knitr::include_graphics("fig/stray_plot2.png")
 ```
 
-- Calculate the nearest neighbour distance 
 ---
 # stray
 ```{r  echo=FALSE, out.width = "50%", fig_align = 'top'}
