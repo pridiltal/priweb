@@ -57,11 +57,6 @@ class: center, clear
 
 ### What is an anomaly ?
 - We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
---
-
-
-### Main assumptions
-- There is a large distance between typical data and the anomalies in comparison to the distance among typical data.
 
 ---
 # stray
@@ -105,25 +100,6 @@ If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, th
 `devtools::install_github("pridiltal/stray")` &lt;br/&gt;
 `outliers &lt;- find_HDoutliers(data, method = "knn_maxdiff", knnsearchtype = "FNN_auto")` &lt;br/&gt;
 `display_HDoutliers(data, outliers)`
----
-# Advantages of the proposed algorithm
-
-- Detect clusters of outlying points
---
-
-- Applied to both uni- and multi- dimensional data
---
-
-- Handle large datasets due to the use of fast approximate nearest neighbour search algorithms
---
-
-- Does not require a training set to build the decision model
---
-
-- Deal with multimodal typical classes
---
-
-- Outlier threshold has a probabilistic interpretation
 ---
 background-image:url('fig/sydney.jpeg')
 background-position: 70% 110%
@@ -408,6 +384,18 @@ https://prital.netlify.com &lt;/br&gt;
 (Slides and papers available)
 
 Slides created via xaringan: (https://github.com/pridiltal/MonashEBS_xaringan)
+---
+---
+
+# Advantages of the stray algorithm
+
+- Detect clusters of outlying points
+- Applied to both uni- and multi- dimensional data
+- Handle large datasets due to the use of fast approximate nearest neighbour search algorithms
+- Does not require a training set to build the decision model
+- Deal with multimodal typical classes
+- Outlier threshold has a probabilistic interpretation
+---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

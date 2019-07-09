@@ -88,11 +88,6 @@ knitr::include_graphics("fig/stray_logo.png")
 
 ### What is an anomaly ?
 - We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
---
-
-
-### Main assumptions
-- There is a large distance between typical data and the anomalies in comparison to the distance among typical data.
 
 ---
 # stray
@@ -148,25 +143,6 @@ knitr::include_graphics("fig/stray_plot6.png")
 `devtools::install_github("pridiltal/stray")` <br/>
 `outliers <- find_HDoutliers(data, method = "knn_maxdiff", knnsearchtype = "FNN_auto")` <br/>
 `display_HDoutliers(data, outliers)`
----
-# Advantages of the proposed algorithm
-
-- Detect clusters of outlying points
---
-
-- Applied to both uni- and multi- dimensional data
---
-
-- Handle large datasets due to the use of fast approximate nearest neighbour search algorithms
---
-
-- Does not require a training set to build the decision model
---
-
-- Deal with multimodal typical classes
---
-
-- Outlier threshold has a probabilistic interpretation
 ---
 background-image:url('fig/sydney.jpeg')
 background-position: 70% 110%
@@ -516,3 +492,15 @@ https://prital.netlify.com </br>
 (Slides and papers available)
 
 Slides created via xaringan: (https://github.com/pridiltal/MonashEBS_xaringan)
+---
+---
+
+# Advantages of the stray algorithm
+
+- Detect clusters of outlying points
+- Applied to both uni- and multi- dimensional data
+- Handle large datasets due to the use of fast approximate nearest neighbour search algorithms
+- Does not require a training set to build the decision model
+- Deal with multimodal typical classes
+- Outlier threshold has a probabilistic interpretation
+---
