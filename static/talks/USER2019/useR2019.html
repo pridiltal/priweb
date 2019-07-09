@@ -143,13 +143,13 @@ class: right, top, clear
 --
 
 - Apply stray algorithm to identify anomalous series
+
 `tsfeatures &lt;- oddstream::extract_tsfeatures(ts_data)` &lt;br/&gt;
 `outliers &lt;- stray::find_HDoutliers(tsfeatures, method = "knn_maxdiff", knnsearchtype = "FNN_auto")` &lt;br/&gt;
 `stray::display_HDoutliers(tsfeatures, outliers)`
 --
 
 - use a moving window to deal with streaming data
-- Extract time series features from window
 
 ---
 class:: center, clear
