@@ -523,4 +523,16 @@ knitr::include_graphics("fig/22_conceptdrift_pval.png")
 knitr::include_graphics("fig/23_sudden_out.png")
 ```
 
+---
+# Fast k-nearest neighbor searching algorithms 
 
+- The cover tree algorithm
+- The kd tree algorithm is implemented in the Approximate Near Neighbor (ANN) C++ library (see http://www.cs.umd.edu/~mount/ANN/). The exact nearest neighbors are searched in this package.
+
+Bentley J.L. (1975), "Multidimensional binary search trees used for associative search," Communication ACM, 18, 309-517.
+
+Arya S. and Mount D.M. (1993), "Approximate nearest neighbor searching," Proc. 4th Ann. ACM-SIAM Symposium on Discrete Algorithms (SODA'93), 271-280.
+
+Arya S., Mount D.M., Netanyahu N.S., Silverman R. and Wu A.Y. (1998), "An optimal algorithm for approximate nearest neighbor searching," Journal of the ACM, 45, 891-923.
+
+Beygelzimer A., Kakade S. and Langford J. (2006), "Cover trees for nearest neighbor," ACM Proc. 23rd international conference on Machine learning, 148, 97-104.
