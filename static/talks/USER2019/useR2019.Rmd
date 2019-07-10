@@ -463,5 +463,68 @@ class: right, top, clear
 ### What is an anomaly ?
 - We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
 
+---
+#### Anomaly detection with non-stationarity
+
+```{r  echo=FALSE, out.width = "70%", fig_align = 'top'}
+knitr::include_graphics("fig/19_nonstationaritytypes.png")
+```
+
+---
+### Anomaly detection with non-stationarity
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot2.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD1.png")
+```
+
+---
+### Anomaly detection with non-stationarity
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot3.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD2.png")
+```
+
+---
+
+### Anomaly detection with non-stationarity
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot4.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD3.png")
+```
+
+---
+### Anomaly detection with non-stationarity
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot2.png")
+```
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/22_conceptdrift_pval.png")
+```
+
+- $H_{0} : f_{t_{0}} = f_{t_{t}}$
+
+
+- squared discrepancy measure $T = \int[f_{t_{0}}(x) - f_{t_{t}}(x)]^{2}dx$ (Anderson et al., 1994)
+
+---
+### Anomaly detection with non-stationarity
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/23_sudden_out.png")
+```
 
 
