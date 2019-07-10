@@ -84,17 +84,6 @@ class: center, clear
 - Use extreme value theory (EVT) to calculate an anomalous threshold
 
 ---
-# Spacing theorem (Weissman, 1978)
-
-Let `\(X_{1}, X_{2}, ..., X_{n}\)` be a sample from a distribution function `\(F\)` . &lt;/br&gt;
-Let `\(X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}\)` be the order statistics. &lt;/br&gt;
-The available data are `\(X_{1:n}, X_{2:n},  ..., X_{k:n}\)` for some fixed `\(k\)`. &lt;/br&gt;
-Let `\(D_{i,n} = X_{i:n} - X_{i+1:n},\)` `\((i = 1,2,..., k)\)` be the spacing between successive order statistics.&lt;/br&gt;
-If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, then the spacings `\(D_{i,n}\)` are asymptotically independent and exponentially distributed with mean proportional to `\(i^{-1}\)`.
-
-&lt;img src="fig/P2_plot17.png" width="55%" style="display: block; margin: auto;" /&gt;
-
----
 # stray
 &lt;img src="fig/stray_plot6.png" width="50%" style="display: block; margin: auto;" /&gt;
 `devtools::install_github("pridiltal/stray")` &lt;br/&gt;
@@ -385,6 +374,17 @@ https://prital.netlify.com &lt;/br&gt;
 
 Slides created via xaringan: (https://github.com/pridiltal/MonashEBS_xaringan)
 ---
+---
+# Spacing theorem (Weissman, 1978)
+
+Let `\(X_{1}, X_{2}, ..., X_{n}\)` be a sample from a distribution function `\(F\)` . &lt;/br&gt;
+Let `\(X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}\)` be the order statistics. &lt;/br&gt;
+The available data are `\(X_{1:n}, X_{2:n},  ..., X_{k:n}\)` for some fixed `\(k\)`. &lt;/br&gt;
+Let `\(D_{i,n} = X_{i:n} - X_{i+1:n},\)` `\((i = 1,2,..., k)\)` be the spacing between successive order statistics.&lt;/br&gt;
+If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, then the spacings `\(D_{i,n}\)` are asymptotically independent and exponentially distributed with mean proportional to `\(i^{-1}\)`.
+
+&lt;img src="fig/P2_plot17.png" width="55%" style="display: block; margin: auto;" /&gt;
+
 ---
 
 # Advantages of the stray algorithm

@@ -123,19 +123,6 @@ knitr::include_graphics("fig/stray_plot5.png")
 - Use extreme value theory (EVT) to calculate an anomalous threshold
 
 ---
-# Spacing theorem (Weissman, 1978)
-
-Let $X_{1}, X_{2}, ..., X_{n}$ be a sample from a distribution function $F$ . </br>
-Let $X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}$ be the order statistics. </br>
-The available data are $X_{1:n}, X_{2:n},  ..., X_{k:n}$ for some fixed $k$. </br>
-Let $D_{i,n} = X_{i:n} - X_{i+1:n},$ $(i = 1,2,..., k)$ be the spacing between successive order statistics.</br>
-If $F$ is in the maximum domain of attraction of the Gumbel distribution, then the spacings $D_{i,n}$ are asymptotically independent and exponentially distributed with mean proportional to $i^{-1}$.
-
-```{r  echo=FALSE, out.width = "55%", fig_align = 'top'}
-knitr::include_graphics("fig/P2_plot17.png")
-```
-
----
 # stray
 ```{r  echo=FALSE, out.width = "50%", fig_align = 'top'}
 knitr::include_graphics("fig/stray_plot6.png")
@@ -493,6 +480,19 @@ https://prital.netlify.com </br>
 
 Slides created via xaringan: (https://github.com/pridiltal/MonashEBS_xaringan)
 ---
+---
+# Spacing theorem (Weissman, 1978)
+
+Let $X_{1}, X_{2}, ..., X_{n}$ be a sample from a distribution function $F$ . </br>
+Let $X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}$ be the order statistics. </br>
+The available data are $X_{1:n}, X_{2:n},  ..., X_{k:n}$ for some fixed $k$. </br>
+Let $D_{i,n} = X_{i:n} - X_{i+1:n},$ $(i = 1,2,..., k)$ be the spacing between successive order statistics.</br>
+If $F$ is in the maximum domain of attraction of the Gumbel distribution, then the spacings $D_{i,n}$ are asymptotically independent and exponentially distributed with mean proportional to $i^{-1}$.
+
+```{r  echo=FALSE, out.width = "55%", fig_align = 'top'}
+knitr::include_graphics("fig/P2_plot17.png")
+```
+
 ---
 
 # Advantages of the stray algorithm
