@@ -138,7 +138,7 @@ class: right, top, clear
 `stray::display_HDoutliers(tsfeatures, outliers)`
 --
 
-- use a moving window to deal with streaming data
+- Use a moving window to deal with streaming data.
 
 ---
 class:: center, clear
@@ -210,24 +210,6 @@ class: center, top, clear
 &lt;img src="fig/17_oddstream_pcplot.gif" width="90%" style="display: block; margin: auto;" /&gt;
 ]
 ---
-class: clear, middle, center
-.pull-left[
-### stray
- 
-&lt;img src="fig/P2_plot21a.png" width="75%" style="display: block; margin: auto;" /&gt;
-
-- Definition: distance 
-- no training set 
-]
-.pull-right[
-### oddstream
-
-&lt;img src="fig/P2_plot21b.png" width="75%" style="display: block; margin: auto;" /&gt;
-
-- Definition: density
-- need a training set
-]
----
 class: clear, center, middle
 
 &lt;img src="fig/JCGS.png" width="20%" style="display: block; margin: auto;" /&gt;
@@ -258,7 +240,7 @@ Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarach
 ---
 class: center, clear
 
-&lt;p&gt;&lt;font size=12&gt; &lt;span style="color:blue"&gt; oddwater &lt;/br&gt; &lt;p&gt;&lt;font size=6&gt; (O&lt;/span&gt;utlier  &lt;span style="color:blue"&gt;D&lt;/span&gt;etection in  &lt;span style="color:blue"&gt;D&lt;/span&gt;ata from  &lt;span style="color:blue"&gt;WATER&lt;/span&gt;-quality sensors) 
+&lt;p&gt;&lt;font size=12&gt; &lt;span style="color:blue"&gt; oddwater &lt;/br&gt; &lt;p&gt;&lt;font size=6&gt; (&lt;span style="color:blue"&gt;O&lt;/span&gt;utlier  &lt;span style="color:blue"&gt;D&lt;/span&gt;etection in  &lt;span style="color:blue"&gt;D&lt;/span&gt;ata from  &lt;span style="color:blue"&gt;WATER&lt;/span&gt;-quality sensors) 
 &lt;/p&gt;
 
 &lt;img src="fig/oddwater_logo.png" width="30%" style="display: block; margin: auto;" /&gt;
@@ -343,7 +325,24 @@ If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, th
 &lt;img src="fig/P2_plot17.png" width="55%" style="display: block; margin: auto;" /&gt;
 
 ---
+class: clear, middle, center
+.pull-left[
+### stray
+ 
+&lt;img src="fig/P2_plot21a.png" width="75%" style="display: block; margin: auto;" /&gt;
 
+- Definition: distance 
+- no training set 
+]
+.pull-right[
+### oddstream
+
+&lt;img src="fig/P2_plot21b.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+- Definition: density
+- need a training set
+]
+---
 # Advantages of the stray algorithm
 
 - Detect clusters of outlying points
@@ -360,7 +359,6 @@ background-size: 100%
 class: right, top, clear
 
 ### Anomalous series within a space of a collection of series
----
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

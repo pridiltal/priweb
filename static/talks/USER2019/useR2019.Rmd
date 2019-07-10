@@ -183,7 +183,7 @@ knitr::include_graphics("fig/stray.gif")
 `stray::display_HDoutliers(tsfeatures, outliers)`
 --
 
-- use a moving window to deal with streaming data
+- Use a moving window to deal with streaming data.
 
 ---
 class:: center, clear
@@ -275,28 +275,6 @@ knitr::include_graphics("fig/17_oddstream_pcplot.gif")
 ```
 ]
 ---
-class: clear, middle, center
-.pull-left[
-### stray
- 
-```{r   echo=FALSE, out.width = "75%"}
-knitr::include_graphics("fig/P2_plot21a.png")
-```
-
-- Definition: distance 
-- no training set 
-]
-.pull-right[
-### oddstream
-
-```{r   echo=FALSE, out.width = "75%"}
-knitr::include_graphics("fig/P2_plot21b.png")
-```
-
-- Definition: density
-- need a training set
-]
----
 class: clear, center, middle
 
 ```{r  echo=FALSE, out.width = "20%", fig_align = 'top'}
@@ -335,7 +313,7 @@ knitr::include_graphics("fig/water_out.png")
 ---
 class: center, clear
 
-<p><font size=12> <span style="color:blue"> oddwater </br> <p><font size=6> (O</span>utlier  <span style="color:blue">D</span>etection in  <span style="color:blue">D</span>ata from  <span style="color:blue">WATER</span>-quality sensors) 
+<p><font size=12> <span style="color:blue"> oddwater </br> <p><font size=6> (<span style="color:blue">O</span>utlier  <span style="color:blue">D</span>etection in  <span style="color:blue">D</span>ata from  <span style="color:blue">WATER</span>-quality sensors) 
 </p>
 
 ```{r  out.width = "30%", echo=FALSE}
@@ -447,7 +425,28 @@ knitr::include_graphics("fig/P2_plot17.png")
 ```
 
 ---
+class: clear, middle, center
+.pull-left[
+### stray
+ 
+```{r   echo=FALSE, out.width = "75%"}
+knitr::include_graphics("fig/P2_plot21a.png")
+```
 
+- Definition: distance 
+- no training set 
+]
+.pull-right[
+### oddstream
+
+```{r   echo=FALSE, out.width = "75%"}
+knitr::include_graphics("fig/P2_plot21b.png")
+```
+
+- Definition: density
+- need a training set
+]
+---
 # Advantages of the stray algorithm
 
 - Detect clusters of outlying points
@@ -464,4 +463,5 @@ background-size: 100%
 class: right, top, clear
 
 ### Anomalous series within a space of a collection of series
----
+
+
