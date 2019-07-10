@@ -243,12 +243,9 @@ knitr::include_graphics("fig/6_typicalfeature.png")
 ---
 # Anomalous threshold calculation 
 
+- **Anomalous threshold calculation $\longrightarrow$ extreme value theory**
 - Estimate the probability density function of the 2D PC space $\longrightarrow$ Kernel density estimation
---
-
 - Draw a large number N of extremes $(arg min_{x\in X}[f_{2}(x)])$ from the estimated probability density function
-
-
 - Define a $\Psi$-transform space, using the $\Psi$-transformation defined by (Clifton et al., 2011)
 
 ```{r   echo=FALSE, out.width = "50%"}
@@ -258,7 +255,7 @@ knitr::include_graphics("fig/10_psitrans.png")
 - $\Psi$-transform maps the density values back into space into which a Gumbel distribution can be fitted.
 
 
-- Anomalous threshold calculation $\longrightarrow$ extreme value theory
+
 
 
 ---
@@ -310,50 +307,13 @@ Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarach
 ---
 # Anomaly detection in water quality data
 
-Collaborative research project carried out with the **Queensland University of Technology** and the **Queensland Department of Environment and Science**, Great Barrier Reef Catchment Loads Monitoring Program, Australia.
-
-```{r echo=FALSE, out.width = "100%", fig.align = 'center'}
-knitr::include_graphics("fig/sensor2.png")
-```
-
-
----
-# Anomaly detection in water quality data
-
-- Water quality sensors are exposed to changing environments and extreme weather conditions
---
-
-- Two types of anomalies:
---
-
-1. Water quality breaches associated  with real events 
---
-
-2. Technical issues in the sensor equipment (low battery power, biofouling of the probes, errors in calibration, rust, sensor maintenance activities etc.)
+- Technical issues in the sensor equipment (low battery power, biofouling of the probes, errors in calibration, rust, sensor maintenance activities etc.) </br></br></br></br>
 
 ```{r echo=FALSE, out.width = "100%", fig.align = 'center'}
 knitr::include_graphics("fig/sensor_issues.png")
 ```
-
-
 ---
-# Anomaly detection in water quality data
 
-- Water quality sensors are exposed to changing environments and extreme weather conditions
-
-
-- Two types of anomalies:
-
-
-1. Water quality breaches associated  with real events </br>
-2. <span style="color:red"> Technical issues in the sensor equipment </span>  (low battery power, biofouling of the probes, errors in calibration, rust, sensor maintenance activities etc.)
-
-```{r echo=FALSE, out.width = "100%", fig.align = 'center'}
-knitr::include_graphics("fig/sensor_issues.png")
-```
-
-
----
 # What is an anomaly
 
 - Water-quality observations that were affected by <span style="color:red">technical errors </span>  in the sensor equipment

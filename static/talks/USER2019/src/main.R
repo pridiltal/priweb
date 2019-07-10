@@ -23,7 +23,7 @@ point <- ts2[249:326, ]
 p2 <- ggplot(ts2) +
   geom_line(aes(x = Time, y = Value), size = 0.5, alpha = 0.7) +
   geom_line(data = point, aes(x = Time, y = Value), col = "red", size = .5, alpha = 1) +
-  ggtitle("(b) Collective anomalies: Anomalous sub-sequences within a given series")+
+  ggtitle("(b) Collective anomalies")+
   theme(plot.title = element_text(size = 12))
 # Data Generation
 nobs <- 500
