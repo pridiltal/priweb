@@ -202,13 +202,6 @@ knitr::include_graphics("fig/P2_plot21b.png")
 ]
 
 ---
-background-image:url('fig/2_application.png')
-background-position: 70% 70%
-background-size: 100%
-class: right, top, clear
-
-### Anomalous series within a space of a collection of series
----
 class: center, clear
 
 <p><font size=12> <span style="color:blue">oddstream </br> (O</span>utlier <span style="color:blue">D</span>etection in <span style="color:blue">D</span>ata  <span style="color:blue">STREAM</span>s)
@@ -503,4 +496,12 @@ knitr::include_graphics("fig/P2_plot17.png")
 - Does not require a training set to build the decision model
 - Deal with multimodal typical classes
 - Outlier threshold has a probabilistic interpretation
+---
+
+background-image:url('fig/2_application.png')
+background-position: 70% 70%
+background-size: 100%
+class: right, top, clear
+
+### Anomalous series within a space of a collection of series
 ---
