@@ -12,7 +12,6 @@ selected = false
 math = true
 
 url_pdf = "https://www.tandfonline.com/doi/abs/10.1080/10618600.2019.1617160"
-url_pdf = "https://www.monash.edu/business/ebs/research/publications/ebs/wp01-2019.pdf"
 url_slides = "talks/USER2019/useR2019.html"
 # url_video = "https://www.youtube.com/watch?v=JVO7NT1zLd4&feature=youtu.be"
 
