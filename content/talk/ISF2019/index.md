@@ -21,7 +21,7 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/pridiltal
-location: TMakedonia Palace, Thessaloniki, Greece
+location: Makedonia Palace, Thessaloniki, Greece
 math: true
 projects:
 - Anomaly Detection
