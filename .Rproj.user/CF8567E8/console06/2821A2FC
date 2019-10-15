@@ -1,0 +1,10 @@
+]0;~/Documents/priweb[?1034hPriyangas-MacBook-Air:priweb priyangatalagala$ [KPriyangas-MacBook-Air:priweb priyangatalagala$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 421 bytes | 421.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   42a95a3..5ee812f  master -> master
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ [KPriyangas-MacBook-Air:priweb priyaangatalagala$ 

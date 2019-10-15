@@ -1,0 +1,1047 @@
+
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-63_81bab03c5c76593076e9aabcd41158d9.RData
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-63_81bab03c5c76593076e9aabcd41158d9.rdb
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-63_81bab03c5c76593076e9aabcd41158d9.rdx
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-64_343ce74f0f57486eb9f39a7c29763625.RData
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-64_343ce74f0f57486eb9f39a7c29763625.rdb
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-64_343ce74f0f57486eb9f39a7c29763625.rdx
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-6_211803b893964a90697162dc62332a60.RData
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-6_211803b893964a90697162dc62332a60.rdb
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-6_211803b893964a90697162dc62332a60.rdx
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-7_c76983bfdcaef0658738ac28495fa53b.RData
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-7_c76983bfdcaef0658738ac28495fa53b.rdb
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-7_c76983bfdcaef0658738ac28495fa53b.rdx
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-8_82475157e5147815b1200270fd9b520d.RData
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-8_82475157e5147815b1200270fd9b520d.rdb
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-8_82475157e5147815b1200270fd9b520d.rdx
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-9_217b87f68bd2a9161dbf1509d67d6a81.RData
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-9_217b87f68bd2a9161dbf1509d67d6a81.rdb
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/cache/unnamed-chunk-9_217b87f68bd2a9161dbf1509d67d6a81.rdx
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/anomalous_stream_1.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/cd_sim7_pval_wonorm_padjust.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/out_real1_wcd_padjust.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/out_simulate_7.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/simulate_10.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/simulate_11.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/simulate_14.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/simulate_7.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/data/true_sim7.rda
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/default.css
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/.DS_Store
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/10_psitrans.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/11_psi_trans.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/12_logo1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/12_logo3.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/13_logo2.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/14_oddstream_typical.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/15_typicalfeatures.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/16_oddstream_out_loc.gif
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/17_oddstream_pcplot.gif
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/18_oddstream_mvtsplot.gif
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/19_nonstationaritytypes.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/1_climb.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/1_stream.gif
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/20_sudden plot1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/20_suddenplot2.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/20_suddenplot3.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/20_suddenplot4.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/21_noCD.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/21_noCD1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/21_noCD2.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/21_noCD3.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/22_conceptdrift_pval.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/23_sudden_out.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/2_application.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/2_batch.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/3_batch.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/4_typical.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/5_high_typical.gif
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/6_typicalfeature.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/7_EVD1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/7_EVD2.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/8_maxima1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/8_maxima2.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/9_threshold1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/P2_plot13.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/P2_plot14.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/P2_plot15.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/P2_plot16.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/P2_plot17.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/P2_plot21a.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/P2_plot21b.png
+ delete mode 100755 static/talks/ACEMS2018/ACEMS2018/fig/example3a.png
+ delete mode 100755 static/talks/ACEMS2018/ACEMS2018/fig/example3b.png
+ delete mode 100755 static/talks/ACEMS2018/ACEMS2018/fig/example3c.png
+ delete mode 100755 static/talks/ACEMS2018/ACEMS2018/fig/example4a.png
+ delete mode 100755 static/talks/ACEMS2018/ACEMS2018/fig/example4b.png
+ delete mode 100755 static/talks/ACEMS2018/ACEMS2018/fig/example4c.png
+ delete mode 100755 static/talks/ACEMS2018/ACEMS2018/fig/example5a.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/extremedef.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/future_PCA1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/future_point_pattern.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/monashlogo.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/oddstream1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/realanalysis.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/stray.gif
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/timeplan.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/title.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/title1.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/fig/tsfeatures.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/figure/1_batch.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/figure/load-1.pdf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/figure/mvtsplot-1.pdf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/figure/mvtsplot1-1.pdf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/gif pppp/1_stream.gif
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/css/fontawesome-all.css
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/css/fontawesome-all.min.css
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_animated.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_bordered-pulled.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_core.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_fixed-width.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_icons.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_larger.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_list.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_mixins.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_rotated-flipped.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_screen-reader.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_stacked.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/_variables.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/fa-brands.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/fa-regular.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/fa-solid.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/less/fontawesome.less
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_animated.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_bordered-pulled.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_core.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_fixed-width.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_icons.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_larger.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_list.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_mixins.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_rotated-flipped.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_screen-reader.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_stacked.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/_variables.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/fa-brands.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/fa-regular.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/fa-solid.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/scss/fontawesome.scss
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-brands-400.eot
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-brands-400.svg
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-brands-400.ttf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-brands-400.woff
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-brands-400.woff2
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-regular-400.eot
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-regular-400.svg
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-regular-400.ttf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-regular-400.woff
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-regular-400.woff2
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-solid-900.eot
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-solid-900.svg
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-solid-900.ttf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-solid-900.woff
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/font-awesome/webfonts/fa-solid-900.woff2
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/libs/remark-css/default.css
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/myremark.css
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/Frauscher_Tracking_Solutions_FTS.jpg
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/KV_Tracking-858x400.jpg
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/distributed tempereture sensing.jpg
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/fiber-optics (1).pdf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/fiber-optics.pdf
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/gas leakages.png
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/links to images.txt
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/sources/stagesensor.jpg
+ delete mode 100644 static/talks/ACEMS2018/ACEMS2018/src/main.R
+ delete mode 100644 static/talks/DESmeeting2018/.DS_Store
+ delete mode 100644 static/talks/DESmeeting2018/DESmeeting2018.Rmd
+ delete mode 100644 static/talks/DESmeeting2018/DESmeeting2018.html
+ delete mode 100644 static/talks/DESmeeting2018/data/anomalous_stream_1.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/cd_sim7_pval_wonorm_padjust.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/out_real1_wcd_padjust.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/out_simulate_7.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/simulate_10.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/simulate_11.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/simulate_14.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/simulate_7.rda
+ delete mode 100644 static/talks/DESmeeting2018/data/true_sim7.rda
+ delete mode 100644 static/talks/DESmeeting2018/default.css
+ delete mode 100644 static/talks/DESmeeting2018/fig/.DS_Store
+ delete mode 100644 static/talks/DESmeeting2018/fig/Visualise_anomaly.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/Visualise_outlier.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/Visualise_outlier_pairs_original_data.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/Visualise_outlier_pairs_trans_data.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/one_sided_derivative_TCL_sandy.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/outlier_Score.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/outlier_Score_demo.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/timegapSandy.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/trans_demo_TCL.png
+ delete mode 100644 static/talks/DESmeeting2018/fig/transform_type.png
+ delete mode 100644 static/talks/DESmeeting2018/figure/1_batch.png
+ delete mode 100644 static/talks/DESmeeting2018/figure/load-1.pdf
+ delete mode 100644 static/talks/DESmeeting2018/figure/mvtsplot-1.pdf
+ delete mode 100644 static/talks/DESmeeting2018/figure/mvtsplot1-1.pdf
+ delete mode 100644 static/talks/DESmeeting2018/figure/timegap-1.pdf
+ delete mode 100644 static/talks/DESmeeting2018/figure/timegapSandy-1.pdf
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/css/fontawesome-all.css
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/css/fontawesome-all.min.css
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_animated.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_bordered-pulled.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_core.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_fixed-width.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_icons.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_larger.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_list.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_mixins.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_rotated-flipped.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_screen-reader.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_stacked.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/_variables.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/fa-brands.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/fa-regular.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/fa-solid.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/less/fontawesome.less
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_animated.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_bordered-pulled.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_core.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_fixed-width.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_icons.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_larger.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_list.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_mixins.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_rotated-flipped.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_screen-reader.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_stacked.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/_variables.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/fa-brands.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/fa-regular.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/fa-solid.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/scss/fontawesome.scss
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-brands-400.eot
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-brands-400.svg
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-brands-400.ttf
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-brands-400.woff
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-brands-400.woff2
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-regular-400.eot
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-regular-400.svg
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-regular-400.ttf
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-regular-400.woff
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-regular-400.woff2
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-solid-900.eot
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-solid-900.svg
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-solid-900.ttf
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-solid-900.woff
+ delete mode 100644 static/talks/DESmeeting2018/libs/font-awesome/webfonts/fa-solid-900.woff2
+ delete mode 100644 static/talks/DESmeeting2018/libs/remark-css/default.css
+ delete mode 100644 static/talks/DESmeeting2018/myremark.css
+ delete mode 100644 static/talks/DESmeeting2018/sources/Frauscher_Tracking_Solutions_FTS.jpg
+ delete mode 100644 static/talks/DESmeeting2018/sources/KV_Tracking-858x400.jpg
+ delete mode 100644 static/talks/DESmeeting2018/sources/distributed tempereture sensing.jpg
+ delete mode 100644 static/talks/DESmeeting2018/sources/fiber-optics (1).pdf
+ delete mode 100644 static/talks/DESmeeting2018/sources/fiber-optics.pdf
+ delete mode 100644 static/talks/DESmeeting2018/sources/gas leakages.png
+ delete mode 100644 static/talks/DESmeeting2018/sources/links to images.txt
+ delete mode 100644 static/talks/DESmeeting2018/sources/stagesensor.jpg
+ delete mode 100644 static/talks/DESmeeting2018/src/.DS_Store
+ delete mode 100644 static/talks/DESmeeting2018/src/main.R
+]0;~/Documents/priwebua-eduroam-ten-25-143-37:priweb priyangatalagala$ git push
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  75% (9/12)   Writing objects:  83% (10/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 344.15 KiB | 24.58 MiB/s, done.
+Total 12 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   8b8bd3f..14b8a75  master -> master
+[K[Adyn-49-127-99-72:priweb priyangatalagala$ git push
+Counting objects: 136, done.
+Delta compression using up to 4 threads.
+Compressing objects:   0% (1/131)   Compressing objects:   1% (2/131)   Compressing objects:   2% (3/131)   Compressing objects:   3% (4/131)   Compressing objects:   4% (6/131)   Compressing objects:   5% (7/131)   Compressing objects:   6% (8/131)   Compressing objects:   7% (10/131)   Compressing objects:   8% (11/131)   Compressing objects:   9% (12/131)   Compressing objects:  10% (14/131)   Compressing objects:  11% (15/131)   Compressing objects:  12% (16/131)   Compressing objects:  13% (18/131)   Compressing objects:  14% (19/131)   Compressing objects:  15% (20/131)   Compressing objects:  16% (21/131)   Compressing objects:  17% (23/131)   Compressing objects:  18% (24/131)   Compressing objects:  19% (25/131)   Compressing objects:  20% (27/131)   Compressing objects:  21% (28/131)   Compressing objects:  22% (29/131)   Compressing objects:  23% (31/131)   Compressing objects:  24% (32/131)   Compressing objects:  25% (33/131)   Compressing objects:  26% (35/131)   Compressing objects:  27% (36/131)   Compressing objects:  28% (37/131)   Compressing objects:  29% (38/131)   Compressing objects:  30% (40/131)   Compressing objects:  31% (41/131)   Compressing objects:  32% (42/131)   Compressing objects:  33% (44/131)   Compressing objects:  34% (45/131)   Compressing objects:  35% (46/131)   Compressing objects:  36% (48/131)   Compressing objects:  37% (49/131)   Compressing objects:  38% (50/131)   Compressing objects:  39% (52/131)   Compressing objects:  40% (53/131)   Compressing objects:  41% (54/131)   Compressing objects:  42% (56/131)   Compressing objects:  43% (57/131)   Compressing objects:  44% (58/131)   Compressing objects:  45% (59/131)   Compressing objects:  46% (61/131)   Compressing objects:  47% (62/131)   Compressing objects:  48% (63/131)   Compressing objects:  49% (65/131)   Compressing objects:  50% (66/131)   Compressing objects:  51% (67/131)   Compressing objects:  52% (69/131)   Compressing objects:  53% (70/131)   Compressing objects:  54% (71/131)   Compressing objects:  55% (73/131)   Compressing objects:  56% (74/131)   Compressing objects:  57% (75/131)   Compressing objects:  58% (76/131)   Compressing objects:  59% (78/131)   Compressing objects:  60% (79/131)   Compressing objects:  61% (80/131)   Compressing objects:  62% (82/131)   Compressing objects:  63% (83/131)   Compressing objects:  64% (84/131)   Compressing objects:  65% (86/131)   Compressing objects:  66% (87/131)   Compressing objects:  67% (88/131)   Compressing objects:  68% (90/131)   Compressing objects:  69% (91/131)   Compressing objects:  70% (92/131)   Compressing objects:  71% (94/131)   Compressing objects:  72% (95/131)   Compressing objects:  73% (96/131)   Compressing objects:  74% (97/131)   Compressing objects:  75% (99/131)   Compressing objects:  76% (100/131)   Compressing objects:  77% (101/131)   Compressing objects:  78% (103/131)   Compressing objects:  79% (104/131)   Compressing objects:  80% (105/131)   Compressing objects:  81% (107/131)   Compressing objects:  82% (108/131)   Compressing objects:  83% (109/131)   Compressing objects:  84% (111/131)   Compressing objects:  85% (112/131)   Compressing objects:  86% (113/131)   Compressing objects:  87% (114/131)   Compressing objects:  88% (116/131)   Compressing objects:  89% (117/131)   Compressing objects:  90% (118/131)   Compressing objects:  91% (120/131)   Compressing objects:  92% (121/131)   Compressing objects:  93% (122/131)   Compressing objects:  94% (124/131)   Compressing objects:  95% (125/131)   Compressing objects:  96% (126/131)   Compressing objects:  97% (128/131)   Compressing objects:  98% (129/131)   Compressing objects:  99% (130/131)   Compressing objects: 100% (131/131)   Compressing objects: 100% (131/131), done.
+Writing objects:   0% (1/136)   Writing objects:   1% (2/136)   Writing objects:   2% (3/136)   Writing objects:   3% (5/136)   Writing objects:   4% (6/136)   Writing objects:   5% (7/136)   Writing objects:   6% (9/136)   Writing objects:   7% (10/136)   Writing objects:   8% (11/136)   Writing objects:   9% (13/136)   Writing objects:  10% (14/136)   Writing objects:  11% (16/136)   Writing objects:  12% (17/136)   Writing objects:  13% (18/136)   Writing objects:  14% (20/136)   Writing objects:  15% (21/136)   Writing objects:  16% (22/136)   Writing objects:  17% (24/136)   Writing objects:  18% (25/136)   Writing objects:  20% (28/136)   Writing objects:  21% (29/136)   Writing objects:  22% (31/136)   Writing objects:  23% (32/136)   Writing objects:  24% (33/136)   Writing objects:  25% (35/136)   Writing objects:  26% (36/136)   Writing objects:  27% (37/136)   Writing objects:  28% (39/136)   Writing objects:  29% (40/136)   Writing objects:  30% (41/136)   Writing objects:  31% (43/136)   Writing objects:  32% (44/136)   Writing objects:  33% (46/136)   Writing objects:  34% (47/136)   Writing objects:  35% (48/136)   Writing objects:  36% (50/136)   Writing objects:  37% (51/136)   Writing objects:  38% (52/136)   Writing objects:  40% (55/136)   Writing objects:  41% (56/136)   Writing objects:  43% (59/136)   Writing objects:  44% (60/136)   Writing objects:  46% (63/136)   Writing objects:  47% (65/136)   Writing objects:  48% (66/136)   Writing objects:  49% (67/136)   Writing objects:  50% (68/136)   Writing objects:  52% (72/136)   Writing objects:  54% (74/136)   Writing objects:  55% (75/136)   Writing objects:  56% (77/136)   Writing objects:  57% (78/136)   Writing objects:  58% (79/136)   Writing objects:  59% (81/136)   Writing objects:  60% (82/136)   Writing objects:  61% (83/136)   Writing objects:  62% (85/136)   Writing objects:  63% (86/136)   Writing objects:  64% (88/136)   Writing objects:  65% (89/136)   Writing objects:  66% (90/136)   Writing objects:  67% (92/136)   Writing objects:  68% (93/136)   Writing objects:  69% (94/136)   Writing objects:  70% (96/136)   Writing objects:  71% (97/136)   Writing objects:  72% (98/136)   Writing objects:  72% (98/136), 1.07 MiB | 648.00 KiB/s   Writing objects:  72% (99/136), 1.07 MiB | 648.00 KiB/s   Writing objects:  73% (100/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  74% (101/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  75% (102/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  76% (104/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  77% (105/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  78% (107/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  79% (108/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  80% (109/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  81% (111/136), 4.41 MiB | 1.98 MiB/s   Writing objects:  82% (112/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  83% (113/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  84% (115/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  85% (116/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  86% (117/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  87% (119/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  88% (120/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  89% (122/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  90% (123/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  91% (124/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  92% (126/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  93% (127/136), 10.52 MiB | 3.85 MiB/s   Writing objects:  94% (128/136), 14.74 MiB | 4.29 MiB/s   Writing objects:  95% (130/136), 14.74 MiB | 4.29 MiB/s   Writing objects:  96% (131/136), 14.74 MiB | 4.29 MiB/s   Writing objects:  97% (132/136), 14.74 MiB | 4.29 MiB/s   Writing objects:  98% (134/136), 14.74 MiB | 4.29 MiB/s   Writing objects:  99% (135/136), 14.74 MiB | 4.29 MiB/s   Writing objects: 100% (136/136), 14.74 MiB | 4.29 MiB/s   Writing objects: 100% (136/136), 15.02 MiB | 4.35 MiB/s, done.
+Total 136 (delta 74), reused 10 (delta 0)
+remote: Resolving deltas:   0% (0/74)   [Kremote: Resolving deltas:   1% (1/74)   [Kremote: Resolving deltas:  16% (12/74)   [Kremote: Resolving deltas:  60% (45/74)   [Kremote: Resolving deltas:  90% (67/74)   [Kremote: Resolving deltas:  91% (68/74)   [Kremote: Resolving deltas:  93% (69/74)   [Kremote: Resolving deltas:  94% (70/74)   [Kremote: Resolving deltas:  95% (71/74)   [Kremote: Resolving deltas:  97% (72/74)   [Kremote: Resolving deltas:  98% (73/74)   [Kremote: Resolving deltas: 100% (74/74)   [Kremote: Resolving deltas: 100% (74/74), completed with 6 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   14b8a75..43c6728  master -> master
+init
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebPriyangas-MacBook-Air:priiweb priyangatalagala$ g it add .
+]0;~/Documents/priwebPriyangas-MacBook-Air:priiweb priyangatalagala$ g it commit -m "update [K[Ke fin al review"
+[master 6e64778] update final review
+ 113 files changed, 28 insertions(+), 298 deletions(-)
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-29_4129077e358c6536b934423f134bb625.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-29_4129077e358c6536b934423f134bb625.RData => unnamed-chunk-29_ea56b0382ab6663f8041a41c1d6172c3.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-29_4129077e358c6536b934423f134bb625.rdb => unnamed-chunk-29_ea56b0382ab6663f8041a41c1d6172c3.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-29_ea56b0382ab6663f8041a41c1d6172c3.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-30_6a1727988f29e29e6a508fe12cf814aa.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-30_6a1727988f29e29e6a508fe12cf814aa.RData => unnamed-chunk-30_dc03705099e30abd8589b49ceaa39ac3.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-30_6a1727988f29e29e6a508fe12cf814aa.rdb => unnamed-chunk-30_dc03705099e30abd8589b49ceaa39ac3.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-30_dc03705099e30abd8589b49ceaa39ac3.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-31_293a651792e2a58ef4023a6605c6eae7.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-31_293a651792e2a58ef4023a6605c6eae7.RData => unnamed-chunk-31_4ab6d0f1a1c657a49e9b4fae1b160440.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-31_293a651792e2a58ef4023a6605c6eae7.rdb => unnamed-chunk-31_4ab6d0f1a1c657a49e9b4fae1b160440.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-31_4ab6d0f1a1c657a49e9b4fae1b160440.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-32_390a1f696ea7dcd3ab09c8a868c4aee7.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-32_fc770609b9b2e03b91596c82d6e52991.rdb => unnamed-chunk-32_390a1f696ea7dcd3ab09c8a868c4aee7.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-32_390a1f696ea7dcd3ab09c8a868c4aee7.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-32_fc770609b9b2e03b91596c82d6e52991.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-41_31dd3ec492edf135394a37fc6df0fb1a.RData => unnamed-chunk-33_7d6d9d954af60be886a937ea43ea5c9f.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-33_de4e65edf320b5f7d0e58f05cbeef33c.rdb => unnamed-chunk-33_7d6d9d954af60be886a937ea43ea5c9f.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-33_7d6d9d954af60be886a937ea43ea5c9f.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-33_de4e65edf320b5f7d0e58f05cbeef33c.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-34_3d5b5c183c7e36399b749c48995707a5.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-34_8fc88377e48f8310223e5fba9811d2d0.rdb => unnamed-chunk-34_3d5b5c183c7e36399b749c48995707a5.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-34_3d5b5c183c7e36399b749c48995707a5.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-34_8fc88377e48f8310223e5fba9811d2d0.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-34_8fc88377e48f8310223e5fba9811d2d0.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-52_746c8f64ae8e637184f64b2c61e40865.RData => unnamed-chunk-35_0190cba3665bbcc6d7efa830d369a34c.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-35_95c37f9a66bc264d794789cd7c422158.rdb => unnamed-chunk-35_0190cba3665bbcc6d7efa830d369a34c.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-35_0190cba3665bbcc6d7efa830d369a34c.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-35_95c37f9a66bc264d794789cd7c422158.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-35_95c37f9a66bc264d794789cd7c422158.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-36_59072153a064006041b7d16ef6eef7de.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-36_59072153a064006041b7d16ef6eef7de.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-49_81efc394c133adb9e7376944035b964d.RData => unnamed-chunk-36_fb14143b05661086fc917260142778ce.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-36_59072153a064006041b7d16ef6eef7de.rdb => unnamed-chunk-36_fb14143b05661086fc917260142778ce.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-36_fb14143b05661086fc917260142778ce.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-37_012d90b904e86f7ce31bd3547c4887a3.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-37_60463c38c935c7c2ada84a5b0b898992.rdb => unnamed-chunk-37_012d90b904e86f7ce31bd3547c4887a3.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-37_012d90b904e86f7ce31bd3547c4887a3.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-37_60463c38c935c7c2ada84a5b0b898992.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-37_60463c38c935c7c2ada84a5b0b898992.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-38_6d18db0ac35e6c9dcc8dd78f68706cf6.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-38_7faff86bf5f053900f391fca7200f0c6.rdb => unnamed-chunk-38_6d18db0ac35e6c9dcc8dd78f68706cf6.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-38_6d18db0ac35e6c9dcc8dd78f68706cf6.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-38_7faff86bf5f053900f391fca7200f0c6.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-38_7faff86bf5f053900f391fca7200f0c6.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-39_1cf78f9733e2b88dcbdc536018b6afd4.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-39_c90b05c60efa12b9c8fde7615a575520.rdb => unnamed-chunk-39_1cf78f9733e2b88dcbdc536018b6afd4.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-39_1cf78f9733e2b88dcbdc536018b6afd4.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-39_c90b05c60efa12b9c8fde7615a575520.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-39_c90b05c60efa12b9c8fde7615a575520.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-40_19d63b5a0887441ee1237e2ec802dc1e.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-40_19d63b5a0887441ee1237e2ec802dc1e.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-40_447cd2f9a54828ed88657255e7068eb8.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-40_19d63b5a0887441ee1237e2ec802dc1e.rdb => unnamed-chunk-40_447cd2f9a54828ed88657255e7068eb8.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-40_447cd2f9a54828ed88657255e7068eb8.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-41_31dd3ec492edf135394a37fc6df0fb1a.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-41_f4b26c68cc454e69ddd804c3bee64ca7.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-41_31dd3ec492edf135394a37fc6df0fb1a.rdb => unnamed-chunk-41_f4b26c68cc454e69ddd804c3bee64ca7.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-41_f4b26c68cc454e69ddd804c3bee64ca7.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-42_1cd165a936b81de05849d28e6a1fd3e2.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-42_e867881ef97d98c18fda2e0d80e93dd1.rdb => unnamed-chunk-42_1cd165a936b81de05849d28e6a1fd3e2.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-42_1cd165a936b81de05849d28e6a1fd3e2.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-42_e867881ef97d98c18fda2e0d80e93dd1.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-42_e867881ef97d98c18fda2e0d80e93dd1.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-43_36a0365f5e8071e91b39b708de5ec36a.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-43_4d76ff94b26cc3233ce2981a898b697a.rdb => unnamed-chunk-43_36a0365f5e8071e91b39b708de5ec36a.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-43_36a0365f5e8071e91b39b708de5ec36a.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-43_4d76ff94b26cc3233ce2981a898b697a.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-43_4d76ff94b26cc3233ce2981a898b697a.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-44_4a7947bbed0f4b6f87806abe298002d0.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-44_d77e3d9cc10d637dfa2dbd5ee61ecd4b.rdb => unnamed-chunk-44_4a7947bbed0f4b6f87806abe298002d0.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-44_4a7947bbed0f4b6f87806abe298002d0.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-44_d77e3d9cc10d637dfa2dbd5ee61ecd4b.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-44_d77e3d9cc10d637dfa2dbd5ee61ecd4b.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-45_937212a2df49466be26231a87ce98036.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-45_d0b76d454873b1e7a33b789549becf7f.rdb => unnamed-chunk-45_937212a2df49466be26231a87ce98036.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-45_937212a2df49466be26231a87ce98036.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-45_d0b76d454873b1e7a33b789549becf7f.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-45_d0b76d454873b1e7a33b789549becf7f.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-46_4d0b55bc3f8477687d60e9663c99a7b5.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-46_4d0b55bc3f8477687d60e9663c99a7b5.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-46_fa77030ac2ebd68cabb7e311829d600e.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-46_4d0b55bc3f8477687d60e9663c99a7b5.rdb => unnamed-chunk-46_fa77030ac2ebd68cabb7e311829d600e.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-46_fa77030ac2ebd68cabb7e311829d600e.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-47_c2b8de78d586b7c2ab3922786a88640f.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-47_c2b8de78d586b7c2ab3922786a88640f.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-47_ca4a96f9e86b61f9737a52f2994eb652.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-47_c2b8de78d586b7c2ab3922786a88640f.rdb => unnamed-chunk-47_ca4a96f9e86b61f9737a52f2994eb652.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-47_ca4a96f9e86b61f9737a52f2994eb652.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-48_11b3a26501d80d73528091fe1e8e7007.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-48_11b3a26501d80d73528091fe1e8e7007.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-51_9882ef3bb9dd87615274860d33b912b2.RData => unnamed-chunk-48_e715b0acd8b1198ae1e69a090dabc8a7.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-48_11b3a26501d80d73528091fe1e8e7007.rdb => unnamed-chunk-48_e715b0acd8b1198ae1e69a090dabc8a7.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-48_e715b0acd8b1198ae1e69a090dabc8a7.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-49_81efc394c133adb9e7376944035b964d.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-50_16c1313abed8346f518e4136879e358f.RData => unnamed-chunk-49_fdfdd66f81e9d80dca5c9405f03c3a52.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-49_81efc394c133adb9e7376944035b964d.rdb => unnamed-chunk-49_fdfdd66f81e9d80dca5c9405f03c3a52.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-49_fdfdd66f81e9d80dca5c9405f03c3a52.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_06a0f41d7ea869fdbd211ed4bd41257e.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-50_16c1313abed8346f518e4136879e358f.rdb => unnamed-chunk-50_06a0f41d7ea869fdbd211ed4bd41257e.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_06a0f41d7ea869fdbd211ed4bd41257e.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_16c1313abed8346f518e4136879e358f.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-51_9882ef3bb9dd87615274860d33b912b2.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-32_fc770609b9b2e03b91596c82d6e52991.RData => unnamed-chunk-51_e608e633ebbb0d655ec90dd61f902f98.RData} (89%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-51_9882ef3bb9dd87615274860d33b912b2.rdb => unnamed-chunk-51_e608e633ebbb0d655ec90dd61f902f98.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-51_e608e633ebbb0d655ec90dd61f902f98.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-52_746c8f64ae8e637184f64b2c61e40865.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-33_de4e65edf320b5f7d0e58f05cbeef33c.RData => unnamed-chunk-52_e67477a57f38ab89d4e4ddd3e8062700.RData} (90%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-52_746c8f64ae8e637184f64b2c61e40865.rdb => unnamed-chunk-52_e67477a57f38ab89d4e4ddd3e8062700.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-52_e67477a57f38ab89d4e4ddd3e8062700.rdx
+]0;~/Documents/priwebPriyangas-MacBook-Air:priiweb priyangatalagala$ g it push
+Counting objects: 33, done.
+Delta compression using up to 4 threads.
+Compressing objects:   3% (1/33)   Compressing objects:   6% (2/33)   Compressing objects:   9% (3/33)   Compressing objects:  12% (4/33)   Compressing objects:  15% (5/33)   Compressing objects:  18% (6/33)   Compressing objects:  21% (7/33)   Compressing objects:  24% (8/33)   Compressing objects:  27% (9/33)   Compressing objects:  30% (10/33)   Compressing objects:  33% (11/33)   Compressing objects:  36% (12/33)   Compressing objects:  39% (13/33)   Compressing objects:  42% (14/33)   Compressing objects:  45% (15/33)   Compressing objects:  48% (16/33)   Compressing objects:  51% (17/33)   Compressing objects:  54% (18/33)   Compressing objects:  57% (19/33)   Compressing objects:  60% (20/33)   Compressing objects:  63% (21/33)   Compressing objects:  66% (22/33)   Compressing objects:  69% (23/33)   Compressing objects:  72% (24/33)   Compressing objects:  75% (25/33)   Compressing objects:  78% (26/33)   Compressing objects:  81% (27/33)   Compressing objects:  84% (28/33)   Compressing objects:  87% (29/33)   Compressing objects:  90% (30/33)   Compressing objects:  93% (31/33)   Compressing objects:  96% (32/33)   Compressing objects: 100% (33/33)   Compressing objects: 100% (33/33), done.
+Writing objects:   3% (1/33)   Writing objects:   6% (2/33)   Writing objects:   9% (3/33)   Writing objects:  12% (4/33)   Writing objects:  15% (5/33)   Writing objects:  18% (6/33)   Writing objects:  21% (7/33)   Writing objects:  24% (8/33)   Writing objects:  27% (9/33)   Writing objects:  39% (13/33)   Writing objects:  42% (14/33)   Writing objects:  45% (15/33)   Writing objects:  48% (16/33)   Writing objects:  51% (17/33)   Writing objects:  54% (18/33)   Writing objects:  60% (20/33)   Writing objects:  63% (21/33)   Writing objects:  66% (22/33)   Writing objects:  69% (23/33)   Writing objects:  72% (24/33)   Writing objects:  75% (25/33)   Writing objects:  78% (26/33)   Writing objects:  81% (27/33)   Writing objects:  87% (29/33)   Writing objects:  90% (30/33)   Writing objects:  93% (31/33)   Writing objects:  96% (32/33)   Writing objects: 100% (33/33)   Writing objects: 100% (33/33), 8.71 KiB | 165.00 KiB/s, done.
+Total 33 (delta 31), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/31)   [Kremote: Resolving deltas:  74% (23/31)   [Kremote: Resolving deltas:  77% (24/31)   [Kremote: Resolving deltas:  80% (25/31)   [Kremote: Resolving deltas:  83% (26/31)   [Kremote: Resolving deltas:  87% (27/31)   [Kremote: Resolving deltas:  90% (28/31)   [Kremote: Resolving deltas:  93% (29/31)   [Kremote: Resolving deltas:  96% (30/31)   [Kremote: Resolving deltas: 100% (31/31)   [Kremote: Resolving deltas: 100% (31/31), completed with 8 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   43c6728..6e64778  master -> master
+git init
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebdyn-49-127-96-251:priweb priyangatalagala$ git add . [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K.
+]0;~/Documents/priwebdyn-49-127-96-251:priweb priyangatalagala$ gt[Kit commi t -m "up[K[Kupdate final review slides"
+[master b6abbe1] update final review slides
+ 15 files changed, 108 insertions(+), 20 deletions(-)
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-1_7913c4ea1108884f4e3d8ece5a0857c9.RData
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-1_a0825ca9ce0bf84cf6b5219dacc2e001.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-1_7913c4ea1108884f4e3d8ece5a0857c9.rdb => unnamed-chunk-1_a0825ca9ce0bf84cf6b5219dacc2e001.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-1_7913c4ea1108884f4e3d8ece5a0857c9.rdx => unnamed-chunk-1_a0825ca9ce0bf84cf6b5219dacc2e001.rdx} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney21.png
+ create mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney22.png
+ create mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney23.png
+ create mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney24.png
+]0;~/Documents/priwebdyn-49-127-96-251:priweb priyangatalagala$ git push
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects:   5% (1/19)   Compressing objects:  10% (2/19)   Compressing objects:  15% (3/19)   Compressing objects:  21% (4/19)   Compressing objects:  26% (5/19)   Compressing objects:  31% (6/19)   Compressing objects:  36% (7/19)   Compressing objects:  42% (8/19)   Compressing objects:  47% (9/19)   Compressing objects:  52% (10/19)   Compressing objects:  57% (11/19)   Compressing objects:  63% (12/19)   Compressing objects:  68% (13/19)   Compressing objects:  73% (14/19)   Compressing objects:  78% (15/19)   Compressing objects:  84% (16/19)   Compressing objects:  89% (17/19)   Compressing objects:  94% (18/19)   Compressing objects: 100% (19/19)   Compressing objects: 100% (19/19), done.
+Writing objects:   5% (1/19)   Writing objects:  10% (2/19)   Writing objects:  15% (3/19)   Writing objects:  21% (4/19)   Writing objects:  26% (5/19)   Writing objects:  31% (6/19)   Writing objects:  36% (7/19)   Writing objects:  42% (8/19)   Writing objects:  47% (9/19)   Writing objects:  52% (10/19)   Writing objects:  57% (11/19)   Writing objects:  63% (12/19)   Writing objects:  68% (13/19)   Writing objects:  73% (14/19)   Writing objects:  73% (14/19), 1.07 MiB | 694.00 KiB/s   Writing objects:  89% (17/19), 1.07 MiB | 694.00 KiB/s   Writing objects:  94% (18/19), 1.07 MiB | 694.00 KiB/s   Writing objects: 100% (19/19), 1.07 MiB | 694.00 KiB/s   Writing objects: 100% (19/19), 3.20 MiB | 1.66 MiB/s, done.
+Total 19 (delta 15), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/15)   [Kremote: Resolving deltas:  20% (3/15)   [Kremote: Resolving deltas:  26% (4/15)   [Kremote: Resolving deltas:  33% (5/15)   [Kremote: Resolving deltas:  40% (6/15)   [Kremote: Resolving deltas:  46% (7/15)   [Kremote: Resolving deltas:  53% (8/15)   [Kremote: Resolving deltas:  60% (9/15)   [Kremote: Resolving deltas:  66% (10/15)   [Kremote: Resolving deltas:  73% (11/15)   [Kremote: Resolving deltas:  80% (12/15)   [Kremote: Resolving deltas:  86% (13/15)   [Kremote: Resolving deltas:  93% (14/15)   [Kremote: Resolving deltas: 100% (15/15)   [Kremote: Resolving deltas: 100% (15/15), completed with 12 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   6e64778..b6abbe1  master -> master
+[KPriyangas-MacBook-Air:priweb priyangatalagala$ git a dd .
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git r evert
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+git i nit
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git a dd .
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git c ommit -m "update final review slides"
+[master 734ac21] update final review slides
+ 69 files changed, 92 insertions(+), 6 deletions(-)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-48_e715b0acd8b1198ae1e69a090dabc8a7.RData => unnamed-chunk-36_6f30eade1e9126ab58f53692e1fac51f.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-36_fb14143b05661086fc917260142778ce.rdb => unnamed-chunk-36_6f30eade1e9126ab58f53692e1fac51f.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-36_fb14143b05661086fc917260142778ce.rdx => unnamed-chunk-36_6f30eade1e9126ab58f53692e1fac51f.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-36_fb14143b05661086fc917260142778ce.RData => unnamed-chunk-37_de8fb44f535e616d1fdc31a3e76c4770.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-37_012d90b904e86f7ce31bd3547c4887a3.rdb => unnamed-chunk-37_de8fb44f535e616d1fdc31a3e76c4770.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-37_012d90b904e86f7ce31bd3547c4887a3.rdx => unnamed-chunk-37_de8fb44f535e616d1fdc31a3e76c4770.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-49_fdfdd66f81e9d80dca5c9405f03c3a52.RData => unnamed-chunk-38_0bedd907b5f97f7a6f8ad6f54f30d1d7.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-38_6d18db0ac35e6c9dcc8dd78f68706cf6.rdb => unnamed-chunk-38_0bedd907b5f97f7a6f8ad6f54f30d1d7.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-38_6d18db0ac35e6c9dcc8dd78f68706cf6.rdx => unnamed-chunk-38_0bedd907b5f97f7a6f8ad6f54f30d1d7.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-37_012d90b904e86f7ce31bd3547c4887a3.RData => unnamed-chunk-39_71067c7362aafda0ce559ae3de43b909.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-39_1cf78f9733e2b88dcbdc536018b6afd4.rdb => unnamed-chunk-39_71067c7362aafda0ce559ae3de43b909.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-39_1cf78f9733e2b88dcbdc536018b6afd4.rdx => unnamed-chunk-39_71067c7362aafda0ce559ae3de43b909.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-38_6d18db0ac35e6c9dcc8dd78f68706cf6.RData => unnamed-chunk-40_2fd57c4f89240431ef450c57e03193ac.RData} (94%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-40_447cd2f9a54828ed88657255e7068eb8.rdb => unnamed-chunk-40_2fd57c4f89240431ef450c57e03193ac.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-40_447cd2f9a54828ed88657255e7068eb8.rdx => unnamed-chunk-40_2fd57c4f89240431ef450c57e03193ac.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-39_1cf78f9733e2b88dcbdc536018b6afd4.RData => unnamed-chunk-41_c65e78b5b6780284bd13ac3ed672bf60.RData} (93%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-41_f4b26c68cc454e69ddd804c3bee64ca7.rdb => unnamed-chunk-41_c65e78b5b6780284bd13ac3ed672bf60.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-41_f4b26c68cc454e69ddd804c3bee64ca7.rdx => unnamed-chunk-41_c65e78b5b6780284bd13ac3ed672bf60.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-41_f4b26c68cc454e69ddd804c3bee64ca7.RData => unnamed-chunk-42_78fe310b85b8d9101e6cc0a0394fd49e.RData} (94%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-42_1cd165a936b81de05849d28e6a1fd3e2.rdb => unnamed-chunk-42_78fe310b85b8d9101e6cc0a0394fd49e.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-42_1cd165a936b81de05849d28e6a1fd3e2.rdx => unnamed-chunk-42_78fe310b85b8d9101e6cc0a0394fd49e.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-42_1cd165a936b81de05849d28e6a1fd3e2.RData => unnamed-chunk-43_9e9d27cba1b69166c59c0f983b6fc5da.RData} (94%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-43_36a0365f5e8071e91b39b708de5ec36a.rdb => unnamed-chunk-43_9e9d27cba1b69166c59c0f983b6fc5da.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-43_36a0365f5e8071e91b39b708de5ec36a.rdx => unnamed-chunk-43_9e9d27cba1b69166c59c0f983b6fc5da.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-43_36a0365f5e8071e91b39b708de5ec36a.RData => unnamed-chunk-44_2db8ccaf7ca59f9fbf7ef9772d3c560f.RData} (94%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-44_4a7947bbed0f4b6f87806abe298002d0.rdb => unnamed-chunk-44_2db8ccaf7ca59f9fbf7ef9772d3c560f.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-44_4a7947bbed0f4b6f87806abe298002d0.rdx => unnamed-chunk-44_2db8ccaf7ca59f9fbf7ef9772d3c560f.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-40_447cd2f9a54828ed88657255e7068eb8.RData => unnamed-chunk-45_f10ab7c6b6ccd263f7d10891527bcb18.RData} (94%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-45_937212a2df49466be26231a87ce98036.rdb => unnamed-chunk-45_f10ab7c6b6ccd263f7d10891527bcb18.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-45_937212a2df49466be26231a87ce98036.rdx => unnamed-chunk-45_f10ab7c6b6ccd263f7d10891527bcb18.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-44_4a7947bbed0f4b6f87806abe298002d0.RData => unnamed-chunk-46_c641bb35360d7505f3c55f2a9d22cf18.RData} (94%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-46_fa77030ac2ebd68cabb7e311829d600e.rdb => unnamed-chunk-46_c641bb35360d7505f3c55f2a9d22cf18.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-46_fa77030ac2ebd68cabb7e311829d600e.rdx => unnamed-chunk-46_c641bb35360d7505f3c55f2a9d22cf18.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-45_937212a2df49466be26231a87ce98036.RData => unnamed-chunk-47_7401852b49f715828fc01381df7c1fe1.RData} (95%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-47_ca4a96f9e86b61f9737a52f2994eb652.rdb => unnamed-chunk-47_7401852b49f715828fc01381df7c1fe1.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-47_ca4a96f9e86b61f9737a52f2994eb652.rdx => unnamed-chunk-47_7401852b49f715828fc01381df7c1fe1.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-46_fa77030ac2ebd68cabb7e311829d600e.RData => unnamed-chunk-48_103effcb0a9bf5e9c5c47b2d6231251a.RData} (95%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-48_e715b0acd8b1198ae1e69a090dabc8a7.rdb => unnamed-chunk-48_103effcb0a9bf5e9c5c47b2d6231251a.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-48_e715b0acd8b1198ae1e69a090dabc8a7.rdx => unnamed-chunk-48_103effcb0a9bf5e9c5c47b2d6231251a.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-47_ca4a96f9e86b61f9737a52f2994eb652.RData => unnamed-chunk-49_0d3b28bf9445593c84a66072bf243016.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-49_fdfdd66f81e9d80dca5c9405f03c3a52.rdb => unnamed-chunk-49_0d3b28bf9445593c84a66072bf243016.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-49_fdfdd66f81e9d80dca5c9405f03c3a52.rdx => unnamed-chunk-49_0d3b28bf9445593c84a66072bf243016.rdx} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_01c1cd40379d0b6ed87e41cca0b0dac0.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-50_06a0f41d7ea869fdbd211ed4bd41257e.rdb => unnamed-chunk-50_01c1cd40379d0b6ed87e41cca0b0dac0.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-50_06a0f41d7ea869fdbd211ed4bd41257e.rdx => unnamed-chunk-50_01c1cd40379d0b6ed87e41cca0b0dac0.rdx} (100%)
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_06a0f41d7ea869fdbd211ed4bd41257e.RData
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-51_a0e0ea9c3da62f0aa37349e456ca4c65.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-51_e608e633ebbb0d655ec90dd61f902f98.rdb => unnamed-chunk-51_a0e0ea9c3da62f0aa37349e456ca4c65.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-51_e608e633ebbb0d655ec90dd61f902f98.rdx => unnamed-chunk-51_a0e0ea9c3da62f0aa37349e456ca4c65.rdx} (100%)
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-51_e608e633ebbb0d655ec90dd61f902f98.RData
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-52_5c4e72e924b40d234a670b891ca3e43d.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-52_e67477a57f38ab89d4e4ddd3e8062700.rdb => unnamed-chunk-52_5c4e72e924b40d234a670b891ca3e43d.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-52_e67477a57f38ab89d4e4ddd3e8062700.rdx => unnamed-chunk-52_5c4e72e924b40d234a670b891ca3e43d.rdx} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-53_3872e4b1885180c978f6cee23c58af0d.RData
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-53_dcc910cfbac4991033d41e760f097ff6.rdb => unnamed-chunk-53_3872e4b1885180c978f6cee23c58af0d.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-53_3872e4b1885180c978f6cee23c58af0d.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-53_dcc910cfbac4991033d41e760f097ff6.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-53_dcc910cfbac4991033d41e760f097ff6.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-52_e67477a57f38ab89d4e4ddd3e8062700.RData => unnamed-chunk-54_82ef209405648bdf6e5dc0ec68c3106d.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-54_b11c21279949dac035a35a37af445165.rdb => unnamed-chunk-54_82ef209405648bdf6e5dc0ec68c3106d.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-54_82ef209405648bdf6e5dc0ec68c3106d.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-54_b11c21279949dac035a35a37af445165.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-54_b11c21279949dac035a35a37af445165.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/outype2.png
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git p ush
+Counting objects: 31, done.
+Delta compression using up to 4 threads.
+Compressing objects:   3% (1/31)   Compressing objects:   6% (2/31)   Compressing objects:   9% (3/31)   Compressing objects:  12% (4/31)   Compressing objects:  16% (5/31)   Compressing objects:  19% (6/31)   Compressing objects:  22% (7/31)   Compressing objects:  25% (8/31)   Compressing objects:  29% (9/31)   Compressing objects:  32% (10/31)   Compressing objects:  35% (11/31)   Compressing objects:  38% (12/31)   Compressing objects:  41% (13/31)   Compressing objects:  45% (14/31)   Compressing objects:  48% (15/31)   Compressing objects:  51% (16/31)   Compressing objects:  54% (17/31)   Compressing objects:  58% (18/31)   Compressing objects:  61% (19/31)   Compressing objects:  64% (20/31)   Compressing objects:  67% (21/31)   Compressing objects:  70% (22/31)   Compressing objects:  74% (23/31)   Compressing objects:  77% (24/31)   Compressing objects:  80% (25/31)   Compressing objects:  83% (26/31)   Compressing objects:  87% (27/31)   Compressing objects:  90% (28/31)   Compressing objects:  93% (29/31)   Compressing objects:  96% (30/31)   Compressing objects: 100% (31/31)   Compressing objects: 100% (31/31), done.
+Writing objects:   3% (1/31)   Writing objects:   6% (2/31)   Writing objects:   9% (3/31)   Writing objects:  12% (4/31)   Writing objects:  16% (5/31)   Writing objects:  19% (6/31)   Writing objects:  22% (7/31)   Writing objects:  25% (8/31)   Writing objects:  29% (9/31)   Writing objects:  32% (10/31)   Writing objects:  35% (11/31)   Writing objects:  45% (14/31)   Writing objects:  48% (15/31)   Writing objects:  51% (16/31)   Writing objects:  54% (17/31)   Writing objects:  61% (19/31)   Writing objects:  64% (20/31)   Writing objects:  67% (21/31)   Writing objects:  70% (22/31)   Writing objects:  74% (23/31)   Writing objects:  77% (24/31)   Writing objects:  80% (25/31)   Writing objects:  83% (26/31)   Writing objects:  87% (27/31)   Writing objects:  90% (28/31)   Writing objects:  93% (29/31)   Writing objects:  96% (30/31)   Writing objects: 100% (31/31)   Writing objects: 100% (31/31), 7.52 KiB | 137.00 KiB/s, done.
+Total 31 (delta 28), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/28)   [Kremote: Resolving deltas:  64% (18/28)   [Kremote: Resolving deltas:  67% (19/28)   [Kremote: Resolving deltas:  71% (20/28)   [Kremote: Resolving deltas:  75% (21/28)   [Kremote: Resolving deltas:  78% (22/28)   [Kremote: Resolving deltas:  82% (23/28)   [Kremote: Resolving deltas:  85% (24/28)   [Kremote: Resolving deltas:  89% (25/28)   [Kremote: Resolving deltas:  92% (26/28)   [Kremote: Resolving deltas:  96% (27/28)   [Kremote: Resolving deltas: 100% (28/28)   [Kremote: Resolving deltas: 100% (28/28), completed with 10 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   b6abbe1..734ac21  master -> master
+g it init
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebPriyangas-MacBook-Air:priiweb priyangatalagala$ g it add .
+]0;~/Documents/priwebPriyangas-MacBook-Air:priiweb priyangatalagala$ g it push[K[K[K[Kcommit -m :[K"update fin al review slides"
+[master 9109008] update final review slides
+ 14 files changed, 34 insertions(+), 32 deletions(-)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-36_6f30eade1e9126ab58f53692e1fac51f.RData => unnamed-chunk-34_ca8d4bbe5ef6ea7ff435e12dcdafd960.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-34_3d5b5c183c7e36399b749c48995707a5.rdb => unnamed-chunk-34_ca8d4bbe5ef6ea7ff435e12dcdafd960.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-34_3d5b5c183c7e36399b749c48995707a5.rdx => unnamed-chunk-34_ca8d4bbe5ef6ea7ff435e12dcdafd960.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-34_3d5b5c183c7e36399b749c48995707a5.RData => unnamed-chunk-35_d7335c0bf4f7c618b324e60ec4c29781.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-35_0190cba3665bbcc6d7efa830d369a34c.rdb => unnamed-chunk-35_d7335c0bf4f7c618b324e60ec4c29781.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-35_0190cba3665bbcc6d7efa830d369a34c.rdx => unnamed-chunk-35_d7335c0bf4f7c618b324e60ec4c29781.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-37_de8fb44f535e616d1fdc31a3e76c4770.RData => unnamed-chunk-36_b1ca548a4a398bb21e64ac87ceb0033f.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-36_6f30eade1e9126ab58f53692e1fac51f.rdb => unnamed-chunk-36_b1ca548a4a398bb21e64ac87ceb0033f.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-36_6f30eade1e9126ab58f53692e1fac51f.rdx => unnamed-chunk-36_b1ca548a4a398bb21e64ac87ceb0033f.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-35_0190cba3665bbcc6d7efa830d369a34c.RData => unnamed-chunk-37_adc54556a896906204b2f6eb59b98b1d.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-37_de8fb44f535e616d1fdc31a3e76c4770.rdb => unnamed-chunk-37_adc54556a896906204b2f6eb59b98b1d.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-37_de8fb44f535e616d1fdc31a3e76c4770.rdx => unnamed-chunk-37_adc54556a896906204b2f6eb59b98b1d.rdx} (100%)
+]0;~/Documents/priwebPriyangas-MacBook-Air:priiweb priyangatalagala$ g it push
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects:   8% (1/12)   Compressing objects:  16% (2/12)   Compressing objects:  25% (3/12)   Compressing objects:  33% (4/12)   Compressing objects:  41% (5/12)   Compressing objects:  50% (6/12)   Compressing objects:  58% (7/12)   Compressing objects:  66% (8/12)   Compressing objects:  75% (9/12)   Compressing objects:  83% (10/12)   Compressing objects:  91% (11/12)   Compressing objects: 100% (12/12)   Compressing objects: 100% (12/12), done.
+Writing objects:   8% (1/12)   Writing objects:  16% (2/12)   Writing objects:  25% (3/12)   Writing objects:  33% (4/12)   Writing objects:  41% (5/12)   Writing objects:  50% (6/12)   Writing objects:  58% (7/12)   Writing objects:  66% (8/12)   Writing objects:  91% (11/12)   Writing objects: 100% (12/12)   Writing objects: 100% (12/12), 3.96 KiB | 3.96 MiB/s, done.
+Total 12 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  50% (5/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  70% (7/10)   [Kremote: Resolving deltas:  80% (8/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 7 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   734ac21..9109008  master -> master
+[KPriyangas-MacBook-Air:priweb priyangatalagala$ git init
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git add .
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git commit -m  "update final review slides"
+[master 394dbf5] update final review slides
+ 3 files changed, 18 insertions(+), 4 deletions(-)
+ create mode 100644 static/talks/PhD_final_review_2019/fig/thank.png
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git push
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects:  88% (8/9), 2.13 MiB | 1.63 MiB/s   Writing objects:  88% (8/9), 3.81 MiB | 2.11 MiB/s   Writing objects:  88% (8/9), 4.19 MiB | 1.50 MiB/s   Writing objects:  88% (8/9), 4.19 MiB | 354.00 KiB/s   Writing objects:  88% (8/9), 5.12 MiB | 409.00 KiB/s   Writing objects:  88% (8/9), 5.13 MiB | 378.00 KiB/s   Writing objects:  88% (8/9), 5.69 MiB | 393.00 KiB/s   Writing objects:  88% (8/9), 5.69 MiB | 368.00 KiB/s   Writing objects: 100% (9/9), 5.69 MiB | 368.00 KiB/s   Writing objects: 100% (9/9), 6.31 MiB | 399.00 KiB/s, done.
+Total 9 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)   [Kremote: Resolving deltas:  14% (1/7)   [Kremote: Resolving deltas:  28% (2/7)   [Kremote: Resolving deltas:  42% (3/7)   [Kremote: Resolving deltas:  57% (4/7)   [Kremote: Resolving deltas:  71% (5/7)   [Kremote: Resolving deltas:  85% (6/7)   [Kremote: Resolving deltas: 100% (7/7)   [Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   9109008..394dbf5  master -> master
+git i nit
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git a dd .
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git c ommit -m "update final review"
+[master 88a9bb8] update final review
+ 7 files changed, 16 insertions(+)
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-55_0fafe24f5138d287e4263b6bbe11e628.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-55_0fafe24f5138d287e4263b6bbe11e628.RData => unnamed-chunk-55_94498fb1c288b5da4faadd0f0d2753c3.RData} (89%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-55_0fafe24f5138d287e4263b6bbe11e628.rdb => unnamed-chunk-55_94498fb1c288b5da4faadd0f0d2753c3.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-55_94498fb1c288b5da4faadd0f0d2753c3.rdx
+ create mode 100644 static/talks/PhD_final_review_2019/fig/timeline.png
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git p ush
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects:   9% (1/11)   Compressing objects:  18% (2/11)   Compressing objects:  27% (3/11)   Compressing objects:  36% (4/11)   Compressing objects:  45% (5/11)   Compressing objects:  54% (6/11)   Compressing objects:  63% (7/11)   Compressing objects:  72% (8/11)   Compressing objects:  81% (9/11)   Compressing objects:  90% (10/11)   Compressing objects: 100% (11/11)   Compressing objects: 100% (11/11), done.
+Writing objects:   9% (1/11)   Writing objects:  18% (2/11)   Writing objects:  27% (3/11)   Writing objects:  36% (4/11)   Writing objects:  45% (5/11)   Writing objects:  54% (6/11)   Writing objects:  63% (7/11)   Writing objects:  72% (8/11)   Writing objects:  81% (9/11)   Writing objects:  90% (10/11)   Writing objects: 100% (11/11)   Writing objects: 100% (11/11), 79.48 KiB | 19.87 MiB/s, done.
+Total 11 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 8 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   394dbf5..88a9bb8  master -> master
+git init
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git ad .
+git: 'ad' is not a git command. See 'git --help'.
+
+The most similar commands are
+	add
+	am
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git add . [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K.
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git comit  -m "update final review"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git comit  -m "update final review"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -m[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm -[1@m[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci [1@-[1@t
+[master e83a8f8] update final review
+ 2 files changed, 6 insertions(+), 2 deletions(-)
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 853 bytes | 853.00 KiB/s, done.
+Total 7 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   88a9bb8..e83a8f8  master -> master
+[K[APriyangas-MacBook-Air:priweb priyangatalagala$ git i nit
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git a dd .
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git c ommit -m "update slides"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+git init
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git add . [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K.
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git commi t -m "update anoamlies[K[K[K[K[K[K[K[K[Kfinal review slides"
+[master 56081c9] update final review slides
+ 9 files changed, 106 insertions(+)
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-56_6afe35eb72efdda577d830d699105d73.rdx
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-56_6afe35eb72efdda577d830d699105d73.RData => unnamed-chunk-56_e9abda7e1a16cbb1fecc7fa21f2660e9.RData} (89%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-56_6afe35eb72efdda577d830d699105d73.rdb => unnamed-chunk-56_e9abda7e1a16cbb1fecc7fa21f2660e9.rdb} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-57_836ea75fd7aca880d08a8047045e90a3.rdx => unnamed-chunk-56_e9abda7e1a16cbb1fecc7fa21f2660e9.rdx} (100%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-57_836ea75fd7aca880d08a8047045e90a3.RData => unnamed-chunk-57_6c6a6fff01a496fad9a1b1f9c348c4d9.RData} (92%)
+ rename static/talks/PhD_final_review_2019/cache/{unnamed-chunk-57_836ea75fd7aca880d08a8047045e90a3.rdb => unnamed-chunk-57_6c6a6fff01a496fad9a1b1f9c348c4d9.rdb} (100%)
+ create mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-57_6c6a6fff01a496fad9a1b1f9c348c4d9.rdx
+]0;~/Documents/priwebdyn-49-127-99-202:priweb priyangatalagala$ git push
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects:  10% (1/10)   Compressing objects:  20% (2/10)   Compressing objects:  30% (3/10)   Compressing objects:  40% (4/10)   Compressing objects:  50% (5/10)   Compressing objects:  60% (6/10)   Compressing objects:  70% (7/10)   Compressing objects:  80% (8/10)   Compressing objects:  90% (9/10)   Compressing objects: 100% (10/10)   Compressing objects: 100% (10/10), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 6.76 KiB | 3.38 MiB/s, done.
+Total 10 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/8)   [Kremote: Resolving deltas:  12% (1/8)   [Kremote: Resolving deltas:  25% (2/8)   [Kremote: Resolving deltas:  37% (3/8)   [Kremote: Resolving deltas:  50% (4/8)   [Kremote: Resolving deltas:  62% (5/8)   [Kremote: Resolving deltas:  75% (6/8)   [Kremote: Resolving deltas:  87% (7/8)   [Kremote: Resolving deltas: 100% (8/8)   [Kremote: Resolving deltas: 100% (8/8), completed with 7 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   e83a8f8..56081c9  master -> master
+git init [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+Reinitialized existing Git repository in /Users/priyangatalagala/Documents/priweb/.git/
+]0;~/Documents/priwebdyn-49-127-105-103:priweb priyangatalagala$ git add  .
+]0;~/Documents/priwebdyn-49-127-105-103:priweb priyangatalagala$ git comm it -m "up[K[Kupdate [K[K[Kte talks"
+[master 5b4199d] update talks
+ 357 files changed, 5061 deletions(-)
+ delete mode 100644 content/talk/Final_review_2019.md
+ delete mode 100644 static/talks/PhD_final_review_2019/PhD-final-review-2019.Rmd
+ delete mode 100644 static/talks/PhD_final_review_2019/PhD-final-review-2019.html
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/__packages
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/fisherTippet_93ba094ce56b42e32483a30ffd6a2c96.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/fisherTippet_93ba094ce56b42e32483a30ffd6a2c96.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/fisherTippet_93ba094ce56b42e32483a30ffd6a2c96.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/load_57c0a25f39676354882129ab4518dcb8.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/load_57c0a25f39676354882129ab4518dcb8.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/load_57c0a25f39676354882129ab4518dcb8.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/mvtsplot1_03176bd563e497f8e555a9c86223c255.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/mvtsplot1_03176bd563e497f8e555a9c86223c255.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/mvtsplot1_03176bd563e497f8e555a9c86223c255.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/mvtsplot_356f974bdf7c740ffaafe81676cdeddb.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/mvtsplot_356f974bdf7c740ffaafe81676cdeddb.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/mvtsplot_356f974bdf7c740ffaafe81676cdeddb.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/outtype_3f41bde755e150caabbfafbee65417e6.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/outtype_3f41bde755e150caabbfafbee65417e6.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/outtype_3f41bde755e150caabbfafbee65417e6.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-10_cf660fa16fec5f9263229e728e16d383.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-10_cf660fa16fec5f9263229e728e16d383.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-10_cf660fa16fec5f9263229e728e16d383.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-11_1366168852bf09bd4bb29f94a85fbe49.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-11_1366168852bf09bd4bb29f94a85fbe49.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-11_1366168852bf09bd4bb29f94a85fbe49.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-12_28a8d8fab8c051dc201a171dd16d37f0.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-12_28a8d8fab8c051dc201a171dd16d37f0.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-12_28a8d8fab8c051dc201a171dd16d37f0.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-13_595a3238ac089d715e1cf05e20d51c77.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-13_595a3238ac089d715e1cf05e20d51c77.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-13_595a3238ac089d715e1cf05e20d51c77.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-14_ebae65ea4c11e0f6815af2a50515adfb.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-14_ebae65ea4c11e0f6815af2a50515adfb.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-14_ebae65ea4c11e0f6815af2a50515adfb.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-15_eb54740a8ecf4e824839e79d722e7c86.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-15_eb54740a8ecf4e824839e79d722e7c86.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-15_eb54740a8ecf4e824839e79d722e7c86.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-16_89ce0b25e7fe11442fa2e530095df355.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-16_89ce0b25e7fe11442fa2e530095df355.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-16_89ce0b25e7fe11442fa2e530095df355.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-17_1e015ae6a202dc5fcba48f77d91a9821.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-17_1e015ae6a202dc5fcba48f77d91a9821.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-17_1e015ae6a202dc5fcba48f77d91a9821.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-18_b9f4e5d7e8a0ce16e71f96578750d88a.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-18_b9f4e5d7e8a0ce16e71f96578750d88a.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-18_b9f4e5d7e8a0ce16e71f96578750d88a.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-19_561f08e9a1e6ac8d20fea19d1eb23fd4.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-19_561f08e9a1e6ac8d20fea19d1eb23fd4.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-19_561f08e9a1e6ac8d20fea19d1eb23fd4.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-1_a0825ca9ce0bf84cf6b5219dacc2e001.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-1_a0825ca9ce0bf84cf6b5219dacc2e001.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-1_a0825ca9ce0bf84cf6b5219dacc2e001.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-20_49a4a9c927eec61783af552676b7784b.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-20_49a4a9c927eec61783af552676b7784b.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-20_49a4a9c927eec61783af552676b7784b.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-21_e8f1529ac8bc09f3ec308256d40d52ae.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-21_e8f1529ac8bc09f3ec308256d40d52ae.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-21_e8f1529ac8bc09f3ec308256d40d52ae.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-22_6bd27d3048084c2164a5038a8f444817.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-22_6bd27d3048084c2164a5038a8f444817.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-22_6bd27d3048084c2164a5038a8f444817.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-23_2fd80bd7400b52a6eaeb4564be5a6d85.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-23_2fd80bd7400b52a6eaeb4564be5a6d85.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-23_2fd80bd7400b52a6eaeb4564be5a6d85.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-24_8eb99e46275f85e501ff342321f3dfb3.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-24_8eb99e46275f85e501ff342321f3dfb3.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-24_8eb99e46275f85e501ff342321f3dfb3.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-25_9ddd00c6b5cc3e4f7da139b021ae4a11.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-25_9ddd00c6b5cc3e4f7da139b021ae4a11.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-25_9ddd00c6b5cc3e4f7da139b021ae4a11.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-26_7a9949214c6c5f6fe6117f931eadc2c8.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-26_7a9949214c6c5f6fe6117f931eadc2c8.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-26_7a9949214c6c5f6fe6117f931eadc2c8.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-27_d8f29f7fff3d2dc8b863b01b6fb77b58.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-27_d8f29f7fff3d2dc8b863b01b6fb77b58.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-27_d8f29f7fff3d2dc8b863b01b6fb77b58.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-28_67d47db655f4e56b89a1762ba06bdde1.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-28_67d47db655f4e56b89a1762ba06bdde1.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-28_67d47db655f4e56b89a1762ba06bdde1.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-29_ea56b0382ab6663f8041a41c1d6172c3.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-29_ea56b0382ab6663f8041a41c1d6172c3.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-29_ea56b0382ab6663f8041a41c1d6172c3.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-2_b553a2e9da4d3a4157ab76edfb8443eb.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-2_b553a2e9da4d3a4157ab76edfb8443eb.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-2_b553a2e9da4d3a4157ab76edfb8443eb.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-30_dc03705099e30abd8589b49ceaa39ac3.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-30_dc03705099e30abd8589b49ceaa39ac3.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-30_dc03705099e30abd8589b49ceaa39ac3.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-31_4ab6d0f1a1c657a49e9b4fae1b160440.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-31_4ab6d0f1a1c657a49e9b4fae1b160440.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-31_4ab6d0f1a1c657a49e9b4fae1b160440.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-32_390a1f696ea7dcd3ab09c8a868c4aee7.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-32_390a1f696ea7dcd3ab09c8a868c4aee7.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-32_390a1f696ea7dcd3ab09c8a868c4aee7.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-33_7d6d9d954af60be886a937ea43ea5c9f.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-33_7d6d9d954af60be886a937ea43ea5c9f.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-33_7d6d9d954af60be886a937ea43ea5c9f.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-34_ca8d4bbe5ef6ea7ff435e12dcdafd960.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-34_ca8d4bbe5ef6ea7ff435e12dcdafd960.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-34_ca8d4bbe5ef6ea7ff435e12dcdafd960.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-35_d7335c0bf4f7c618b324e60ec4c29781.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-35_d7335c0bf4f7c618b324e60ec4c29781.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-35_d7335c0bf4f7c618b324e60ec4c29781.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-36_b1ca548a4a398bb21e64ac87ceb0033f.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-36_b1ca548a4a398bb21e64ac87ceb0033f.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-36_b1ca548a4a398bb21e64ac87ceb0033f.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-37_adc54556a896906204b2f6eb59b98b1d.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-37_adc54556a896906204b2f6eb59b98b1d.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-37_adc54556a896906204b2f6eb59b98b1d.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-38_0bedd907b5f97f7a6f8ad6f54f30d1d7.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-38_0bedd907b5f97f7a6f8ad6f54f30d1d7.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-38_0bedd907b5f97f7a6f8ad6f54f30d1d7.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-39_71067c7362aafda0ce559ae3de43b909.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-39_71067c7362aafda0ce559ae3de43b909.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-39_71067c7362aafda0ce559ae3de43b909.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-3_8b337ddf82af5150d45652586cdff464.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-3_8b337ddf82af5150d45652586cdff464.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-3_8b337ddf82af5150d45652586cdff464.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-40_2fd57c4f89240431ef450c57e03193ac.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-40_2fd57c4f89240431ef450c57e03193ac.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-40_2fd57c4f89240431ef450c57e03193ac.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-41_c65e78b5b6780284bd13ac3ed672bf60.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-41_c65e78b5b6780284bd13ac3ed672bf60.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-41_c65e78b5b6780284bd13ac3ed672bf60.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-42_78fe310b85b8d9101e6cc0a0394fd49e.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-42_78fe310b85b8d9101e6cc0a0394fd49e.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-42_78fe310b85b8d9101e6cc0a0394fd49e.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-43_9e9d27cba1b69166c59c0f983b6fc5da.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-43_9e9d27cba1b69166c59c0f983b6fc5da.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-43_9e9d27cba1b69166c59c0f983b6fc5da.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-44_2db8ccaf7ca59f9fbf7ef9772d3c560f.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-44_2db8ccaf7ca59f9fbf7ef9772d3c560f.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-44_2db8ccaf7ca59f9fbf7ef9772d3c560f.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-45_f10ab7c6b6ccd263f7d10891527bcb18.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-45_f10ab7c6b6ccd263f7d10891527bcb18.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-45_f10ab7c6b6ccd263f7d10891527bcb18.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-46_c641bb35360d7505f3c55f2a9d22cf18.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-46_c641bb35360d7505f3c55f2a9d22cf18.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-46_c641bb35360d7505f3c55f2a9d22cf18.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-47_7401852b49f715828fc01381df7c1fe1.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-47_7401852b49f715828fc01381df7c1fe1.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-47_7401852b49f715828fc01381df7c1fe1.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-48_103effcb0a9bf5e9c5c47b2d6231251a.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-48_103effcb0a9bf5e9c5c47b2d6231251a.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-48_103effcb0a9bf5e9c5c47b2d6231251a.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-49_0d3b28bf9445593c84a66072bf243016.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-49_0d3b28bf9445593c84a66072bf243016.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-49_0d3b28bf9445593c84a66072bf243016.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-4_4d4bbefb5711c6558d06c7b5b1c8e298.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-4_4d4bbefb5711c6558d06c7b5b1c8e298.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-4_4d4bbefb5711c6558d06c7b5b1c8e298.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_01c1cd40379d0b6ed87e41cca0b0dac0.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_01c1cd40379d0b6ed87e41cca0b0dac0.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-50_01c1cd40379d0b6ed87e41cca0b0dac0.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-51_a0e0ea9c3da62f0aa37349e456ca4c65.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-51_a0e0ea9c3da62f0aa37349e456ca4c65.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-51_a0e0ea9c3da62f0aa37349e456ca4c65.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-52_5c4e72e924b40d234a670b891ca3e43d.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-52_5c4e72e924b40d234a670b891ca3e43d.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-52_5c4e72e924b40d234a670b891ca3e43d.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-53_3872e4b1885180c978f6cee23c58af0d.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-53_3872e4b1885180c978f6cee23c58af0d.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-53_3872e4b1885180c978f6cee23c58af0d.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-54_82ef209405648bdf6e5dc0ec68c3106d.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-54_82ef209405648bdf6e5dc0ec68c3106d.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-54_82ef209405648bdf6e5dc0ec68c3106d.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-55_94498fb1c288b5da4faadd0f0d2753c3.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-55_94498fb1c288b5da4faadd0f0d2753c3.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-55_94498fb1c288b5da4faadd0f0d2753c3.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-56_e9abda7e1a16cbb1fecc7fa21f2660e9.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-56_e9abda7e1a16cbb1fecc7fa21f2660e9.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-56_e9abda7e1a16cbb1fecc7fa21f2660e9.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-57_6c6a6fff01a496fad9a1b1f9c348c4d9.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-57_6c6a6fff01a496fad9a1b1f9c348c4d9.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-57_6c6a6fff01a496fad9a1b1f9c348c4d9.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-58_30caa7ea08318d49ef61d94ff8a213cc.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-58_30caa7ea08318d49ef61d94ff8a213cc.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-58_30caa7ea08318d49ef61d94ff8a213cc.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-59_0b73668c629b9d87e92b327f1637bf9c.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-59_0b73668c629b9d87e92b327f1637bf9c.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-59_0b73668c629b9d87e92b327f1637bf9c.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-5_2e32de0623c7200f86d0899e492c3957.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-5_2e32de0623c7200f86d0899e492c3957.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-5_2e32de0623c7200f86d0899e492c3957.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-60_8dafb9e6c0c28ccf94083316758b4b88.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-60_8dafb9e6c0c28ccf94083316758b4b88.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-60_8dafb9e6c0c28ccf94083316758b4b88.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-61_6f88530ab581e6abe7927cae4114ba75.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-61_6f88530ab581e6abe7927cae4114ba75.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-61_6f88530ab581e6abe7927cae4114ba75.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-62_d0e31ae762f144c1da93417796089395.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-62_d0e31ae762f144c1da93417796089395.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-62_d0e31ae762f144c1da93417796089395.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-63_849e1caf2936cf4fba082c4ed8918567.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-63_849e1caf2936cf4fba082c4ed8918567.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-63_849e1caf2936cf4fba082c4ed8918567.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-64_920b9ca6b02052ad5920ae380e5ac982.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-64_920b9ca6b02052ad5920ae380e5ac982.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-64_920b9ca6b02052ad5920ae380e5ac982.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-65_23850e716ac06e47a375b73ee1b81abc.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-65_23850e716ac06e47a375b73ee1b81abc.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-65_23850e716ac06e47a375b73ee1b81abc.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-66_4d5037cc42fcc1d4b2376b97b452e727.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-66_4d5037cc42fcc1d4b2376b97b452e727.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-66_4d5037cc42fcc1d4b2376b97b452e727.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-67_fb86003f1b54d5e6970acfb7d12c50e0.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-67_fb86003f1b54d5e6970acfb7d12c50e0.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-67_fb86003f1b54d5e6970acfb7d12c50e0.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-68_ac99d9887c7d8978b9c22ebb9a2a6471.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-68_ac99d9887c7d8978b9c22ebb9a2a6471.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-68_ac99d9887c7d8978b9c22ebb9a2a6471.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-69_e6f4f2194dd2ef46a6094f0e934a32a6.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-69_e6f4f2194dd2ef46a6094f0e934a32a6.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-69_e6f4f2194dd2ef46a6094f0e934a32a6.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-6_ca0869ee382cb4f7e05049bfb65cba34.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-6_ca0869ee382cb4f7e05049bfb65cba34.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-6_ca0869ee382cb4f7e05049bfb65cba34.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-70_8fb4bff719452a4ba99382c6c6583d18.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-70_8fb4bff719452a4ba99382c6c6583d18.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-70_8fb4bff719452a4ba99382c6c6583d18.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-7_c76983bfdcaef0658738ac28495fa53b.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-7_c76983bfdcaef0658738ac28495fa53b.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-7_c76983bfdcaef0658738ac28495fa53b.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-8_62a1023e9c7e32863997122e3033185b.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-8_62a1023e9c7e32863997122e3033185b.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-8_62a1023e9c7e32863997122e3033185b.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-9_9aa5b339084bd179eca3614f20fdaf10.RData
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-9_9aa5b339084bd179eca3614f20fdaf10.rdb
+ delete mode 100644 static/talks/PhD_final_review_2019/cache/unnamed-chunk-9_9aa5b339084bd179eca3614f20fdaf10.rdx
+ delete mode 100644 static/talks/PhD_final_review_2019/data/anomalous_stream_1.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/cd_sim7_pval_wonorm_padjust.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/out_real1_wcd_padjust.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/out_simulate_7.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/simulate_10.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/simulate_11.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/simulate_14.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/simulate_7.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/data/true_sim7.rda
+ delete mode 100644 static/talks/PhD_final_review_2019/default.css
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/.gitignore
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/10_psitrans.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/11_psi_trans.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/12_logo1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/12_logo3.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/13_logo2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/14_oddstream_typical.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/15_typicalfeatures.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/16_oddstream_out_loc.gif
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/17_oddstream_pcplot.gif
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/18_oddstream_mvtsplot.gif
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/19_nonstationaritytypes.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/1_application.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/1_climb.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/1_stream.gif
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/20_sudden plot1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/20_suddenplot2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/20_suddenplot3.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/20_suddenplot4.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/21_noCD.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/21_noCD1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/21_noCD2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/21_noCD3.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/22_conceptdrift_pval.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/23_sudden_out.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_application.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_batch.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney21.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney22.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney23.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/2_sydney24.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/3_batch.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/4_typical.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/5_high_typical.gif
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/6_typicalfeature.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/7_EVD1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/7_EVD2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/8_maxima1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/8_maxima2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/9_threshold1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/JCGS.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot10.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot11.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot12.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot13.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot14.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot15.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot16.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot17.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot18.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot19.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot20.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot21.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot21a.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot21b.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot22.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot3.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot3b.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot4.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot5.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot6.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot7.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot7b.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot8.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P2_plot9.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P3_future1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P3_future2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P3_future3.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P3_future4.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/P4_image1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/Presentation1.pptx
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/STOTEN.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/extremedef.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/framework.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/monashlogo.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/one_sided_derivative_TCL_sandy.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/outtype.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/outype2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/progress.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/stray.gif
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/sydney_full.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/table_water.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/table_water.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/thank.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/timeline.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/timeplan.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/titlepage.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/tsfeatures.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/water.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/water_hd1.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/water_hd2.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/water_original.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/water_out.png
+ delete mode 100644 static/talks/PhD_final_review_2019/fig/water_priority.png
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/1_batch.png
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/load-1.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/mvtsplot-1.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/mvtsplot1-1.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/outtype-1.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/unnamed-chunk-1-1.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/figure/unnamed-chunk-1-2.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/gif pppp/1_stream.gif
+ delete mode 100644 static/talks/PhD_final_review_2019/libs/remark-css/default.css
+ delete mode 100644 static/talks/PhD_final_review_2019/myremark.css
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/Frauscher_Tracking_Solutions_FTS.jpg
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/KV_Tracking-858x400.jpg
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/distributed tempereture sensing.jpg
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/fiber-optics (1).pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/fiber-optics.pdf
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/gas leakages.png
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/links to images.txt
+ delete mode 100644 static/talks/PhD_final_review_2019/sources/stagesensor.jpg
+ delete mode 100644 static/talks/PhD_final_review_2019/src/main.R
+]0;~/Documents/priwebdyn-49-127-105-103:priweb priyangatalagala$ git push [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kh
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 729 bytes | 729.00 KiB/s, done.
+Total 7 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)   [Kremote: Resolving deltas:  16% (1/6)   [Kremote: Resolving deltas:  33% (2/6)   [Kremote: Resolving deltas:  50% (3/6)   [Kremote: Resolving deltas:  66% (4/6)   [Kremote: Resolving deltas:  83% (5/6)   [Kremote: Resolving deltas: 100% (6/6)   [Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   56081c9..5b4199d  master -> master
+[KPriyangas-MacBook-Air:priweb priyangatalagala$ git  push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 545 bytes | 545.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   27a4bc9..adebebc  master -> master
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git  ou[K[Kpush
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 506 bytes | 506.00 KiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)   [Kremote: Resolving deltas:  33% (1/3)   [Kremote: Resolving deltas:  66% (2/3)   [Kremote: Resolving deltas: 100% (3/3)   [Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   adebebc..74e4faa  master -> master
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git  push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 388 bytes | 388.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   74e4faa..1535a09  master -> master
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git  push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects:  20% (1/5)   Compressing objects:  40% (2/5)   Compressing objects:  60% (3/5)   Compressing objects:  80% (4/5)   Compressing objects: 100% (5/5)   Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)   Writing objects:  40% (2/5)   Writing objects:  60% (3/5)   Writing objects:  80% (4/5)   Writing objects: 100% (5/5)   Writing objects: 100% (5/5), 419 bytes | 419.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   1535a09..3826365  master -> master
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ git  push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 316 bytes | 316.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/pridiltal/priweb.git
+   3826365..9fa6635  master -> master
+]0;~/Documents/priwebPriyangas-MacBook-Air:priweb priyangatalagala$ 
