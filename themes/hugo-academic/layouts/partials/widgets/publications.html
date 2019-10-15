@@ -1,0 +1,33 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $pubs_len := len (where $.Data.Pages "Type" "publication") }}
+
+<!-- Publications widget -->
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+    {{ if gt $pubs_len $page.Params.count }}
+    <p class="view-all">
+      <a href="{{ "/publication/" | relLangURL }}">
+        {{ i18n "more_publications" | markdownify }}
+        <i class="fa fa-angle-double-right"></i>
+      </a>
+    </p>
+    {{ end }}
+  </div>
+  <div class="col-xs-12 col-md-8">
+    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+
+    {{ range first $page.Params.count (where $.Data.Pages "Type" "publication") }}
+      {{ if eq $page.Params.list_format 1 }}
+        {{ partial "publication_li_classic" . }}
+      {{ else if eq $page.Params.list_format 2 }}
+        {{ partial "publication_li_detailed" . }}
+      {{ else }}
+        {{ partial "publication_li_simple" . }}
+      {{ end }}
+    {{ end }}
+
+  </div>
+</div>
