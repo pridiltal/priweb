@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>Anomaly Detection in Nonstationary Streaming Temporal Data</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="myremark.css" type="text/css" />
@@ -22,7 +22,7 @@ class: center, middle, inverse, title-slide
 
 
 
-background-image: url(https://raw.githubusercontent.com/pridiltal/pritalks/master/ISF2018/ISF2018%20talk/fig/2_application.png?token=ATXvCt8Jahd3wgC3GLuPF-RvLR5Mdt5tks5bMHp4wA%3D%3D)
+background-image: 
 background-position: 50% 50%
 background-size: 100%
 class: right, top
@@ -289,72 +289,8 @@ pridiltal
 &lt;br/&gt;
 
 &lt;sub&gt;&lt;sup&gt;Slides created via the R package xaringan&lt;/sup&gt;&lt;/sub&gt;
-
----
-
----
-#### Images were taken:
-- &lt;font size=3&gt; http://55ca7cd0-f8ac-0132-1185-705681baa5c1.s3-website-sa-east-1.amazonaws.com/defesanet/site/upload/news_image/2016/03/30157.jpg
-- https://www.intel.co.uk/content/dam/www/public/emea/xe/en/images/it-managers/datacenter-corridor-16x9.jpg.rendition.intel.web.1280.720.jpg
-- https://fibersensys.com/cache/mod_roksprocket/4d90594c170e9ec140017f0719ce2c98_350_900.jpg 
-- https://c1.staticflickr.com/8/7065/26946304530_cb30c23660_b.jpg &lt;/font&gt;
-
-#### Key references
-- Clifton, D. A., Hugueny, S. &amp; Tarassenko, L. (2011), 'Novelty detection with multivariate extreme value statistics', Journal of signal processing systems 65(3), 371-389.
-- Hyndman, R. J., Wang, E. &amp; Laptev, N. (2015), Large-scale unusual time series detection, in 'Data Mining Workshop (ICDMW), 2015 IEEE International Conference on', IEEE, pp. 1616-1619.
-
-
----
-
-
-### What Next?
-
-- Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
---
-
-- Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
---
-
-- Do more experiments on density estimation methods to get a better tail estimation.
---
-
-- Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
----
-
-
-&lt;img src="fig/realanalysis.png" width="100%" style="display: block; margin: auto;" /&gt;
-
----
-
-
-[oddstream_paper](https://robjhyndman.com/papers/oddstream.pdf)
-
-[tour](https://klevas.mif.vu.lt/~tomukas/Knygos/tourr.pdf)
-
-[nonstationarity](https://ac.els-cdn.com/S0047259X84710335/1-s2.0-S0047259X84710335-main.pdf?_tid=4d4e1492-0417-4055-b75b-f7f30b253e06&amp;acdnat=1520995337_55a8fbf3b8a7921fddc51acbf619632d)
-
----
-
-- vchange : A function to calculate the maximum difference in variance using rolling window The 'variance change' is defined as the maximum difference in variance between consecutive blocks of 10 observations measure7 - variance change using rolling  window
-- lshift: A function to calculate Level shift using rolling window The 'level shift' is defined as the maximum difference in mean between consecutive blocks of 10 observations measure6 - Level shift using rolling window
-- Changing variance in the remainder (lumpiness) : A function to calculate Lumpiness: cannot be used for yearly data first divide a series into blocks. Then the variances  of each block are computed. The variance of the variances across these blocks measures the 'lumpiness' of the series. 
-- Burstiness (FF) : A function to calculate the burstiness of time series using Fano Factor Returns the 'burstiness' statistic: `\((\sigma^2) / \mu\)`. Another measures of burstiness is the Fano Factor: a ratio between the variance and the mean . In statistics Fano  Factor , like the coefficient of variation, is a measure of dispersion of probability distributions of a Fano noise. Fano  factor is defined as `\((\sigma^2) / \mu\)`. 
-
----
-
-- strength of linearity, curvature, spikiness: A function to find Strength of trend and seasonality and spike Some of our features rely on a robust STL decomposition . For example, the size and location of the peaks and troughs in the seasonal component are used, and the spikiness feature is the variance of the leave-one-out variances of the remainder component. Other features measure structural changes over time.
-- the ratio between means: a function to calculate the ratio between trimmed mean to mean the ratio between interquartile mean and the arithmetic mean of the scaled data. Low values (values closer to zero) indicate the presence of outliers
-
-
---- 
-
----
-
-
-&lt;img src="fig/extremedef.png" width="100%" style="display: block; margin: auto;" /&gt;
-
----
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -365,26 +301,79 @@ pridiltal
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
 })();</script>
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
   }
-});
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
