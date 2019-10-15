@@ -27,7 +27,7 @@ projects:
 - Anomaly Detection
 publishDate: "2017-09-19"
 slides: 
-summary: Young Stats Showcase - September 19, 2017a
+summary: Young Stats Showcase - September 19, 2017
 tags: []
 title: Detection of Anomalous Series Within a Large Collection of Streaming Time Series Data
 url_code: ""
