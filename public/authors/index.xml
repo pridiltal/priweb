@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | PRIYANGA DILINI TALAGALA</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017 Priyanga Talagala</copyright><lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am working under the supervision of &lt;a href=&#34;https://robjhyndman.com/&#34; target=&#34;_blank&#34;&gt;Professor Rob J. Hyndman&lt;/a&gt; and &lt;a href=&#34;http://katesmithmiles.wixsite.com/home&#34; target=&#34;_blank&#34;&gt;Professor Kate Smith-Miles&lt;/a&gt;. I am also a member of the &lt;a href=&#34;https://acems.org.au/our-people/dilini-talagala&#34; target=&#34;_blank&#34;&gt;Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am interested in general data science problems. I am passionate about R. You can find some of my projects &lt;a href=&#34;https://prital.netlify.com/#projects&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Visit me on &lt;a href=&#34;https://twitter.com/pridiltal&#34; target=&#34;_blank&#34;&gt;twitter&lt;/a&gt;, I post mostly about R, Statistics, Data Science and science in nature.&lt;/p&gt;
+
+&lt;p&gt;My sister &lt;a href=&#34;https://thiyanga.netlify.com/&#34; target=&#34;_blank&#34;&gt;Thiyanga Talagala&lt;/a&gt; is also a PhD candidate at Monash University, Australia.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Catherine Leigh</title>
+      <link>/authors/catherine-leigh/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/catherine-leigh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kate Smith-Miles</title>
+      <link>/authors/kate-smith-miles/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/kate-smith-miles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kerrie Mengersen</title>
+      <link>/authors/kerrie-mengersen/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/kerrie-mengersen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rob J. Hyndman</title>
+      <link>/authors/rob-j.-hyndman/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/rob-j.-hyndman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mario A. Munoz</title>
+      <link>/authors/mario-a.-munoz/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mario-a.-munoz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sevvandi Kandanaarachchi</title>
+      <link>/authors/sevvandi-kandanaarachchi/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/sevvandi-kandanaarachchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catherine Neelamraju</title>
+      <link>/authors/catherine-neelamraju/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/catherine-neelamraju/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Erin E. Peterson</title>
+      <link>/authors/erin-e.-peterson/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/erin-e.-peterson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>James M. McGree</title>
+      <link>/authors/james-m.-mcgree/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/james-m.-mcgree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jennifer Strauss</title>
+      <link>/authors/jennifer-strauss/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/jennifer-strauss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Olivia C. King</title>
+      <link>/authors/olivia-c.-king/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/olivia-c.-king/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Omar Alsibai</title>
+      <link>/authors/omar-alsibai/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/omar-alsibai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ryan D. R. Turner</title>
+      <link>/authors/ryan-d.-r.-turner/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/ryan-d.-r.-turner/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

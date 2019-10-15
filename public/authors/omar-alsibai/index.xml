@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omar Alsibai | PRIYANGA DILINI TALAGALA</title>
+    <link>/authors/omar-alsibai/</link>
+      <atom:link href="/authors/omar-alsibai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Omar Alsibai</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017 Priyanga Talagala</copyright><lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Omar Alsibai</title>
+      <link>/authors/omar-alsibai/</link>
+    </image>
+    
+    <item>
+      <title>A framework for automated anomaly detection in high frequency water-quality data from in situ sensors</title>
+      <link>/publication/waterqut/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/waterqut/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

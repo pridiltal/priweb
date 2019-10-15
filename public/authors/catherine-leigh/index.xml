@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catherine Leigh | PRIYANGA DILINI TALAGALA</title>
+    <link>/authors/catherine-leigh/</link>
+      <atom:link href="/authors/catherine-leigh/index.xml" rel="self" type="application/rss+xml" />
+    <description>Catherine Leigh</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017 Priyanga Talagala</copyright><lastBuildDate>Sat, 12 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Catherine Leigh</title>
+      <link>/authors/catherine-leigh/</link>
+    </image>
+    
+    <item>
+      <title>A feature‐based procedure for detecting technical outliers in water‐quality data from in situ sensors</title>
+      <link>/publication/oddwater/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/oddwater/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://github.com/pridiltal/oddwater&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A framework for automated anomaly detection in high frequency water-quality data from in situ sensors</title>
+      <link>/publication/waterqut/</link>
+      <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/waterqut/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mario A. Munoz | PRIYANGA DILINI TALAGALA</title>
+    <link>/authors/mario-a.-munoz/</link>
+      <atom:link href="/authors/mario-a.-munoz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mario A. Munoz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017 Priyanga Talagala</copyright><lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Mario A. Munoz</title>
+      <link>/authors/mario-a.-munoz/</link>
+    </image>
+    
+    <item>
+      <title>Anomaly Detection in Streaming Nonstationary Temporal Data</title>
+      <link>/publication/oddstream/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/oddstream/</guid>
+      <description>&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://github.com/pridiltal/oddstream&#34; target=&#34;_blank&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
