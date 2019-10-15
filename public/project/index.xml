@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | PRIYANGA DILINI TALAGALA</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2017 Priyanga Talagala</copyright><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>oddstream - R package</title>
+      <link>/project/oddstream/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/oddstream/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oddwater - R package</title>
+      <link>/project/oddwater/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/oddwater/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>staplr - R package</title>
+      <link>/project/staplr/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/staplr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stray - R package</title>
+      <link>/project/stray/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/stray/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
