@@ -5,7 +5,7 @@ bio: My research interests include Computational Statistics, Anomaly Detection, 
 education:
   courses:
   - course: PhD (Reading, begun 2016)
-    institution: Monash University, Australi
+    institution: Monash University, Australia
     #year: 2012
   - course: BSc (Hons) Special Degree in Statistics
     institution: University of Sri Jayewardenepura, Sri Lanka  (Batch first and Professor R A Dayananda Gold Medalist)
