@@ -10,7 +10,7 @@ all_day: false
 authors: []
 date: "2017-06-27"
 date_end: "2017-06-27"
-event: 37th International Symposium on Forecasting, Cairns, Australi
+event: 37th International Symposium on Forecasting, Cairns, Australia
 event_url: https://forecasters.org/isf/
 featured: false
 image:
