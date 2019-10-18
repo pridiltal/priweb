@@ -2,8 +2,8 @@
   "name": "PRIYANGA DILINI TALAGALA",
   "short_name": "PRIYANGA DILINI TALAGALA",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "hsl(339, 90%, 68%)",
+  "background_color": "hsl(339, 90%, 68%)",
   "icons": [{
     "src": "img/icon-192.png",
     "sizes": "192x192",
