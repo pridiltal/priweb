@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/georgecushen
 slides: example
-summary: "oddstream {Outlier Detection in Data STREAMs}"
+summary: "stray {Search and TRace AnomalY}"
 tags:
 - anomaly-detection
 title: "stray - R package"
