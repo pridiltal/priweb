@@ -57,6 +57,7 @@ subtitle = ""
 <!-- Add font awesome icons -->
  <a href="#" class="fa fa-twitter"></a> [Twitter](https://twitter.com/pridiltal) 	&nbsp;	&nbsp; <a href="#" class="fa fa-github"> [GitHub](https://github.com/pridiltal) </br> </br>  </br> </br>  
 
+<a href="https://twitter.com/pridiltal" class="fa fa-github">
 
 
 
