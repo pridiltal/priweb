@@ -51,8 +51,6 @@ subtitle = ""
 +++
 </br> </br></br> **Priyanga Dilini Talagala** </br> PhD Candidate </br> Monash University, Australia </br>   </br> </br>   <img src="img/headers/hero-academic.png"  height="40"/> </br> 
 
-[`r emo::ji("smile")`](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
-[`r emo::ji("github")`](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
