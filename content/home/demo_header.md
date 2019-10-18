@@ -55,7 +55,7 @@ subtitle = ""
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Add font awesome icons -->
- <a href="#" class="fa fa-twitter"></a> [Twitter](https://twitter.com/pridiltal) 	&nbsp;	&nbsp; <a href="#" class="fa fa-github"> [GitHub](https://github.com/pridiltal) </br> </br>  </br> </br>  
+ <a href="https://twitter.com/pridiltal" class="fa fa-twitter"> 	&nbsp;	&nbsp; <a href="https://github.com/pridiltal" class="fa fa-github"> </br> </br>  </br> </br>  
 
 <a href="https://twitter.com/pridiltal" class="fa fa-github">
 
