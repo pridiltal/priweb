@@ -49,7 +49,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-</br> </br></br> **Priyanga Dilini Talagala** </br> PhD Candidate </br> Monash University, Australia </br>   </br> </br>   <img src="img/headers/hero-academic.png"  height="40"/> </br> 
+</br> **Priyanga Dilini Talagala** </br> PhD Candidate </br> Monash University, Australia </br>   </br> </br>   <img src="img/headers/hero-academic.png"  height="40"/> 
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -57,7 +57,7 @@ subtitle = ""
 <!-- Add font awesome icons -->
  <a href="https://twitter.com/pridiltal" class="fa fa-twitter"></a> &nbsp;	&nbsp; 
  <a href="https://github.com/pridiltal" class="fa fa-github"></a>
-
+</br> </br></br> </br>
 
 
 
