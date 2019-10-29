@@ -32,7 +32,7 @@ tags: []
 title: Outlier Detection in Non-Stationary Data Streams
 url_code: ""
 url_pdf: ""
-url_slides: "talks/ISCB2018/ISCB2018.htmll" 
+url_slides: "talks/ISCB2018/ISCB2018.html" 
 url_video: ""
 ---
 
