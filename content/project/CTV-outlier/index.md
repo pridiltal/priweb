@@ -10,7 +10,7 @@ links:
   name: Follow
   url: https://twitter.com/georgecushen
 slides: example
-summary: "CRAN Task View: Anomaly Detection with R}"
+summary: "CRAN Task View: Anomaly Detection with R"
 tags:
 - anomaly-detection
 title: "CRAN Task View: Anomaly Detection with R"
