@@ -49,7 +49,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-</br> **Priyanga Dilini Talagala** </br> PhD Candidate </br> Monash University, Australia </br>   </br> </br>   <img src="img/headers/hero-academic.png"  height="40"/> </br> </br> 
+</br> **Priyanga Dilini Talagala** </br> PhD, Monash University, Australia </br>   </br> </br>   <img src="img/headers/hero-academic.png"  height="40"/> </br> </br> 
 
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

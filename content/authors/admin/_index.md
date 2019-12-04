@@ -4,11 +4,13 @@ authors:
 bio: My research interests include Computational Statistics, Anomaly Detection, Time Series Analysis and Machine Learning.
 education:
   courses:
-  - course: PhD (Reading, begun 2016)
+  - course: PhD in Statistics
     institution: Monash University, Australia
-    #year: 2012
+    year: 2019
   - course: BSc (Hons) Special Degree in Statistics
-    institution: University of Sri Jayewardenepura, Sri Lanka  (Batch first and Professor R A Dayananda Gold Medalist)
+    institution: University of Sri Jayewardenepura, Sri Lanka 
+    year: 2013
+  - course: Batch first and Professor R A Dayananda Gold Medalist)
     year: 2013
 email: ""
 interests:
@@ -16,11 +18,12 @@ interests:
 - Anomaly Detection
 - Time Series Analysis
 - Machine Learning
+- Applied Statistics
 name: Priyanga Dilini Talagala
 organizations:
 - name: Monash University, Australia
   url: ""
-role: PhD candidate
+role: PhD in Statistics
 social:
 - icon: envelope
   icon_pack: fas
