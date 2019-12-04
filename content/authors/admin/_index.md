@@ -57,6 +57,6 @@ I am a Lecturer at [University of Moratuwa](https://www.mrt.ac.lk/web/).  I am a
 I am interested in general data science problems. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
 
-My sister: [Thiyanga Talagala, PhD in Statistics, Monash University, Australia.](https://thiyanga.netlify.com/)
+[Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
 
 
