@@ -15,10 +15,10 @@ education:
 email: ""
 interests:
 - Computational Statistics
-- Anomaly Detection
 - Time Series Analysis
 - Machine Learning
 - Applied Statistics
+- Anomaly Detection
 name: Priyanga Dilini Talagala
 organizations:
 - name: Monash University, Australia
@@ -48,13 +48,15 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I'm a PhD candidate at Monash University, Australia, Department of Econometrics and Business Statistics. My research centers around computational statistics. My dissertation focuses on anomaly detection in streaming time series data. I am working under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). I am also a member of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala).
+I'm a Data Scientist and an Applied Statistician. I completed my PhD in Statistics at Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). My dissertation focuses on anomaly detection in streaming time series data.
+
+I am a Lectuer at [University of Moratuwa](https://www.mrt.ac.lk/web/).  I am also a member of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala).
 
 
 
 I am interested in general data science problems. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
 
-My sister [Thiyanga Talagala](https://thiyanga.netlify.com/) is also a PhD candidate at Monash University, Australia. 
+My sister: [Thiyanga Talagala, PhD in Statistics, Monash University, Australia.](https://thiyanga.netlify.com/)
 
 
