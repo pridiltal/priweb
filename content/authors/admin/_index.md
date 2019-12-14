@@ -55,7 +55,7 @@ I am also a member of the [Australian Research Council (ARC) Centre of Excellenc
 
 
 
-I am interested in general data science problems. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
+I do research in data science, with a statistical, computational, and programming focus. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
 
 [Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
