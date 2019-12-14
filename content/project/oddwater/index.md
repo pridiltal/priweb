@@ -1,6 +1,6 @@
 ---
 date: "2016-04-27T00:00:00Z"
-external_link: "https://github.com/pridiltal/oddwater"
+external_link: "https://acems.org.au/projects/feature-based-procedure-detecting-technical-outliers-water-quality-data-situ-sensors"
 image:
   caption: ""
   focal_point: Smart

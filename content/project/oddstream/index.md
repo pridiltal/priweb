@@ -1,6 +1,6 @@
 ---
 date: "2016-04-27T00:00:00Z"
-external_link: "https://github.com/pridiltal/oddstream"
+external_link: "https://acems.org.au/projects/anomaly-detection-streaming-nonstationary-temporal-data"
 image:
   caption: ""
   focal_point: Smart
