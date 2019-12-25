@@ -54,9 +54,7 @@ I am a Lecturer at the [University of Moratuwa](https://www.mrt.ac.lk/web/). I c
 
 I am also a member of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala). Further, I am a co-founder of [R-Ladies Colombo,](https://rladiescolombo.netlify.com/) the first ever R-Ladies Chapter in Sri Lanka. R-Ladies Colombo chapter is a part of the [R-Ladies Global,](https://rladies.org/about-us/) a worldwide organization whose mission is to promote diversity in the R community.
 
-
-
-I do research in data science, with a statistical, computational, and programming focus. I am passionate about R. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
+I do research in data science, with a statistical, computational, and programming focus. I am strongly committed to develop open source software tools to facilitate reproducible research. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
 
 [Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
