@@ -49,6 +49,9 @@ user_groups:
 - Researchers
 - Visitors
 ---
+
+`Hello World!`
+
 I am a Lecturer at the [University of Moratuwa](https://www.mrt.ac.lk/web/). I completed my PhD in Statistics at Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). 
 
 I am also a member of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala). Further, I am a co-founder of [R-Ladies Colombo,](https://rladiescolombo.netlify.com/) the first ever R-Ladies Chapter in Sri Lanka. R-Ladies Colombo chapter is a part of the [R-Ladies Global,](https://rladies.org/about-us/) a worldwide organization whose mission is to promote diversity in the R community.
