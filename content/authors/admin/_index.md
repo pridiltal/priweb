@@ -16,7 +16,8 @@ email: ""
 interests:
 - Computational Statistics
 - Time Series Analysis
-- Machine Learning
+- Statistical Machine Learning
+- Machine Learning Interpretability
 - Applied Statistics
 - Anomaly Detection
 - R Programming
@@ -52,9 +53,10 @@ user_groups:
 
 I am a Lecturer at the [University of Moratuwa](https://www.mrt.ac.lk/web/). I completed my PhD in Statistics at Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home). 
 
-I am also a member of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala). Further, I am a co-founder of [R-Ladies Colombo,](https://rladiescolombo.netlify.com/) the first ever R-Ladies Chapter in Sri Lanka. R-Ladies Colombo chapter is a part of the [R-Ladies Global,](https://rladies.org/about-us/) a worldwide organization whose mission is to promote diversity in the R community.
+I am also an Associate Investigator of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/dilini-talagala). Further, I am a co-founder of [R-Ladies Colombo,](https://rladiescolombo.netlify.com/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org).
 
-I do research in data science, with a statistical, computational, and programming focus. I am strongly committed to develop open source software tools to facilitate reproducible research. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
+
+My research focuses on statistical machine learning and data mining, and in particular   the development of novel methods and tools for analyzing complex data. I am also strongly committed to develop open source software tools to facilitate reproducible research. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
 
 [Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
