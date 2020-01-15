@@ -1,8 +1,8 @@
 {
-    "path" : "~/Documents/priweb/config/_default",
+    "path" : "~/Documents/priweb/content/authors/admin",
     "sortOrder" : [
         {
-            "ascending" : false,
+            "ascending" : true,
             "columnIndex" : 2
         }
     ]

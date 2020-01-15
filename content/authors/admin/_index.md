@@ -41,7 +41,7 @@ social:
   link: https://github.com/pridiltal
 - icon: linkedin
   icon_pack: fab
-  link: "https://www.linkedin.com/in/priyanga-talagala-47b269122"
+  link: "https://www.linkedin.com/in/priyanga-dilini-talagala-47b269122/"
 - icon: orcid
   icon_pack: ai
   link: "http://orcid.org/0000-0003-2870-7449"
