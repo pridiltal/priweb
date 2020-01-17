@@ -8,8 +8,8 @@ address:
   street: ""
 all_day: false
 authors: []
-date: "2019-07-09"
-date_end: "2019-07-12"
+date: "2020-01-15"
+date_end: "2020-01-16"
 event: Myth-busting Statistics
 event_url: http://www.user2019.fr/
 featured: false
