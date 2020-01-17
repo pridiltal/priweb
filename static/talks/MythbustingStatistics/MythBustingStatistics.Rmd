@@ -101,7 +101,6 @@ background-position: 50% 10%
 background-size: 50%
 class: left, bottom
 
-In 2012, Harvard Business Review dubbed Data Scientist **the sexiest job of the 21st Century**
 ---
 background-image: url('fig/datascience.jpg')
 background-position: 50% 10%
@@ -539,7 +538,7 @@ class: inverse, center, middle
 ---
 ##  CareerCast Survey 2019
 
-```{r  echo=FALSE, out.height= "90%", fig_align = 'up'}
+```{r  echo=FALSE, out.width= "70%", fig.align='center'}
 knitr::include_graphics("fig/topjob.png")
 ```
 - Recent CareerCast report ranked Data Scientist and Statistician as the top two jobs in USA, with very good work environment, low stress, high projected growth, and high  salary .
