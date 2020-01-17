@@ -557,7 +557,7 @@ class: inverse, center, middle
 ## ~~A statistician's work can be replaced by a computer, because it is all about performing certain numerical calculations~~
 --
 
-## Data Scientist and statistician are consitently ranked as best jobs in the world 
+## Data Scientist and statistician are consistently ranked as best jobs in the world 
 ---
 class: inverse, center, middle
 # <span style="color: #D95F02;">Myth 6</span> 
@@ -643,7 +643,7 @@ class: inverse, center, middle
 - Statistics is for <span style="color: red;"> everyone</span>
 - Statistics is a very rich tree that we haven't explored fully yet
 -  Statistics plays a vital role in AI and ML
--  Data Scientist and statistician are consitently ranked as best jobs in the world
+-  Data Scientist and statistician are consistently ranked as best jobs in the world
 - There are so many applications in Statistics
 ---
 
@@ -664,7 +664,7 @@ class: inverse, center, middle
 ---
 class: center, middle, inverse
 
-# Happy Statistics and Mathematics
+# Happy Learning Statistics and Mathematics
 
 ```{r en, echo =FALSE, warning=FALSE, message=FALSE}
 icon::fa("envelope")
