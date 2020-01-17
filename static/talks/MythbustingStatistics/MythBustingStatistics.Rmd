@@ -101,12 +101,6 @@ background-position: 50% 10%
 background-size: 50%
 class: left, bottom
 
----
-background-image: url('fig/datascience.jpg')
-background-position: 50% 10%
-background-size: 50%
-class: left, bottom
-
 
 
 **Data science** is a "concept to unify <span style="color: red">**statistics**</span>, data analysis, machine learning and their related methods" in order to "understand and analyze actual phenomena" with data.
@@ -194,10 +188,12 @@ knitr::include_graphics("fig/Jakob_Bernoulli.jpg")
 - What is the probability of getting a head with the flip of a fair coin?
 
 --
-
+```{r   out.width = "60%", echo = FALSE, fig.align='center'}
+knitr::include_graphics("fig/coin.jpg")
+```
 
 ```{r   out.width = "70%", echo = FALSE, fig.align='center'}
-knitr::include_graphics("fig/coin.jpg")
+knitr::include_graphics("fig/LLN.png")
 ```
 --
 
