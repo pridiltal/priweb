@@ -1,0 +1,537 @@
+---
+  class: center, top
+`oddstream::find_odd_streams(train_data, test_stream)`
+```{r   echo=FALSE, out.width = "50%"}
+knitr::include_graphics("fig/18_oddstream_mvtsplot.gif")
+```
+.pull-left[
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+  knitr::include_graphics("fig/16_oddstream_out_loc.gif")
+  ```
+  ]
+.pull-right[
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+  knitr::include_graphics("fig/17_oddstream_pcplot.gif")
+  ```
+  ]
+
+---
+  
+  #### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "70%", fig_align = 'top'}
+knitr::include_graphics("fig/19_nonstationaritytypes.png")
+```
+
+---
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot2.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD1.png")
+```
+
+---
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot3.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD2.png")
+```
+
+---
+  
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot4.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD3.png")
+```
+
+---
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot2.png")
+```
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/22_conceptdrift_pval.png")
+```
+
+- $H_{0} : f_{t_{0}} = f_{t_{t}}$
+  
+  
+  - squared discrepancy measure $T = \int[f_{t_{0}}(x) - f_{t_{t}}(x)]^{2}dx$ (Anderson et al., 1994)
+
+---
+  
+  
+  ### Anomalous threshold calculation 
+  
+  - Estimate the probability density function of the 2D PC space $\longrightarrow$ Kernel density estimation
+--
+  
+  - Draw a large number N of extremes $(arg min_{x\in X}[f_{2}(x)])$ from the estimated probability density function
+--
+  
+  - Define a $\Psi$-transform space, using the $\Psi$-transformation defined by (Clifton et al., 2011)
+
+```{r   echo=FALSE, out.width = "50%"}
+knitr::include_graphics("fig/10_psitrans.png")
+```
+
+- $\Psi$-transform maps the density values back into space into which a Gumbel distribution can be fitted.
+--
+  
+  - Anomalous threshold calculation $\longrightarrow$ extreme value theory
+
+---
+  
+  class:  center, middle, inverse
+
+```{r  echo=FALSE, out.width = "40%", fig_align = 'top'}
+knitr::include_graphics("fig/JCGS.png")
+```
+
+Scientific Journal Rankings (SJR) Ranking: Q1
+
+Excellence in Research Australia (ERA) Ranking: A*
+  
+  Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles (2019) [Anomaly detection in streaming nonstationary temporal data](https://www.researchgate.net/publication/323694683_Anomaly_Detection_in_Streaming_Nonstationary_Temporal_Data). <span style="color:blue"> **Journal of Computational and Graphical Statistics.**</span>
+---
+  
+  background-image: url('fig/oddstreamlogo.png')
+background-position: 50% 50%
+  background-size: 100%
+class: right, top, inverse
+
+---
+  
+  
+  - great barrier reef water, kerries award
+- yahoo
+- security, sybey bridge
+- melbourn pedetrian
+- bush fire (koala), vegetation detcetion second prize
+- assiciate invetigator
+- microsoft project, functional data
+- ggplot
+- staplr , team 
+- cran task view main manitainer
+- R ladies grant chicago financial support
+---
+  
+  ---
+  - Approaches to solving the problem of anomaly detection for temporal data :
+  --
+  .pull-left[
+    ### Batch scenario 
+    - whole set of data is available
+    - complete events <br/><br/><br/>
+      ```{r mvtsplot, out.width = "100%",  fig.align = 'bottom'}
+    knitr::include_graphics("fig/2_batch.png")
+    ```
+    ]
+--
+  .pull-right[
+    ### Data stream scenario
+    - continuous, unbounded, flow at high speed, high volume
+    - incomplete events
+    ```{r  echo=FALSE, out.width = "100%", fig.align = 'up'}
+    knitr::include_graphics("fig/1_stream.gif")
+    ```
+    ]
+---
+  ### Feature Based Representation of Time series
+  .pull-left[
+    - Mean   
+    - Variance  
+    - Changing variance in remainder 
+    - Level shift using rolling window   
+    - Variance change  
+    - Strength of linearity 
+    - Strength of curvature  
+    ]
+
+.pull-right[
+  - Strength of spikiness  
+  - Burstiness of time series (Fano Factor)  
+  - Minimum  
+  - Maximum  
+  - The ratio between 50% trimmed mean and the arithmetic mean
+  - Moment 
+  - Ratio of means of data that is below and above the global mean  
+  
+  ]
+
+
+
+---
+  class:  top
+### Feature Based Representation of Time series
+
+.pull-left[
+  
+  
+  ```{r   echo=FALSE, out.width = "100%", fig_align = 'bottom'}
+  knitr::include_graphics("fig/3_batch.png")
+  ```
+  
+  
+  ]
+.pull-right[
+  ```{r  echo=FALSE, out.width = "100%",}
+  knitr::include_graphics("fig/tsfeatures.png")
+  ```
+  ]
+
+---
+  class:  top
+### Feature Based Representation of Time series
+
+.pull-left[
+  
+  
+  ```{r   echo=FALSE, out.width = "100%", fig_align = 'bottom'}
+  knitr::include_graphics("fig/3_batch.png")
+  ```
+  
+  ]
+.pull-right[
+  ```{r  echo=FALSE, out.width = "100%",}
+  knitr::include_graphics("fig/5_high_typical.gif")
+  ```
+  ]
+
+---
+  
+  .pull-left[
+    
+    
+    ```{r   echo=FALSE, out.width = "95%", fig_align = 'bottom'}
+    knitr::include_graphics("fig/P2_plot21a.png")
+    ```
+    ]
+--
+  .pull-right[
+    ```{r  echo=FALSE, out.width = "95%",}
+    knitr::include_graphics("fig/P2_plot21b.png")
+    ```
+    ]
+
+--
+  
+  - We define an anomaly as an observation that is very unlikely given the recent distribution of a given system
+
+---
+  
+  
+  ### Main Contributions
+  - Propose a framework that provides early detection of anomalies within a large collection of streaming time series data
+--
+  
+  - Propose an algorithm that adapts to nonstationarity (concept drift)
+
+--
+  
+  ### Main Assumptions
+  
+  - A representative data set of the system's typical behavior is available to define the model for the typical behavior of the system. 
+
+--
+
+### Proposed Algorithm
+
+- Off-line Phase: Building a model of a system's typical behaviour; (similar to Clifton, Hugueny & Tarassenko, 2011)
+--
+  
+  - On-line Phase: Testing newly arrived data using the boundary
+
+
+---
+  
+  class: middle, center
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/12_logo1.png")
+```
+
+---
+  class: middle, center
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/13_logo2.png")
+```
+
+---
+  ### How oddstream works
+  ```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/3_batch.png")
+```
+
+---
+  ### How oddstream works
+  ```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/14_oddstream_typical.png")
+```
+
+
+---
+  class: top
+### Dimension Reduction for Time Series 
+
+.pull-left[
+  `load(train_data)`
+  ```{r   echo=FALSE, out.width = "90%", fig_align = 'bottom'}
+  knitr::include_graphics("fig/4_typical.png")
+  ```
+  ]
+--
+  .pull-right[
+    `tsfeatures <- oddstream::extract_tsfeatures(train_data)`
+    ```{r  echo=FALSE, out.width = "60%",}
+    knitr::include_graphics("fig/5_high_typical.gif")
+    ```
+    ]
+
+--
+  
+  `pc<- oddstream::get_pc_space(tsfeatures)` <br/>
+  `oddstream::plotpc(pc$pcnorm)` 
+```{r  echo=FALSE, out.width = "25%",}
+knitr::include_graphics("fig/6_typicalfeature.png")
+```
+First two PCs explain 85% of variation
+
+
+---
+  
+  
+  ### Anomalous threshold calculation 
+  
+  - Estimate the probability density function of the 2D PC space $\longrightarrow$ Kernel density estimation
+--
+  
+  - Draw a large number N of extremes $(arg min_{x\in X}[f_{2}(x)])$ from the estimated probability density function
+--
+  
+  - Define a $\Psi$-transform space, using the $\Psi$-transformation defined by (Clifton et al., 2011)
+
+```{r   echo=FALSE, out.width = "50%"}
+knitr::include_graphics("fig/10_psitrans.png")
+```
+
+- $\Psi$-transform maps the density values back into space into which a Gumbel distribution can be fitted.
+--
+  
+  - Anomalous threshold calculation $\longrightarrow$ extreme value theory
+
+---
+  
+  class: center, top
+`oddstream::find_odd_streams(train_data, test_stream)`
+```{r   echo=FALSE, out.width = "50%"}
+knitr::include_graphics("fig/18_oddstream_mvtsplot.gif")
+```
+.pull-left[
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+  knitr::include_graphics("fig/16_oddstream_out_loc.gif")
+  ```
+  ]
+.pull-right[
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+  knitr::include_graphics("fig/17_oddstream_pcplot.gif")
+  ```
+  ]
+
+---
+  
+  class:  center, middle, inverse
+
+
+# Anomaly Detection with <br/>  <span style="color:#ff08ac"> Non-stationarity </span>
+
+
+---
+  #### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "70%", fig_align = 'top'}
+knitr::include_graphics("fig/19_nonstationaritytypes.png")
+```
+
+---
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot2.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD1.png")
+```
+
+---
+  
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot3.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD2.png")
+```
+
+---
+  
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot4.png")
+```
+
+```{r  echo=FALSE, out.width = "35%", fig_align = 'top'}
+knitr::include_graphics("fig/21_noCD3.png")
+```
+
+---
+  
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/20_suddenplot2.png")
+```
+
+```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/22_conceptdrift_pval.png")
+```
+
+- $H_{0} : f_{t_{0}} = f_{t_{t}}$
+  
+  
+  - squared discrepancy measure $T = \int[f_{t_{0}}(x) - f_{t_{t}}(x)]^{2}dx$ (Anderson et al., 1994)
+
+
+---
+  
+  
+  ### What Next?
+  
+  - Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
+--
+  <br/>
+  - Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
+--
+  <br/>
+  - Do more experiments on density estimation methods to get a better tail estimation.
+--
+  <br/>
+  - Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
+
+---
+  
+  
+  class: center, middle
+
+# Thank You
+
+```{r  out.width = "15%", echo=FALSE}
+knitr::include_graphics("fig/oddstream1.png")
+```
+
+`devtools::install_github("pridiltal/oddstream")`
+
+Full paper available at: [https://robjhyndman.com/papers/oddstream.pdf](https://robjhyndman.com/papers/oddstream.pdf) <br/><br/>
+  
+  
+  ```{r}
+icon::fa("envelope")
+``` 
+dilini.talagala@monash.edu
+
+```{r}
+icon::fa("github")
+```
+pridiltal
+
+
+```{r}
+icon::fa("twitter")
+``` 
+@pridiltal
+
+
+<br/>
+  
+  <sub><sup>Slides created via the R package xaringan</sup></sub>
+  
+  ---
+  
+  ---
+  #### Images were taken:
+  - <font size=3> http://55ca7cd0-f8ac-0132-1185-705681baa5c1.s3-website-sa-east-1.amazonaws.com/defesanet/site/upload/news_image/2016/03/30157.jpg
+- https://www.intel.co.uk/content/dam/www/public/emea/xe/en/images/it-managers/datacenter-corridor-16x9.jpg.rendition.intel.web.1280.720.jpg
+- https://fibersensys.com/cache/mod_roksprocket/4d90594c170e9ec140017f0719ce2c98_350_900.jpg 
+- https://c1.staticflickr.com/8/7065/26946304530_cb30c23660_b.jpg </font>
+  
+  #### Key references
+  - Clifton, D. A., Hugueny, S. & Tarassenko, L. (2011), 'Novelty detection with multivariate extreme value statistics', Journal of signal processing systems 65(3), 371-389.
+- Hyndman, R. J., Wang, E. & Laptev, N. (2015), Large-scale unusual time series detection, in 'Data Mining Workshop (ICDMW), 2015 IEEE International Conference on', IEEE, pp. 1616-1619.
+
+
+---
+  
+  
+  ### Anomaly detection with non-stationarity
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/23_sudden_out.png")
+```
+---
+  
+  
+  ```{r  echo=FALSE, out.width = "100%", fig_align = 'top'}
+knitr::include_graphics("fig/realanalysis.png")
+```
+
+---
+  
+  
+  [oddstream_paper](https://robjhyndman.com/papers/oddstream.pdf)
+
+[tour](https://klevas.mif.vu.lt/~tomukas/Knygos/tourr.pdf)
+
+[nonstationarity](https://ac.els-cdn.com/S0047259X84710335/1-s2.0-S0047259X84710335-main.pdf?_tid=4d4e1492-0417-4055-b75b-f7f30b253e06&acdnat=1520995337_55a8fbf3b8a7921fddc51acbf619632d)
+
+---
+  
+  - vchange : A function to calculate the maximum difference in variance using rolling window The 'variance change' is defined as the maximum difference in variance between consecutive blocks of 10 observations measure7 - variance change using rolling  window
+- lshift: A function to calculate Level shift using rolling window The 'level shift' is defined as the maximum difference in mean between consecutive blocks of 10 observations measure6 - Level shift using rolling window
+- Changing variance in the remainder (lumpiness) : A function to calculate Lumpiness: cannot be used for yearly data first divide a series into blocks. Then the variances  of each block are computed. The variance of the variances across these blocks measures the 'lumpiness' of the series. 
+- Burstiness (FF) : A function to calculate the burstiness of time series using Fano Factor Returns the 'burstiness' statistic: $(\sigma^2) / \mu$. Another measures of burstiness is the Fano Factor: a ratio between the variance and the mean . In statistics Fano  Factor , like the coefficient of variation, is a measure of dispersion of probability distributions of a Fano noise. Fano  factor is defined as $(\sigma^2) / \mu$. 
+
+---
+  
+  - strength of linearity, curvature, spikiness: A function to find Strength of trend and seasonality and spike Some of our features rely on a robust STL decomposition . For example, the size and location of the peaks and troughs in the seasonal component are used, and the spikiness feature is the variance of the leave-one-out variances of the remainder component. Other features measure structural changes over time.
+- the ratio between means: a function to calculate the ratio between trimmed mean to mean the ratio between interquartile mean and the arithmetic mean of the scaled data. Low values (values closer to zero) indicate the presence of outliers
+
+
+--- 
+  
+  ---
+  
+  
+  ```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/extremedef.png")
+```
+
+---
