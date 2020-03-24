@@ -14,10 +14,10 @@ education:
     year: 2013
 email: ""
 interests:
-- Computational Statistics
-- Statistical Machine Learning
-- Machine Learning Interpretability
-- Anomaly Detection
+- Computational statistics
+- Statistical machine learning
+- Machine learning interpretability
+- Anomaly detection
 - Functional data analysis
 - Time Series Analysis and forecasting
 - High dimensional data visualization
