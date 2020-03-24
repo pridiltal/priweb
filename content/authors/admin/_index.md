@@ -15,11 +15,14 @@ education:
 email: ""
 interests:
 - Computational Statistics
-- Time Series Analysis
 - Statistical Machine Learning
 - Machine Learning Interpretability
-- Applied Statistics
 - Anomaly Detection
+- Functional data analysis
+- Time Series Analysis and forecasting
+- High dimensional data visualization
+- Streaming data mining
+- Applied Statistics
 - R Programming
 name: Priyanga Dilini Talagala
 organizations:
