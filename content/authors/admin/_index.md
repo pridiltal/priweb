@@ -19,11 +19,11 @@ interests:
 - Machine learning interpretability
 - Anomaly detection
 - Functional data analysis
-- Time Series Analysis and forecasting
+- Time series analysis and forecasting
 - High dimensional data visualization
 - Streaming data mining
-- Applied Statistics
-- R Programming
+- Applied statistics
+- R programming
 name: Priyanga Dilini Talagala
 organizations:
 - name: Monash University, Australia
