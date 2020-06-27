@@ -19,7 +19,7 @@ var pass1 = prompt('Please Enter Your Password',' ');
 while (testV < 3) {
 if (!pass1) 
 history.go(-1);
-if (pass1.toLowerCase() == "snakeplant") {
+if (pass1.toLowerCase() == "my super secret password") {
 window.open('EasterEgg.html');
 break;
 } 
