@@ -20,7 +20,7 @@ while (testV < 3) {
 if (!pass1) 
 history.go(-1);
 if (pass1.toLowerCase() == "snakeplant") {
-window.open('https://pridiltal.github.io/CM1110/');
+window.open('EasterEgg.html');
 break;
 } 
 testV+=1;
@@ -31,7 +31,6 @@ if (pass1.toLowerCase()!="password" & testV ==3)
 history.go(-1);
 return " ";
 } 
-
 </SCRIPT>
 <CENTER>
 <FORM>
