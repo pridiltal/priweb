@@ -12,7 +12,7 @@ title: Teaching
 
 ## CM1110 Fundamentals of Mathematics and Statistics
 
-</SCRIPT>
+<SCRIPT>
 function passWord() {
 var testV = 1;
 var pass1 = prompt('Please Enter Your Password',' ');
