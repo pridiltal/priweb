@@ -12,7 +12,7 @@ title: Teaching
 
 ## CM1110 Fundamentals of Mathematics and Statistics
 
-<SCRIPT>
+</SCRIPT>
 function passWord() {
 var testV = 1;
 var pass1 = prompt('Please Enter Your Password',' ');
@@ -31,6 +31,7 @@ if (pass1.toLowerCase()!="password" & testV ==3)
 history.go(-1);
 return " ";
 } 
+
 </SCRIPT>
 <CENTER>
 <FORM>
