@@ -13,7 +13,6 @@ title: Teaching
 ## CM1110 Fundamentals of Mathematics and Statistics
 
 
-```{html, echo=FALSE, eval=TRUE}
 <SCRIPT>
 function passWord() {
 var testV = 1;
@@ -39,4 +38,3 @@ return " ";
 <input type="button" value="Enter Protected Area" onClick="passWord()">
 </FORM>
 </CENTER>
-```
