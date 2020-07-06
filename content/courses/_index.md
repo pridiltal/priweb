@@ -12,4 +12,7 @@ title: Teaching
 
 ## CM1110 Fundamentals of Mathematics and Statistics
 
-### [Tools](/tools/Chapter8-Probability.html)
+### Tools
+
+[Relative Frequency Method]( https://pridiltal.shinyapps.io/Probability/)
+
