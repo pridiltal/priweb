@@ -1,0 +1,57 @@
+---
+output: html_document
+title: "Relative frequency method"
+runtime: shiny
+---
+
+```{r global, include=FALSE}
+# load data in 'global' chunk so it can be shared by all users of the dashboard
+library(tidyverse)
+library(shiny)
+```
+
+```{r comment = NA, message=FALSE, warning=FALSE, echo=FALSE}
+    
+numericInput(inputId= 'sample',
+             label = "Number of repetitions:",
+              min = 1,
+                  max = 250000,
+                  value = 1)
+
+renderText({
+set.seed(194842)
+n <- input$sample
+data <- sample(c(0,1), replace=TRUE, size=n, prob = c(0.7,0.3))
+
+data <- ifelse(data == 1, "H", "T")
+if(length(data) <100)
+{print(data)}
+})
+```
+
+
+### Relative frequency
+
+```{r comment = NA, message=FALSE, warning=FALSE, echo=FALSE}
+
+
+renderPlot({
+set.seed(194842)
+n <- input$sample
+data <- sample(c(0,1), replace=TRUE, size=n, prob = c(0.5,0.5))
+rfq <- purrr::map(1:n, function(x) sum(data[1:x])/x) %>% unlist()
+ 
+plotdata <- tibble(k = 1:n, Rfrq = rfq)
+
+p<- ggplot(plotdata, aes(k, Rfrq))+
+  geom_point()+
+  geom_line()+
+  xlab("k=number of repetitions")+
+  ylab("Relative Frequency")+
+  ggtitle("Stabilization of relative frequency")
+
+p
+
+})
+
+```
