@@ -16,3 +16,4 @@ title: Teaching
 
 [Relative Frequency Method]( https://pridiltal.shinyapps.io/Probability/)
 
+[Central Limit Theorem](https://pridiltal.shinyapps.io/CLTapp/)
