@@ -36,4 +36,4 @@ url_slides: "talks/ISF2017/ISF2017ninjav6.html"
 url_video: ""
 ---
 
-
+![ISF 2017](1271.jpg)
