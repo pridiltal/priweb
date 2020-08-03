@@ -8,6 +8,7 @@ title: Teaching
 
 - [Lecturer (Probationary), Department of Computational Mathematics, University of Moratuwa, Sri Lanka.](https://uom.lk/staff/Talagala.PD.php) 
 
+- **Medium of Instruction : English**
 
 # Teaching Tools
 
@@ -15,7 +16,7 @@ title: Teaching
 
 [Central Limit Theorem](https://pridiltal.shinyapps.io/CLTapp/)
 
-# Medium of Instruction : English
+
 
 # Courses
 
