@@ -36,4 +36,3 @@ url_slides: "talks/YoungStats2017/YoungStatsShowcase17.html"
 url_video: ""
 ---
 
-![ISF 2017](1271.jpg)
