@@ -51,7 +51,13 @@ subtitle = ""
 +++
 </br> </br></br>
 
-**Featured Publications** [Anomaly Detection in Streaming Nonstationary Temporal Data](http://127.0.0.1:6501/publication/oddstream/)
+**Featured Publications**
+
+[Anomaly detection in high-dimensional data - to appear in JCGS](https://arxiv.org/abs/1908.04000)
+
+*This article proposes a framework to detect anomalies in high dimensional data suing feature engineering.*
+
+[Anomaly Detection in Streaming Nonstationary Temporal Data - in JCGS](http://127.0.0.1:6501/publication/oddstream/)
 
 *This article proposes a framework that provides early detection of anomalous series within a large collection of non-stationary streaming time series data.*
 </br> </br></br></br></br></br></br>
