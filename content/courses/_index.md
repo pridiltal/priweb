@@ -16,6 +16,7 @@ title: Teaching
 
 [Central Limit Theorem](https://pridiltal.shinyapps.io/CLTapp/)
 
+[Confidence interval demonstration](https://pridiltal.shinyapps.io/Confidence_Interval/)
 
 
 # Courses
