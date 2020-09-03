@@ -18,6 +18,7 @@ title: Teaching
 
 [Confidence Interval Demonstration](https://pridiltal.shinyapps.io/Confidence_Interval/)
 
+[Simple Linear Regression](https://pridiltal.shinyapps.io/regression/)
 
 # Courses
 
