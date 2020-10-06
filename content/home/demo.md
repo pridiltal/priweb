@@ -53,11 +53,11 @@ subtitle = ""
 
 **Featured Publications**
 
-[Anomaly detection in high-dimensional data - to appear in JCGS](https://arxiv.org/abs/1908.04000)
+[Anomaly detection in high-dimensional data - in JCGS](https://amstat.tandfonline.com/doi/abs/10.1080/10618600.2020.1807997?journalCode=ucgs20)
 
 *This article proposes a framework to detect anomalies in high dimensional data using feature engineering.*
 
-[Anomaly Detection in Streaming Nonstationary Temporal Data - in JCGS](http://127.0.0.1:6501/publication/oddstream/)
+[Anomaly Detection in Streaming Nonstationary Temporal Data - in JCGS](https://amstat.tandfonline.com/doi/full/10.1080/10618600.2019.1617160#.X3vJuZMzZQI)
 
 *This article proposes a framework that provides early detection of anomalous series within a large collection of non-stationary streaming time series data.*
 </br> </br></br></br></br></br></br>

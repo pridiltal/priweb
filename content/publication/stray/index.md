@@ -26,7 +26,7 @@ tags:
 title: Anomaly Detection in High Dimensional Data
 url_code: https://github.com/pridiltal/stray
 url_dataset: https://github.com/pridiltal/stray
-url_pdf: https://www.monash.edu/business/ebs/research/publications/ebs/wp20-2019.pdf
+url_pdf: https://amstat.tandfonline.com/doi/full/10.1080/10618600.2020.1807997
 url_poster: ''
 url_project: https://github.com/pridiltal/stray
 url_slides: "https://prital.netlify.com/talks/user2018/user2018#1" 
