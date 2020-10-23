@@ -31,7 +31,7 @@ Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 
 ## 2016 -2019
 
-PhD, reading)
+(PhD, reading)
 
 Monash University, Australia (Teaching Associate)
 
