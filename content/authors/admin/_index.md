@@ -54,7 +54,7 @@ user_groups:
 - Visitors
 ---
 
-I am a Senior Lecturer in the [Deparment of Computational Mathematics, University of Moratuwa](https://www.mrt.ac.lk/staff/Talagala.PD.php). I earned my PhD in Statistics from Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home).  I am a fellow of OWSD, a programme unit of UNESCO (2021-2022). 
+I am a Lecturer in the [Deparment of Computational Mathematics, University of Moratuwa](https://www.mrt.ac.lk/staff/Talagala.PD.php). I earned my PhD in Statistics from Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home).  I am a fellow of OWSD, a programme unit of UNESCO (2021-2022). 
 
 I am also an Associate Investigator of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/priyanga-dilini-talagala). Further, I am a co-founder of [R-Ladies Colombo,](https://rladiescolombo.netlify.com/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org).
 
