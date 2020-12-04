@@ -26,14 +26,14 @@ location: StatScale Seminar, Lancaster University, United Kingdom
 math: true
 projects:
 - Anomaly Detection
-publishDate: "2020-10-23"
+publishDate: "2020-12-04"
 slides: 
 summary: StatScale Seminar, Lancaster University, United Kingdom
 tags: []
 title: Anomaly Detection in Streaming Time Series Data
 url_code: ""
 url_pdf: ""
-url_slides: "talks/ISF2020/statscale2020.html" 
+url_slides: "talks/statscale2020/statscale2020.html"
 url_video: ""
 ---
 
