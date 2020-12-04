@@ -29,7 +29,7 @@ publishDate: "2020-12-04"
 slides: 
 summary: 40th International Symposium on Forecasting, Rio de Janeiro, Brazil
 tags: []
-title: Tensor-based anomaly detection in multivariate spatio-temporal data
+title: Anomaly Detection in Streaming Time Series Data
 url_code: ""
 url_pdf: ""
 url_slides: "talks/statscale2020/statscale2020.html" 
