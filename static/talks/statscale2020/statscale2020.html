@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Anomaly Detection in   Streaming Time Series Data</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+    <script src="libs/anchor-sections/anchor-sections.js"></script>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="myremark.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Anomaly Detection in <br/> Streaming Time Series Data
+## Priyanga Dilini Talagala
+### StatScale Seminar, Lancaster University <br/>04.12.2020
+
+---
+
+
+
+
+class: center, middle, inverse
+
+# Anomaly Detection in  Streaming Time Series Data
+
+## Priyanga Dilini Talagala
+
+04-12-2020
+
+
+<i class="fas  fa-envelope "></i>
+priyangad@uom.lk
+
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+pridiltal
+
+<i class="fas  fa-globe "></i>
+prital.netlify.app &lt;/br&gt;
+(Slides and papers available)
+
+&lt;br/&gt;&lt;br/&gt;The slides are powered by `xaringan` R package
+
+---
+class: center, middle
+
+# Hello from the team!
+
+
+&lt;img src="fig/team.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+.pull-left[
+
+&lt;img src="fig/JCGS_logo.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, (2020) **Anomaly detection in high-dimensional data**. Journal of Computational &amp; Graphical Statistics, *to appear*
+
+&lt;br/&gt;
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/stray-logo.png" alt="on CRAN" width="45%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+]
+.pull-right[
+&lt;img src="fig/JCGS_logo.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi and Mario A Munoz (2020) **Anomaly detection in streaming nonstationary temporal data**. Journal of Computational &amp; Graphical Statistics, 20(1), 13-27.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/oddstream1.png" alt="on CRAN" width="45%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+]
+
+---
+## Anomaly detection
+
+[CRAN Task View: Anomaly Detection with R](https://github.com/pridiltal/ctv-AnomalyDetection)
+--
+
+
+### Anomaly detection in temporal data
+
+&lt;img src="fig/outtype.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+background-image:url('fig/outtype2.png')
+background-position: 70% 70%
+background-size: 100%
+class: left, top, clear
+
+## Anomalous series in temporal data
+---
+background-image:url('fig/outtype3.png')
+background-position: 70% 70%
+background-size: 100%
+class: left, top, clear
+
+## Anomalous series in temporal data
+---
+background-image:url('fig/2_application.png')
+background-position: 70% 70%
+background-size: 100%
+class: left, top, clear
+
+### Anomalous series within a space of a collection of series
+---
+class: center, middle
+
+&lt;p&gt;&lt;font size=12&gt; &lt;span style="color:blue"&gt; stray (S&lt;/span&gt;earch and &lt;span style="color:blue"&gt;TR&lt;/span&gt;ace &lt;span style="color:blue"&gt;A&lt;/span&gt;nomal&lt;span style="color:blue"&gt;Y&lt;span&gt;)
+&lt;/font size=12&gt;&lt;/p&gt;
+
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/stray-logo.png" alt="on CRAN" width="30%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+
+`devtools::install_github("pridiltal/stray")` 
+
+---
+
+## Anomaly detection in high dimensional Data
+
+### Main contributions
+- Propose a framework to detect anomalies in high dimensional data. Our proposed algorithm addresses the limitations of HDoutliers algorithm (Wilkinson, 2018).
+--
+
+
+### What is an anomaly ?
+- We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
+--
+
+
+### Main assumptions
+- There is a large distance between typical data and the anomalies in comparison to the distance among typical data.
+
+---
+
+## stray
+
+&lt;img src="fig/stray_plot1.png" width="50%" style="display: block; margin: auto;" /&gt;
+-  Normalize the columns of the data. (median and IQR)
+-  This prevents variables with large variances having disproportional influence on Euclidean distances.
+---
+
+## Why not "nearest neighbour" distances? 
+&lt;img src="fig/stray_plot2.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+- Calculate the nearest neighbour distance 
+---
+## stray
+&lt;img src="fig/stray_plot5.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+
+- Select the &lt;span style="color:red"&gt; k nearest neighbour &lt;/span&gt; distance with the &lt;span style="color:red"&gt; maximum gap &lt;/span&gt;
+---
+## Calculate anomalous threshold
+
+- Use extreme value theory (EVT) to calculate a separate outlier threshold for each set
+of outlier scores calculated using a given unsupervised outlier scoring technique.
+--
+
+- Let **n** be the size of the dataset
+--
+
+- Sort the resulting **n** outlier scores 
+--
+
+- Consider the half of the outlier scores  with the smallest values as typical
+--
+
+- Search for any significant large gap in the upper tail (Bottom up searching algorithm proposed by Schwarz, 2008)
+
+
+---
+## Spacing theorem (Weissman, 1978)
+
+Let `\(X_{1}, X_{2}, ..., X_{n}\)` be a sample from a distribution function `\(F\)` . &lt;/br&gt;
+Let `\(X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}\)` be the order statistics. &lt;/br&gt;
+The available data are `\(X_{1:n}, X_{2:n},  ..., X_{k:n}\)` for some fixed `\(k\)`. &lt;/br&gt;
+Let `\(D_{i,n} = X_{i:n} - X_{i+1:n},\)` `\((i = 1,2,..., k)\)` be the spacing between successive order statistics.&lt;/br&gt;
+If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, then the spacings `\(D_{i,n}\)` are asymptotically independent and exponentially distributed with mean proportional to `\(i^{-1}\)`.
+
+&lt;img src="fig/P2_plot17.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## stray
+&lt;img src="fig/stray_plot6.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+`outliers &lt;- find_HDoutliers(data)` &lt;br/&gt;
+`display_HDoutliers(data, outliers)`
+---
+## Advantages of the proposed algorithm
+
+- Detect clusters of outlying points
+--
+
+- Applied to both uni- and multi- dimensional data
+--
+
+- Handle large datasets due to the use of a one-pass algorithm
+--
+
+- Does not require a training set to build the decision model
+--
+
+- Deal with multimodal typical classes
+--
+
+- Outlier threshold has a probabilistic interpretation
+---
+background-image:url('fig/2_application.png')
+background-position: 70% 70%
+background-size: 100%
+class: right, top, clear
+
+### Anomalous series within a space of a collection of series
+---
+## Feature based representation of time series
+.pull-left[
+- Mean   
+- Variance  
+- Changing variance in remainder 
+- Level shift using rolling window   
+- Variance change  
+- Strength of linearity 
+- Strength of curvature  
+ ]
+
+.pull-right[
+- Strength of spikiness  
+- Burstiness of time series (Fano Factor)  
+- Minimum  
+- Maximum  
+- The ratio between 50% trimmed mean and the arithmetic mean
+- Moment 
+- Ratio of means of data that is below and above the global mean  
+
+]
+---
+## Approach 1: Using stray
+- use a moving window to deal with streaming data
+- Extract time series features from window
+- Apply stray algorithm to identify anomalous series
+
+.pull-left[
+
+&lt;img src="fig/P2_plot22.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+.pull-right[
+&lt;img src="fig/stray.gif" width="60%" style="display: block; margin: auto;" /&gt;
+]
+
+`tsfeatures &lt;- oddstream::extract_tsfeatures(ts_data)` &lt;br/&gt;
+`outliers &lt;- stray::find_HDoutliers(tsfeatures)` &lt;br/&gt;
+`stray::display_HDoutliers(tsfeatures, outliers)`
+
+
+---
+class:: center, clear
+.pull-left[
+ 
+&lt;img src="fig/P2_plot21a.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+--
+.pull-right[
+
+&lt;img src="fig/P2_plot21b.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+class: center, clear
+
+&lt;p&gt;&lt;font size=12&gt; &lt;span style="color:blue"&gt;oddstream &lt;/br&gt; (O&lt;/span&gt;utlier &lt;span style="color:blue"&gt;D&lt;/span&gt;etection in &lt;span style="color:blue"&gt;D&lt;/span&gt;ata  &lt;span style="color:blue"&gt;STREAM&lt;/span&gt;s)
+&lt;/font size=12&gt;&lt;/p&gt; 
+
+
+&lt;img src="fig/oddstream_logo.png" width="30%" style="display: block; margin: auto;" /&gt;
+
+`devtools::install_github("pridiltal/oddstream")` 
+
+---
+## Dimension reduction for time series 
+
+.pull-left[
+`load(train_data)`
+&lt;img src="fig/4_typical.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+--
+.pull-right[
+`tsfeatures &lt;- oddstream::extract_tsfeatures` &lt;/br&gt;
+`(train_data)`
+&lt;img src="fig/5_high_typical.gif" width="50%" style="display: block; margin: auto;" /&gt;
+]
+
+--
+&lt;/br&gt;
+`pc&lt;- oddstream::get_pc_space(tsfeatures)`&lt;/br&gt;
+`oddstream::plotpc(pc$pcnorm)` 
+&lt;img src="fig/6_typicalfeature.png" width="35%" style="display: block; margin: auto;" /&gt;
+---
+## Anomalous threshold calculation 
+
+- Estimate the probability density function of the 2D PC space `\(\longrightarrow\)` Kernel density estimation
+--
+
+- Draw a large number N of extremes `\((arg min_{x\in X}[f_{2}(x)])\)` from the estimated probability density function
+--
+
+- Define a `\(\Psi\)`-transform space, using the `\(\Psi\)`-transformation defined by (Clifton et al., 2011)
+
+&lt;img src="fig/10_psitrans.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+- `\(\Psi\)`-transform maps the density values back into space into which a Gumbel distribution can be fitted.
+--
+
+- Anomalous threshold calculation `\(\longrightarrow\)` extreme value theory
+
+
+---
+class: center, top, clear
+`oddstream::find_odd_streams(train_data, test_stream)`
+&lt;img src="fig/18_oddstream_mvtsplot.gif" width="50%" style="display: block; margin: auto;" /&gt;
+.pull-left[
+&lt;img src="fig/16_oddstream_out_loc.gif" width="90%" style="display: block; margin: auto;" /&gt;
+]
+.pull-right[
+&lt;img src="fig/17_oddstream_pcplot.gif" width="90%" style="display: block; margin: auto;" /&gt;
+]
+---
+class:  center, middle, inverse
+
+
+# Anomaly Detection with &lt;br/&gt;  &lt;span style="color:#cc5900"&gt; Non-stationarity &lt;/span&gt;
+
+
+---
+#### Anomaly detection with non-stationarity
+
+&lt;img src="fig/19_nonstationaritytypes.png" width="70%" style="display: block; margin: auto;" /&gt;
+---
+
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/20_suddenplot2.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="fig/21_noCD1.png" width="35%" style="display: block; margin: auto;" /&gt;
+---
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/20_suddenplot3.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="fig/21_noCD2.png" width="35%" style="display: block; margin: auto;" /&gt;
+
+---
+
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/20_suddenplot4.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="fig/21_noCD3.png" width="35%" style="display: block; margin: auto;" /&gt;
+
+---
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/20_suddenplot2.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="fig/22_conceptdrift_pval.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+- `\(H_{0} : f_{t_{0}} = f_{t_{t}}\)`
+
+
+- squared discrepancy measure `\(T = \int[f_{t_{0}}(x) - f_{t_{t}}(x)]^{2}dx\)` (Anderson et al., 1994)
+
+---
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/23_sudden_out.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: clear, middle, center
+.pull-left[
+### stray
+ 
+&lt;img src="fig/P2_plot21a.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+- Definition: distance 
+- no training set 
+]
+.pull-right[
+### oddstream
+
+&lt;img src="fig/P2_plot21b.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+- Definition: density
+- need a training set
+]
+---
+### What Next?
+
+- Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
+--
+
+- Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
+--
+
+- Do more experiments on density estimation methods to get a better tail estimation.
+--
+
+- Extend the algorithm to work with Multidimensional Multivariate Data Streams. 
+
+---
+
+.pull-left[
+
+&lt;img src="fig/JCGS_logo.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, (2020) **Anomaly detection in high-dimensional data**. Journal of Computational &amp; Graphical Statistics, *to appear*
+
+&lt;br/&gt;
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/stray-logo.png" alt="on CRAN" width="45%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+]
+.pull-right[
+&lt;img src="fig/JCGS_logo.png" width="40%" style="display: block; margin: auto;" /&gt;
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi and Mario A Munoz (2020) **Anomaly detection in streaming nonstationary temporal data**. Journal of Computational &amp; Graphical Statistics, 20(1), 13-27.
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="fig/oddstream1.png" alt="on CRAN" width="45%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+]
+---
+class: center, middle
+
+# Thank You
+
+.pull-left[
+&lt;img src="fig/oddstream1.png" width="45%" style="display: block; margin: auto;" /&gt;
+]
+.pull-right[
+&lt;img src="fig/stray-logo.png" width="45%" style="display: block; margin: auto;" /&gt;
+]
+
+<i class="fas  fa-envelope "></i>
+priyangad@uom.lk
+
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+pridiltal
+
+<i class="fas  fa-globe "></i>
+prital.netlify.app &lt;/br&gt;
+(Slides and papers available)
+
+&lt;br/&gt;&lt;br/&gt;The slides are powered by `xaringan` R package
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
