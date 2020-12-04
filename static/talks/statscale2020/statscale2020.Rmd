@@ -249,7 +249,7 @@ knitr::include_graphics("fig/stray_plot6.png")
 - Applied to both uni- and multi- dimensional data
 --
 
-- Handle large datasets due to the use of a one-pass algorithm
+- Handle large datasets due to the use of approximate KNN searching algorithm
 --
 
 - Does not require a training set to build the decision model
@@ -385,6 +385,25 @@ knitr::include_graphics("fig/10_psitrans.png")
 --
 
 - Anomalous threshold calculation $\longrightarrow$ extreme value theory
+
+---
+class:  top
+### Feature Based Representation of Time series
+    
+.pull-left[
+
+
+```{r   echo=FALSE, out.width = "100%", fig_align = 'bottom'}
+knitr::include_graphics("fig/3_batch.png")
+```
+
+
+]
+.pull-right[
+```{r  echo=FALSE, out.width = "100%",}
+knitr::include_graphics("fig/tsfeatures.png")
+```
+]
 
 
 ---

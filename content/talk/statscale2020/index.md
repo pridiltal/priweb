@@ -11,8 +11,8 @@ all_day: false
 authors: []
 date: "2020-12-04"
 date_end: "2020-12-04"
-event: 40th International Symposium on Forecasting, Rio de Janeiro, Brazil.
-event_url: https://isf.forecasters.org/
+event: StatScale Seminar
+event_url: 
 featured: false
 image:
   caption: ''
@@ -22,15 +22,15 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/pridiltal
-location: Virtual ISF 2020, Rio de Janeiro, Brazil
+location: StatScale Seminar
 math: true
 projects:
 - Anomaly Detection
 publishDate: "2020-12-04"
 slides: 
-summary: 40th International Symposium on Forecasting, Rio de Janeiro, Brazil
+summary: Anomaly Detection in Streaming Time Series Data
 tags: []
-title: Tensor-based anomaly detection in multivariate spatio-temporal data
+title: Anomaly Detection in Streaming Time Series Data
 url_code: ""
 url_pdf: ""
 url_slides: "talks/statscale2020/statscale2020.html" 
