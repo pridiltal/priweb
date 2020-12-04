@@ -386,6 +386,23 @@ knitr::include_graphics("fig/10_psitrans.png")
 
 - Anomalous threshold calculation $\longrightarrow$ extreme value theory
 
+
+---
+class: center, top, clear
+`oddstream::find_odd_streams(train_data, test_stream)`
+```{r   echo=FALSE, out.width = "50%"}
+knitr::include_graphics("fig/18_oddstream_mvtsplot.gif")
+```
+.pull-left[
+```{r  echo=FALSE, out.width = "90%", fig_align = 'top'}
+knitr::include_graphics("fig/16_oddstream_out_loc.gif")
+```
+]
+.pull-right[
+```{r  echo=FALSE, out.width = "90%", fig_align = 'top'}
+knitr::include_graphics("fig/17_oddstream_pcplot.gif")
+```
+]
 ---
 class:  top
 ### Feature Based Representation of Time series
@@ -405,23 +422,6 @@ knitr::include_graphics("fig/tsfeatures.png")
 ```
 ]
 
-
----
-class: center, top, clear
-`oddstream::find_odd_streams(train_data, test_stream)`
-```{r   echo=FALSE, out.width = "50%"}
-knitr::include_graphics("fig/18_oddstream_mvtsplot.gif")
-```
-.pull-left[
-```{r  echo=FALSE, out.width = "90%", fig_align = 'top'}
-knitr::include_graphics("fig/16_oddstream_out_loc.gif")
-```
-]
-.pull-right[
-```{r  echo=FALSE, out.width = "90%", fig_align = 'top'}
-knitr::include_graphics("fig/17_oddstream_pcplot.gif")
-```
-]
 ---
 class:  center, middle, inverse
 
