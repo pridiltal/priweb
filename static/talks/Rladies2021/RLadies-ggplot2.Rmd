@@ -1700,3 +1700,5 @@ Hadley Wickham, Thomas Lin Pedersen and ggplot2 development team
 
 - ggplot2: Elegant Graphics for Data Analysis https://ggplot2-book.org/
 - ggplot2 workshop by Thomas Lin Pedersen https://www.youtube.com/watch?v=h29g21z0a68 
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
