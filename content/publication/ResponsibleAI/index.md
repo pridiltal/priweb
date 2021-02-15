@@ -13,7 +13,7 @@ projects:
 publication: "ComSpective the ICT Technical Magazine, 2021"
 publication_short: ""
 publication_types:
-- "2"
+- "Technical Magazine Article"
 publishDate: "2021-02-15"
 slides: 
 summary: This article discusses the significance of responsible AI for the protection of humanity in an exceedingly unpredictable future. 
