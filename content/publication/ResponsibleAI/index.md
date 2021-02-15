@@ -29,7 +29,7 @@ url_slides:
 url_source: ''
 url_video: ''
 ---
-Responsible AI: The talk of the Town [Full Article here](http://www.comspective.sab.ac.lk/magazine/#page/18).
+Responsible AI: The talk of the Town [Full Magazine here](http://www.comspective.sab.ac.lk/magazine/#page/18).
 
 
 ![Monthly wordwide Google search volumes for 3 web search terms under all categories, retrieved from Google Trends, December 25, 2020.](google.jpeg)
