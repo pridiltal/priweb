@@ -18,10 +18,10 @@ interests:
 - Statistical machine learning
 - Machine learning interpretability
 - Anomaly detection
-- Functional data analysis
 - Time series analysis and forecasting
 - High dimensional data visualization
 - Streaming data mining
+- Responsible AI
 - Applied statistics
 - R programming
 name: Priyanga Dilini Talagala
