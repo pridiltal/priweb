@@ -1,5 +1,5 @@
 {
-    "path" : "~/Documents/priweb/config/_default",
+    "path" : "~/Documents/priweb/themes/hugo-academic/layouts/partials",
     "sortOrder" : [
         {
             "ascending" : true,
