@@ -23,10 +23,6 @@ copyright = "&copy; 2017 Priyanga Talagala"
 # Name of Academic theme folder in `themes/`.
 theme = "hugo-academic"
 
-# Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-137153070-1"
-
-
 # Get last modified date for content from Git?
 enableGitInfo = false
 
