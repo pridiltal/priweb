@@ -22,6 +22,12 @@ title: Teaching
 
 # Courses
 
+## 2021
+
+Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
+
+- MA 5124 Financial Time Series Analysis & Forecasting (M.Sc.in Financial Mathematics)
+
 ## 2020
 
 Department of Computational Mathematics, University of Moratuwa, Sri Lanka
