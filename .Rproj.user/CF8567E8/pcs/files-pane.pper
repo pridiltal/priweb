@@ -1,9 +1,9 @@
 {
-    "path" : "~/Documents/priweb/content/courses",
-    "sortOrder" : [
+    "path": "~/Documents/priweb/content/talk/ISF2021",
+    "sortOrder": [
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
