@@ -1,7 +1,7 @@
 ---
 title: "Tidy Time Series Anomaly Detection for Load Forecasting"
 subtitle: "<br/> Priyanga Dilini Talagala"
-date: "University of Moratuwa, Sri Lanka<br/> <br/>30.07.2021"
+date: "41st International Symposium on Forecasting<br/> <br/>30.07.2021"
 output:
   xaringan::moon_reader:
     css: ["default", "myremark.css"]
@@ -763,12 +763,12 @@ print(p)
 
 
 ---
-## What next?
+# What next?
 
 - Combinations forecast with **robust methods** for time series
 --
 
-- Incorporating weights when combining the forecasts based
+- Incorporating weights when combining the forecasts 
 --
 
 - Extend the algorithm to work with Multivariate time series and High-Dimensional Tensor Time Series
@@ -778,7 +778,6 @@ print(p)
 --
 
 - Do more experiments on density estimation methods to get a better tail estimation.
-
 ---
 class: center, middle, inverse
 
