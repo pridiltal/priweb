@@ -82,7 +82,7 @@ class: center, top
 knitr::include_graphics("figure/5_hex-outstable.png")
 ```
 
-### `devtools::install_github("prifiltal/outstable")`
+### `devtools::install_github("pridiltal/outstable")`
 ---
 class: center, top
 # <span style="color: orange">outstable</span>  
