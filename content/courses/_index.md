@@ -27,6 +27,12 @@ title: Teaching
 Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
 
 - MA 5124 Financial Time Series Analysis & Forecasting (M.Sc.in Financial Mathematics)
+- MA 5680 Time Series Analysis (M.Sc. in Operational Research) 
+
+Department of Computational Mathematics, University of Moratuwa, Sri Lanka
+
+- CM 1110 Fundamentals of Mathematics and Statistics (Batch 20)
+- CM 2110 Calculus & Statistical Distributions (Batch 19)
 
 ## 2020
 
