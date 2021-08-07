@@ -1,17 +1,17 @@
 ---
 abstract: 
 address:
-  city: Online
-  country: Online
+  city: ""
+  country: ""
   postcode: ""
   region: ""
   street: ""
 all_day: false
 authors: []
-date: "2021-08-08"
-date_end: "2021-08-08"
+date: "2021-07-08"
+date_end: "2021-07-08"
 event: 2021 Joint Statistical Meetings - American Statistical Association
-event_url: http://ww2.amstat.org/meetings/jsm/2018/
+event_url: https://ww2.amstat.org/meetings/jsm/2021/
 featured: false
 image:
   caption: ''
@@ -25,7 +25,7 @@ location: Online
 math: true
 projects:
 - Anomaly Detection
-publishDate: "2021-08-08"
+publishDate: "2021-07-08"
 slides: 
 summary: 2021 Joint Statistical Meetings - American Statistical Association
 tags: []
