@@ -1,5 +1,5 @@
 ---
-abstract: Accurate load forecasting is vital for effective energy management, as forecast underestimation can result in blackouts, whereas overestimation may result in energy wastage. However, the quality of historical data for load forecasting can be affected in several ways, such as data integrity attacks,  missing values, incorrect readings,  technical aberrations. These issues make data unreliable and untrustworthy and can have a direct impact on forecast accuracy and subsequent decision making. This work develops a framework for detecting anomalies in tidy time series data. An anomaly is defined as an observation that is predicted as very unlikely given the robust time series forecast models. The algorithm works with tidy temporal data provided by the `tsibble` package and produces an  `outstable`, a tsibble with flagged anomalies and their degree of outlierness. An approach based on extreme value theory is applied to residual series in order to calculate a data-driven anomalous threshold. The proposed framework can also provide a cleansed tsibble that closely integrates with the tidy forecasting workflow used in the `fable` package.  A number of different approaches are available for the data cleansing process. The wide applicability and usefulness of this proposed framework in load forecasting will be demonstrated using various synthetic, real-world, and publicly available benchmark datasets including data from Global Energy Forecasting Competitions.  This framework is implemented in the open-source R package `outstable`. 
+abstract: The rapid progress in hardware technology has made it possible for many sensors to capture multiple measurements simultaneously, leading ultimately to spatio-temporal tensor streams. This work develops a framework for detecting anomalies in data with tensor structures which make traditional matrix-based spectral methods for anomaly detection inadequate for such data. An anomaly is defined as an observation that deviates significantly from the local or global distribution of a given system. Identification of such anomalous spatial locations using all the information obtained from the multiple measurements while preserving the underlying correlation structure of the measurements is the main goal of the applications relate to the topic. This work makes two fundamental contributions.  First, it proposes a novel framework that detects anomalies in spatio-temporal tensor streams. Second, it provides effective data visualisation methods for spatio-temporal tensor data.  The wide applicability and usefulness of this proposed framework will be demonstrated using various synthetic and real world datasets.  This framework is implemented in the open source R package `mask`.
 address:
   city: Virtual Conference
   country: ""
@@ -10,8 +10,8 @@ all_day: false
 authors: []
 date: "2021-08-06"
 date_end: "2021-08-06"
-event: 41st International Symposium on Forecasting, Virtual Conference.
-event_url: https://forecasters.org/events/symposium-on-forecasting/
+event: 2021 Joint Statistical Meetings - American Statistical Association
+event_url: https://ww2.amstat.org/meetings/jsm/2021/
 featured: false
 image:
   caption: ''
@@ -21,18 +21,18 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/pridiltal
-location: Virtual ISF 2021
+location: Virtual Conference 2021
 math: true
 projects:
 - Anomaly Detection
-publishDate: "2021-07-08"
+publishDate: "2021-08-07"
 slides: 
-summary: 41st International Symposium on Forecasting
+summary: 2021 Joint Statistical Meetings
 tags: []
-title: Tidy Time Series Anomaly Detection for Load Forecasting
+title: Anomaly Detection in Spatio-Temporal Tensor Streams
 url_code: ""
 url_pdf: ""
-url_slides: "talks/ISF2021/ISF-2021.html" 
+url_slides: "talks/JSM2021/JSM2021-talk.html" 
 url_video: ""
 ---
 
