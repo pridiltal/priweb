@@ -560,7 +560,7 @@ knitr::include_graphics("figure/31_mask.png")
 - Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
 --
 
-- Use other dimension reduction techniques for tensor data such as Tucker3 models,  multilinear PLS (N-PLS) to see the effect on the performance of the proposed framework.
+- Use other dimension reduction techniques for tensor data such as  multilinear PLS (N-PLS) to see the effect on the performance of the proposed framework.
 --
 
 - Develop effective, interactive data visualisation tools for further investigation of the detected spacial anomalies.
@@ -570,12 +570,12 @@ class: center, bottom, inverse
 
 ## Thank you
 
+.pull-left[
 ```{r }
 #icon::fontawesome("rocket", style = "solid")
 icon::fa("envelope")
 ``` 
 priyangad@uom.lk
-
 
 ```{r}
 icon::fa("github")
@@ -591,11 +591,14 @@ icon::fa("globe")
 ```
 https://prital.netlify.app/ </br>
 (Slides available)
-
-```{r   echo=FALSE, out.width = "20%", fig.cap="devtools::install_github(\"pridiltal/mask\")"}
+].pull-right[
+```{r   echo=FALSE, out.width = "50%", fig.cap="devtools::install_github(\"pridiltal/mask\")"}
 knitr::include_graphics("figure/19_hexstickermask.png")
 ```
-
+]
+.footnote[
+Slides created via `xaringan`. 
+]
 ---
 ### Key References
 
