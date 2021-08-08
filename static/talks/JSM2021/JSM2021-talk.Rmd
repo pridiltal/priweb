@@ -3,7 +3,7 @@ title: <span style="color:orange">Anomaly Detection in Spatio-Temporal Tensor St
 subtitle: <span style="color:orange">Priyanga Dilini Talagala</span>
 author: <span style="color:orange">JSM 2021</span></br>
 #institute: "40th International Symposium on Forecasting"
-date: <span style="color:orange">08/08/2021</span></br></br></br></br></br></br>
+date: <span style="color:orange">08/08/2021</span></br></br></br>`r anicon::faa("twitter", animate="horizontal", colour= "#0fb7fa")` <span style="color:#0fb7fa">pridiltal</span></br>`r anicon::faa("globe", animate="horizontal", colour= "green")` <span style="color:lightgreen">prital.netlify.app</span></br>
 output:
   xaringan::moon_reader:
     chakra: libs/remark-latest.min.js
@@ -584,6 +584,7 @@ icon::fa("twitter")
 ```
 pridiltal
 
+`r anicon::faa("hand-point-right", animate="horizontal", colour= "orange", speed="fast")`
 ```{r}
 
 icon::fa("globe")
@@ -594,5 +595,12 @@ https://prital.netlify.app/ </br>
 ```{r   echo=FALSE, out.width = "20%", fig.cap="devtools::install_github(\"pridiltal/mask\")"}
 knitr::include_graphics("figure/19_hexstickermask.png")
 ```
+
+---
+### Key References
+
+- Di Palma, M. A., V. Todorov, and M. Gallo. "Robust multiway analysis of compositional data in R."
+- Talagala, Priyanga Dilini, Rob J. Hyndman, and Kate Smith-Miles. "Anomaly detection in high-dimensional data." Journal of Computational and Graphical Statistics (2020): 1-15.
+- Talagala, P. D., Hyndman, R. J., Smith-Miles, K., Kandanaarachchi, S., & Munoz, M. A. (2020). Anomaly detection in streaming nonstationary temporal data. Journal of Computational and Graphical Statistics, 29(1), 13-27.
 
 
