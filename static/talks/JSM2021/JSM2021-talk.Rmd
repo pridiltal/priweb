@@ -507,7 +507,7 @@ class: left, top
 ---
 ### Advantages of the  mask framework 
 
-- Detect spacial anomalies in  spatio-temporal tensor data 
+- Detect spatial anomalies in  spatio-temporal tensor data 
 --
 
 - Can take the correlation structure of the  variables into account when detecting anomalies
@@ -564,7 +564,7 @@ knitr::include_graphics("figure/31_mask.png")
 - Use other dimension reduction techniques for tensor data such as  multilinear PLS (N-PLS) to see the effect on the performance of the proposed framework.
 --
 
-- Develop effective, interactive data visualisation tools for further investigation of the detected spacial anomalies.
+- Develop effective, interactive data visualisation tools for further investigation of the detected spatial anomalies.
 <!--Natural extensions of two-way models-->
 ---
 class: center, bottom, inverse
