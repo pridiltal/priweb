@@ -6,6 +6,8 @@
     <meta name="author" content="JSM 2021" />
     <meta name="date" content="2021-08-08" />
     <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/font-awesome-animation/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="libs/fontawesome/js/fontawesome-all.min.js"></script>
     <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="myremark2.css" type="text/css" />
   </head>
@@ -100,7 +102,7 @@ class: left, top
 
 &lt;img src="figure/13_MDdata.png" width="30%" style="display: block; margin: auto;" /&gt;
 ---
-### Spatio-Temporal &lt;span style="color:orange"&gt;Tensor&lt;/span&gt; Data
+### Spatio-Temporal <span class=" faa-bounce animated faa-fast " style=" color:orange; display: -moz-inline-stack; display: inline-block; transform: rotate(0deg);">Tensor</span> Data
 
 &lt;img src="figure/14_MDdata.png" width="30%" style="display: block; margin: auto;" /&gt;
 
@@ -118,9 +120,16 @@ class: left, top
 
 ---
 
+### Spatio-Temporal <span class=" faa-bounce animated faa-fast " style=" color:orange; display: -moz-inline-stack; display: inline-block; transform: rotate(0deg);">Tensor</span> Data
+
+&lt;img src="figure/16_MDdata.png" width="30%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
 class: bottom, center, inverse
 
-## &lt;span style="color:blue"&gt;A&lt;/span&gt;nomaly Detection in &lt;br/&gt;&lt;span style="color:blue"&gt;M&lt;/span&gt;ultivariate  &lt;span style="color:blue"&gt;S&lt;/span&gt;patio-temporal data &lt;br/&gt; with &lt;span style="color:blue"&gt;K&lt;/span&gt;-measurements
+## <span class=" faa-bounce animated faa-fast " style=" color:blue; display: -moz-inline-stack; display: inline-block; transform: rotate(0deg);">A</span>nomaly Detection in &lt;br/&gt;<span class=" faa-bounce animated faa-fast " style=" color:blue; display: -moz-inline-stack; display: inline-block; transform: rotate(0deg);">M</span>ultivariate  <span class=" faa-bounce animated faa-fast " style=" color:blue; display: -moz-inline-stack; display: inline-block; transform: rotate(0deg);">S</span>patio-temporal data &lt;br/&gt; with <span class=" faa-bounce animated faa-fast " style=" color:blue; display: -moz-inline-stack; display: inline-block; transform: rotate(0deg);">K</span>-measurements
 
 
 &lt;div class="figure" style="text-align: center"&gt;
@@ -275,12 +284,12 @@ https://www.sciencedirect.com/science/article/abs/pii/S0169743997000324--&gt;
 
 
 ---
-background-image:url('figure/25_parafac.png')
-background-position: 60% 80%
+background-image:url('figure/25_tucker3.png')
+background-position: 50% 110%
 background-size: 90%
 class:left, top
 
-### Dimension reduction using Robust PARAFAC
+### Anomalous score calculation using Robust three-way analysis
 
 
 &lt;!-- 
@@ -309,14 +318,69 @@ https://www.youtube.com/watch?v=L8uT6hgMt00
 
 ---
 
-background-image:url('figure/26_parafac.png')
-background-position: 60% 80%
+background-image:url('figure/26_tucker3.png')
+background-position: 50% 110%
 background-size: 90%
 class: left, top
 
-### Dimension reduction using Robust PARAFAC
+### Anomalous score calculation using Robust three-way analysis
 
 
+
+---
+#### Anomalous score calculation using Robust three-way analysis
+
+.pull-left[
+- Matrix SVD (Singular-Value Decomposition)
+
+&lt;img src="figure/34_SVD.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+--
+.pull-right[
+- The Tucker3 Model
+
+&lt;img src="figure/35_tucker3.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+---
+
+.pull-left[
+
+
+### The Robust Tucker3 Model
+
+
+`$$\mathbf{X}_A=\mathbf{AG}(\mathbf{C} \otimes \mathbf{B})^t + \mathbf{E}$$`
+- Fitted model
+`$$\mathbf{\hat{X}}_A=\mathbf{\hat{A}\hat{G}}(\mathbf{\hat{C}} \otimes \mathbf{\hat{B}})^t$$`
+- Objective function:
+`$$\sum_{i=1}^I\sum_{j=1}^J\sum_{k=1}^K (x_{ijk}- \hat{x}_{ijk})^2= \sum_{i=1}^I(\mathbf{x_i-\mathbf{\hat{x_i}}})(\mathbf{x_i-\mathbf{\hat{x_i}}})^t$$`
+
+]
+
+.pull-right[
+
+&lt;img src="figure/35_tucker3.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+
+- Residual distance:
+
+`$$RD_i=\sqrt{\sum_{j=1}^J\sum_{k=1}^K (x_{ijk}- \hat{x}_{ijk})^2}$$`
+
+]
+
+.footnote[
+Palma, Todorov and Gallo (2014)
+] 
+
+---
+
+background-image:url('figure/26_tucker3.png')
+background-position: 50% 110%
+background-size: 90%
+class: left, top
+
+### Anomalous score calculation using Robust three-way analysis
 ---
 ### Anomalous threshold calculation using Spacing theorem (Weissman, 1978)
 
@@ -333,16 +397,16 @@ class: left, top
 ]
 ---
 background-image:url('figure/27_india.png')
-background-position: 50% 70%
-background-size: 80%
+background-position: 50% 80%
+background-size: 90%
 class: left, top
 
 #### India hourly air pollution data from  244 stations from October 2019 to September 2020
 
 ---
 background-image:url('figure/28_india.png')
-background-position: 50% 70%
-background-size: 80%
+background-position: 50% 80%
+background-size: 90%
 class: left, top
 
 ####  India hourly air pollution data from  244 stations from October 2019 to September 2020
