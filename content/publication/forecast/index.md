@@ -92,7 +92,7 @@ projects:
 publication: '*arXiv 2012.03854*'
 publication_short: ""
 publication_types:
-- "pub_preprint"
+- "3"
 publishDate: "2021-08-18"
 slides: 
 summary: This unique article offers an encyclopedic review of the theory and practice of forecasting. This article is written by 80 experts from 22 countries and 72 institutions/organisations.

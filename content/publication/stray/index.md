@@ -16,7 +16,7 @@ projects:
 publication: ""
 publication_short: ""
 publication_types:
-- "3"
+- "2"
 publishDate: "2019-08-12"
 slides: 
 summary: The algorithm, stray, which is specially designed for high-dimensional data, addresses the limitations of the state-of-art-method, the HDoutliers algorithm. 
