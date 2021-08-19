@@ -99,7 +99,7 @@ summary: This unique article offers an encyclopedic review of the theory and pra
 tags:
 - Forecasting
 - Time series
-title: Forecasting: theory and practice
+title: Forecasting - theory and practice
 url_code: ""
 url_dataset: ""
 url_pdf: https://arxiv.org/abs/2012.03854
