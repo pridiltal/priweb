@@ -25,7 +25,7 @@ authors:
 - Franses, P.H.
 - Frazier, D.T.
 - Gilliland, M.
-- Gönül, M.S.
+- Gonul, M.S.
 - Goodwin, P.
 - Grossi, L.
 - Grushka-Cockayne, Y.
@@ -53,11 +53,11 @@ authors:
 - Meeran, S.
 - Modis, T.
 - Nikolopoulos, K.
-- Önkal, D.
+- Onkal, D.
 - Paccagnini, A.
 - Panagiotelis, A.
 - Panapakidis, I.
-- Pavía, J.M.
+- Pavia, J.M.
 - Pedio, M.
 - Pedregal Tercero, D.J.
 - Pinson, P.
@@ -85,7 +85,7 @@ date: "2021-08-18"
 doi: 
 featured: false
 image:
-  caption: 'The only surviving image of the Delphic Pythia. Aegeus, the mythical king of Athens, consulting the oracle. Attic red-figure kylix, c. 440???430 BC, Berlin Museum, inv. 2538. Image Credit: https://www.researchgate.net/publication/262091264_Oracle_Trees_in_the_Ancient_Hellenic_World  (de Carvalho, L. M., Fernandes, F. M., & Bowden, H. (2011). Oracle Trees in the Ancient Hellenic World. Harvard Papers in Botany, 16(2), 425-427.)'
+  caption: 'The only surviving image of the Delphic Pythia. Aegeus, the mythical king of Athens, consulting the oracle. Attic red-figure kylix, c. 440???430 BC, Berlin Museum, inv. 2538. Image Credit: https://www.researchgate.net/publication/262091264_Oracle_Trees_in_the_Ancient_Hellenic_World  (de Carvalho, L. M., Fernandes, F. M., \& Bowden, H. (2011). Oracle Trees in the Ancient Hellenic World. Harvard Papers in Botany, 16(2), 425-427.)'
   focal_point: ""
   preview_only: false
 projects:
