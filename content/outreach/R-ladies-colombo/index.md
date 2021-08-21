@@ -12,7 +12,7 @@ links:
 slides: example
 summary: R-Ladies is a worldwide organization whose mission is to promote diversity in the R community. R-Ladies Colombo chapter is a part of the R-Ladies Global community.
 tags:
-- Organizations
+- organization
 title: R-Ladies Colombo
 url_code: ""
 url_pdf: ""

@@ -12,7 +12,7 @@ links:
 slides: example
 summary: Data Analysis with R Programming for Beginners. This workshop is organized by Sri Lanka Association for the Advancement of Science - Section C.
 tags:
-- Organizations
+- workshops
 title: Data Analysis with R Programming for Beginners
 url_code: ""
 url_pdf: ""

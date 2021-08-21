@@ -27,15 +27,15 @@ subtitle = ""
   
   [[content.filter_button]]
     name = "Workshops"
-    tag = "Workshops"
+    tag = "workshops"
   
   [[content.filter_button]]
     name = "Organization"
-    tag = "Organization"
+    tag = "organization"
   
   [[content.filter_button]]
     name = "Research Lab"
-    tag = "Research Lab"
+    tag = "research_lab"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
