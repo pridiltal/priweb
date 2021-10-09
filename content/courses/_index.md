@@ -33,6 +33,7 @@ Department of Computational Mathematics, University of Moratuwa, Sri Lanka
 
 - CM 1110 Fundamentals of Mathematics and Statistics (Batch 20)
 - CM 2110 Calculus & Statistical Distributions (Batch 19)
+- CM 3120 Computational Statistics
 
 ## 2020
 
