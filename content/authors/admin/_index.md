@@ -56,11 +56,11 @@ user_groups:
 
 I am a Senior Lecturer in the [Department of Computational Mathematics, University of Moratuwa](https://www.mrt.ac.lk/staff/Talagala.PD.php). I earned my PhD in Statistics from Monash University, Australia, under the supervision of [Professor Rob J. Hyndman](https://robjhyndman.com/) and [Professor Kate Smith-Miles](http://katesmithmiles.wixsite.com/home).  I am a fellow of OWSD, a programme unit of UNESCO (2021-2022). 
 
-I am also an Associate Investigator of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia](https://acems.org.au/our-people/priyanga-dilini-talagala). Further, I am a co-founder of [R-Ladies Colombo,](https://rladiescolombo.netlify.com/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org).
-
+I am an Associate Editor for [The R Journal](https://journal.r-project.org/). Further, I am a co-founder of [R-Ladies Colombo,](https://rladiescolombo.netlify.com/) a local chapter of the [R-Ladies Global Organization](https://www.rladies.org). 
 
 My research focuses on statistical machine learning and data mining, and in particular   the development of novel methods and tools for analyzing complex data. I am also strongly committed to developing open source software tools to facilitate reproducible research. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
+I was an Associate Investigator of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia, 2019 - 2021](https://acems.org.au/our-people/priyanga-dilini-talagala).
 
 [Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
 
