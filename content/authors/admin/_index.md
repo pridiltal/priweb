@@ -60,7 +60,7 @@ I am an Associate Editor for [The R Journal](https://journal.r-project.org/). Fu
 
 My research focuses on statistical machine learning and data mining, and in particular   the development of novel methods and tools for analyzing complex data. I am also strongly committed to developing open source software tools to facilitate reproducible research. You can find some of my projects [here](https://prital.netlify.com/#projects). Visit me on [twitter](https://twitter.com/pridiltal), I post mostly about R, Statistics, Data Science and science in nature. 
 
-I was an Associate Investigator of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia, 2019 - 2021](https://acems.org.au/our-people/priyanga-dilini-talagala).
+I am an Associate Investigator of the [Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS), Australia, 2019 - 2021](https://acems.org.au/our-people/priyanga-dilini-talagala).
 
 [Thiyanga Talagala, PhD in Statistics, Monash University, Australia](https://thiyanga.netlify.com/) is my sister.
 
