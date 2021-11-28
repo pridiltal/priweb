@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Technical Anomalies in Water-Quality Data From In-Situ Sensors:  What, Why, and How?</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies.css" rel="stylesheet" />
+    <link href="libs/remark-css/rladies-fonts.css" rel="stylesheet" />
+    <link href="libs/font-awesome-animation/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="libs/fontawesome/js/fontawesome-all.min.js"></script>
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# <span style="color:white;font-weight:bold">Technical Anomalies in Water-Quality Data From In-Situ Sensors<span class="math inline">:</span> </br> What, Why, and How?</span>
+## <span style="color:#ffeb0f; font-weight:bold"> Priyanga Dilini Talagala </br> 29.11.2021</br></br></br></span>
+
+---
+
+class: center, inverse
+
+
+
+
+
+
+## Hello from the team!
+
+&lt;img src="fig/1_team.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+class: inverse, middle, center
+
+&lt;!--Anomaly detection algorithms are highly influenced by the way we define an anomaly.--&gt;
+
+
+# &lt;span style="color:#ffcc00;font-weight:bold"&gt;What&lt;/span&gt; is an anomaly?
+
+&lt;!--High dimentio al context: This deviation can be defined in terms of either distance, density 
+
+time series context: historical data"--&gt;
+
+---
+class: inverse, middle, center
+
+&lt;!--Anomaly detection algorithms are highly influenced by the way we define an anomaly.--&gt;
+
+
+# &lt;span style="color:#ffcc00;font-weight:bold"&gt;Statistical anomaly (outlier, novelty)&lt;/span&gt; is an observation that deviates markedly from other members of the dataset. 
+
+&lt;!--High dimentio al context: This deviation can be defined in terms of either distance, density 
+
+time series context: historical data"--&gt;
+
+---
+class: middle, center
+
+.pull-left[
+#### Water quality breaches associated with real events
+
+&lt;img src="fig/15_definition_a.png" width="87%" style="display: block; margin: auto;" /&gt;
+
+].pull-right[
+#### Technical issues in the sensor equipment
+
+&lt;img src="fig/15_definition_b.png" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Motivation
+
+&lt;img src="fig/16_definition_real.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+## Motivation
+
+&lt;img src="fig/16_definition_type.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+&lt;!--To identify these anomalies, we need a statistical procedure to distinguish an anomaly due to a technical error from other anomalies, and from regular data--&gt;
+
+&lt;!-- &lt;span style="color:black; font-weight:bold"&gt; Water quality breaches associated with real events&lt;/span&gt;
+
+### Features of nature-based anomaly types
+
+- Double peaks in turbidity: peaks which are abrupt and clear out of the typical range. If two (or potentially more) peaks are observed in a short time window, may lead to suspect real event (contamination, dredging, etc).
+
+&lt;!--Double peaks in turbidity: peaks which are abrupt and clear out of the typical range. Would be classified as sensor-based error A-type if it was single, but the fact that two (or potentially more) peaks are observed in a short time window (say less than one hour), may lead to suspect real event (contamination, dredging, etc)
+
+Dredging is the act of removing silt and other material from the bottom of bodies of water. 
+
+-  Massive input of SPM load, possibly starting by a strong peak. This is the typical signature of a flood event
+
+but there is no direct relationship between the discharge and the incoming SPM load (history effect, hysteresis, etc).
+
+- Very large resuspension event. These turbidity pulses of few hours can be related to the resuspension of recently deposited sediment, or interaction with the tide.
+
+- Non-flushing periods. In low discharge and low tidal range conditions, the salty marine waters are not expelled out of the estuary. The salinity remains high for days, which can have consequences on the local ecosystems and the aquifer.
+.--&gt;
+
+&lt;!--The term "salinity" refers to the concentrations of salts in water or soils. Salinity can take three forms, classified by their causes: primary salinity (also called natural salinity); secondary salinity (also called dryland salinity), and tertiary salinity (also called irrigation salinity).--&gt;
+
+&lt;!--the tidal mouth of a large river, where the tide meets the stream.--&gt;
+
+&lt;!--
+## &lt;span style="color:black; font-weight:bold"&gt; Technical issues in the sensor equipment&lt;/span&gt;
+
+
+## Technical issues in the sensor equipment
+
+- Low battery power
+
+- Biofouling of the probes
+
+- Errors in calibration
+
+- Rust
+
+- Sensor maintenance activities 
+
+- Sensor breakdowns --&gt;
+
+&lt;!--- Anomalies in water quality data due to technical errors from in situ sensors can reduce data quality and have a direct impact on inference drawn from subsequent data analysis.--&gt;
+
+&lt;!--- Technical issues in the sensor equipment (low battery power, biofouling of the probes, errors in calibration, rust, sensor maintenance activities etc.)--&gt;
+
+---
+## Study area and water-quality data
+
+&lt;!--
+- In this application, we consider Pringle Creek (Figure 8), one of the NEON (National Ecological Observatory Network) aquatic sites located in Wise County, Texas, USA and managed by the U.S Forest Services--&gt;
+
+- Pringle Creek, NEON (National Ecological Observatory Network) aquatic sites located in Wise County, Texas, USA
+- NEON usually has two sensor locations on any river in the network where water quality is measured using in-situ sensors.
+
+&lt;!--
+-  In Pringle Creek, these locations are situated about 200 m apart where a small tributary entering to the main creek between the two sensors.--&gt;
+
+
+&lt;img src="fig/4_Pringle_creek_map.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+&lt;!--At this time the sensors still record measurements at both upstream and downstream locations, but we do not include these summer data in our analysis due to the disconnectivity.--&gt;
+
+---
+
+class: inverse, middle, center
+
+# In this work we define an anomaly as an observation that has an unexpectedly &lt;span style="color: #ffcc00; font-weight:bold"&gt;low conditional probability density&lt;/span&gt;.
+
+&lt;!--conditioning means incorporating new information
+
+form th upstream behavioir we expect something, what we observe in the downstream is very different from what we expected then it become an anomaly. --&gt;
+
+---
+## What is "conditioning"?
+
+&lt;img src="fig/17_duck.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## What is "conditioning"?
+
+&lt;img src="fig/17_duck_b.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+## What is "conditioning"?
+
+&lt;img src="fig/17_duck_c.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+## What is "conditioning"?
+
+&lt;img src="fig/17_duck_d.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+
+&lt;!--Conditioning means updating probabilities to incorporate new information--&gt;
+---
+## What is "conditioning"?
+
+&lt;img src="fig/18_upstream.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+## What is "conditioning"?
+
+&lt;img src="fig/18_upstream_b.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+class: inverse, center, middle
+
+# Different types of &lt;span style="color:#ffcc00; font-weight:bold"&gt;"conditioning"&lt;/span&gt; (New information)
+
+---
+
+## Only one sensor
+
+.pull-left[
+
+lagged (past) downstream observations
+
+&lt;img src="fig/19_cond_a.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+].pull-right[
+
+Contemporaneous (simultaneous) downstream observations
+
+&lt;img src="fig/19_cond_b.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+]
+---
+## Only one sensor
+
+.pull-left[
+
+lagged (past) downstream observations
+
+&lt;img src="fig/19_cond_a.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="fig/21_oddwater_logo.png" width="35%" style="display: block; margin: auto;" /&gt;
+].pull-right[
+
+Contemporaneous (simultaneous) downstream observations
+
+&lt;img src="fig/19_cond_b.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+
+]
+
+---
+### Two sensors in close proximity with connected flow
+
+
+&lt;img src="fig/19_cond_d.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+- Pringle Creek experiences high flows in spring when rainfall is heaviest and low flows during the typically dry summers.
+
+- Lag time via "conditional cross-correlation"
+
+- We combine &lt;span style="color: red; font-weight:bold"&gt; all these conditioning (new information)&lt;/span&gt; to differentiate  "technical issues" from "real events".
+
+---
+## Our conditional cross-correlation based algorithm (conduits based approach)
+
+&lt;img src="fig/20_idea_a.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## Our conditional cross-correlation based algorithm (conduits based approach)
+
+&lt;img src="fig/20_idea_b.png" width="100%" style="display: block; margin: auto;" /&gt;
+---
+## Our conditional cross-correlation based algorithm (conduits based approach)
+
+&lt;img src="fig/20_idea_c.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;!-- - All In One Solution !!--&gt;
+
+- Advanced outlier detection capabilities !!
+- Both high priority and low priority anomalies
+
+&lt;!--
+- Both High priority anomalies and Gradual sensor drift, low variability including persistent values, high variability, other untrustworthy observations--&gt;
+
+
+---
+
+
+### Why is it important to use various types of conditioning information?
+
+
+&lt;img src="fig/12_Caution-Sign.jpeg" width="20%" style="display: block; margin: auto;" /&gt;
+
+- During summer, surface flow tends to cease, creating disconnected pools of surface water along the channel.  `\(\longleftarrow\)`  &lt;span style="color: red; font-weight:bold"&gt;Be Cautious about the disconnectivity&lt;/span&gt;
+
+---
+class: center, middle, inverse
+# &lt;span style="color: #ffcc00; font-weight:bold"&gt;How&lt;/span&gt; are the two approaches, oddwater and  conduits based approach different? 
+
+---
+
+.pull-left[
+
+#### Feature based approach (oddwater approach)
+].pull-right[
+
+#### Conditional cross-correlation based approach (conduits based approach)
+]
+.pull-left[
+
+
+- Data from a  **single site** 
+
+- Unsupervised approach  
+
+- Consider k nearest neighbour distance measures for  Anomalous score calculation
+
+- We were agnostic about the outlier scoring method 
+
+&lt;!-- that nothing is known --&gt;
+].pull-right[
+
+- **Two sensors** in close proximity with connected flow
+
+- Semi-supervised approach
+
+- Consider density-based method as this allows us to handle other information such as lagged data or upstream data 
+
+- Provides an additional confirmation for the outlier scores
+
+]
+
+--
+- Data driven anomalous threshold using Extreme value theory
+---
+class: middle, inverse
+
+### Key Takeaway
+## &lt;span style="color: #ffcc00; font-weight:bold"&gt;What&lt;/span&gt; is an anomaly? 
+
+ - Technical issues in the sensor equipment
+ - Observations with &lt;span style="color: #ffcc00; font-weight:bold"&gt;unexpectedly&lt;/span&gt; low conditional probability density
+ 
+--
+
+##  &lt;span style="color:#ffcc00; font-weight:bold"&gt;Why&lt;/span&gt; is it important to use various types of conditioning information? 
+
+To differentiate "real water quality events" from "technical issues"
+--
+
+
+## &lt;span style="color: #ffcc00; font-weight:bold"&gt;How&lt;/span&gt; are the two approaches, oddwater and  conduits based approach different? 
+
+ - "One sensor" Vs "Two sensors in close proximity with connected flow"
+ - Both high priority anomalies and low priority anomalies
+---
+class: center, middle, inverse
+
+# Thank You
+
+Slides available at: prital.netlify.app  <span>&lt;i class="fas  fa-wrench faa-passing animated " data-fa-transform="grow-20 " style=" color:orange;"&gt;&lt;/i&gt;</span>
+
+<i class="fas  fa-envelope "></i>
+priyangad@uom.lk
+
+<i class="fab  fa-github "></i>
+pridiltal
+
+
+<i class="fab  fa-twitter "></i>
+@pridiltal
+
+
+#### Acknowledgement
+
+&lt;font size="5"&gt;Australian Research Council (ARC) Linkage project (grant number: LP180101151) "Revolutionising high resolution water-quality monitoring in the information age".&lt;/font&gt;
+---
+
+---
+class: inverse
+
+#### Main challenges in our Feature-based methods (oddwater approach)
+
+.pull-left[
+
+&lt;img src="fig/13_water.jpeg" width="20%" style="display: block; margin: auto;" /&gt;
+
+&lt;font size="3"&gt;Talagala, P. D., Hyndman, R. J., Leigh, C., Mengersen, K., &amp; Smith-Miles, K. (2019). A Feature-Based Procedure for Detecting Technical Outliers in Water-Quality Data From In Situ Sensors. Water Resources Research, 55(11), 8547-8568. &lt;/font&gt;
+
+].pull-right[
+
+&lt;img src="fig/14_STOTEN.jpeg" width="20%" style="display: block; margin: auto;" /&gt;
+
+&lt;font size="3"&gt;Leigh, C., Alsibai, O., Hyndman, R. J., Kandanaarachchi, S., King, O. C., McGree, J. M., Neelamraju, C., Strauss, J., Talagala, P. D., Turner, R, Mengersen, K., Peterson, E. E. (2019). A framework for automated anomaly detection in high frequency water-quality data from in situ sensors. Science of The Total Environment, 664, 885-898.&lt;/font&gt;
+]
+
+- Focus:  &lt;span style="color: red; font-weight:bold"&gt;High priority&lt;/span&gt; anomalies caused by technical issues
+
+--
+
+- Limitations: Gradual sensor drift, low variability including persistent values, high variability, other untrustworthy observations
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

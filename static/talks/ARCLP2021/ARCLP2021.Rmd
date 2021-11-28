@@ -1,0 +1,472 @@
+---
+title: <span style="color:white;font-weight:bold">Technical Anomalies in Water-Quality Data From In-Situ Sensors$:$ </br> What, Why, and How?</span>
+subtitle:   <span style="color:#ffeb0f; font-weight:bold"> Priyanga Dilini Talagala </br> 29.11.2021</br></br></br></span>
+output:
+  xaringan::moon_reader:
+    #css: [default, kunoichi, chocolate-fonts]
+    css: [ "default", "rladies", "rladies-fonts", "xaringan-themer.css"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      slideNumberFormat: "%current%" 
+---
+class: center, inverse
+
+
+```{r setup, include=FALSE}
+library(knitr)
+options(htmltools.dir.version = FALSE)
+opts_chunk$set(
+  warning = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  cache.path = 'cache/',
+  fig.align = 'center',
+  cache = TRUE
+)
+
+library(tidyverse)
+library(patchwork)
+
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_accent(
+   base_color = "#002c54",
+    title_slide_background_image = "fig/title.jpeg",
+   title_slide_background_color = "#084011",
+  inverse_background_color = "#02054a", #"#002c54"
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "500", "500i"),
+  code_font_google   = google_font("Fira Mono"),
+  title_slide_text_color = "#000000",
+  inverse_header_color = "#ffffff",
+  header_background_text_color = "#ffea00",
+  inverse_text_color = "#ffffff",
+  base_font_size = "20px",
+  text_font_size = "1.3rem",
+  header_h1_font_size = "3rem",
+  header_h2_font_size = "2rem",
+  header_h3_font_size = "2rem",
+  )
+```
+
+## Hello from the team!
+
+```{r   out.width = "80%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/1_team.png")
+```
+
+---
+class: inverse, middle, center
+
+<!--Anomaly detection algorithms are highly influenced by the way we define an anomaly.-->
+
+
+# <span style="color:#ffcc00;font-weight:bold">What</span> is an anomaly?
+
+<!--High dimentio al context: This deviation can be defined in terms of either distance, density 
+
+time series context: historical data"-->
+
+---
+class: inverse, middle, center
+
+<!--Anomaly detection algorithms are highly influenced by the way we define an anomaly.-->
+
+
+# <span style="color:#ffcc00;font-weight:bold">Statistical anomaly (outlier, novelty)</span> is an observation that deviates markedly from other members of the dataset. 
+
+<!--High dimentio al context: This deviation can be defined in terms of either distance, density 
+
+time series context: historical data"-->
+
+---
+class: middle, center
+
+.pull-left[
+#### Water quality breaches associated with real events
+
+```{r   out.width = "87%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/15_definition_a.png")
+```
+
+].pull-right[
+#### Technical issues in the sensor equipment
+
+```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/15_definition_b.png")
+```
+]
+
+---
+
+## Motivation
+
+```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/16_definition_real.png")
+```
+
+---
+## Motivation
+
+```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/16_definition_type.png")
+```
+
+
+<!--To identify these anomalies, we need a statistical procedure to distinguish an anomaly due to a technical error from other anomalies, and from regular data-->
+
+<!-- <span style="color:black; font-weight:bold"> Water quality breaches associated with real events</span>
+
+### Features of nature-based anomaly types
+
+- Double peaks in turbidity: peaks which are abrupt and clear out of the typical range. If two (or potentially more) peaks are observed in a short time window, may lead to suspect real event (contamination, dredging, etc).
+
+<!--Double peaks in turbidity: peaks which are abrupt and clear out of the typical range. Would be classified as sensor-based error A-type if it was single, but the fact that two (or potentially more) peaks are observed in a short time window (say less than one hour), may lead to suspect real event (contamination, dredging, etc)
+
+Dredging is the act of removing silt and other material from the bottom of bodies of water. 
+
+-  Massive input of SPM load, possibly starting by a strong peak. This is the typical signature of a flood event
+
+but there is no direct relationship between the discharge and the incoming SPM load (history effect, hysteresis, etc).
+
+- Very large resuspension event. These turbidity pulses of few hours can be related to the resuspension of recently deposited sediment, or interaction with the tide.
+
+- Non-flushing periods. In low discharge and low tidal range conditions, the salty marine waters are not expelled out of the estuary. The salinity remains high for days, which can have consequences on the local ecosystems and the aquifer.
+.-->
+
+<!--The term "salinity" refers to the concentrations of salts in water or soils. Salinity can take three forms, classified by their causes: primary salinity (also called natural salinity); secondary salinity (also called dryland salinity), and tertiary salinity (also called irrigation salinity).-->
+
+<!--the tidal mouth of a large river, where the tide meets the stream.-->
+
+<!--
+## <span style="color:black; font-weight:bold"> Technical issues in the sensor equipment</span>
+
+
+## Technical issues in the sensor equipment
+
+- Low battery power
+
+- Biofouling of the probes
+
+- Errors in calibration
+
+- Rust
+
+- Sensor maintenance activities 
+
+- Sensor breakdowns -->
+
+<!--- Anomalies in water quality data due to technical errors from in situ sensors can reduce data quality and have a direct impact on inference drawn from subsequent data analysis.-->
+
+<!--- Technical issues in the sensor equipment (low battery power, biofouling of the probes, errors in calibration, rust, sensor maintenance activities etc.)-->
+
+---
+## Study area and water-quality data
+
+<!--
+- In this application, we consider Pringle Creek (Figure 8), one of the NEON (National Ecological Observatory Network) aquatic sites located in Wise County, Texas, USA and managed by the U.S Forest Services-->
+
+- Pringle Creek, NEON (National Ecological Observatory Network) aquatic sites located in Wise County, Texas, USA
+- NEON usually has two sensor locations on any river in the network where water quality is measured using in-situ sensors.
+
+<!--
+-  In Pringle Creek, these locations are situated about 200 m apart where a small tributary entering to the main creek between the two sensors.-->
+
+
+```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/4_Pringle_creek_map.png")
+```
+
+<!--At this time the sensors still record measurements at both upstream and downstream locations, but we do not include these summer data in our analysis due to the disconnectivity.-->
+
+---
+
+class: inverse, middle, center
+
+# In this work we define an anomaly as an observation that has an unexpectedly <span style="color: #ffcc00; font-weight:bold">low conditional probability density</span>.
+
+<!--conditioning means incorporating new information
+
+form th upstream behavioir we expect something, what we observe in the downstream is very different from what we expected then it become an anomaly. -->
+
+---
+## What is "conditioning"?
+
+```{r   out.width = "70%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/17_duck.jpeg")
+```
+
+---
+
+## What is "conditioning"?
+
+```{r   out.width = "70%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/17_duck_b.jpeg")
+```
+
+---
+## What is "conditioning"?
+
+```{r   out.width = "70%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/17_duck_c.jpeg")
+```
+
+---
+## What is "conditioning"?
+
+```{r   out.width = "70%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/17_duck_d.jpeg")
+```
+
+
+
+<!--Conditioning means updating probabilities to incorporate new information-->
+---
+## What is "conditioning"?
+
+```{r   out.width = "70%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/18_upstream.png")
+```
+
+
+---
+
+## What is "conditioning"?
+
+```{r   out.width = "70%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/18_upstream_b.png")
+```
+
+
+---
+
+class: inverse, center, middle
+
+# Different types of <span style="color:#ffcc00; font-weight:bold">"conditioning"</span> (New information)
+
+---
+
+## Only one sensor
+
+.pull-left[
+
+lagged (past) downstream observations
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/19_cond_a.png")
+```
+
+].pull-right[
+
+Contemporaneous (simultaneous) downstream observations
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/19_cond_b.png")
+```
+
+
+]
+---
+## Only one sensor
+
+.pull-left[
+
+lagged (past) downstream observations
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/19_cond_a.png")
+```
+
+```{r   out.width = "35%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/21_oddwater_logo.png")
+```
+].pull-right[
+
+Contemporaneous (simultaneous) downstream observations
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/19_cond_b.png")
+```
+
+
+]
+
+---
+### Two sensors in close proximity with connected flow
+
+
+```{r   out.width = "60%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/19_cond_d.png")
+```
+
+- Pringle Creek experiences high flows in spring when rainfall is heaviest and low flows during the typically dry summers.
+
+- Lag time via "conditional cross-correlation"
+
+- We combine <span style="color: red; font-weight:bold"> all these conditioning (new information)</span> to differentiate  "technical issues" from "real events".
+
+---
+## Our conditional cross-correlation based algorithm (conduits based approach)
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/20_idea_a.png")
+```
+
+---
+
+## Our conditional cross-correlation based algorithm (conduits based approach)
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/20_idea_b.png")
+```
+---
+## Our conditional cross-correlation based algorithm (conduits based approach)
+
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/20_idea_c.png")
+```
+
+<!-- - All In One Solution !!-->
+
+- Advanced outlier detection capabilities !!
+- Both high priority and low priority anomalies
+
+<!--
+- Both High priority anomalies and Gradual sensor drift, low variability including persistent values, high variability, other untrustworthy observations-->
+
+
+---
+
+
+### Why is it important to use various types of conditioning information?
+
+
+```{r   out.width = "20%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/12_Caution-Sign.jpeg")
+```
+
+- During summer, surface flow tends to cease, creating disconnected pools of surface water along the channel.  $\longleftarrow$  <span style="color: red; font-weight:bold">Be Cautious about the disconnectivity</span>
+
+---
+class: center, middle, inverse
+# <span style="color: #ffcc00; font-weight:bold">How</span> are the two approaches, oddwater and  conduits based approach different? 
+
+---
+
+.pull-left[
+
+#### Feature based approach (oddwater approach)
+].pull-right[
+
+#### Conditional cross-correlation based approach (conduits based approach)
+]
+.pull-left[
+
+
+- Data from a  **single site** 
+
+- Unsupervised approach  
+
+- Consider k nearest neighbour distance measures for  Anomalous score calculation
+
+- We were agnostic about the outlier scoring method 
+
+<!-- that nothing is known -->
+].pull-right[
+
+- **Two sensors** in close proximity with connected flow
+
+- Semi-supervised approach
+
+- Consider density-based method as this allows us to handle other information such as lagged data or upstream data 
+
+- Provides an additional confirmation for the outlier scores
+
+]
+
+--
+- Data driven anomalous threshold using Extreme value theory
+---
+class: middle, inverse
+
+### Key Takeaway
+## <span style="color: #ffcc00; font-weight:bold">What</span> is an anomaly? 
+
+ - Technical issues in the sensor equipment
+ - Observations with <span style="color: #ffcc00; font-weight:bold">unexpectedly</span> low conditional probability density
+ 
+--
+
+##  <span style="color:#ffcc00; font-weight:bold">Why</span> is it important to use various types of conditioning information? 
+
+To differentiate "real water quality events" from "technical issues"
+--
+
+
+## <span style="color: #ffcc00; font-weight:bold">How</span> are the two approaches, oddwater and  conduits based approach different? 
+
+ - "One sensor" Vs "Two sensors in close proximity with connected flow"
+ - Both high priority anomalies and low priority anomalies
+---
+class: center, middle, inverse
+
+# Thank You
+
+Slides available at: prital.netlify.app  `r anicon::faa("wrench", animate="passing", colour="orange", grow = 20)`
+
+```{r}
+icon::fa("envelope")
+``` 
+priyangad@uom.lk
+
+```{r}
+icon::fa("github")
+```
+pridiltal
+
+
+```{r}
+icon::fa("twitter")
+``` 
+@pridiltal
+
+
+#### Acknowledgement
+
+<font size="5">Australian Research Council (ARC) Linkage project (grant number: LP180101151) "Revolutionising high resolution water-quality monitoring in the information age".</font>
+---
+
+---
+class: inverse
+
+#### Main challenges in our Feature-based methods (oddwater approach)
+
+.pull-left[
+
+```{r   out.width = "20%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/13_water.jpeg")
+```
+
+<font size="3">Talagala, P. D., Hyndman, R. J., Leigh, C., Mengersen, K., & Smith-Miles, K. (2019). A Feature-Based Procedure for Detecting Technical Outliers in Water-Quality Data From In Situ Sensors. Water Resources Research, 55(11), 8547-8568. </font>
+
+].pull-right[
+
+```{r   out.width = "20%", echo = FALSE, fig.cap='', fig.align='center'}
+knitr::include_graphics("fig/14_STOTEN.jpeg")
+```
+
+<font size="3">Leigh, C., Alsibai, O., Hyndman, R. J., Kandanaarachchi, S., King, O. C., McGree, J. M., Neelamraju, C., Strauss, J., Talagala, P. D., Turner, R, Mengersen, K., Peterson, E. E. (2019). A framework for automated anomaly detection in high frequency water-quality data from in situ sensors. Science of The Total Environment, 664, 885-898.</font>
+]
+
+- Focus:  <span style="color: red; font-weight:bold">High priority</span> anomalies caused by technical issues
+
+--
+
+- Limitations: Gradual sensor drift, low variability including persistent values, high variability, other untrustworthy observations
+
