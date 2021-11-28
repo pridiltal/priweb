@@ -9,8 +9,8 @@ address:
   street: ""
 all_day: false
 authors: []
-date: "2021-11-29"
-date_end: "2021-11-29"
+date: "2021-11-28"
+date_end: "2021-11-28"
 event: ARCLP Workshop
 event_url: 
 featured: false
@@ -26,7 +26,7 @@ location:
 math: true
 projects:
 - Anomaly Detection
-publishDate: "2021-11-29"
+publishDate: "2021-11-28"
 slides: 
 summary: 
 tags: []
