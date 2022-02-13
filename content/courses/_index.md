@@ -22,6 +22,22 @@ title: Teaching
 
 # Courses
 
+## 2022
+
+Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
+
+- MA 5124 Financial Time Series Analysis & Forecasting (M.Sc.in Financial Mathematics)
+
+Department of Management of Technology, Faculty of Business, University of Moratuwa, Sri Lanka 
+
+- TM 5140 Data-driven Decision Making (MBA / PG Diploma in Business Administration in Management of Technology and  MBA / PG Diploma in Business Administration in Entrepreneurship)
+
+Department of Computational Mathematics, University of Moratuwa, Sri Lanka
+
+- CM 1130 Elements of Statistics (Batch 20)
+- CM 2130 Statistical Distributions and Estimation (Batch 19)
+
+
 ## 2021
 
 Department of Mathematics, Faculty of Engineering, University of Moratuwa, Sri Lanka
