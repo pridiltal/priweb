@@ -1,5 +1,5 @@
 ---
-abstract: The rapid progress in hardware technology has made it possible for many sensors to capture multiple measurements simultaneously, leading ultimately to spatio-temporal tensor streams. This work develops a framework for detecting anomalies in data with tensor structures which make traditional matrix-based spectral methods for anomaly detection inadequate for such data. An anomaly is defined as an observation that deviates significantly from the local or global distribution of a given system. Identification of such anomalous spatial locations using all the information obtained from the multiple measurements while preserving the underlying correlation structure of the measurements is the main goal of the applications relate to the topic. This work makes two fundamental contributions.  First, it proposes a novel framework that detects anomalies in spatio-temporal tensor streams. Second, it provides effective data visualisation methods for spatio-temporal tensor data.  The wide applicability and usefulness of this proposed framework will be demonstrated using various synthetic and real world datasets.  This framework is implemented in the open source R package `mask`.
+abstract: One of the most important requirements for a well-defined environmental analysis technique is the degree of confidence in the sensor data. Anomalies in water-quality data from in situ sensors caused by technical faults can impair data quality and have a direct impact on the inference drawn from subsequent data analysis. In this work, our focus is on anomalies in water-quality data from in situ sensors caused by technical issues. We define a technical anomaly as an observation that has an unexpectedly low probability density. In this talk, we???ll first go over the various types of technical anomalies that can be found in water-quality sensor data collected at various geographic locations within a river network. Second, we will discuss why different types of conditioning information, such as contemporaneous downstream observations, lagged downstream observations, and upstream observations at the time the conditional correlation is maximized, are important for improving technical anomaly detection in river networks. Third, we will introduce a novel framework to detect anomalies in water quality data based on the conditional cross-correlation between neighboring sensors in close proximity with a connected flow. An approach based on extreme value theory is used to calculate a data-driven anomalous threshold for potential anomalies in water quality data. This approach successfully identified both high-priority and low-priority anomalies involving drifts and abrupt changes, including sudden spikes, sudden isolated drops, and level shifts, while maintaining very low false detection rates. The proposed framework was evaluated using data obtained from in situ sensors in rivers in Pringle Creek, one of the NEON (National Ecological Observatory Network) aquatic sites located in Wise County, Texas. The key functionalities of the proposed anomaly detection framework implemented in open-source R package, `conduits` are also demonstrated during the talk.
 address:
   city: Virtual Conference
   country: ""
@@ -8,10 +8,10 @@ address:
   street: ""
 all_day: false
 authors: []
-date: "2021-08-06"
-date_end: "2021-08-06"
-event: 2021 Joint Statistical Meetings - American Statistical Association
-event_url: https://ww2.amstat.org/meetings/jsm/2021/
+date: "2022-05-10"
+date_end: "2022-05-10"
+event: 2022 Joint Aquatic Sciences Meeting Statistical Association
+event_url: https://jasm2022.aquaticsocieties.org/
 featured: false
 image:
   caption: ''
@@ -21,18 +21,18 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/pridiltal
-location: Virtual Conference 2021
+location: Grand Rapids, Michigan
 math: true
 projects:
 - Anomaly Detection
-publishDate: "2021-08-07"
+publishDate: "2022-05-10"
 slides: 
-summary: 2021 Joint Statistical Meetings
+summary: Joint Aquatic Sciences Meeting in Grand Rapids, Michigan, May 14-20, 2022
 tags: []
-title: Anomaly Detection in Spatio-Temporal Tensor Streams
+title: Detecting Technical Anomalies in Water-Quality Data From River Networks
 url_code: ""
 url_pdf: ""
-url_slides: "talks/JSM2021/JSM2021-talk.html" 
+url_slides: "talks/JASM2022/JASM2022.html" 
 url_video: ""
 ---
 
