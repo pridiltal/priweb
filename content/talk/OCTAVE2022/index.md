@@ -10,8 +10,7 @@ all_day: false
 authors: []
 date: "2022-05-18"
 date_end: "2022-05-18"
-event: OCTAVE Advanced Analytics
-Symposium
+event: OCTAVE Advanced Analytics Symposium
 event_url: 
 featured: false
 image:
