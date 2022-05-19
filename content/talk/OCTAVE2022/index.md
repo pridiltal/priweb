@@ -32,8 +32,11 @@ tags: []
 title: Anomaly Detection in Image Streams with Explainable AI
 url_code: ""
 url_pdf: ""
-url_slides: "talks/OCTAVE2022/OCTAVE2022.pdf" 
+url_slides: "" 
 url_video: ""
 ---
+
+Slides available here:
+<img src="talks/OCTAVE2022/OCTAVE2022.pdf" alt="some text"  width="4200" height="4200">
 
 
