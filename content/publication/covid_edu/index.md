@@ -3,7 +3,7 @@ abstract: Distance education has a long history. However, COVID-19 has created a
 authors:
 - admin 
 - Talagala, T.S.
-date: "2022-06-1"
+date: "2022-05-01"
 doi: 
 featured: false
 image:
