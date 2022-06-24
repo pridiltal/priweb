@@ -1,6 +1,6 @@
 ---
-date: "2021-04-27T00:00:00Z"
-external_link: "https://r4fun.netlify.app/"
+date: "2022-03-6T00:00:00Z"
+external_link: "https://pytips.netlify.app/"
 image:
   caption: ""
   focal_point: Smart
@@ -10,10 +10,10 @@ links:
   name: Follow
   url: 
 slides: example
-summary: Mini-workshops on open source software tools for data science
+summary: Data Analysis with Python Programming for Beginners.
 tags:
 - workshops
-title: Data Snacks
+title: PyTips
 url_code: ""
 url_pdf: ""
 url_slides: ""
