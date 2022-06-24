@@ -10,10 +10,9 @@ links:
   name: Follow
   url: 
 slides: example
-summary: Data Analysis with Python Programming for Beginners.
-tags:
+summary: Mini-workshops on open source software tools for data science
 - workshops
-title: PyTips
+title: Data Snacks
 url_code: ""
 url_pdf: ""
 url_slides: ""
