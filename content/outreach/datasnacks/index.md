@@ -1,6 +1,5 @@
 ---
 date: "2022-03-6T00:00:00Z"
-external_link: ""
 image:
   caption: ""
   focal_point: Smart
