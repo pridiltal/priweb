@@ -1,6 +1,6 @@
 ---
 date: "2022-03-6T00:00:00Z"
-external_link: "https://pytips.netlify.app/"
+external_link: ""
 image:
   caption: ""
   focal_point: Smart
@@ -18,3 +18,5 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
+
+## Mini-workshops on R and R studio
