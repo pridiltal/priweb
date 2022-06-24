@@ -8,7 +8,6 @@ links:
   icon_pack: fab
   name: Follow
   url: 
-slides: example
 summary: Mini-workshops on open source software tools for data science
 - workshops
 title: Data Snacks
