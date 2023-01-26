@@ -49,9 +49,9 @@ style_mono_accent(
   )
 ```
 
-## Hello from the team!
+# Acknowledgement
 
-```{r   out.width = "90%", echo = FALSE, fig.cap='', fig.align='center'}
+```{r   out.width = "100%", echo = FALSE, fig.cap='', fig.align='center'}
 knitr::include_graphics("fig/1_teamb.png")
 ```
 
