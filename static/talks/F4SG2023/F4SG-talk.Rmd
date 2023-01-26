@@ -102,23 +102,30 @@ class: left, top, clear
 
 ## Anomalous series within a space of a collection of series
 ---
+
+- All these applications generate millions or even billions of individual time series simultaneously
+--
+
+- Research question: Finding anomalous time series within a large collection of time series
+--
+
 - Approaches to solving the problem of anomaly detection for temporal data :
 --
 .pull-left[
-### Batch scenario 
+**Batch scenario**
 - whole set of data is available
 - complete events <br/><br/><br/>
 
-```{r mvtsplot, out.width = "100%",  fig.align = 'bottom',echo=FALSE}
+```{r mvtsplot, out.width = "75%",  fig.align = 'bottom',echo=FALSE}
 knitr::include_graphics("fig/6_batch.png")
 ```
 ]
 --
 .pull-right[
-### Data stream scenario
+**Data stream scenario**
 - continuous, unbounded, flow at high speed, high volume
 - incomplete events
-```{r  echo=FALSE, out.width = "100%", fig.align = 'up'}
+```{r  echo=FALSE, out.width = "75%", fig.align = 'up'}
 knitr::include_graphics("fig/7_stream.gif")
 ```
 ]
