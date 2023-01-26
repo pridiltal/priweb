@@ -8,9 +8,9 @@ address:
   street: ""
 all_day: false
 authors: []
-date: "2022-05-18"
-date_end: "2022-05-18"
-event: OCTAVE Advanced Analytics Symposium
+date: "2023-01-25"
+date_end: "2023-01-25"
+event: F4SG Learning Labs
 event_url: 
 featured: false
 image:
@@ -21,18 +21,18 @@ links:
   icon_pack: fab
   name: Follow
   url: https://twitter.com/pridiltal
-location: Virtual Symposium
+location: F4SG Learning Labs
 math: true
 projects:
 - Anomaly Detection
-publishDate: "2022-05-18"
+publishDate: "2023-01-25"
 slides: 
-summary: OCTAVE Advanced Analytics Symposium, May 20, 2022
+summary: F4SG Learning Labs 
 tags: []
-title: Anomaly Detection in Image Streams with Explainable AI
+title: Forecasting and Anomaly Detection in Large-Scale Time Series
 url_code: ""
 url_pdf: ""
-url_slides: "talks/OCTAVE2022/OCTAVE2022.pdf" 
+url_slides: "talks/F4SG2023/F4SG-talk.html" 
 url_video: ""
 ---
 
