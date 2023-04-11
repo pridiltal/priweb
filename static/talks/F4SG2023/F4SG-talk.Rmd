@@ -151,7 +151,7 @@ Recently, Kate Buchhorn has ported stray algorithms to Python and made it availa
 knitr::include_graphics("fig/8_stray_python.png")
 ```
 ---
-## Anomaly detection in high dimensional Data
+## Anomaly detection in high dimensional data
 
 ### Main contributions
 - Propose a framework to detect anomalies in high dimensional data. Our proposed algorithm addresses the limitations of HDoutliers algorithm (Wilkinson, 2018).
@@ -195,15 +195,19 @@ knitr::include_graphics("fig/9_stray_plot5.png")
 ## Calculate anomalous threshold
 
 - Use extreme value theory (EVT) to calculate a data driven outlier threshold.
+
 --
 
 - Let **n** be the size of the dataset
+
 --
 
 - Sort the resulting **n** outlier scores 
+
 --
 
 - Consider the half of the outlier scores  with the smallest values as typical
+
 --
 
 - Search for any significant large gap in the upper tail (Bottom up searching algorithm proposed by Schwarz, 2008)
@@ -237,46 +241,64 @@ knitr::include_graphics("fig/11_stray_plot6.png")
 ## Advantages of the proposed algorithm
 
 - Detect clusters of outlying points
+
 --
 
 - Applied to both uni- and multi- dimensional data
+
 --
 
 - Handle large datasets due to the use of approximate KNN searching algorithm
+
 --
 
 - Does not require a training set to build the decision model
+
 --
 
 - Deal with multimodal typical classes
+
 --
 
 - Outlier threshold has a probabilistic interpretation
 ---
 ## Feature based representation of time series
 .pull-left[
-- Mean   
+- Mean 
+
 - Variance  
-- Changing variance in remainder 
-- Level shift using rolling window   
+
+- Changing variance in remainder
+
+- Level shift using rolling window  
+
 - Variance change  
+
 - Strength of linearity 
-- Strength of curvature  
+
+- Strength of curvature 
+
  ]
 
 .pull-right[
-- Strength of spikiness  
+- Strength of spikiness 
+
 - Burstiness of time series (Fano Factor)  
+
 - Minimum  
+
 - Maximum  
+
 - The ratio between 50% trimmed mean and the arithmetic mean
+
 - Moment 
+
 - Ratio of means of data that is below and above the global mean  
 
 ]
 ---
 ### Approach 1: Using stray
-- use a moving window to deal with streaming data
+- Use a moving window to deal with streaming data
 - Extract time series features from window
 - Apply stray algorithm to identify anomalous series
 
@@ -327,6 +349,18 @@ knitr::include_graphics("fig/15_oddstream_logo.png")
 
 `devtools::install_github("pridiltal/oddstream")` 
 
+---
+
+### How oddstream works
+```{r   echo=FALSE, out.width = "80%"}
+knitr::include_graphics("fig/3_batch.png")
+```
+
+---
+### How oddstream works
+```{r   echo=FALSE, out.width = "80%"}
+knitr::include_graphics("fig/14_oddstream_typical.png")
+```
 ---
 ## Dimension reduction for time series 
 
@@ -505,7 +539,7 @@ class: clear, middle, center
 .pull-left[
 ### stray
  
-```{r   echo=FALSE, out.width = "65%"}
+```{r   echo=FALSE, out.width = "50%"}
 knitr::include_graphics("fig/33_P2_plot21a.png")
 ```
 
@@ -515,7 +549,7 @@ knitr::include_graphics("fig/33_P2_plot21a.png")
 .pull-right[
 ### oddstream
 
-```{r   echo=FALSE, out.width = "65%"}
+```{r   echo=FALSE, out.width = "50%"}
 knitr::include_graphics("fig/34_P2_plot21b.png")
 ```
 
@@ -561,11 +595,19 @@ class: center, middle, inverse
 
 -  A stack of images or a videos -  Image Time Series (ITS) 
 
+--
+
 - An ITS is basically a set of images of the same scene, ordered chronologically.
 
-- It can be encoded as a data-cube, two spatial and one temporal dimensions. 
+--
+
+- It can be encoded as a data-cube, two spatial and one temporal dimensions.
+
+--
 
 - The acquisition of an ITS can be done with one or multiple sensors to obtain a larger data series with a high temporal frequency.
+
+--
 
 - The produced $2D+t$ data carry rich spatial and temporal information that must be taken into account to understand particular phenomena not being observable from a single image of the sequence.
 
@@ -606,6 +648,14 @@ knitr::include_graphics("fig/39_ML.png")
 knitr::include_graphics("fig/40_Deep.png")
 ```
 ---
+
+## Binary Classification using EVT based Threshold
+
+```{r   echo=FALSE, out.width = "100%"}
+knitr::include_graphics("fig/41_threshold.png")
+```
+---
+
 ### Fisher-Tippett theorem, limit laws for maxima
 
 ```{r   echo=FALSE, out.width = "60%", fig.align='center'}
@@ -615,12 +665,6 @@ knitr::include_graphics("fig/43_EVDchange.png")
 - Asymptotic distribution of extreme order statistics
 - The maximum (minima) of a sample of iid random variables after proper renormalization can only converge in distribution to one of 3 possible distributions, the Gumbel distribution, the Fréchet distribution, or the Weibull distribution.
 
----
-## Binary Classification using EVT based Threshold
-
-```{r   echo=FALSE, out.width = "100%"}
-knitr::include_graphics("fig/41_threshold.png")
-```
 ---
 ## EVT based Anomaly Threshold Calculation
 
