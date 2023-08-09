@@ -103,14 +103,14 @@ academic contents are made available to the global academic communities (Das, 20
 
 ---
 
-### Research Lifecycle diagram
+#### Research Lifecycle Diagram
 
-Source: JISC, United Kingdom, www.jisc.ac.uk/whatwedo/campaigns/res3/jischelp.aspx
+
 
 ```{r   out.width = "40%", echo = FALSE, fig.cap='', fig.align='center'}
 knitr::include_graphics("fig/2_ResearchLifecycle.jpg")
 ```
-
+Source: JISC, United Kingdom, www.jisc.ac.uk/whatwedo/campaigns/res3/jischelp.aspx
 
 <!-- 
 
@@ -194,7 +194,7 @@ institutions and universities.
 
 - **Focus**: Journal articles delve into detailed research and thorough analysis of a specific subject within a particular field.
 
-- **Review Process**: These articles undergo a comprehensive peer-review process to verify research validity, quality, and significance.
+- **Review Process**: These articles undergo a **comprehensive** peer-review process to verify research validity, quality, and significance.
 
 
 
@@ -219,7 +219,7 @@ institutions and universities.
 
 - **Focus**: Journal articles delve into detailed research and thorough analysis of a specific subject within a particular field.
 
-- **Review Process**: These articles undergo a comprehensive peer-review process to verify research validity, quality, and significance.
+- **Review Process**: These articles undergo a **comprehensive** peer-review process to verify research validity, quality, and significance.
 
 - **Publication Timeline**: Due to the meticulous peer-review process, journal articles have a longer publication timeline, ensuring high-quality content.
 
@@ -348,7 +348,7 @@ class: inverse, middle, center
 
 ## Publishing in Conferences
 
--  The publications out of the academic conferences, seminars, symposiums, workshops, congresses and similar academic events are commonly known as conference proceedings
+-  The publications out of the academic conferences, seminars, symposiums, workshops, congresses and similar academic events are commonly known as **conference proceedings.**
 
 --
 
@@ -356,7 +356,7 @@ class: inverse, middle, center
 
 --
 
-- Submitted papers usually undergo peer review by organizers.
+- Submitted papers usually undergo a peer review process organized by conference organizers.
 
 --
 
@@ -469,7 +469,7 @@ knitr::include_graphics("fig/10_recipe.jpg")
 
 ---
 
-### Review Conference Website
+### Review conference website
 
 - Visit the conference website to understand its theme, scope, and focus.
 - Familiarize yourself with important dates, submission guidelines, and formatting requirements.
@@ -480,7 +480,7 @@ knitr::include_graphics("fig/11_icitrweb.png")
 
 ---
 .pull-left[
-### Understand Conference Focus
+### Understand conference focus
 
 - Ensure that your research aligns with the conference's theme and objectives.
 - Tailor your research question and contribution to fit within the conference's scope.
@@ -493,7 +493,7 @@ knitr::include_graphics("fig/12_icitrweb.png")
 
 ---
 
-### Read Guidelines
+### Read guidelines
 
 - Carefully read the conference's call for papers or submission guidelines.
 - Note any specific requirements for formatting, citation style, and document structure.
