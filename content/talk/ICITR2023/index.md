@@ -10,7 +10,7 @@ all_day: false
 authors: []
 date: "2023-08-09"
 date_end: "2023-08-09"
-event: Beyond the Abstract - A Guide to Writing Conference Research Articles
+event: 
 event_url: 
 featured: false
 image:
@@ -32,6 +32,6 @@ tags: []
 title: Beyond the Abstract - A Guide to Writing Conference Research Articles
 url_code: ""
 url_pdf: ""
-url_slides: "talks/ICITR2023/ICITR2023.html" 
+url_slides: "talks/F4SG2023/F4SG-talk.html" 
 url_video: ""
 ---
