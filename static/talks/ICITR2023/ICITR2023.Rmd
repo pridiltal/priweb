@@ -536,19 +536,25 @@ he expected structure can vary from one journal to another even within the same 
 ## Structuring Your Conference Article
 
 
-- Each section in IMRAD is basically an answer to a question
+- Each section in IMRaD is basically an answer to a question
 
 --
 
   - **Introduction**: What is the research problem or question?
+  
+--
 
   - **Methods**: What did you do to find the answer?
+  
+--
 
   - **Results**: What did you find?
+  
+--
 
   - **Discussion**: What do your findings mean?
 
-source:  AuthorAID 'Research and Proposal Writing in the Sciences'
+*Source:  AuthorAID 'Research and Proposal Writing in the Sciences'
 ---
 
 ## Title of a paper
