@@ -554,7 +554,7 @@ he expected structure can vary from one journal to another even within the same 
 
   - **Discussion**: What do your findings mean?
 
-*Source:  AuthorAID 'Research and Proposal Writing in the Sciences'
+Source:  AuthorAID 'Research and Proposal Writing in the Sciences'
 ---
 
 ## Title of a paper
@@ -585,13 +585,15 @@ he expected structure can vary from one journal to another even within the same 
 
 --
 
+-  It can be organized in a mini-IMRaD structure without references (but there are certain exceptions to this rule).
+
+--
+
 - The length of an abstract varies depending on the conference. Look for this information in the instructions for authors for your desired conference.
 
 --
 
--  It can be organized in a mini-IMRAD structure without references (but there are certain exceptions to this rule).
 
---
 
 - After you have completed the body of the work, carefully revise the abstract. Check that the content matches what is in the body of the paper.
 
@@ -612,7 +614,7 @@ Source: Cargill, M., & O'Connor, P. (2021). Writing scientific research articles
 knitr::include_graphics("fig/14_hourglass.jpg")
 ```
 
-source:  https://bluesyemre.com/2022/05/09/a-beginners-guide-on-how-to-write-a-journal-article-for-publication/
+Source:  Burrows, T. (2011). Writing research articles for publication, The Asian Institute of Technology Language Center, Khlong Luang, Thailand.
 
 ---
 
@@ -621,7 +623,7 @@ source:  https://bluesyemre.com/2022/05/09/a-beginners-guide-on-how-to-write-a-j
 knitr::include_graphics("fig/14_hourglass.jpg")
 ```
 
-source:  https://bluesyemre.com/2022/05/09/a-beginners-guide-on-how-to-write-a-journal-article-for-publication/
+Source:  Burrows, T. (2011). Writing research articles for publication, The Asian Institute of Technology Language Center, Khlong Luang, Thailand.
 
 ---
 ## Introduction
@@ -632,6 +634,7 @@ source:  https://bluesyemre.com/2022/05/09/a-beginners-guide-on-how-to-write-a-j
 - It starts with broad general information.
 
 - Gradually, the focus narrows down.
+
 
 - The information becomes more specific as the section progresses.
 ].pull-right[
@@ -702,7 +705,7 @@ Answer C -> D -> A -> E -> B
 knitr::include_graphics("fig/14_hourglass.jpg")
 ```
 
-source:  https://bluesyemre.com/2022/05/09/a-beginners-guide-on-how-to-write-a-journal-article-for-publication/
+Source:  Burrows, T. (2011). Writing research articles for publication, The Asian Institute of Technology Language Center, Khlong Luang, Thailand.
 ---
 
 ## Methods section
@@ -860,7 +863,7 @@ Source: Cargill, M., & O'Connor, P. (2021). Writing scientific research articles
 knitr::include_graphics("fig/17_discussion.jpg")
 ```
 
-source:  https://bluesyemre.com/2022/05/09/a-beginners-guide-on-how-to-write-a-journal-article-for-publication/
+Source:  Burrows, T. (2011). Writing research articles for publication, The Asian Institute of Technology Language Center, Khlong Luang, Thailand.
 
 ---
 
