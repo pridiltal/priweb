@@ -27,11 +27,11 @@ projects:
 - Anomaly Detection
 publishDate: "2023-08-08"
 slides: 
-summary: An introductory workshop on Writing Conference Research Articles
+summary: An introductory workshop on writing conference research articles
 tags: []
 title: Beyond the Abstract - A Guide to Writing Conference Research Articles
 url_code: ""
 url_pdf: ""
-url_slides: "talks/F4SG2023/F4SG-talk.html" 
+url_slides: "talks/ICITR2023/ICITR2023.html" 
 url_video: ""
 ---
