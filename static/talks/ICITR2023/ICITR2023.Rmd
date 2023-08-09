@@ -968,6 +968,18 @@ Informal exchanges of ideas and experiences. Facilitator may guide the conversat
 
 ### 3. How This Study Might Affect Research, Practice, or Policy.
 ---
+### Key References
+
+- AuthorAID course  on 'Research and Proposal Writing in the Sciences'
+
+- Das, A. K. (2015). Scholarly communication (Vol. 1). UNESCO Publishing.
+
+- Cargill, M., & O'Connor, P. (2021). Writing scientific research articles: Strategy and steps. John Wiley & Sons.
+
+- Burrows, T. (2011). Writing research articles for publication, The Asian Institute of Technology Language Center, Khlong Luang, Thailand.
+
+---
+
 
 class: center, middle, inverse
 
