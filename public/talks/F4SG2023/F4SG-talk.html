@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Forecasting and Anomaly Detection in Large-Scale Time Series</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Priyanga Dilini Talagala" />
+    <script src="F4SG-talk_files/header-attrs/header-attrs.js"></script>
+    <link href="F4SG-talk_files/font-awesome-animation/font-awesome-animation-emi.css" rel="stylesheet" />
+    <script src="F4SG-talk_files/fontawesome/js/fontawesome-all.min.js"></script>
+    <link href="F4SG-talk_files/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Forecasting and Anomaly Detection in Large-Scale Time Series
+### Priyanga Dilini Talagala
+### <span style="color:orange">26/01/2023</span></br></br></br><span>&lt;i class="fab  fa-twitter faa-horizontal animated " style=" color:#0fb7fa;"&gt;&lt;/i&gt;</span> <span style="color:#0fb7fa">pridiltal</span></br><span>&lt;i class="fas  fa-globe faa-horizontal animated " style=" color:green;"&gt;&lt;/i&gt;</span> <span style="color:lightgreen">prital.netlify.app</span></br></br> </br> <span style="font-size:18.0pt">The slides are powered by xaringan R package </span>
+
+---
+
+
+
+
+
+
+### Acknowledgement
+
+&lt;img src="fig/1_teamb.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+class: center, middle
+
+## Anomaly detection
+
+[CRAN Task View: Anomaly Detection with R](https://github.com/pridiltal/ctv-AnomalyDetection)
+
+---
+class: center, middle
+.pull-left[ 
+### High Dimensional data 
+
+&lt;img src="fig/2_outtypea.png" width="90%" /&gt;
+]
+--
+.pull-right[
+### Temporal data
+
+&lt;img src="fig/2_outtypeb.png" width="90%" /&gt;
+]
+
+---
+background-image:url('fig/3_outtype2.png')
+background-position: 80% 50%
+background-size: 75%
+class: left, top, clear
+
+## Anomalies in temporal data
+---
+background-image:url('fig/4_outtype2.png')
+background-position: 80% 50%
+background-size: 75%
+class: left, top, clear
+
+## Anomalies in temporal data
+---
+background-image:url('fig/5_applications.png')
+background-position: 70% 70%
+background-size: 100%
+class: left, top, clear
+
+## Anomalous series within a space of a collection of series
+---
+
+- All these applications generate millions or even billions of individual time series simultaneously
+--
+
+- Research question: Finding anomalous time series within a large collection of time series
+--
+
+- Approaches to solving the problem of anomaly detection for temporal data :
+--
+.pull-left[
+**Batch scenario**
+- whole set of data is available
+- complete events &lt;br/&gt;&lt;br/&gt;&lt;br/&gt;
+
+&lt;img src="fig/6_batch.png" width="75%" /&gt;
+]
+--
+.pull-right[
+**Data stream scenario**
+- continuous, unbounded, flow at high speed, high volume
+- incomplete events
+&lt;img src="fig/7_stream.gif" width="75%" /&gt;
+]
+---
+class: center, middle
+
+&lt;p&gt;&lt;font size=12&gt; &lt;span style="color:blue"&gt; stray (S&lt;/span&gt;earch and &lt;span style="color:blue"&gt;TR&lt;/span&gt;ace &lt;span style="color:blue"&gt;A&lt;/span&gt;nomal&lt;span style="color:blue"&gt;Y&lt;span&gt;)
+&lt;/font size=12&gt;&lt;/p&gt;
+
+
+&lt;div class="figure"&gt;
+&lt;img src="fig/8_stray-logo.png" alt="on CRAN" width="30%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+
+`devtools::install_github("pridiltal/stray")` 
+
+---
+## Stray algorithm in Python
+
+Recently, Kate Buchhorn has ported stray algorithms to Python and made it available in sktime:
+
+&lt;img src="fig/8_stray_python.png" width="80%" style="display: block; margin: auto;" /&gt;
+---
+## Anomaly detection in high dimensional data
+
+### Main contributions
+- Propose a framework to detect anomalies in high dimensional data. Our proposed algorithm addresses the limitations of HDoutliers algorithm (Wilkinson, 2018).
+--
+
+
+### What is an anomaly ?
+- We define an anomaly as an observation that deviates markedly from the majority with a large distance gap.
+--
+
+
+### Main assumptions
+- There is a large distance between typical data and the anomalies in comparison to the distance among typical data.
+
+---
+
+## stray
+
+&lt;img src="fig/9_stray_plot1.png" width="50%" /&gt;
+-  Normalize the columns of the data. (median and IQR)
+-  This prevents variables with large variances having disproportional influence on Euclidean distances.
+---
+
+## Why not "nearest neighbour" distances? 
+&lt;img src="fig/9_stray_plot2.png" width="50%" /&gt;
+
+- Calculate the nearest neighbour distance 
+---
+## stray
+&lt;img src="fig/9_stray_plot5.png" width="50%" /&gt;
+
+
+- Select the &lt;span style="color:red"&gt; k nearest neighbour &lt;/span&gt; distance with the &lt;span style="color:red"&gt; maximum gap &lt;/span&gt;
+---
+## Calculate anomalous threshold
+
+- Use extreme value theory (EVT) to calculate a data driven outlier threshold.
+
+--
+
+- Let **n** be the size of the dataset
+
+--
+
+- Sort the resulting **n** outlier scores 
+
+--
+
+- Consider the half of the outlier scores  with the smallest values as typical
+
+--
+
+- Search for any significant large gap in the upper tail (Bottom up searching algorithm proposed by Schwarz, 2008)
+
+
+---
+## Spacing theorem (Weissman, 1978)
+
+.pull-left[
+Let `\(X_{1}, X_{2}, ..., X_{n}\)` be a sample from a distribution function `\(F\)` . &lt;/br&gt;
+Let `\(X_{1:n} \geq X_{2:n} \geq ... \geq X_{n:n}\)` be the order statistics. &lt;/br&gt;
+The available data are `\(X_{1:n}, X_{2:n},  ..., X_{k:n}\)` for some fixed `\(k\)`. &lt;/br&gt;
+Let `\(D_{i,n} = X_{i:n} - X_{i+1:n},\)` `\((i = 1,2,..., k)\)` be the spacing between successive order statistics.&lt;/br&gt;
+If `\(F\)` is in the maximum domain of attraction of the Gumbel distribution, then the spacings `\(D_{i,n}\)` are asymptotically independent and exponentially distributed with mean proportional to `\(i^{-1}\)`.
+].pull-right[
+&lt;img src="fig/10_spacingTheorem.png" width="100%" /&gt;
+]
+
+---
+
+## stray
+&lt;img src="fig/11_stray_plot6.png" width="50%" /&gt;
+
+`outliers &lt;- find_HDoutliers(data)` &lt;br/&gt;
+`display_HDoutliers(data, outliers)`
+---
+## Advantages of the proposed algorithm
+
+- Detect clusters of outlying points
+
+--
+
+- Applied to both uni- and multi- dimensional data
+
+--
+
+- Handle large datasets due to the use of approximate KNN searching algorithm
+
+--
+
+- Does not require a training set to build the decision model
+
+--
+
+- Deal with multimodal typical classes
+
+--
+
+- Outlier threshold has a probabilistic interpretation
+---
+## Feature based representation of time series
+.pull-left[
+- Mean 
+
+- Variance  
+
+- Changing variance in remainder
+
+- Level shift using rolling window  
+
+- Variance change  
+
+- Strength of linearity 
+
+- Strength of curvature 
+
+ ]
+
+.pull-right[
+- Strength of spikiness 
+
+- Burstiness of time series (Fano Factor)  
+
+- Minimum  
+
+- Maximum  
+
+- The ratio between 50% trimmed mean and the arithmetic mean
+
+- Moment 
+
+- Ratio of means of data that is below and above the global mean  
+
+]
+---
+### Approach 1: Using stray
+- Use a moving window to deal with streaming data
+- Extract time series features from window
+- Apply stray algorithm to identify anomalous series
+
+.pull-left[
+
+&lt;img src="fig/12_strayts.png" width="80%" /&gt;
+
+]
+.pull-right[
+&lt;img src="fig/13_stray.gif" width="50%" /&gt;
+]
+
+`tsfeatures &lt;- oddstream::extract_tsfeatures(ts_data)` &lt;br/&gt;
+`outliers &lt;- stray::find_HDoutliers(tsfeatures)` &lt;br/&gt;
+`stray::display_HDoutliers(tsfeatures, outliers)`
+
+
+---
+class:: center, clear
+.pull-left[
+ 
+&lt;img src="fig/14_P2_plot21a.png" width="75%" /&gt;
+]
+--
+.pull-right[
+
+&lt;img src="fig/14_P2_plot21b.png" width="75%" /&gt;
+]
+
+---
+class: center, clear
+
+&lt;p&gt;&lt;font size=12&gt; &lt;span style="color:blue"&gt;oddstream &lt;/br&gt; (O&lt;/span&gt;utlier &lt;span style="color:blue"&gt;D&lt;/span&gt;etection in &lt;span style="color:blue"&gt;D&lt;/span&gt;ata  &lt;span style="color:blue"&gt;STREAM&lt;/span&gt;s)
+&lt;/font size=12&gt;&lt;/p&gt; 
+
+
+&lt;img src="fig/15_oddstream_logo.png" width="30%" /&gt;
+
+`devtools::install_github("pridiltal/oddstream")` 
+
+---
+
+### How oddstream works
+&lt;img src="fig/3_batch.png" width="80%" /&gt;
+
+---
+### How oddstream works
+&lt;img src="fig/14_oddstream_typical.png" width="80%" /&gt;
+---
+## Dimension reduction for time series 
+
+.pull-left[
+`load(train_data)`
+&lt;img src="fig/16_typical.png" width="100%" /&gt;
+]
+--
+.pull-right[
+`tsfeatures &lt;- oddstream::extract_tsfeatures`&lt;/br&gt;`(train_data)`
+
+&lt;img src="fig/17_high_typical.gif" width="60%" /&gt;
+]
+
+---
+
+.pull-left[
+`tsfeatures &lt;- oddstream::extract_tsfeatures`&lt;/br&gt;`(train_data)`
+
+&lt;img src="fig/17_high_typical.gif" width="70%" /&gt;
+]
+--
+.pull-right[
+`pc&lt;- oddstream::get_pc_space(tsfeatures)`&lt;/br&gt;
+`oddstream::plotpc(pc$pcnorm)` 
+&lt;img src="fig/18_typicalfeature.png" width="90%" /&gt;
+]
+---
+## Anomalous threshold calculation 
+
+- Estimate the probability density function of the 2D PC space `\(\longrightarrow\)` Kernel density estimation
+--
+
+- Draw a large number N of extremes `\((arg min_{x\in X}[f_{2}(x)])\)` from the estimated probability density function
+--
+
+- Define a `\(\Psi\)`-transform space, using the `\(\Psi\)`-transformation defined by (Clifton et al., 2011)
+
+&lt;img src="fig/19_psitrans.png" width="50%" /&gt;
+
+- `\(\Psi\)`-transform maps the density values back into space into which a Gumbel distribution can be fitted.
+--
+
+- Anomalous threshold calculation `\(\longrightarrow\)` extreme value theory
+
+
+---
+class: center, top, clear
+`oddstream::find_odd_streams(train_data, test_stream)`
+&lt;img src="fig/19_oddstream_mvtsplot.gif" width="40%" /&gt;
+.pull-left[
+&lt;img src="fig/20_oddstream_out_loc.gif" width="60%" /&gt;
+]
+.pull-right[
+&lt;img src="fig/21_oddstream_pcplot.gif" width="60%" /&gt;
+]
+---
+class:  top
+### Feature Based Representation of Time series
+    
+.pull-left[
+
+
+&lt;img src="fig/6_batch.png" width="100%" /&gt;
+
+
+]
+.pull-right[
+&lt;img src="fig/22_tsfeatures.png" width="75%" /&gt;
+]
+
+---
+class:  center, middle, inverse
+
+
+# Anomaly Detection with &lt;br/&gt;  &lt;span style="color:#ffff05"&gt; Non-stationarity &lt;/span&gt;
+
+
+---
+class:  center, middle
+
+#### Anomaly detection with non-stationarity
+
+&lt;img src="fig/23_nonstationaritytypes.png" width="50%" /&gt;
+---
+class:  center, middle
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/24_suddenplot2.png" width="70%" /&gt;
+
+&lt;img src="fig/25_noCD1.png" width="25%" /&gt;
+---
+
+class:  center, middle
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/26_suddenplot3.png" width="70%" /&gt;
+
+&lt;img src="fig/27_noCD2.png" width="25%" /&gt;
+
+---
+
+class:  center, middle
+
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/28_suddenplot4.png" width="70%" /&gt;
+
+&lt;img src="fig/29_noCD3.png" width="25%" /&gt;
+
+---
+
+class:  center, middle
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/30_suddenplot2.png" width="80%" /&gt;
+
+&lt;img src="fig/31_conceptdrift_pval.png" width="80%" /&gt;
+
+- `\(H_{0} : f_{t_{0}} = f_{t_{t}}\)`
+
+
+- squared discrepancy measure `\(T = \int[f_{t_{0}}(x) - f_{t_{t}}(x)]^{2}dx\)` (Anderson et al., 1994)
+
+---
+
+class:  center, middle
+### Anomaly detection with non-stationarity
+
+&lt;img src="fig/32_sudden_out.png" width="70%" /&gt;
+
+
+---
+class: clear, middle, center
+.pull-left[
+### stray
+ 
+&lt;img src="fig/33_P2_plot21a.png" width="50%" /&gt;
+
+- Definition: distance 
+- no training set 
+]
+.pull-right[
+### oddstream
+
+&lt;img src="fig/34_P2_plot21b.png" width="50%" /&gt;
+
+- Definition: density
+- need a training set
+]
+
+---
+class: clear, middle
+.pull-left[
+
+&lt;img src="fig/35_JCGS_logo.png" width="20%" /&gt;
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, (2020) **Anomaly detection in high-dimensional data**. Journal of Computational &amp; Graphical Statistics, *to appear*
+
+&lt;div class="figure"&gt;
+&lt;img src="fig/8_stray-logo.png" alt="on CRAN" width="25%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+]
+.pull-right[
+&lt;img src="fig/35_JCGS_logo.png" width="20%" /&gt;
+
+Priyanga Dilini Talagala, Rob J Hyndman, Kate Smith-Miles, Sevvandi Kandanaarachchi and Mario A Munoz (2020) **Anomaly detection in streaming nonstationary temporal data**. Journal of Computational &amp; Graphical Statistics, 20(1), 13-27.
+
+&lt;div class="figure"&gt;
+&lt;img src="fig/36_oddstream1.png" alt="on CRAN" width="25%" /&gt;
+&lt;p class="caption"&gt;on CRAN&lt;/p&gt;
+&lt;/div&gt;
+]
+---
+class: center, middle, inverse
+
+# &lt;span style="color:#ffff05"&gt; Anomaly Detection in Image Time Series (ITS)  &lt;/span&gt;
+
+
+
+---
+## Image Time Series (ITS) 
+
+
+-  A stack of images or a videos -  Image Time Series (ITS) 
+
+--
+
+- An ITS is basically a set of images of the same scene, ordered chronologically.
+
+--
+
+- It can be encoded as a data-cube, two spatial and one temporal dimensions.
+
+--
+
+- The acquisition of an ITS can be done with one or multiple sensors to obtain a larger data series with a high temporal frequency.
+
+--
+
+- The produced `\(2D+t\)` data carry rich spatial and temporal information that must be taken into account to understand particular phenomena not being observable from a single image of the sequence.
+
+
+
+
+&lt;!--
+Chelali, M., Kurtz, C., Puissant, A., &amp; Vincent, N. (2021). Deep-STaR: Classification of image time series based on spatio-temporal representations. Computer Vision and Image Understanding, 208, 103221.
+--&gt;
+---
+## Satellite Image Time Series (SITS)
+
+- A Satellite Image Time Series (SITS) is a set of satellite images taken from the same scene at different times
+
+.pull-left[
+
+&lt;img src="fig/37_deforestation.gif" width="75%" /&gt;
+].pull-right[
+&lt;img src="fig/38_volcano.gif" width="75%" /&gt;
+
+]
+---
+
+## Approach 1: Traditional Machine Learning Approach
+
+&lt;img src="fig/39_ML.png" width="90%" /&gt;
+---
+
+## Approach 2: Deep Learning Approach
+
+&lt;img src="fig/40_Deep.png" width="90%" /&gt;
+---
+
+## Binary Classification using EVT based Threshold
+
+&lt;img src="fig/41_threshold.png" width="100%" /&gt;
+---
+
+### Fisher-Tippett theorem, limit laws for maxima
+
+&lt;img src="fig/43_EVDchange.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+- Asymptotic distribution of extreme order statistics
+- The maximum (minima) of a sample of iid random variables after proper renormalization can only converge in distribution to one of 3 possible distributions, the Gumbel distribution, the Fréchet distribution, or the Weibull distribution.
+
+---
+## EVT based Anomaly Threshold Calculation
+
+&lt;img src="fig/42_evt.png" width="100%" /&gt;
+---
+## Binary Classification using EVT based Threshold
+
+&lt;img src="fig/41_threshold.png" width="100%" /&gt;
+
+---
+
+### What Next?
+
+- Explore more on feature extraction and feature selection methods to create a better feature space suitable for streaming data context.
+--
+
+- Use other dimension reduction techniques such as multidimensional scaling analysis, random projection to see the effect on the performance of the proposed framework.
+--
+
+- Do more experiments on density estimation methods to get a better tail estimation.
+--
+
+- Implement a suitable explainable model for anomaly detection in image streams.
+--
+
+- Extend the algorithm to work with Multidimensional Multivariate Data streams
+
+---
+class: center, middle
+
+# Thank You
+
+<i class="fas  fa-envelope "></i>
+priyangad@uom.lk
+
+<i class="fab  fa-github "></i><i class="fab  fa-twitter "></i>
+pridiltal
+
+<i class="fas  fa-globe "></i>
+prital.netlify.app &lt;/br&gt;
+(Slides and papers available)
+
+&lt;br/&gt;&lt;br/&gt;The slides are powered by `xaringan` R package  
+
+This work was supported in part by RETINA research lab funded by the OWSD, a program unit of United Nations Educational, Scientific and Cultural Organization (UNESCO).
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"slideNumberFormat": "%current%",
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9",
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
